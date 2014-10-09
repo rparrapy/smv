@@ -82,3 +82,22 @@ table{
     margin: 40px;
 }
 
+.popup-table{
+    margin-top: 20px;
+}
+
+.popup-table .attr-title{
+    font-weight: bold;
+}
+
+.album {         
+  padding:0 0 0 0;
+  margin:0 0 0 0;
+}
+.album li {     
+  list-style:none;
+  margin-bottom:25px;           
+}
+.album li img {
+  cursor: pointer;
+}
