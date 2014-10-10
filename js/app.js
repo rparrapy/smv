@@ -20,11 +20,15 @@ function draw_map () {
   var osm = L.tileLayer(
                'http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',
                                  {     maxZoom: 18     });
+
+  var ggl = new L.Google("HYBRID");
+
   var map = L.mapbox.map('map').setView([-23.388, -60.189], 7);
   
   var baseMaps = {
     "Calles": osm,
-    "Satelital": mapbox
+    "Terreno": mapbox,
+    "Satélite": ggl
   };
 
   mapbox.addTo(map);
