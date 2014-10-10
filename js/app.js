@@ -1,28 +1,31 @@
 $(document).ready(function(){
-    draw_map();    
-    draw_table();
-    draw_sidetag();
-    $("#departamento").select2();
+  draw_map();    
+  draw_table();
+  draw_sidetag();
+  $("#departamento").select2();
 
-    $('.nav-tabs>li>a').bind('click', function (e) {
-      map.invalidateSize();
-    });
+  $('.nav-tabs>li>a').bind('click', function (e) {
+    map.invalidateSize();
+  });
 });
 
 
 function draw_map () {
+  startLoading();
+
   L.mapbox.accessToken = 'pk.eyJ1IjoicnBhcnJhIiwiYSI6IkEzVklSMm8ifQ.a9trB68u6h4kWVDDfVsJSg';
 
   var mapbox = L.tileLayer(
                'http://api.tiles.mapbox.com/v4/rparra.jmk7g7ep/{z}/{x}/{y}.png?access_token=pk.eyJ1IjoicnBhcnJhIiwiYSI6IkEzVklSMm8ifQ.a9trB68u6h4kWVDDfVsJSg',
-                                 {     maxZoom: 18     });
+                                 {     maxZoom: 18     }).on('load', finishedLoading);
   var osm = L.tileLayer(
                'http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',
-                                 {     maxZoom: 18     });
+                                 {     maxZoom: 18     }).on('load', finishedLoading);
 
-  var ggl = new L.Google("HYBRID");
+  var ggl = new L.Google("HYBRID").on("MapObjectInitialized", setup_gmaps);
 
-  var map = L.mapbox.map('map').setView([-23.388, -60.189], 7);
+
+  var map = L.mapbox.map('map').setView([-23.388, -60.189], 7).on('baselayerchange', startLoading);
   
   var baseMaps = {
     "Calles": osm,
@@ -30,7 +33,7 @@ function draw_map () {
     "Satélite": ggl
   };
 
-  mapbox.addTo(map);
+  map.addLayer(ggl);
   L.control.layers(baseMaps).addTo(map);
 
   var geoJson = L.mapbox.featureLayer(viviendas)
@@ -151,4 +154,32 @@ function setup_modal(){
       $('#photo-modal .modal-body').html('');
     });
   });  
+}
+
+function startLoading() {
+  var spinner = new Spinner({
+    color: "#5bc0de",
+    radius: 30,
+    width: 15,
+    length: 20
+  }).spin();
+  $("#loader").removeClass().append(spinner.el);
+}
+
+function finishedLoading() {
+  // first, toggle the class 'done', which makes the loading screen
+  // fade out
+  var loader = $("#loader");
+  loader.addClass('done');
+  setTimeout(function() {
+      // then, after a half-second, add the class 'hide', which hides
+      // it completely and ensures that the user can interact with the
+      // map again.
+      loader.addClass('hide');
+      loader.empty();
+  }, 200);
+}
+
+function setup_gmaps(){
+  google.maps.event.addListenerOnce(this._google, 'tilesloaded', finishedLoading);
 }
