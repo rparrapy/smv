@@ -91,7 +91,8 @@ function draw_sidetag(){
 
 function draw_popup(target){
   var attrs = ["grupo", "departamento", "distrito", "locacion", "proceso", "producto", "cantidad"];
-  var content = draw_popup_table(target.layer.feature.properties, attrs);
+  var content = "<p class=\'popup-title\'>Datos de la Vivienda</p>"
+  content += draw_popup_table(target.layer.feature.properties, attrs);
   content += draw_popup_album(["/img/tut1.jpg", "/img/tut2.jpg", "/img/tut3.jpg", "/img/tut4.jpg"]);
   var popup = new L.Popup({
     "minWidth": 400
@@ -116,7 +117,7 @@ function draw_popup_table_row(key, value){
 }
 
 function draw_popup_album(imgs){
-  var a = "<div class=\'container\'><ul class=\'row album\'>";
+  var a = "<div id=\'album-container\' class=\'container\'><ul class=\'row album\'>";
   for (var i = 0; i < imgs.length; i++) {
     console.log(i);
     a += draw_popup_album_photo(imgs[i]);
@@ -126,7 +127,7 @@ function draw_popup_album(imgs){
 }
 
 function draw_popup_album_photo(img){
-  return sprintf("<li class=\'col-lg-1 col-md-1 col-sm-2 col-xs-3\'><img class=\'img-responsive\' src=\'%s\'/></li>", img);
+  return sprintf("<li class=\'col-lg-6 col-md-6 col-sm-6 col-xs-12\'><img class=\'img-responsive\' src=\'%s\'/></li>", img);
 }
 
 function setup_modal(){

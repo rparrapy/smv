@@ -90,6 +90,12 @@ table{
     font-weight: bold;
 }
 
+.popup-title{
+    font-weight: bold;
+    text-align: center;
+    font-size: 18 !important;
+}
+
 .album {         
   padding:0 0 0 0;
   margin:0 0 0 0;
@@ -101,3 +107,9 @@ table{
 .album li img {
   cursor: pointer;
 }
+
+#album-container{
+    width: 380px;
+    margin: 0px;
+}
+
