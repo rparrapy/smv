@@ -2,6 +2,8 @@
 body
 {
     overflow: hidden;
+    font-family: 'open_sansregular', Helvetica, Arial, sans-serif;
+
 }
 
 .main-container{
@@ -159,6 +161,29 @@ table{
 
 .navbar-logo{
     float: right;
-    padding-top: 3px;
+    padding-top: 10px;
     padding-right: 3px;
+}
+
+.modal-content > .close{
+    position: relative;
+    z-index: 1;
+    padding-right: 12px;
+    margin-top: -25px;
+    top: 30px;
+}
+
+#lista thead th{
+    border: 0;
+}
+
+tfoot {
+    display: table-header-group;
+}
+
+
+tfoot th{
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: rgb(17, 17, 17);
 }

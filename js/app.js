@@ -3,6 +3,8 @@ $(document).ready(function(){
   draw_table();
   draw_sidetag();
   $("#departamento").select2();
+  $("#distrito").select2();
+  $("#localidad").select2();
 
   $('.nav-tabs>li>a').bind('click', function (e) {
     map.invalidateSize();
@@ -55,13 +57,15 @@ function draw_map () {
 
 function draw_table () {
  // Setup - add a text input to each footer cell
-  $('#example tfoot th').each( function () {
-      var title = $('#example thead th').eq( $(this).index() ).text();
+  $('#lista tfoot th').each( function () {
+      var title = $('#lista thead th').eq( $(this).index() ).text();
       $(this).html( '<input type="text" placeholder="Buscar '+title+'" />' );
   } );
 
+
+
   // DataTable
-  var table = $('#example').DataTable();
+  var table = $('#lista').DataTable();
 
   // Apply the search
   table.columns().eq( 0 ).each( function ( colIdx ) {
@@ -95,7 +99,7 @@ function draw_popup(target){
   var attrs = ["grupo", "departamento", "distrito", "locacion", "proceso", "producto", "cantidad"];
   var content = "<p class=\'popup-title\'>Datos de la Vivienda</p>"
   content += draw_popup_table(target.layer.feature.properties, attrs);
-  content += draw_popup_album(["/img/tut1.jpg", "/img/tut2.jpg", "/img/tut3.jpg", "/img/tut4.jpg"]);
+  content += draw_popup_album(["/img/casa1.jpg", "/img/plano1.png", "/img/casa2.jpg", "/img/plano2.png"]);
   var popup = new L.Popup({
     "minWidth": 400
   }).setContent(content);
