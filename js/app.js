@@ -1,7 +1,7 @@
 $(document).ready(function(){
-  draw_map();    
+  var map = draw_map();    
   draw_table();
-  draw_sidetag();
+  draw_sidetag(map);
   $("#departamento").select2();
   $("#distrito").select2();
   $("#localidad").select2();
@@ -38,7 +38,24 @@ function draw_map () {
   map.addLayer(ggl);
   L.control.layers(baseMaps).addTo(map);
 
-  var geoJson = L.mapbox.featureLayer(viviendas)
+  var geoJson = L.mapbox.featureLayer();
+  //var geoJson = L.mapbox.featureLayer(viviendas)
+
+  geoJson.on('layeradd', function(e) {
+    var marker = e.layer,
+    feature = marker.feature;
+
+    var icon_color = mapToColor[feature.properties.departamento];
+    var icon = L.mapbox.marker.icon();
+
+    if(icon_color){
+      icon = L.mapbox.marker.icon({'marker-color': icon_color});
+      console.log('otro color');
+    }
+    marker.setIcon(icon);
+  });
+
+  geoJson.setGeoJSON(viviendas);
 
   var markers = new L.MarkerClusterGroup();
   markers.addLayer(geoJson);
@@ -53,6 +70,7 @@ function draw_map () {
   markers.clearLayers();
   markers.addLayer(geoJson);*/
   map.addLayer(markers);
+  return map;
 }
 
 function draw_table () {
@@ -78,7 +96,7 @@ function draw_table () {
   } );
 }
 
-function draw_sidetag(){
+function draw_sidetag(map){
   $('#opener').on('click', function() {   
     var panel = $('#slide-panel');
     if (panel.hasClass("visible")) {

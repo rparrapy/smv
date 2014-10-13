@@ -12,6 +12,7 @@
     <script src="bower_components/leaflet-plugins/layer/tile/Google.js"></script>
     <script src="bower_components/spin.js/spin.js"></script>
     <script src="js/viviendas.js"></script>
+    <script src="js/map_to_color.js"></script>
     <script src="js/app.js"></script>
     <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="bower_components/datatables/media/css/jquery.dataTables.min.css">
@@ -179,8 +180,14 @@
         </div>
           </div>
           <div id="menuB" class="tab-pane fade">
-              <h3>Leyenda</h3>
-              <p>Vestibulum nec erat eu nulla rhoncus fringilla ut non neque. Vivamus nibh urna, ornare id gravida ut, mollis a magna. Aliquam porttitor condimentum nisi, eu viverra ipsum porta ut. Nam hendrerit bibendum turpis, sed molestie mi fermentum id. Aenean volutpat velit sem. Sed consequat ante in rutrum convallis. Nunc facilisis leo at faucibus adipiscing.</p>
+              <div class="crop">
+                <p><img src="http://a.tiles.mapbox.com/v4/marker/pin-m+7e7e7e@2x.png?access_token=pk.eyJ1IjoicnBhcnJhIiwiYSI6IkEzVklSMm8ifQ.a9trB68u6h4kWVDDfVsJSg" class="marker-icon"></p>
+                <div class="legend-label">descripcion de leyenda</div>
+              </div>
+              </br>
+              <div class="crop">
+                <p><img src="http://a.tiles.mapbox.com/v4/marker/pin-m+ff8888@2x.png?access_token=pk.eyJ1IjoicnBhcnJhIiwiYSI6IkEzVklSMm8ifQ.a9trB68u6h4kWVDDfVsJSg" class="marker-icon"> <div class="legend-label">descripcion de leyenda</div></p>
+              </div>
           </div>
       </div>
     </div>
@@ -201,8 +208,8 @@
                   </ul>
               </li>
           </ul>
-          <img class="navbar-logo" src="img/cc-by-logo.png" alt="Open Data">
-          <img class="navbar-logo" src="img/od-logo.png" alt="Open Data">
+          <img id="cc-by" class="navbar-logo" src="img/cc-by-logo.png" alt="Open Data">
+          <img id = "opendata" class="navbar-logo" src="img/od-logo.png" alt="Open Data">
       </div>
       <div id="main-content" class="tab-content">
           <div id="sectionA" class="tab-pane fade in active">
