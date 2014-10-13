@@ -1,3 +1,6 @@
+var SMV = SMV || {};
+
+
 $(document).ready(function(){
   var map = draw_map();    
   draw_table();
@@ -5,6 +8,8 @@ $(document).ready(function(){
   $("#departamento").select2();
   $("#distrito").select2();
   $("#localidad").select2();
+  add_filter_listeners(map);
+
 
   $('.nav-tabs>li>a').bind('click', function (e) {
     map.invalidateSize();
@@ -50,7 +55,6 @@ function draw_map () {
 
     if(icon_color){
       icon = L.mapbox.marker.icon({'marker-color': icon_color});
-      console.log('otro color');
     }
     marker.setIcon(icon);
   });
@@ -70,6 +74,8 @@ function draw_map () {
   markers.clearLayers();
   markers.addLayer(geoJson);*/
   map.addLayer(markers);
+  SMV.markerLayer = markers;
+  SMV.geoJsonLayer = geoJson;
   return map;
 }
 
@@ -204,4 +210,63 @@ function finishedLoading() {
 
 function setup_gmaps(){
   google.maps.event.addListenerOnce(this._google, 'tilesloaded', finishedLoading);
+}
+
+function add_filter_listeners(map){
+  $("#proyecto li input[value='Todos']").change(function(){
+    var checked = $(this).prop('checked');
+    $("#proyecto li input").prop('checked', this.checked);
+  });
+
+  $('#proyecto li input, #departamento, #distrito, #localidad').change(function(){
+    update_filters(map);
+  });
+
+}
+
+// This function is called whenever someone clicks on a checkbox and changes
+// the selection of markers to be displayed.
+function update_filters(map) {
+  var proyectos = get_selected_checkbox('#proyecto li input');
+  var departamentos = get_selected_combo('#departamento');
+  console.log(map.featureLayer);
+
+  SMV.geoJsonLayer.setFilter(function(feature) {
+    // If this symbol is in the list, return true. if not, return false.
+    // The 'in' operator in javascript does exactly that: given a string
+    // or number, it says if that is in a object.
+    // 2 in { 2: true } // true
+    // 2 in { } // false
+    var proyectoFilter =  feature.properties['proyecto'] in proyectos;
+    var departamentoFilter = $.isEmptyObject(departamentos) || feature.properties['departamento'] in departamentos;
+
+    var showMarker = departamentoFilter;
+ 
+    return (showMarker);
+  });
+
+  SMV.markerLayer.clearLayers();
+  SMV.markerLayer.addLayer(SMV.geoJsonLayer);
+}
+
+function get_selected_checkbox(selector){
+  var checkboxes = $(selector);
+  var enabled = {};
+  // Run through each checkbox and record whether it is checked. If it is,
+  // add it to the object of types to display, otherwise do not.
+  for (var i = 0; i < checkboxes.length; i++) {
+    if (checkboxes[i].checked) enabled[checkboxes[i].value] = true;
+  }
+  return enabled;
+}
+
+function get_selected_combo(selector){
+  var value = $(selector).select2('val');
+  var enabled = {};
+  // Run through each checkbox and record whether it is checked. If it is,
+  // add it to the object of types to display, otherwise do not.
+  for (var i = 0; i < value.length; i++) {
+    enabled[value[i]] = true;
+  }
+  return enabled;
 }
