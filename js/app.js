@@ -11,8 +11,15 @@ $(document).ready(function(){
   add_filter_listeners(map);
 
 
-  $('.nav-tabs>li>a').bind('click', function (e) {
-    map.invalidateSize();
+  $('.navbar-nav>li>a').bind('click', function (e) {
+    if($(this).attr('href') === '#section-mapa'){
+      $('#opener').show();
+    }else{
+      if ($('#slide-panel').hasClass("visible")) {
+        $('#opener').click();
+      }
+      $('#opener').hide();
+    }
   });
 });
 
@@ -32,7 +39,7 @@ function draw_map () {
   var ggl = new L.Google("HYBRID").on("MapObjectInitialized", setup_gmaps);
 
 
-  var map = L.map('map', {maxZoom: 18, minZoom: 3, worldCopyJump: true}).setView([-23.388, -60.189], 7).on('baselayerchange', startLoading);
+  var map = L.map('map', {maxZoom: 18, minZoom: 3, worldCopyJump: true, attributionControl: false}).setView([-23.388, -60.189], 7).on('baselayerchange', startLoading);
   
   var baseMaps = {
     "Calles": osm,
