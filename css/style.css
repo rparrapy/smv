@@ -79,7 +79,7 @@ body
 }
 
 #map { 
-    height: 94%;
+    height: 93%;
     width: 100%;
 }
 
@@ -100,6 +100,7 @@ table{
 
 .popup-table{
     margin-top: 20px;
+    font-size: 12;
 }
 
 .popup-table .attr-title{
@@ -213,4 +214,12 @@ tfoot th{
 .crop p{
     height: 30px;
     float: left;
+}
+
+td.details-control {
+    background: url('../img/details_open.png') no-repeat center center;
+    cursor: pointer;
+}
+tr.shown td.details-control {
+    background: url('../img/details_close.png') no-repeat center center;
 }

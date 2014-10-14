@@ -79,17 +79,98 @@ function draw_map () {
   return map;
 }
 
-function draw_table () {
- // Setup - add a text input to each footer cell
-  $('#lista tfoot th').each( function () {
-      var title = $('#lista thead th').eq( $(this).index() ).text();
-      $(this).html( '<input type="text" placeholder="Buscar '+title+'" />' );
-  } );
+function draw_table_details ( d ) {
+  console.log('dibujando detalles');
+  var table = '<table cellpadding="5" cellspacing="0" border="0" style="padding-left:50px;">';
+  for(var i = max_columns; i < table_columns.length; i++){
+    row = sprintf('<tr><td>%s:</td><td>%s</td></tr>', attr_to_label[table_columns[i]], d[table_columns[i]])
+    table += row;
+  }
+  table += '</table>';
+  return table;
+}
 
+function draw_table () {
+
+  /*var dataset = viviendas.features.map(function(f){
+                  return table_columns.map(function(c){
+                    return f.properties[c];
+                  });
+                });*/
+  var dataset = viviendas.features.map(function(f){
+    return f.properties;
+  })
+
+  var columns = table_columns.map(function(c, i){
+    var visible = (i < max_columns);
+    return { 
+        "title": attr_to_label[c],
+        "data": c,
+        "visible": visible
+      };
+  });
+
+  columns.unshift({
+                "class":          'details-control',
+                "orderable":      false,
+                "data":           null,
+                "defaultContent": ''
+            });
 
 
   // DataTable
-  var table = $('#lista').DataTable();
+  var table = $('#lista').DataTable({
+    "language": {
+      "sProcessing":     "Procesando...",
+      "sLengthMenu":     "Mostrar _MENU_ registros",
+      "sZeroRecords":    "No se encontraron resultados",
+      "sEmptyTable":     "Ningún dato disponible en esta tabla",
+      "sInfo":           "Mostrando registros del _START_ al _END_ de un total de _TOTAL_ registros",
+      "sInfoEmpty":      "Mostrando registros del 0 al 0 de un total de 0 registros",
+      "sInfoFiltered":   "(filtrado de un total de _MAX_ registros)",
+      "sInfoPostFix":    "",
+      "sSearch":         "Buscar:",
+      "sUrl":            "",
+      "sInfoThousands":  ",",
+      "sLoadingRecords": "Cargando...",
+      "oPaginate": {
+          "sFirst":    "Primero",
+          "sLast":     "Último",
+          "sNext":     "Siguiente",
+          "sPrevious": "Anterior"
+      },
+      "oAria": {
+          "sSortAscending":  ": Activar para ordenar la columna de manera ascendente",
+          "sSortDescending": ": Activar para ordenar la columna de manera descendente"
+      }
+    },
+    "data": dataset,
+    "columns": columns.splice(0, max_columns + 1),
+    "order": [[ 1, "asc" ]]
+  });
+
+  // Add event listener for opening and closing details
+  $('#lista tbody').on('click', 'td.details-control', function () {
+      var tr = $(this).closest('tr');
+      var row = table.row( tr );
+
+      if ( row.child.isShown() ) {
+          // This row is already open - close it
+          row.child.hide();
+          tr.removeClass('shown');
+      }
+      else {
+          // Open this row
+          row.child( draw_table_details(row.data()) ).show();
+          tr.addClass('shown');
+      }
+  } );
+
+  // Setup - add a text input to each footer cell
+  $('#lista tfoot th:not(:first)').each( function () {
+      var title = $('#lista thead th').eq( $(this).index() ).text();
+      $(this).html( '<input type="text" placeholder="Buscar '+title+'" />' );
+  } );
 
   // Apply the search
   table.columns().eq( 0 ).each( function ( colIdx ) {
@@ -100,6 +181,7 @@ function draw_table () {
               .draw();
       } );
   } );
+  $('tfoot').insertAfter('thead');
 }
 
 function draw_sidetag(map){
@@ -120,7 +202,9 @@ function draw_sidetag(map){
 
 
 function draw_popup(target){
-  var attrs = ["grupo", "departamento", "distrito", "locacion", "proceso", "producto", "cantidad"];
+  var attrs = ["proyecto", "estado", "contrato", "empresa", "razon_social", "ruc", "monto",
+              "codigo_licitacion", "fecha_inicio", "fecha_fin", "departamento", "distrito", "localidad",
+              "terreno", "construido", "cantidad_viviendas"];
   var content = "<p class=\'popup-title\'>Datos de la Vivienda</p>"
   content += draw_popup_table(target.layer.feature.properties, attrs);
   content += draw_popup_album(["/img/casa1.jpg", "/img/plano1.png", "/img/casa2.jpg", "/img/plano2.png"]);
@@ -129,10 +213,11 @@ function draw_popup(target){
   }).setContent(content);
   target.layer.bindPopup(popup).openPopup();
   setup_modal();
+  console.log(popup);
 }
 
 function draw_popup_table (properties, attrs){
-  var t = "<table class=\'table table-striped popup-table\'><tbody>";
+  var t = "<table class=\'table table-striped popup-table table-condensed\'><tbody>";
   for (var i = 0; i < attrs.length; i++) {
     var key = attrs[i];
     if (properties.hasOwnProperty(key)) {
@@ -144,7 +229,7 @@ function draw_popup_table (properties, attrs){
 }
 
 function draw_popup_table_row(key, value){
-  return sprintf("<tr><td class=\'attr-title\'>%s</td><td>%s</td></tr>", key, value);
+  return sprintf("<tr><td class=\'attr-title\'>%s</td><td>%s</td></tr>", attr_to_label[key], value);
 }
 
 function draw_popup_album(imgs){

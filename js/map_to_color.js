@@ -1,3 +1,3 @@
 var mapToColor = {
-  "GUAIRA": '#ff8888'
+  "Guaira": '#ff8888'
 }
