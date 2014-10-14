@@ -26,4 +26,4 @@ var table_columns = ["proyecto", "estado", "contrato", "empresa", "razon_social"
               "codigo_licitacion", "fecha_inicio", "fecha_fin", "departamento", "distrito", "localidad",
               "terreno", "construido", "cantidad_viviendas"];
 
-var max_columns = 5;
+var max_columns = 4;

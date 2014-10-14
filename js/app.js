@@ -207,7 +207,7 @@ function draw_popup(target){
               "terreno", "construido", "cantidad_viviendas"];
   var content = "<p class=\'popup-title\'>Datos de la Vivienda</p>"
   content += draw_popup_table(target.layer.feature.properties, attrs);
-  content += draw_popup_album(["/img/casa1.jpg", "/img/plano1.png", "/img/casa2.jpg", "/img/plano2.png"]);
+  content += draw_popup_album(["img/casa1.jpg", "img/plano1.png", "img/casa2.jpg", "img/plano2.png"]);
   var popup = new L.Popup({
     "minWidth": 400
   }).setContent(content);
