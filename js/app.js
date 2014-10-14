@@ -23,16 +23,16 @@ function draw_map () {
   L.mapbox.accessToken = 'pk.eyJ1IjoicnBhcnJhIiwiYSI6IkEzVklSMm8ifQ.a9trB68u6h4kWVDDfVsJSg';
 
   var mapbox = L.tileLayer(
-               'http://api.tiles.mapbox.com/v4/rparra.jmk7g7ep/{z}/{x}/{y}.png?access_token=pk.eyJ1IjoicnBhcnJhIiwiYSI6IkEzVklSMm8ifQ.a9trB68u6h4kWVDDfVsJSg',
-                                 {     maxZoom: 18     }).on('load', finishedLoading);
+               'http://api.tiles.mapbox.com/v4/rparra.jmk7g7ep/{z}/{x}/{y}.png?access_token=pk.eyJ1IjoicnBhcnJhIiwiYSI6IkEzVklSMm8ifQ.a9trB68u6h4kWVDDfVsJSg'
+                                ).on('load', finishedLoading);
   var osm = L.tileLayer(
-               'http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',
-                                 {     maxZoom: 18     }).on('load', finishedLoading);
+               'http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {minZoom: 3}
+                                 ).on('load', finishedLoading);
 
   var ggl = new L.Google("HYBRID").on("MapObjectInitialized", setup_gmaps);
 
 
-  var map = L.mapbox.map('map').setView([-23.388, -60.189], 7).on('baselayerchange', startLoading);
+  var map = L.map('map', {maxZoom: 18, minZoom: 3, worldCopyJump: true}).setView([-23.388, -60.189], 7).on('baselayerchange', startLoading);
   
   var baseMaps = {
     "Calles": osm,
@@ -61,7 +61,7 @@ function draw_map () {
 
   geoJson.setGeoJSON(viviendas);
 
-  var markers = new L.MarkerClusterGroup();
+  var markers = new L.MarkerClusterGroup({minZoom: 6});
   markers.addLayer(geoJson);
   markers.on('click', draw_popup);
 
@@ -76,11 +76,11 @@ function draw_map () {
   map.addLayer(markers);
   SMV.markerLayer = markers;
   SMV.geoJsonLayer = geoJson;
+
   return map;
 }
 
 function draw_table_details ( d ) {
-  console.log('dibujando detalles');
   var table = '<table cellpadding="5" cellspacing="0" border="0" style="padding-left:50px;">';
   for(var i = max_columns; i < table_columns.length; i++){
     row = sprintf('<tr><td>%s:</td><td>%s</td></tr>', attr_to_label[table_columns[i]], d[table_columns[i]])
@@ -213,7 +213,6 @@ function draw_popup(target){
   }).setContent(content);
   target.layer.bindPopup(popup).openPopup();
   setup_modal();
-  console.log(popup);
 }
 
 function draw_popup_table (properties, attrs){
@@ -314,7 +313,6 @@ function add_filter_listeners(map){
 function update_filters(map) {
   var proyectos = get_selected_checkbox('#proyecto li input');
   var departamentos = get_selected_combo('#departamento');
-  console.log(map.featureLayer);
 
   SMV.geoJsonLayer.setFilter(function(feature) {
     // If this symbol is in the list, return true. if not, return false.
