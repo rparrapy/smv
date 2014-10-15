@@ -223,3 +223,19 @@ td.details-control {
 tr.shown td.details-control {
     background: url('../img/details_close.png') no-repeat center center;
 }
+
+.leaflet-bottom, .leaflet-top{
+    z-index: 0;
+}
+
+.controls{          
+    width:70px;
+    display:block;
+    font-size:11px;
+    padding-top:8px;
+    font-weight:bold;          
+}
+.next {
+    float:right;
+    text-align:right;
+}

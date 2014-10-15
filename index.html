@@ -24,6 +24,24 @@
   </head>
 
   <body>
+    <div class="navbar navbar-default">
+          <div class="navbar-header">
+            <a class="navbar-brand" href="#">Viviendas Construidas</a>
+          </div> 
+          <ul class="nav navbar-nav">
+              <li class="active"><a data-toggle="tab" href="#section-mapa">Mapa</a></li>
+              <li><a data-toggle="tab" href="#section-tabla">Listado</a></li>
+              <li class="dropdown">
+                  <a data-toggle="dropdown" class="dropdown-toggle" href="#">Descargas <b class="caret"></b></a>
+                  <ul class="dropdown-menu">
+                      <li><a data-toggle="tab" href="#dropdown1">CSV</a></li>
+                      <li><a data-toggle="tab" href="#dropdown2">JSON</a></li>
+                  </ul>
+              </li>
+          </ul>
+          <img id="cc-by" class="navbar-logo" src="img/cc-by-logo.png" alt="Open Data">
+          <img id = "opendata" class="navbar-logo" src="img/od-logo.png" alt="Open Data">
+      </div>
     <div id="slide-panel">
       <a href="#" id="opener" class="btn btn-default"></span> Filtrar los Datos <span id="opener-icon" class="glyphicon glyphicon-chevron-down arrow-right"></a>
       <ul class="nav nav-pills">
@@ -181,24 +199,6 @@
     </div>
     <div class="main-container">
       <div id='loader'></div>
-      <div class="navbar navbar-default">
-          <div class="navbar-header">
-            <a class="navbar-brand" href="#">Viviendas Construidas</a>
-          </div> 
-          <ul class="nav navbar-nav">
-              <li class="active"><a data-toggle="tab" href="#section-mapa">Mapa</a></li>
-              <li><a data-toggle="tab" href="#section-tabla">Listado</a></li>
-              <li class="dropdown">
-                  <a data-toggle="dropdown" class="dropdown-toggle" href="#">Descargas <b class="caret"></b></a>
-                  <ul class="dropdown-menu">
-                      <li><a data-toggle="tab" href="#dropdown1">CSV</a></li>
-                      <li><a data-toggle="tab" href="#dropdown2">JSON</a></li>
-                  </ul>
-              </li>
-          </ul>
-          <img id="cc-by" class="navbar-logo" src="img/cc-by-logo.png" alt="Open Data">
-          <img id = "opendata" class="navbar-logo" src="img/od-logo.png" alt="Open Data">
-      </div>
       <div id="main-content" class="tab-content">
           <div id="section-mapa" class="tab-pane fade in active">
               <div id="map"></div>
