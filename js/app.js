@@ -108,12 +108,15 @@ function draw_table () {
     return f.properties;
   })
 
+  for(var i=0; i<table_columns.length + 1; i++){
+    $('#lista tfoot tr').append('<th></th>');
+  }
+
   var columns = table_columns.map(function(c, i){
-    var visible = (i < max_columns);
     return { 
         "title": attr_to_label[c],
         "data": c,
-        "visible": visible
+        "visible": (i < max_columns)
       };
   });
 
@@ -123,7 +126,6 @@ function draw_table () {
                 "data":           null,
                 "defaultContent": ''
             });
-
 
   // DataTable
   var table = $('#lista').DataTable({
@@ -152,7 +154,7 @@ function draw_table () {
       }
     },
     "data": dataset,
-    "columns": columns.splice(0, max_columns + 1),
+    "columns": columns,
     "order": [[ 1, "asc" ]]
   });
 
@@ -209,11 +211,8 @@ function draw_sidetag(map){
 
 
 function draw_popup(target){
-  var attrs = ["proyecto", "estado", "contrato", "empresa", "razon_social", "ruc", "monto",
-              "codigo_licitacion", "fecha_inicio", "fecha_fin", "departamento", "distrito", "localidad",
-              "terreno", "construido", "cantidad_viviendas"];
   var content = "<p class=\'popup-title\'>Datos de la Vivienda</p>"
-  content += draw_popup_table(target.layer.feature.properties, attrs);
+  content += draw_popup_table(target.layer.feature.properties, popup_rows);
   content += draw_popup_album(["img/casa1.jpg", "img/plano1.png", "img/casa2.jpg", "img/plano2.png"]);
   var popup = new L.Popup({
     "minWidth": 400
