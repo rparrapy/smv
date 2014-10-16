@@ -42,7 +42,7 @@ body
     padding-left: 15px;
     padding-right: 15px;
     float:left;
-    margin-top: -120%;
+    margin-top: -100%;
 }
 
 #slide-panel {
@@ -60,7 +60,7 @@ body
 #opener {
     float:right;
     margin-right: -90px;
-    margin-top: 125%;
+    margin-top: 100%;
     z-index: 1;
     position: relative;
     -ms-transform:rotate(270deg); /* IE 9 */
@@ -216,6 +216,11 @@ tfoot th{
     float: left;
 }
 
+td.map-control {
+    background: url('../img/paraguay.png') no-repeat center center;
+    cursor: pointer;
+}
+
 td.details-control {
     background: url('../img/details_open.png') no-repeat center center;
     cursor: pointer;
@@ -235,7 +240,12 @@ tr.shown td.details-control {
     padding-top:8px;
     font-weight:bold;          
 }
+
 .next {
     float:right;
     text-align:right;
+}
+
+.column-filter{
+    width: 100%;
 }

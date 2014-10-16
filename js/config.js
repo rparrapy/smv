@@ -1,4 +1,6 @@
-var attr_to_label = {
+var SMV = SMV || {};
+
+SMV.ATTR_TO_LABEL = {
             proyecto: 'Proyecto',
             estado: 'Estado',
             contrato: 'Contrato',
@@ -18,16 +20,18 @@ var attr_to_label = {
         };
 
 
-var mapToColor = {
+SMV.COLOR_MAP = {
   "Guaira": '#ff8888'
 }
 
-var table_columns = ["proyecto", "estado", "contrato", "empresa", "razon_social", "ruc", "monto",
+SMV.TABLE_COLUMNS = ["proyecto", "estado", "contrato", "empresa", "razon_social", "ruc", "monto",
               "codigo_licitacion", "fecha_inicio", "fecha_fin", "departamento", "distrito", "localidad",
               "terreno", "construido", "cantidad_viviendas"];
 
-var popup_rows = ["proyecto", "estado", "contrato", "empresa", "razon_social", "ruc", "monto",
+SMV.POPUP_ROWS = ["proyecto", "estado", "contrato", "empresa", "razon_social", "ruc", "monto",
               "codigo_licitacion", "fecha_inicio", "fecha_fin", "departamento", "distrito", "localidad",
               "terreno", "construido", "cantidad_viviendas"];
 
-var max_columns = 4;
+SMV.DATA_COLUMNS = 4;
+
+SMV.BUTTON_COLUMNS = 2;

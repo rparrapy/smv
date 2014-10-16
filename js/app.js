@@ -1,8 +1,5 @@
-var SMV = SMV || {};
-
-
 $(document).ready(function(){
-  var map = draw_map();    
+  SMV.map = draw_map();    
   draw_table();
   draw_sidetag(map);
   $("#departamento").select2();
@@ -11,9 +8,6 @@ $(document).ready(function(){
   add_filter_listeners(map);
   setup_modal_navigation();
 });
-
- 
-
 
 function draw_map () {
   startLoading();
@@ -48,7 +42,7 @@ function draw_map () {
     var marker = e.layer,
     feature = marker.feature;
 
-    var icon_color = mapToColor[feature.properties.departamento];
+    var icon_color = SMV.COLOR_MAP[feature.properties.departamento];
     var icon = L.mapbox.marker.icon();
 
     if(icon_color){
@@ -80,8 +74,8 @@ function draw_map () {
 
 function draw_table_details ( d ) {
   var table = '<table cellpadding="5" cellspacing="0" border="0" style="padding-left:50px;">';
-  for(var i = max_columns; i < table_columns.length; i++){
-    row = sprintf('<tr><td>%s:</td><td>%s</td></tr>', attr_to_label[table_columns[i]], d[table_columns[i]])
+  for(var i = SMV.DATA_COLUMNS; i < SMV.TABLE_COLUMNS.length; i++){
+    row = sprintf('<tr><td>%s:</td><td>%s</td></tr>', SMV.ATTR_TO_LABEL[SMV.TABLE_COLUMNS[i]], d[SMV.TABLE_COLUMNS[i]])
     table += row;
   }
   table += '</table>';
@@ -91,28 +85,36 @@ function draw_table_details ( d ) {
 function draw_table () {
 
   /*var dataset = viviendas.features.map(function(f){
-                  return table_columns.map(function(c){
+                  return SMV.TABLE_COLUMNS.map(function(c){
                     return f.properties[c];
                   });
                 });*/
   var dataset = viviendas.features.map(function(f){
-    return f.properties;
+    var result = f.properties;
+    result.coordinates = f.geometry.coordinates;
+    return result;
   })
 
-  for(var i=0; i<table_columns.length + 1; i++){
+  for(var i=0; i<SMV.TABLE_COLUMNS.length + SMV.BUTTON_COLUMNS; i++){
     $('#lista tfoot tr').append('<th></th>');
   }
 
-  var columns = table_columns.map(function(c, i){
+  var columns = SMV.TABLE_COLUMNS.map(function(c, i){
     return { 
-        "title": attr_to_label[c],
+        "title": SMV.ATTR_TO_LABEL[c],
         "data": c,
-        "visible": (i < max_columns)
+        "visible": (i < SMV.DATA_COLUMNS)
       };
   });
 
   columns.unshift({
                 "class":          'details-control',
+                "orderable":      false,
+                "data":           null,
+                "defaultContent": ''
+            },
+            {
+                "class":          'map-control',
                 "orderable":      false,
                 "data":           null,
                 "defaultContent": ''
@@ -146,7 +148,7 @@ function draw_table () {
     },
     "data": dataset,
     "columns": columns,
-    "order": [[ 1, "asc" ]]
+    "order": [[ 2, "asc" ]]
   });
 
   // Add event listener for opening and closing details
@@ -166,10 +168,16 @@ function draw_table () {
       }
   } );
 
+  $('#lista tbody').on('click', 'td.map-control', function () {
+    var tr = $(this).closest('tr');
+    var row = table.row( tr );
+    go_to_feature(row.data().coordinates);
+  });
+
   // Setup - add a text input to each footer cell
-  $('#lista tfoot th:not(:first)').each( function () {
+  $('#lista tfoot th:not(:first, :nth-of-type(2))').each( function () {
       var title = $('#lista thead th').eq( $(this).index() ).text();
-      $(this).html( '<input type="text" placeholder="Buscar '+title+'" />' );
+      $(this).html( '<input class="column-filter" type="text" placeholder="Buscar '+title+'" />' );
   } );
 
   // Apply the search
@@ -182,6 +190,23 @@ function draw_table () {
       } );
   } );
   $('tfoot').insertAfter('thead');
+}
+
+function go_to_feature(target){
+  SMV.markerLayer.eachLayer(function(marker) {
+        var t = L.latLng(target[1], target[0]);
+        if(t.equals(marker.getLatLng())){
+          $('#section-mapa').on('transitionend', function(){
+            SMV.map.setView(t, 15);
+            marker.fireEvent('click', {layer: marker});
+            $(this).off('transitionend');
+          });
+
+          $(".navbar-nav>li>a[href=#section-mapa]").click();
+          
+        }
+    });
+
 }
 
 function draw_sidetag(map){
@@ -210,16 +235,17 @@ function draw_sidetag(map){
   });
 }
 
-
 function draw_popup(target){
+  console.log(target);
   var content = "<p class=\'popup-title\'>Datos de la Vivienda</p>"
-  content += draw_popup_table(target.layer.feature.properties, popup_rows);
+  content += draw_popup_table(target.layer.feature.properties, SMV.POPUP_ROWS);
   content += draw_popup_album(["img/casa1.jpg", "img/plano1.png", "img/casa2.jpg", "img/plano2.png"]);
   var popup = new L.Popup({
     "minWidth": 400
   }).setContent(content);
   target.layer.bindPopup(popup).openPopup();
   setup_modal();
+
 }
 
 function draw_popup_table (properties, attrs){
@@ -235,7 +261,7 @@ function draw_popup_table (properties, attrs){
 }
 
 function draw_popup_table_row(key, value){
-  return sprintf("<tr><td class=\'attr-title\'>%s</td><td>%s</td></tr>", attr_to_label[key], value);
+  return sprintf("<tr><td class=\'attr-title\'>%s</td><td>%s</td></tr>", SMV.ATTR_TO_LABEL[key], value);
 }
 
 function draw_popup_album(imgs){
@@ -363,7 +389,7 @@ function add_filter_listeners(map){
 
 // This function is called whenever someone clicks on a checkbox and changes
 // the selection of markers to be displayed.
-function update_filters(map) {
+function update_filters() {
   var proyectos = get_selected_checkbox('#proyecto li input');
   var departamentos = get_selected_combo('#departamento');
 
