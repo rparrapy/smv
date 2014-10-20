@@ -240,7 +240,7 @@ tr.shown td.details-control {
 }
 
 .leaflet-popup-content{
-    height: 540px;
+    min-height: 560px;
 }
 
 .slides li img{

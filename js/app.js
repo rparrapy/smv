@@ -340,15 +340,13 @@ function setup_modal(){
     var src = $(this).attr('src');
     var img = '<img src="' + src + '" class="img-responsive"/>';
 
-    var total = ($('ul.row li').length)/2;
-    var index = (Math.floor($(this).parent('li').index()/2) + 1) % total;
-    console.log(index);
+    var index = $(this).parent('li').index();
 
     var html = '';
     html += img;                
     html += '<div style="height:25px;clear:both;display:block;">';
-    html += '<a class="controls next" href="' + (index + 1) + '">siguiente &raquo;</a>';
-    //html += '<a class="controls previous" href="' + (index - 1) + '">&laquo; anterior</a>';
+    html += '<a class="controls next" href="' + (index + 2) + '">siguiente &raquo;</a>';
+    html += '<a class="controls previous" href="' + (index) + '">&laquo; anterior</a>';
     html += '</div>';
 
     $('#photo-modal').modal();
@@ -366,7 +364,7 @@ function setup_modal(){
 function setup_modal_navigation() {
   $(document).on('click', 'a.controls', function(e){
     var index = $(this).attr('href');
-    var src = $('ul.row li:nth-child('+ index +') img').attr('src');
+    var src = $('ul.row li:nth-child('+ (index) +') img').attr('src');
     $('.modal-body img').attr('src', src);
 
     var newPrevIndex = parseInt(index) - 1; 
@@ -380,16 +378,16 @@ function setup_modal_navigation() {
         $('a.previous').attr('href', newPrevIndex);
     }
 
-    var total = ($('ul.row li').length)/2;
+    var total = ($('ul.row li').length);
 
     //hide next button
-    if(newNextIndex > total){
+    if(total === newNextIndex){
         $('a.next').hide();
     }else{
         $('a.next').show()
     }            
     //hide previous button
-    if(newPrevIndex === 0){
+    if(newPrevIndex === 1){
         $('a.previous').hide();
     }else{
         $('a.previous').show()
