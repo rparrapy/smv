@@ -104,7 +104,8 @@ function draw_table () {
     return { 
         "title": SMV.ATTR_TO_LABEL[c],
         "data": c,
-        "visible": (i < SMV.DATA_COLUMNS)
+        "visible": (i < SMV.DATA_COLUMNS),
+        "defaultContent": ""
       };
   });
 
@@ -198,7 +199,7 @@ function go_to_feature(target){
         var t = L.latLng(target[1], target[0]);
         if(t.equals(marker.getLatLng())){
           $('#section-mapa').on('transitionend', function(){
-            SMV.map.setView(t, 15);
+            SMV.map.setView(t, 18);
             marker.fireEvent('click', {layer: marker});
             $(this).off('transitionend');
           });
