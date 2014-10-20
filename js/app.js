@@ -7,6 +7,7 @@ $(document).ready(function(){
   $("#localidad").select2();
   add_filter_listeners(map);
   setup_modal_navigation();
+
 });
 
 function draw_map () {
@@ -236,20 +237,48 @@ function draw_sidetag(map){
 }
 
 function draw_popup(target){
-  console.log(target);
-  var content = "<p class=\'popup-title\'>Datos de la Vivienda</p>"
-  content += draw_popup_table(target.layer.feature.properties, SMV.POPUP_ROWS);
-  content += draw_popup_album(["img/casa1.jpg", "img/plano1.png", "img/casa2.jpg", "img/plano2.png"]);
+  var content = draw_popup_tabs(SMV.POPUP_ROWS);
+
+  content += draw_popup_tables(target.layer.feature.properties, SMV.POPUP_ROWS);
+  //content += draw_popup_album(["img/casa1.jpg", "img/plano1.png", "img/casa2.jpg", "img/plano2.png"]);
   var popup = new L.Popup({
-    "minWidth": 400
+    minWidth: 400,
+    className: "marker-popup"
   }).setContent(content);
   target.layer.bindPopup(popup).openPopup();
   setup_modal();
 
+  $('.flexslider').flexslider({
+    animation: "slide"
+  });
+
+
+}
+
+function draw_popup_tables(properties, attrs_by_tab){
+  var d = '<div class="tab-content">';
+  var c = 0;
+  for (key in attrs_by_tab) {
+    if (attrs_by_tab.hasOwnProperty(key)) {
+      var id = removeAccents(key.toLowerCase().split(" ").join("-"));
+      if(c == 0){
+        d += sprintf('<div class="tab-pane active" id="%s">', id);
+        //d += draw_popup_album(["img/casa1.jpg", "img/plano1.png", "img/casa2.jpg", "img/plano2.png"]);
+        d += draw_popup_album(["img/casa1.jpg", "img/casa2.jpg"]);
+      }else{
+        d += sprintf('<div class="tab-pane" id="%s">', id);
+      }
+      
+      d += draw_popup_table(properties, attrs_by_tab[key]) + "</div>";
+      c++;
+    }
+  }
+  d += "</div>";
+  return d;
 }
 
 function draw_popup_table (properties, attrs){
-  var t = "<table class=\'table table-striped popup-table table-condensed\'><tbody>";
+  var t = "<table id=\'popup-table\' class=\'table table-striped popup-table table-condensed\'><tbody>";
   for (var i = 0; i < attrs.length; i++) {
     var key = attrs[i];
     if (properties.hasOwnProperty(key)) {
@@ -260,12 +289,30 @@ function draw_popup_table (properties, attrs){
   return t;
 }
 
+function draw_popup_tabs(tabs){
+  var r = '<ul class="nav nav-tabs" role="tablist">'
+  var c = 0
+  for (k in tabs) {
+    if(tabs.hasOwnProperty(k)){
+      var href = removeAccents(k.toLowerCase().split(" ").join("-"));
+      if(c == 0){
+        r += sprintf('<li class="active"><a href="#%s" role="tab" data-toggle="tab">%s</a></li>', href, k);
+      }else{
+        r += sprintf('<li><a href="#%s" role="tab" data-toggle="tab">%s</a></li>', href, k);
+      }
+      c++;
+    }
+  }
+  r += '</ul>'
+  return r;
+}
+
 function draw_popup_table_row(key, value){
   return sprintf("<tr><td class=\'attr-title\'>%s</td><td>%s</td></tr>", SMV.ATTR_TO_LABEL[key], value);
 }
 
 function draw_popup_album(imgs){
-  var a = "<div id=\'album-container\' class=\'container\'><ul class=\'row album\'>";
+  var a = "<div id=\'album-container\' class=\'flexslider\'><ul class=\'slides row\'>";
   for (var i = 0; i < imgs.length; i++) {
     a += draw_popup_album_photo(imgs[i]);
   }
@@ -274,7 +321,8 @@ function draw_popup_album(imgs){
 }
 
 function draw_popup_album_photo(img){
-  return sprintf("<li class=\'col-lg-6 col-md-6 col-sm-6 col-xs-12\'><img class=\'img-responsive\' src=\'%s\'/></li>", img);
+  console.log(img);
+  return sprintf("<li><img class=\'img-responsive\' src=\'%s\'/></li>", img);
 }
 
 function setup_modal(){
@@ -292,12 +340,15 @@ function setup_modal(){
     var src = $(this).attr('src');
     var img = '<img src="' + src + '" class="img-responsive"/>';
 
-    var index = $(this).parent('li').index();                   
+    var total = ($('ul.row li').length)/2;
+    var index = (Math.floor($(this).parent('li').index()/2) + 1) % total;
+    console.log(index);
+
     var html = '';
     html += img;                
     html += '<div style="height:25px;clear:both;display:block;">';
-    html += '<a class="controls next" href="'+ (index+2) + '">siguiente &raquo;</a>';
-    html += '<a class="controls previous" href="' + (index) + '">&laquo; anterior</a>';
+    html += '<a class="controls next" href="' + (index + 1) + '">siguiente &raquo;</a>';
+    //html += '<a class="controls previous" href="' + (index - 1) + '">&laquo; anterior</a>';
     html += '</div>';
 
     $('#photo-modal').modal();
@@ -315,7 +366,7 @@ function setup_modal(){
 function setup_modal_navigation() {
   $(document).on('click', 'a.controls', function(e){
     var index = $(this).attr('href');
-    var src = $('ul.row li:nth-child('+ index +') img').attr('src');             
+    var src = $('ul.row li:nth-child('+ index +') img').attr('src');
     $('.modal-body img').attr('src', src);
 
     var newPrevIndex = parseInt(index) - 1; 
@@ -329,9 +380,10 @@ function setup_modal_navigation() {
         $('a.previous').attr('href', newPrevIndex);
     }
 
-    var total = $('ul.row li').length + 1; 
+    var total = ($('ul.row li').length)/2;
+
     //hide next button
-    if(total === newNextIndex){
+    if(newNextIndex > total){
         $('a.next').hide();
     }else{
         $('a.next').show()
@@ -432,3 +484,22 @@ function get_selected_combo(selector){
   }
   return enabled;
 }
+
+/*Utilitario para eliminar acentos de la cadena, para poder comparar las claves
+(nombre del departamento) del servicio (BD MEC) con las del GEOJSON*/
+function removeAccents(strAccents) {
+    var strAccents = strAccents.split('');
+    var strAccentsOut = new Array();
+    var strAccentsLen = strAccents.length;
+    var accents = 'ÀÁÂÃÄÅàáâãäåÒÓÔÕÕÖØòóôõöøÈÉÊËèéêëðÇçÐÌÍÎÏìíîïÙÚÛÜùúûüÑñÿý';
+    var accentsOut = "AAAAAAaaaaaaOOOOOOOooooooEEEEeeeeeCcDIIIIiiiiUUUUuuuuNnSsYyyZz";
+    for (var y = 0; y < strAccentsLen; y++) {
+        if (accents.indexOf(strAccents[y]) != -1) {
+            strAccentsOut[y] = accentsOut.substr(accents.indexOf(strAccents[y]), 1);
+        } else
+            strAccentsOut[y] = strAccents[y];
+    }
+    strAccentsOut = strAccentsOut.join('');
+    return strAccentsOut;
+}
+

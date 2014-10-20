@@ -113,25 +113,6 @@ table{
     font-size: 18 !important;
 }
 
-.album {         
-    padding:0 0 0 0;
-    margin:0 0 0 0;
-}
-.album li {     
-    list-style:none;
-    margin-bottom:25px;
-}
-.album li img {
-    cursor: pointer;
-    position: relative;
-    z-index: 1;
-}
-
-#album-container{
-    width: 380px;
-    margin: 0px;
-}
-
 .modal-body {
     padding:5px !important;
 }
@@ -248,4 +229,20 @@ tr.shown td.details-control {
 
 .column-filter{
     width: 100%;
+}
+
+#popup-table{
+    margin-top: 50px;
+}
+
+.marker-popup{
+    min-height: 560px !important;
+}
+
+.leaflet-popup-content{
+    height: 540px;
+}
+
+.slides li img{
+    cursor: pointer;
 }

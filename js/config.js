@@ -28,9 +28,11 @@ SMV.TABLE_COLUMNS = ["proyecto", "estado", "contrato", "empresa", "razon_social"
               "codigo_licitacion", "fecha_inicio", "fecha_fin", "departamento", "distrito", "localidad",
               "terreno", "construido", "cantidad_viviendas"];
 
-SMV.POPUP_ROWS = ["proyecto", "estado", "contrato", "empresa", "razon_social", "ruc", "monto",
-              "codigo_licitacion", "fecha_inicio", "fecha_fin", "departamento", "distrito", "localidad",
-              "terreno", "construido", "cantidad_viviendas"];
+SMV.POPUP_ROWS = {
+            "General": ["proyecto", "estado", "contrato", "empresa", "razon_social", "ruc", "monto"],
+            "Detalles": ["codigo_licitacion", "fecha_inicio", "fecha_fin", "departamento", "distrito", "localidad",
+                          "terreno", "construido", "cantidad_viviendas"]
+}
 
 SMV.DATA_COLUMNS = 4;
 
