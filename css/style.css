@@ -2,7 +2,7 @@
 body
 {
     font-family: 'open_sansregular', Helvetica, Arial, sans-serif;
-
+    overflow: hidden;
 }
 
 .main-container{
@@ -78,7 +78,7 @@ body
 }
 
 #map { 
-    height: 93%;
+    height: 94%;
     width: 100%;
 }
 

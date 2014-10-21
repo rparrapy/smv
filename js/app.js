@@ -450,8 +450,8 @@ function update_filters() {
     // or number, it says if that is in a object.
     // 2 in { 2: true } // true
     // 2 in { } // false
-    var proyectoFilter =  feature.properties['proyecto'] in proyectos;
-    var departamentoFilter = $.isEmptyObject(departamentos) || feature.properties['departamento'] in departamentos;
+    var proyectoFilter =  feature.properties['Proyecto'] in proyectos;
+    var departamentoFilter = $.isEmptyObject(departamentos) || feature.properties['Departamento'].toLowerCase() in departamentos;
 
     var showMarker = departamentoFilter;
  
@@ -475,11 +475,12 @@ function get_selected_checkbox(selector){
 
 function get_selected_combo(selector){
   var value = $(selector).select2('val');
+  console.log(value);
   var enabled = {};
   // Run through each checkbox and record whether it is checked. If it is,
   // add it to the object of types to display, otherwise do not.
   for (var i = 0; i < value.length; i++) {
-    enabled[value[i]] = true;
+    enabled[value[i].toLowerCase()] = true;
   }
   return enabled;
 }
