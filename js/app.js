@@ -307,7 +307,8 @@ function draw_sidetag(map){
     if($(this).attr('href') === '#section-mapa'){
       $('#opener').show();
       $('body').css('overflow', 'hidden');
-    }else{
+    }
+    if($(this).attr('href') === '#section-tabla'){
       $('body').css('overflow', 'scroll');
       if ($('#slide-panel').hasClass("visible")) {
         $('#opener').click();
