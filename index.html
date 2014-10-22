@@ -12,6 +12,7 @@
     <script src="http://maps.google.com/maps/api/js?v=3&sensor=false"></script>
     <script src="bower_components/leaflet-plugins/layer/tile/Google.js"></script>
     <script src="bower_components/spin.js/spin.js"></script>
+    <script src="bower_components/underscore/underscore-min.js"></script>
     <script src="js/viviendas.js"></script>
     <script src="js/config.js"></script>
     <script src="js/app.js"></script>
@@ -37,7 +38,8 @@
               <li class="dropdown">
                   <a data-toggle="dropdown" class="dropdown-toggle" href="#">Descargas <b class="caret"></b></a>
                   <ul class="dropdown-menu">
-                      <li><a data-toggle="tab" href="#dropdown1">CSV</a></li>
+                      <li><a data-toggle="tab" href="#dropdown1">Excel</a></li>
+                      <li><a data-toggle="tab" href="#dropdown2">CSV</a></li>
                       <li><a data-toggle="tab" href="#dropdown2">JSON</a></li>
                   </ul>
               </li>
@@ -54,7 +56,7 @@
       <div id="menu-content" class="tab-content">
           <div id="menuA" class="tab-pane fade in active">
               <div id="tab-1" class="ui-tabs-panel ui-widget-content ui-corner-bottom">
-            <h3>Departamento</h3>
+            <h4>Departamento</h4>
             <select multiple id="departamento" style="width:250px;">                
                 <option value="Asuncion">Asunción</option>
                 
@@ -90,102 +92,20 @@
                 
                 <option value="Alto Paraguay">Alto Paraguay</option>
             </select>
-            <h3>Distrito</h3>
-            <select multiple id="distrito" style="width:250px;">                
-                <option value="Asuncion">Asunción</option>
-                
-                <option value="Concepcion">Concepción</option>
-                
-                <option value="San Pedro">San Pedro</option>
-                
-                <option value="Cordillera">Cordillera</option>
-                
-                <option value="Guaira">Guairá</option>
-                
-                <option value="Caaguazu">Caaguazú</option>
-                
-                <option value="Caazapa">Caazapá</option>
-                
-                <option value="Itapua">Itapúa</option>
-                                
-                <option value="Misiones">Misiones</option>
-                
-                <option value="Alto Parana">Alto Paraná</option>
-                
-                <option value="Central">Central</option>
-                
-                <option value="Ñeembucu">Ñeembucú</option>
-                
-                <option value="Amambay">Amambay</option>
-                
-                <option value="Canindeyu">Canindeyú</option>
-                
-                <option value="Presidente Hayes">Presidente Hayes</option>
-                
-                <option value="Boqueron">Boquerón</option>
-                
-                <option value="Alto Paraguay">Alto Paraguay</option>
+            <h4>Distrito</h4>
+            <select multiple id="distrito" style="width:250px;">
             </select>
-            <h3>Localidad</h3>
+            <h4>Localidad</h4>
             <select multiple id="localidad" style="width:250px;">                
-                <option value="Asuncion">Asuncion</option>
-                
-                <option value="Concepcion">Concepcion</option>
-                
-                <option value="San Pedro">San Pedro</option>
-                
-                <option value="Cordillera">Cordillera</option>
-                
-                <option value="Guaira">Guaira</option>
-                
-                <option value="Caaguazu">Caaguazu</option>
-                
-                <option value="Caazapa">Caazapa</option>
-                
-                <option value="Itapua">Itapua</option>
-                                
-                <option value="Misiones">Misiones</option>
-                
-                <option value="Alto Parana">Alto Parana</option>
-                
-                <option value="Central">Central</option>
-                
-                <option value="Ñeembucu">Ñeembucu</option>
-                
-                <option value="Amambay">Amambay</option>
-                
-                <option value="Canindeyu">Canindeyu</option>
-                
-                <option value="Presidente Hayes">Presidente Hayes</option>
-                
-                <option value="Boqueron">Boqueron</option>
-                
-                <option value="Alto Paraguay">Alto Paraguay</option>
             </select>
             
-            <h3>Proyecto</h3>
-            <ul id="proyecto">
-                <li><input id="chkTodosP" type="checkbox" value="Todos" ="proj_check" checked="checked">  Todos</li>
-                
-                    <li><input type="checkbox" ="proj_check" value="Mejoramiento de Barrios" checked="checked">  Mejoramiento de Barrios</li>
-                
-                    <li><input type="checkbox" name="proj_check" value="Mi País, mi Casa" checked="checked">  Mi País, mi Casa</li>
-                
-                    <li><input type="checkbox" name="proj_check" value="Créditos Hipotecarios" checked="checked">  Créditos Hipotecarios</li>
-                
-                    <li><input type="checkbox" name="proj_check" value="Foncoop" checked="checked">  Foncoop</li>
-                
-                    <li><input type="checkbox" name="proj_check" value="Focen" checked="checked">  Focen</li>
-                
-                    <li><input type="checkbox" name="proj_check" value="Viviendas rurales - CEPRA" checked="checked">  Viviendas rurales - CEPRA</li>
-                
-                    <li><input type="checkbox" name="proj_check" value="Clase Media" checked="checked">  Clase Media</li>
-                
-                    <li><input type="checkbox" name="proj_check" value="Vy'a Renda" checked="checked">  Vy'a Renda</li>
-                    
-                    <li><input type="checkbox" name="proj_check" value="Pueblos Originarios" checked="checked">  Pueblos Originarios</li>
-                
-            </ul>
+            <h4>Programa</h4>
+            <div id="programa" class="btn-group-vertical" data-toggle="buttons">
+            </div>
+
+            <h4>Estado de Obra</h4>
+            <div id="estado" class="btn-group-vertical" data-toggle="buttons">
+            </div>
         </div>
           </div>
           <div id="menuB" class="tab-pane fade">

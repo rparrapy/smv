@@ -2,9 +2,7 @@ $(document).ready(function(){
   SMV.map = draw_map();    
   draw_table();
   draw_sidetag(map);
-  $("#departamento").select2();
-  $("#distrito").select2();
-  $("#localidad").select2();
+  setup_filters();
   add_filter_listeners(map);
   setup_modal_navigation();
 
@@ -73,6 +71,42 @@ function draw_map () {
   return map;
 }
 
+function setup_filters(){
+  $("#departamento").select2();
+  setup_combo_values('Distrito', '#distrito');
+  setup_combo_values('Localidad', '#localidad');
+  $("#distrito").select2();
+  $("#localidad").select2();
+  setup_checkbox_values('Programa', '#programa');
+  setup_checkbox_values('Estado Obra', '#estado');
+}
+
+function setup_combo_values(name, selector){
+  var values = get_unique_values(name);
+
+  _.each(values, function(d){
+    var option = sprintf('<option value="%s">%s</option>', d, d);
+    $(selector).append(option);
+  });
+}
+
+function setup_checkbox_values(name, selector){
+  var values = get_unique_values(name);
+
+  _.each(values, function(d){
+    var label = sprintf('<label class="btn btn-sm btn-primary"><input type="checkbox">%s</label>', d);
+    $(selector).append(label);
+  });
+}
+
+function get_unique_values(prop){
+  return _.chain(viviendas.features)
+    .map(function(f){ return f.properties[prop]; })
+    .unique()
+    .sortBy(function(d){ return d; })
+    .value();
+}
+
 function draw_table_details ( d ) {
   var table = '<table cellpadding="5" cellspacing="0" border="0" style="padding-left:50px;">';
   for(var i = SMV.DATA_COLUMNS; i < SMV.TABLE_COLUMNS.length; i++){
@@ -94,7 +128,7 @@ function draw_table () {
     var result = f.properties;
     result.coordinates = f.geometry.coordinates;
     return result;
-  })
+  });
 
   for(var i=0; i<SMV.TABLE_COLUMNS.length + SMV.BUTTON_COLUMNS; i++){
     $('#lista tfoot tr').append('<th></th>');
@@ -221,7 +255,6 @@ function draw_sidetag(map){
     }
     $('#opener-icon').toggleClass("glyphicon glyphicon-chevron-down");
     $('#opener-icon').toggleClass("glyphicon glyphicon-chevron-up");
-    map.invalidateSize();
     return false; 
   });
 
@@ -252,7 +285,6 @@ function draw_popup(target){
   $('.flexslider').flexslider({
     animation: "slide"
   });
-
 
 }
 
@@ -322,7 +354,6 @@ function draw_popup_album(imgs){
 }
 
 function draw_popup_album_photo(img){
-  console.log(img);
   return sprintf("<li><img class=\'img-responsive\' src=\'%s\'/></li>", img);
 }
 
@@ -427,12 +458,12 @@ function setup_gmaps(){
 }
 
 function add_filter_listeners(map){
-  $("#proyecto li input[value='Todos']").change(function(){
+  $("#programa label input[value='Todos']").change(function(){
     var checked = $(this).prop('checked');
-    $("#proyecto li input").prop('checked', this.checked);
+    $("#programa label input").prop('checked', this.checked);
   });
 
-  $('#proyecto li input, #departamento, #distrito, #localidad').change(function(){
+  $('#estado label input, #programa label input, #departamento, #distrito, #localidad').change(function(){
     update_filters(map);
   });
 
@@ -441,8 +472,11 @@ function add_filter_listeners(map){
 // This function is called whenever someone clicks on a checkbox and changes
 // the selection of markers to be displayed.
 function update_filters() {
-  var proyectos = get_selected_checkbox('#proyecto li input');
+  var programas = get_selected_checkbox('#programa label');
+  var estados = get_selected_checkbox('#estado label');
   var departamentos = get_selected_combo('#departamento');
+  var distritos = get_selected_combo('#distrito');
+  var localidades = get_selected_combo('#localidad');
 
   SMV.geoJsonLayer.setFilter(function(feature) {
     // If this symbol is in the list, return true. if not, return false.
@@ -450,10 +484,23 @@ function update_filters() {
     // or number, it says if that is in a object.
     // 2 in { 2: true } // true
     // 2 in { } // false
-    var proyectoFilter =  feature.properties['Proyecto'] in proyectos;
+    //console.log(feature.properties);
+    var programaFilter = !!!$("#programa input:checked").length || programas[feature.properties['Programa']];
+    var estadoFilter = !!!$("#estado input:checked").length || estados[feature.properties['Estado Obra']];
     var departamentoFilter = $.isEmptyObject(departamentos) || feature.properties['Departamento'].toLowerCase() in departamentos;
+    var distritoFilter = $.isEmptyObject(distritos) || feature.properties['Distrito'].toLowerCase() in distritos;
+    var localidadFilter = $.isEmptyObject(localidades) || (feature.properties['Localidad'] && feature.properties['Localidad'].toLowerCase() in localidades);
 
-    var showMarker = departamentoFilter;
+    var showMarker = departamentoFilter && distritoFilter && localidadFilter && programaFilter && estadoFilter;
+
+    /*if(feature.properties['Estado Obra'] === 'En Proyecto'){
+      console.log(estadoFilter);
+      console.log(programaFilter);
+      console.log(departamentoFilter);
+      console.log(distritoFilter);
+      console.log(localidadFilter);
+      console.log(showMarker);
+    }*/
  
     return (showMarker);
   });
@@ -463,25 +510,24 @@ function update_filters() {
 }
 
 function get_selected_checkbox(selector){
-  var checkboxes = $(selector);
+  var labels = $(selector);
   var enabled = {};
-  // Run through each checkbox and record whether it is checked. If it is,
-  // add it to the object of types to display, otherwise do not.
-  for (var i = 0; i < checkboxes.length; i++) {
-    if (checkboxes[i].checked) enabled[checkboxes[i].value] = true;
-  }
+
+  _.each(labels, function(l){ enabled[l.innerText] = l.children[0].checked; });
+
   return enabled;
 }
 
 function get_selected_combo(selector){
   var value = $(selector).select2('val');
-  console.log(value);
   var enabled = {};
+
   // Run through each checkbox and record whether it is checked. If it is,
   // add it to the object of types to display, otherwise do not.
-  for (var i = 0; i < value.length; i++) {
-    enabled[value[i].toLowerCase()] = true;
-  }
+  _.each(value, function(v){
+    enabled[v.toLowerCase()] = true;
+  });
+
   return enabled;
 }
 
