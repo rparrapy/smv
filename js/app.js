@@ -5,7 +5,7 @@ $(document).ready(function(){
   setup_filters();
   add_filter_listeners(map);
   setup_modal_navigation();
-
+  $('#opener').click();
 });
 
 function draw_map () {
@@ -20,19 +20,22 @@ function draw_map () {
                'http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {minZoom: 3}
                                  ).on('load', finishedLoading);
 
-  var ggl = new L.Google("HYBRID").on("MapObjectInitialized", setup_gmaps);
+  var gglHybrid = new L.Google("HYBRID").on("MapObjectInitialized", setup_gmaps);
+  var gglRoadmap = new L.Google("ROADMAP").on("MapObjectInitialized", setup_gmaps);
 
 
   var map = L.map('map', {maxZoom: 18, minZoom: 3, worldCopyJump: true, attributionControl: false}).setView([-23.388, -60.189], 7).on('baselayerchange', startLoading);
   
   var baseMaps = {
-    "Calles": osm,
+    "Calles 2": osm,
     "Terreno": mapbox,
-    "Satélite": ggl
+    "Satélite": gglHybrid,
+    "Calles 1": gglRoadmap
   };
 
-  map.addLayer(ggl);
-  L.control.layers(baseMaps).addTo(map);
+
+  map.addLayer(gglRoadmap);
+  
 
   var geoJson = L.mapbox.featureLayer();
   //var geoJson = L.mapbox.featureLayer(viviendas)
@@ -57,18 +60,59 @@ function draw_map () {
   markers.on('click', draw_popup);
 
 
-  /*geoJson.setFilter(function(f) {
-            console.log(f);
-            return f.properties['distrito'] === 'PASO YOBAI';
-        });
-
+  /*
   markers.clearLayers();
   markers.addLayer(geoJson);*/
   map.addLayer(markers);
   SMV.markerLayer = markers;
   SMV.geoJsonLayer = geoJson;
 
+  SMV.infoBox = draw_info_box();
+  SMV.infoBox.addTo(map);
+  L.control.layers(baseMaps).addTo(map);
+
+  map.on('popupclose', function(e){
+    SMV.infoBox.update();
+  });
+
   return map;
+}
+
+function draw_info_box(){
+  var info = L.control();
+
+  info.onAdd = function (map) {
+      this._div = L.DomUtil.create('div', 'info-box'); // create a div with a class "info"
+      this.update();
+      return this._div;
+  };
+
+  // method that we will use to update the control based on feature properties passed
+  info.update = function (feature) {
+    var msg = this._div.innerHTML;
+    if(feature){
+      msg = sprintf('Mostrando un asentamiento del proyecto %s con %s viviendas',
+      feature.properties['Proyecto'], feature.properties['Cantidad de Viviendas']);
+    }else{
+        var features = _(SMV.geoJsonLayer.getLayers()).map(function(l){ return l.feature; });
+
+        var cantidadDepartamentos = _(features).chain()
+          .map(function(f){ return f.properties['Departamento'] })
+          .filter(function(e){ return !(e === "ASUNCION")})
+          .unique().value().length;
+
+        var cantidadProyectos = features.length;
+        var cantidadViviendas = _(features)
+          .reduce(function(cont, f){ return cont + parseInt(f.properties['Cantidad de Viviendas']) }, 0);
+
+        msg = sprintf('Mostrando %s obras de %s departamentos, equivalentes a %s viviendas.',
+        cantidadProyectos, cantidadDepartamentos, cantidadViviendas);
+    }
+
+    this._div.innerHTML = msg;
+  };
+
+  return info;
 }
 
 function setup_filters(){
@@ -78,7 +122,7 @@ function setup_filters(){
   $("#distrito").select2();
   $("#localidad").select2();
   setup_checkbox_values('Programa', '#programa');
-  setup_checkbox_values('Estado Obra', '#estado');
+  setup_checkbox_values('Estado de Obra', '#estado');
 }
 
 function setup_combo_values(name, selector){
@@ -110,7 +154,8 @@ function get_unique_values(prop){
 function draw_table_details ( d ) {
   var table = '<table cellpadding="5" cellspacing="0" border="0" style="padding-left:50px;">';
   for(var i = SMV.DATA_COLUMNS; i < SMV.TABLE_COLUMNS.length; i++){
-    row = sprintf('<tr><td>%s:</td><td>%s</td></tr>', SMV.ATTR_TO_LABEL[SMV.TABLE_COLUMNS[i]], d[SMV.TABLE_COLUMNS[i]])
+    var value = d[SMV.TABLE_COLUMNS[i]] || '-';
+    row = sprintf('<tr><td>%s:</td><td>%s</td></tr>', SMV.ATTR_TO_LABEL[SMV.TABLE_COLUMNS[i]], value);
     table += row;
   }
   table += '</table>';
@@ -249,9 +294,9 @@ function draw_sidetag(map){
   $('#opener').on('click', function() {   
     var panel = $('#slide-panel');
     if (panel.hasClass("visible")) {
-       panel.removeClass('visible').css({'margin-left':'-300px'});
+       panel.removeClass('visible').animate({'margin-left':'-300px'});
     } else {
-      panel.addClass('visible').css({'margin-left':'0px'});
+      panel.addClass('visible').animate({'margin-left':'0px'});
     }
     $('#opener-icon').toggleClass("glyphicon glyphicon-chevron-down");
     $('#opener-icon').toggleClass("glyphicon glyphicon-chevron-up");
@@ -261,7 +306,9 @@ function draw_sidetag(map){
   $('.navbar-nav>li>a').bind('click', function (e) {
     if($(this).attr('href') === '#section-mapa'){
       $('#opener').show();
+      $('body').css('overflow', 'hidden');
     }else{
+      $('body').css('overflow', 'scroll');
       if ($('#slide-panel').hasClass("visible")) {
         $('#opener').click();
       }
@@ -271,17 +318,20 @@ function draw_sidetag(map){
 }
 
 function draw_popup(target){
-  var content = draw_popup_tabs(SMV.POPUP_ROWS);
+  if(!!!target.layer.getPopup()){
+    var content = draw_popup_tabs(SMV.POPUP_ROWS);
 
-  content += draw_popup_tables(target.layer.feature.properties, SMV.POPUP_ROWS);
-  //content += draw_popup_album(["img/casa1.jpg", "img/plano1.png", "img/casa2.jpg", "img/plano2.png"]);
-  var popup = new L.Popup({
-    minWidth: 400,
-    className: "marker-popup"
-  }).setContent(content);
-  target.layer.bindPopup(popup).openPopup();
+    content += draw_popup_tables(target.layer.feature.properties, SMV.POPUP_ROWS);
+    //content += draw_popup_album(["img/casa1.jpg", "img/plano1.png", "img/casa2.jpg", "img/plano2.png"]);
+    var popup = new L.Popup({
+      minWidth: 400,
+      className: "marker-popup"
+    }).setContent(content);
+      target.layer.bindPopup(popup);
+  }
+  target.layer.openPopup();
   setup_modal();
-
+  SMV.infoBox.update(target.layer.feature);
   $('.flexslider').flexslider({
     animation: "slide"
   });
@@ -311,7 +361,7 @@ function draw_popup_tables(properties, attrs_by_tab){
 }
 
 function draw_popup_table (properties, attrs){
-  var t = "<table id=\'popup-table\' class=\'table table-striped popup-table table-condensed\'><tbody>";
+  var t = "<table class=\'table table-striped popup-table table-condensed\'><tbody>";
   for (var i = 0; i < attrs.length; i++) {
     var key = attrs[i];
     if (properties.hasOwnProperty(key)) {
@@ -486,7 +536,7 @@ function update_filters() {
     // 2 in { } // false
     //console.log(feature.properties);
     var programaFilter = !!!$("#programa input:checked").length || programas[feature.properties['Programa']];
-    var estadoFilter = !!!$("#estado input:checked").length || estados[feature.properties['Estado Obra']];
+    var estadoFilter = !!!$("#estado input:checked").length || estados[feature.properties['Estado de Obra']];
     var departamentoFilter = $.isEmptyObject(departamentos) || feature.properties['Departamento'].toLowerCase() in departamentos;
     var distritoFilter = $.isEmptyObject(distritos) || feature.properties['Distrito'].toLowerCase() in distritos;
     var localidadFilter = $.isEmptyObject(localidades) || (feature.properties['Localidad'] && feature.properties['Localidad'].toLowerCase() in localidades);
@@ -507,6 +557,7 @@ function update_filters() {
 
   SMV.markerLayer.clearLayers();
   SMV.markerLayer.addLayer(SMV.geoJsonLayer);
+  SMV.infoBox.update();
 }
 
 function get_selected_checkbox(selector){

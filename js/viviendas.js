@@ -1730,26 +1730,7 @@ var viviendas =  { "type" : "FeatureCollection",
           "Estado de Obra":"Paralizado",
           "LPN Nº":"015/12"
                 }
-        },
-                 {   
-            "type" : "Feature",
-            "geometry" : {
-                "type" : "Point",
-                "coordinates" : [-61.5733166401, -85.8567696596]},
-                "properties" : {
-                    "Departamento":"CENTRAL",
-          "Distrito":"Ita",
-          "Localidad":"Itá",
-          "Proyecto":"Ita Carapegua",
-          "Programa":"Viviendas Económicas",
-          "Cantidad de Viviendas":"43",
-          "Empresa":"MM S.A.",
-          "Estado de Obra":"Culminado",
-          "LPN Nº":"005/09",
-          "Fecha de recepcion definitiva":"22/12/10"
-                }
-        },
-                 {   
+        }, {
             "type" : "Feature",
             "geometry" : {
                 "type" : "Point",
