@@ -295,8 +295,10 @@ function draw_sidetag(map){
     var panel = $('#slide-panel');
     if (panel.hasClass("visible")) {
        panel.removeClass('visible').animate({'margin-left':'-300px'});
+       $('#slide-tag').animate({'margin-left':'-300px'});
     } else {
       panel.addClass('visible').animate({'margin-left':'0px'});
+      $('#slide-tag').animate({'margin-left':'0px'});
     }
     $('#opener-icon').toggleClass("glyphicon glyphicon-chevron-down");
     $('#opener-icon').toggleClass("glyphicon glyphicon-chevron-up");
