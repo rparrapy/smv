@@ -23,6 +23,10 @@ body
   #cc-by{
     padding-left: 15px;
   }
+
+  #slide-panel {
+    height: 70% !important;
+  }  
 }
 
 .navbar-default{
@@ -201,11 +205,8 @@ td.map-control {
 }
 
 td.details-control {
-    background: url('../img/details_open.png') no-repeat center center;
+    background: url('../img/details.png') no-repeat center center;
     cursor: pointer;
-}
-tr.shown td.details-control {
-    background: url('../img/details_close.png') no-repeat center center;
 }
 
 .leaflet-bottom, .leaflet-top{
@@ -273,4 +274,9 @@ h4{
     float: left;
     width: 300px;
     margin-left: -300px;
+}
+
+.row-map{
+    height: 350px;
+    width: 100%;
 }

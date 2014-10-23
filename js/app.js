@@ -13,18 +13,16 @@ function draw_map () {
 
   L.mapbox.accessToken = 'pk.eyJ1IjoicnBhcnJhIiwiYSI6IkEzVklSMm8ifQ.a9trB68u6h4kWVDDfVsJSg';
 
-  var mapbox = L.tileLayer(
-               'http://api.tiles.mapbox.com/v4/rparra.jmk7g7ep/{z}/{x}/{y}.png?access_token=pk.eyJ1IjoicnBhcnJhIiwiYSI6IkEzVklSMm8ifQ.a9trB68u6h4kWVDDfVsJSg'
-                                ).on('load', finishedLoading);
-  var osm = L.tileLayer(
-               'http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {minZoom: 3}
-                                 ).on('load', finishedLoading);
+  var mapbox = SMV.LAYERS.MAPBOX.on('load', finishedLoading);
+  var osm = SMV.LAYERS.OPEN_STREET_MAPS.on('load', finishedLoading);
 
-  var gglHybrid = new L.Google("HYBRID").on("MapObjectInitialized", setup_gmaps);
-  var gglRoadmap = new L.Google("ROADMAP").on("MapObjectInitialized", setup_gmaps);
+  var gglHybrid = SMV.LAYERS.GOOGLE_HYBRID.on("MapObjectInitialized", setup_gmaps);
+  var gglRoadmap = SMV.LAYERS.GOOGLE_ROADMAP.on("MapObjectInitialized", setup_gmaps);
 
 
-  var map = L.map('map', {maxZoom: 18, minZoom: 3, worldCopyJump: true, attributionControl: false}).setView([-23.388, -60.189], 7).on('baselayerchange', startLoading);
+  var map = L.map('map', {maxZoom: 18, minZoom: 3, worldCopyJump: true, attributionControl: false})
+    .setView([-23.388, -60.189], 7)
+    .on('baselayerchange', startLoading);
   
   var baseMaps = {
     "Calles 2": osm,
@@ -105,7 +103,7 @@ function draw_info_box(){
         var cantidadViviendas = _(features)
           .reduce(function(cont, f){ return cont + parseInt(f.properties['Cantidad de Viviendas']) }, 0);
 
-        msg = sprintf('Mostrando %s obras de %s departamentos, equivalentes a %s viviendas.',
+        msg = sprintf('Mostrando %s obras de %s departamentos, equivalente a %s viviendas.',
         cantidadProyectos, cantidadDepartamentos, cantidadViviendas);
     }
 
@@ -151,8 +149,8 @@ function get_unique_values(prop){
     .value();
 }
 
-function draw_table_details ( d ) {
-  var table = '<table cellpadding="5" cellspacing="0" border="0" style="padding-left:50px;">';
+function draw_table_details (d) {
+  var table = '<table id="row-details" cellpadding="5" cellspacing="0" border="0" style="padding-left:50px;">';
   for(var i = SMV.DATA_COLUMNS; i < SMV.TABLE_COLUMNS.length; i++){
     var value = d[SMV.TABLE_COLUMNS[i]] || '-';
     row = sprintf('<tr><td>%s:</td><td>%s</td></tr>', SMV.ATTR_TO_LABEL[SMV.TABLE_COLUMNS[i]], value);
@@ -235,24 +233,15 @@ function draw_table () {
   // Add event listener for opening and closing details
   $('#lista tbody').on('click', 'td.details-control', function () {
       var tr = $(this).closest('tr');
-      var row = table.row( tr );
-
-      if ( row.child.isShown() ) {
-          // This row is already open - close it
-          row.child.hide();
-          tr.removeClass('shown');
-      }
-      else {
-          // Open this row
-          row.child( draw_table_details(row.data()) ).show();
-          tr.addClass('shown');
-      }
+      var row = table.row(tr);
+      var content = draw_table_details(row.data());
+      draw_table_row_child(table, tr, content, 'row-details');
   } );
 
   $('#lista tbody').on('click', 'td.map-control', function () {
     var tr = $(this).closest('tr');
-    var row = table.row( tr );
-    go_to_feature(row.data().coordinates);
+    draw_table_map(table, tr);
+    //go_to_feature(row.data().coordinates);
   });
 
   // Setup - add a text input to each footer cell
@@ -262,15 +251,60 @@ function draw_table () {
   } );
 
   // Apply the search
-  table.columns().eq( 0 ).each( function ( colIdx ) {
-      $( 'input', table.column( colIdx ).footer() ).on( 'keyup change', function () {
+  table.columns().eq(0).each( function (colIdx) {
+      $( 'input', table.column(colIdx).footer()).on( 'keyup change', function(){
           table
-              .column( colIdx )
-              .search( this.value )
-              .draw();
+            .column(colIdx)
+            .search(this.value)
+            .draw();
       } );
   } );
+
   $('tfoot').insertAfter('thead');
+}
+
+function draw_table_map(table, tr){
+  var row = table.row(tr);
+  var target = row.data().coordinates;
+  console.log(row.index());
+  var id = 'row-map-' + row.index().toString();
+  var content = sprintf("<div id='%s' class='row-map'></div>", id);
+  draw_table_row_child(table, tr, content, id);
+  var rowMap = L.map(id, {maxZoom: 18, minZoom: 3, worldCopyJump: true, attributionControl: false})
+    .setView([-23.388, -60.189], 7);
+  rowMap.addLayer(new L.Google("HYBRID"));
+  var target = row.data().coordinates;
+  var markerLayer = get_filtered_layer(target);
+  rowMap.addLayer(markerLayer);
+  rowMap.setView(L.latLng(target[1], target[0]), 18);
+}
+
+function get_filtered_layer(target){
+  var geoJson = L.mapbox.featureLayer();
+  var filteredJSON = $.extend({}, viviendas);
+  filteredJSON.features = _(viviendas.features).filter(function(f){
+    var point = f.geometry.coordinates;
+    return (point[0] === target[0] && point[1] === target[1]);
+  });
+  geoJson.setGeoJSON(filteredJSON);
+  return geoJson;
+}
+
+function draw_table_row_child(table, tr, content, childID){
+  var row = table.row(tr);
+  
+  if(row.child.isShown()){
+    var detailsID = row.child()[0].firstChild.firstChild.id;
+    if(detailsID === childID){
+      row.child.hide();
+    }else{
+      // Open this row
+      row.child(content).show();
+    }   
+  }else{
+    // Open this row
+    row.child(content).show();
+  }
 }
 
 function go_to_feature(target){
@@ -586,7 +620,7 @@ function get_selected_combo(selector){
 }
 
 /*Utilitario para eliminar acentos de la cadena, para poder comparar las claves
-(nombre del departamento) del servicio (BD MEC) con las del GEOJSON*/
+(nombre del departamento) del servicio (BD) con las del GEOJSON*/
 function removeAccents(strAccents) {
     var strAccents = strAccents.split('');
     var strAccentsOut = new Array();

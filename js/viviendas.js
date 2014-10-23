@@ -2465,21 +2465,6 @@ var viviendas =  { "type" : "FeatureCollection",
             "type" : "Feature",
             "geometry" : {
                 "type" : "Point",
-                "coordinates" : [-55.8082352446, -27.3592688352]},
-                "properties" : {
-                    "Departamento":"ITAPUA",
-          "Distrito":"Cambyreta",
-          "Proyecto":"Asent. Amanecer III",
-          "Programa":"CHE TAPYI",
-          "Cantidad de Viviendas":"141",
-          "Estado de Obra":"En Proyecto",
-          "LPN Nº":"001/14"
-                }
-        },
-                 {   
-            "type" : "Feature",
-            "geometry" : {
-                "type" : "Point",
                 "coordinates" : [-56.8120543353, -27.3859594779]},
                 "properties" : {
                     "Departamento":"MISIONES",
