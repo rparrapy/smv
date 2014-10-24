@@ -270,6 +270,7 @@ function draw_table () {
   } );
 
   $('tfoot').insertAfter('thead');
+  $('#download-footer').insertAfter('.row:last');
   SMV.table = table;
 }
 
@@ -350,16 +351,30 @@ function setup_download_buttons(){
       var result = _(SMV.TABLE_COLUMNS).map(function(c){
         return o[c] || '';
       });
-      result = [o.coordinates[1], o.coordinates[0]] + result;
+      console.log(result);
+      result = [o.coordinates[1], o.coordinates[0]].concat(result);
+      console.log(result);
       return result;
     });
     var csv = Papa.unparse({
-      fields: ["Column 1", "Column 2"],
-      data: [
-        ["foo", "bar"],
-        ["abc", "def"]
-      ]
+      fields: ["Latitud", "Longitud"].concat(SMV.TABLE_COLUMNS),
+      data: dataArray
     });
+    download(csv, "viviendas.csv", "text/csv");
+    $(this).toggleClass("active");
+  });
+
+  $('#filtered-json').click(function(){
+    var dataObject = SMV.table.rows({ filter: 'applied' }).data().toArray();
+    var filteredJSON = $.extend({}, viviendas);
+    var targetList = _(dataObject).pluck('coordinates');
+    filteredJSON.features = _(viviendas.features).filter(function(f){
+      return !!_(targetList).find(function(t){
+        return _(t).isEqual(f.geometry.coordinates);
+      });
+    });
+    download(JSON.stringify(filteredJSON, null, 4), "viviendas.json", "application/json");
+    $(this).toggleClass("active");
   });
 
 }

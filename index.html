@@ -15,6 +15,7 @@
     <script src="bower_components/spin.js/spin.js"></script>
     <script src="bower_components/underscore/underscore-min.js"></script>
     <script src="bower_components/PapaParse/papaparse.min.js"></script>
+    <script src="js/download.js"></script>
     <script src="js/viviendas.js"></script>
     <script src="js/config.js"></script>
     <script src="js/app.js"></script>
@@ -140,9 +141,13 @@
                 </tfoot>
          
             </table>
-            <div id="download-button-bar" class="btn-group" data-toggle="buttons" style="display:none;">
-              <button id="filtered-csv" class="btn btn-sm btn-primary">CSV</button>
-              <button id="filtered-json" class="btn btn-sm btn-primary">JSON</button>
+            <div id="download-footer">
+              </br>
+              <span class="download-label">Descargar lista filtrada de viviendas:</span>
+              <div id="download-button-bar" class="btn-group" data-toggle="buttons">
+                <button id="filtered-csv" class="btn btn-primary">CSV</button>
+                <button id="filtered-json" class="btn btn-primary">JSON</button>
+              </div>
             </div>
           </div>
       </div>
