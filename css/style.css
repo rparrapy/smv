@@ -167,7 +167,14 @@ table{
 }
 
 #lista thead th{
-    border: 0;
+    border-bottom: 0;
+    border-top: 0;
+}
+
+#lista tfoot th{
+    border-bottom: 0;
+    border-top: 0;
+    border-left: 0;
 }
 
 tfoot {
@@ -227,7 +234,7 @@ td.details-control {
 }
 
 .column-filter{
-    width: 100%;
+    width: 100% !important;
 }
 
 .marker-popup{
@@ -243,12 +250,14 @@ td.details-control {
 }
 
 #programa{
-    margin: 0 0 15px 24%;
+    margin: 0 0 15px 0;
+    width: 100%;
 }
 
 #estado{
-    margin: 0 0 15px 33%;
+    margin: 0 0 15px 0;
     padding-bottom: 15px;
+    width: 100%;
 }
 
 h4{

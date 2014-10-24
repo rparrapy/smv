@@ -31,10 +31,16 @@ SMV.DATA_COLUMNS = 5;
 
 SMV.BUTTON_COLUMNS = 2;
 
-SMV.LAYERS = {
-    MAPBOX: L.tileLayer(
-        'http://api.tiles.mapbox.com/v4/rparra.jmk7g7ep/{z}/{x}/{y}.png?access_token=pk.eyJ1IjoicnBhcnJhIiwiYSI6IkEzVklSMm8ifQ.a9trB68u6h4kWVDDfVsJSg'),
-    OPEN_STREET_MAPS: L.tileLayer('http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {minZoom: 3}),
-    GOOGLE_HYBRID: new L.Google("HYBRID"),
-    GOOGLE_ROADMAP: new L.Google("ROADMAP") 
-};
+SMV.LAYERS = function(){
+    var mapbox = L.tileLayer(
+        'http://api.tiles.mapbox.com/v4/rparra.jmk7g7ep/{z}/{x}/{y}.png?access_token=pk.eyJ1IjoicnBhcnJhIiwiYSI6IkEzVklSMm8ifQ.a9trB68u6h4kWVDDfVsJSg');
+    var osm = L.tileLayer('http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {minZoom: 3});
+    var gglHybrid = new L.Google("HYBRID");
+    var gglRoadmap = new L.Google("ROADMAP");
+    return {
+        MAPBOX: mapbox,
+        OPEN_STREET_MAPS: osm,
+        GOOGLE_HYBRID: gglHybrid,
+        GOOGLE_ROADMAP: gglRoadmap
+    } 
+}

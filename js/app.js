@@ -12,12 +12,12 @@ function draw_map () {
   startLoading();
 
   L.mapbox.accessToken = 'pk.eyJ1IjoicnBhcnJhIiwiYSI6IkEzVklSMm8ifQ.a9trB68u6h4kWVDDfVsJSg';
+  var layers =  SMV.LAYERS();
+  var mapbox = layers.MAPBOX.on('load', finishedLoading);
+  var osm = layers.OPEN_STREET_MAPS.on('load', finishedLoading);
 
-  var mapbox = SMV.LAYERS.MAPBOX.on('load', finishedLoading);
-  var osm = SMV.LAYERS.OPEN_STREET_MAPS.on('load', finishedLoading);
-
-  var gglHybrid = SMV.LAYERS.GOOGLE_HYBRID.on("MapObjectInitialized", setup_gmaps);
-  var gglRoadmap = SMV.LAYERS.GOOGLE_ROADMAP.on("MapObjectInitialized", setup_gmaps);
+  var gglHybrid = layers.GOOGLE_HYBRID.on("MapObjectInitialized", setup_gmaps);
+  var gglRoadmap = layers.GOOGLE_ROADMAP.on("MapObjectInitialized", setup_gmaps);
 
 
   var map = L.map('map', {maxZoom: 18, minZoom: 3, worldCopyJump: true, attributionControl: false})
@@ -99,12 +99,20 @@ function draw_info_box(){
           .filter(function(e){ return !(e === "ASUNCION")})
           .unique().value().length;
 
+        if(!!!cantidadDepartamentos){
+          cantidadDepartamentos += 1;
+        }
+
         var cantidadProyectos = features.length;
         var cantidadViviendas = _(features)
           .reduce(function(cont, f){ return cont + parseInt(f.properties['Cantidad de Viviendas']) }, 0);
 
-        msg = sprintf('Mostrando %s obras de %s departamentos, equivalente a %s viviendas.',
-        cantidadProyectos, cantidadDepartamentos, cantidadViviendas);
+        var departamentoLabel = cantidadDepartamentos > 1 ? 'departamentos' : 'departamento';
+        var equivalenteLabel = cantidadProyectos > 1 ? 'equivalentes' : 'equivalente';
+        var proyectoLabel = cantidadProyectos > 1 ? 'obras' : 'obra';
+        var viviendaLabel = cantidadViviendas > 1 ? 'viviendas' : 'vivienda';
+        msg = sprintf('Mostrando %s %s de %s %s, %s a %s %s.',
+        cantidadProyectos, proyectoLabel, cantidadDepartamentos, departamentoLabel, equivalenteLabel, cantidadViviendas, viviendaLabel);
     }
 
     this._div.innerHTML = msg;
@@ -247,7 +255,7 @@ function draw_table () {
   // Setup - add a text input to each footer cell
   $('#lista tfoot th:not(:first, :nth-of-type(2))').each( function () {
       var title = $('#lista thead th').eq( $(this).index() ).text();
-      $(this).html( '<input class="column-filter" type="text" placeholder="Buscar '+title+'" />' );
+      $(this).html( '<input class="column-filter form-control input-sm" type="text" placeholder="Buscar '+title+'" />' );
   } );
 
   // Apply the search
@@ -270,13 +278,23 @@ function draw_table_map(table, tr){
   var id = 'row-map-' + row.index().toString();
   var content = sprintf("<div id='%s' class='row-map'></div>", id);
   draw_table_row_child(table, tr, content, id);
-  var rowMap = L.map(id, {maxZoom: 18, minZoom: 3, worldCopyJump: true, attributionControl: false})
-    .setView([-23.388, -60.189], 7);
-  rowMap.addLayer(new L.Google("HYBRID"));
+  var rowMap = L.map(id, {maxZoom: 18, minZoom: 3, worldCopyJump: true, attributionControl: false});
+
+  var layers = SMV.LAYERS();
+  var baseMaps = {
+    "Calles 2": layers.OPEN_STREET_MAPS,
+    "Terreno": layers.MAPBOX,
+    "Satélite": layers.GOOGLE_HYBRID,
+    "Calles 1": layers.GOOGLE_ROADMAP
+  };
+
+  rowMap.addLayer(layers.GOOGLE_HYBRID);
+  rowMap.setView(L.latLng(target[1], target[0]), 18);
+
   var target = row.data().coordinates;
   var markerLayer = get_filtered_layer(target);
   rowMap.addLayer(markerLayer);
-  rowMap.setView(L.latLng(target[1], target[0]), 18);
+  L.control.layers(baseMaps).addTo(rowMap);
 }
 
 function get_filtered_layer(target){
@@ -588,12 +606,12 @@ function update_filters() {
       console.log(localidadFilter);
       console.log(showMarker);
     }*/
- 
     return (showMarker);
   });
 
   SMV.markerLayer.clearLayers();
   SMV.markerLayer.addLayer(SMV.geoJsonLayer);
+  SMV.map.fitBounds(SMV.geoJsonLayer.getBounds());
   SMV.infoBox.update();
 }
 
