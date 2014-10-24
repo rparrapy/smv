@@ -1,15 +1,43 @@
 $(document).ready(function(){
-  SMV.map = draw_map();    
+  var mapTabActive = check_url();
   draw_table();
-  draw_sidetag(map);
+  draw_sidetag(map, !mapTabActive);
+  draw_or_defer_map(mapTabActive);
   setup_filters();
   add_filter_listeners(map);
   setup_modal_navigation();
-  $('#opener').click();
   setup_download_buttons();
 });
 
-function draw_map () {
+function check_url(){
+  // Javascript to enable link to tab
+  var url = document.location.toString();
+  var hash = url.split('#')[1];
+  if (url.match('#')) {
+      $('.navbar-nav a[href=#'+hash+']').tab('show') ;
+  } 
+
+  // Change hash for page-reload
+  $('.navbar-nav a').on('click', function (e) {
+      window.location.hash = e.target.hash;
+  })
+  return !_(['section-tabla', 'section-about']).contains(hash);
+}
+
+function draw_or_defer_map(mapTabActive){
+  if(mapTabActive){
+    SMV.map = draw_map();
+  }else{
+    finishedLoading();
+    $('.navbar-nav a').on('click', function (e) {
+      if(e.target.hash === '#section-mapa' && !!! SMV.map){
+        SMV.map = draw_map();
+      }
+    });
+  }
+}
+
+function draw_map() {
   startLoading();
 
   L.mapbox.accessToken = 'pk.eyJ1IjoicnBhcnJhIiwiYSI6IkEzVklSMm8ifQ.a9trB68u6h4kWVDDfVsJSg';
@@ -32,10 +60,8 @@ function draw_map () {
     "Calles 1": gglRoadmap
   };
 
-
   map.addLayer(gglRoadmap);
   
-
   var geoJson = L.mapbox.featureLayer();
   //var geoJson = L.mapbox.featureLayer(viviendas)
 
@@ -58,7 +84,6 @@ function draw_map () {
   markers.addLayer(geoJson);
   markers.on('click', draw_popup);
 
-
   /*
   markers.clearLayers();
   markers.addLayer(geoJson);*/
@@ -73,6 +98,8 @@ function draw_map () {
   map.on('popupclose', function(e){
     SMV.infoBox.update();
   });
+
+  $('#opener').click();
 
   return map;
 }
@@ -351,9 +378,7 @@ function setup_download_buttons(){
       var result = _(SMV.TABLE_COLUMNS).map(function(c){
         return o[c] || '';
       });
-      console.log(result);
       result = [o.coordinates[1], o.coordinates[0]].concat(result);
-      console.log(result);
       return result;
     });
     var csv = Papa.unparse({
@@ -379,7 +404,7 @@ function setup_download_buttons(){
 
 }
 
-function draw_sidetag(map){
+function draw_sidetag(map, hide){
   $('#opener').on('click', function() {   
     var panel = $('#slide-panel');
     if (panel.hasClass("visible")) {
@@ -399,14 +424,18 @@ function draw_sidetag(map){
       $('#opener').show();
       $('body').css('overflow', 'hidden');
     }
-    if($(this).attr('href') === '#section-tabla'){
-      $('body').css('overflow', 'scroll');
+    if($(this).attr('href') === '#section-tabla' || $(this).attr('href') === '#section-about'){
+      $('body').css('overflow', 'auto');
       if ($('#slide-panel').hasClass("visible")) {
         $('#opener').click();
       }
       $('#opener').hide();
     }
   });
+
+  if(hide){
+    $('#opener').hide();
+  }
 }
 
 function draw_popup(target){
@@ -586,6 +615,9 @@ function finishedLoading() {
   // fade out
   var loader = $("#loader");
   loader.addClass('done');
+  if(SMV.map){
+    SMV.map.invalidateSize();
+  }
   setTimeout(function() {
       // then, after a half-second, add the class 'hide', which hides
       // it completely and ensures that the user can interact with the
