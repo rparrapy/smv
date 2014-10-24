@@ -6,6 +6,7 @@ $(document).ready(function(){
   add_filter_listeners(map);
   setup_modal_navigation();
   $('#opener').click();
+  setup_download_buttons();
 });
 
 function draw_map () {
@@ -235,7 +236,7 @@ function draw_table () {
     },
     "data": dataset,
     "columns": columns,
-    "order": [[ 2, "asc" ]]
+    "order": [[ 2, "asc" ]],
   });
 
   // Add event listener for opening and closing details
@@ -269,12 +270,12 @@ function draw_table () {
   } );
 
   $('tfoot').insertAfter('thead');
+  SMV.table = table;
 }
 
 function draw_table_map(table, tr){
   var row = table.row(tr);
   var target = row.data().coordinates;
-  console.log(row.index());
   var id = 'row-map-' + row.index().toString();
   var content = sprintf("<div id='%s' class='row-map'></div>", id);
   draw_table_row_child(table, tr, content, id);
@@ -339,6 +340,27 @@ function go_to_feature(target){
           
         }
     });
+
+}
+
+function setup_download_buttons(){
+  $('#filtered-csv').click(function(){
+    var dataObject = SMV.table.rows({ filter: 'applied' }).data().toArray();
+    var dataArray = _(dataObject).map(function(o){
+      var result = _(SMV.TABLE_COLUMNS).map(function(c){
+        return o[c] || '';
+      });
+      result = [o.coordinates[1], o.coordinates[0]] + result;
+      return result;
+    });
+    var csv = Papa.unparse({
+      fields: ["Column 1", "Column 2"],
+      data: [
+        ["foo", "bar"],
+        ["abc", "def"]
+      ]
+    });
+  });
 
 }
 
