@@ -84,6 +84,7 @@ function draw_map() {
   markers.addLayer(geoJson);
   markers.on('click', draw_popup);
 
+
   /*
   markers.clearLayers();
   markers.addLayer(geoJson);*/
@@ -96,6 +97,15 @@ function draw_map() {
   L.control.layers(baseMaps).addTo(map);
 
   map.on('popupclose', function(e){
+    SMV.infoBox.update();
+  });
+
+  markers.on('clustermouseover', function(e){
+    var features = _.pluck(e.layer.getAllChildMarkers(), 'feature');
+    SMV.infoBox.update(features);
+  });
+
+  markers.on('clustermouseout', function(e){
     SMV.infoBox.update();
   });
 
@@ -114,33 +124,16 @@ function draw_info_box(){
   };
 
   // method that we will use to update the control based on feature properties passed
-  info.update = function (feature) {
+  info.update = function (f) {
     var msg = this._div.innerHTML;
-    if(feature){
+    if(f instanceof Array){
+      msg = get_summary_message(f);
+    }else if(f){
       msg = sprintf('Mostrando un asentamiento del proyecto %s con %s viviendas',
-      feature.properties['Proyecto'], feature.properties['Cantidad de Viviendas']);
+      f.properties['Proyecto'], f.properties['Cantidad de Viviendas']);
     }else{
         var features = _(SMV.geoJsonLayer.getLayers()).map(function(l){ return l.feature; });
-
-        var cantidadDepartamentos = _(features).chain()
-          .map(function(f){ return f.properties['Departamento'] })
-          .filter(function(e){ return !(e === "ASUNCION")})
-          .unique().value().length;
-
-        if(!!!cantidadDepartamentos){
-          cantidadDepartamentos += 1;
-        }
-
-        var cantidadProyectos = features.length;
-        var cantidadViviendas = _(features)
-          .reduce(function(cont, f){ return cont + parseInt(f.properties['Cantidad de Viviendas']) }, 0);
-
-        var departamentoLabel = cantidadDepartamentos > 1 ? 'departamentos' : 'departamento';
-        var equivalenteLabel = cantidadProyectos > 1 ? 'equivalentes' : 'equivalente';
-        var proyectoLabel = cantidadProyectos > 1 ? 'obras' : 'obra';
-        var viviendaLabel = cantidadViviendas > 1 ? 'viviendas' : 'vivienda';
-        msg = sprintf('Mostrando %s %s de %s %s, %s a %s %s.',
-        cantidadProyectos, proyectoLabel, cantidadDepartamentos, departamentoLabel, equivalenteLabel, cantidadViviendas, viviendaLabel);
+        msg = get_summary_message(features);
     }
 
     this._div.innerHTML = msg;
@@ -149,12 +142,34 @@ function draw_info_box(){
   return info;
 }
 
+function get_summary_message(features){
+  var cantidadDepartamentos = _(features).chain()
+    .map(function(f){ return f.properties['Departamento'] })
+    .filter(function(e){ return !(e === "ASUNCION")})
+    .unique().value().length;
+
+  if(cantidadDepartamentos === 0){
+    cantidadDepartamentos += 1;
+  }
+
+  var cantidadProyectos = features.length;
+  var cantidadViviendas = _(features)
+    .reduce(function(cont, f){ return cont + parseInt(f.properties['Cantidad de Viviendas']) }, 0);
+
+  var departamentoLabel = cantidadDepartamentos > 1 ? 'departamentos' : 'departamento';
+  var equivalenteLabel = cantidadProyectos > 1 ? 'equivalentes' : 'equivalente';
+  var proyectoLabel = cantidadProyectos > 1 ? 'obras' : 'obra';
+  var viviendaLabel = cantidadViviendas > 1 ? 'viviendas' : 'vivienda';
+  return sprintf('%s %s de %s %s, %s a %s %s.',
+  cantidadProyectos, proyectoLabel, cantidadDepartamentos, departamentoLabel, equivalenteLabel, cantidadViviendas, viviendaLabel);
+}
+
 function setup_filters(){
   $("#departamento").select2();
   setup_combo_values('Distrito', '#distrito');
-  setup_combo_values('Localidad', '#localidad');
+  /*setup_combo_values('Localidad', '#localidad');*/
   $("#distrito").select2();
-  $("#localidad").select2();
+  /*$("#localidad").select2();*/
   setup_checkbox_values('Programa', '#programa');
   setup_checkbox_values('Estado de Obra', '#estado');
 }
@@ -637,9 +652,10 @@ function add_filter_listeners(map){
     $("#programa label input").prop('checked', this.checked);
   });
 
-  $('#estado label input, #programa label input, #departamento, #distrito, #localidad').change(function(){
-    update_filters(map);
-  });
+  $('#este-gobierno label input, #estado label input, #programa label input, #departamento, #distrito, #localidad')
+    .change(function(){
+      update_filters(map);
+    });
 
 }
 
@@ -659,13 +675,14 @@ function update_filters() {
     // 2 in { 2: true } // true
     // 2 in { } // false
     //console.log(feature.properties);
+    var esteGobiernoFilter = !!!$("#este-gobierno input:checked").length || este_gobierno(feature.properties['Fecha de Inicio']);
     var programaFilter = !!!$("#programa input:checked").length || programas[feature.properties['Programa']];
     var estadoFilter = !!!$("#estado input:checked").length || estados[feature.properties['Estado de Obra']];
     var departamentoFilter = $.isEmptyObject(departamentos) || feature.properties['Departamento'].toLowerCase() in departamentos;
     var distritoFilter = $.isEmptyObject(distritos) || feature.properties['Distrito'].toLowerCase() in distritos;
     var localidadFilter = $.isEmptyObject(localidades) || (feature.properties['Localidad'] && feature.properties['Localidad'].toLowerCase() in localidades);
 
-    var showMarker = departamentoFilter && distritoFilter && localidadFilter && programaFilter && estadoFilter;
+    var showMarker = departamentoFilter && distritoFilter && localidadFilter && programaFilter && estadoFilter && esteGobiernoFilter;
 
     /*if(feature.properties['Estado Obra'] === 'En Proyecto'){
       console.log(estadoFilter);
@@ -682,6 +699,11 @@ function update_filters() {
   SMV.markerLayer.addLayer(SMV.geoJsonLayer);
   SMV.map.fitBounds(SMV.geoJsonLayer.getBounds());
   SMV.infoBox.update();
+}
+
+function este_gobierno(fecha){
+  var inicioGobierno = moment('15/08/13', 'DD/MM/YY');
+  return fecha && moment(fecha, 'DD/MM/YY') >= inicioGobierno;
 }
 
 function get_selected_checkbox(selector){

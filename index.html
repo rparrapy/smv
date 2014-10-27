@@ -15,6 +15,7 @@
     <script src="bower_components/spin.js/spin.js"></script>
     <script src="bower_components/underscore/underscore-min.js"></script>
     <script src="bower_components/PapaParse/papaparse.min.js"></script>
+    <script src="bower_components/momentjs/min/moment.min.js"></script>
     <script src="js/download.js"></script>
     <script src="js/viviendas.js"></script>
     <script src="js/config.js"></script>
@@ -95,12 +96,18 @@
                 
                 <option value="Alto Paraguay">Alto Paraguay</option>
             </select>
+
             <h4>Distrito</h4>
             <select multiple id="distrito" style="width:250px;">
             </select>
-            <h4>Localidad</h4>
+            <!-- <h4>Localidad</h4>
             <select multiple id="localidad" style="width:250px;">                
-            </select>
+            </select> -->
+
+            <h4>Este Gobierno</h4>
+            <div id="este-gobierno" class="btn-group-vertical" data-toggle="buttons">
+              <label class="btn btn-sm btn-primary"><input type="checkbox">Obras 2013-2018</label>
+            </div>
             
             <h4>Programa</h4>
             <div id="programa" class="btn-group-vertical" data-toggle="buttons">
@@ -109,6 +116,7 @@
             <h4>Estado de Obra</h4>
             <div id="estado" class="btn-group-vertical" data-toggle="buttons">
             </div>
+
         </div>
           </div>
           <div id="menuB" class="tab-pane fade">
