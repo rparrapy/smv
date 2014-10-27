@@ -58,40 +58,6 @@ var viviendas =  { "type" : "FeatureCollection",
             "type" : "Feature",
             "geometry" : {
                 "type" : "Point",
-                "coordinates" : [-57.8727476359, -21.0598898821]},
-                "properties" : {
-                    "Departamento":"ALTO PARAGUAY",
-          "Distrito":"Fuerte Olimpo",
-          "Localidad":"Fuerte Olimpo",
-          "Proyecto":"Santa Teresita - Fte. Olimpo",
-          "Programa":"Pueblos Originarios",
-          "Cantidad de Viviendas":"20",
-          "Empresa":"LUCIO GERMAN CABAÑAS BARRIOS.---",
-          "Estado de Obra":"Rescindido",
-          "LPN Nº":"011/11"
-                }
-        },
-                 {   
-            "type" : "Feature",
-            "geometry" : {
-                "type" : "Point",
-                "coordinates" : [-54.8356495978, -25.0893848287]},
-                "properties" : {
-                    "Departamento":"ALTO PARANA",
-          "Distrito":"Mbaracayu",
-          "Localidad":"Kirito",
-          "Proyecto":"Kirito",
-          "Programa":"Pueblos Originarios",
-          "Cantidad de Viviendas":"20",
-          "Empresa":"S.I.P. Servicios Integrales en Proyectos",
-          "Estado de Obra":"Rescindido",
-          "LPN Nº":"011/11"
-                }
-        },
-                 {   
-            "type" : "Feature",
-            "geometry" : {
-                "type" : "Point",
                 "coordinates" : [-54.6972078672, -25.4755658748]},
                 "properties" : {
                     "Departamento":"ALTO PARANA",
@@ -176,23 +142,6 @@ var viviendas =  { "type" : "FeatureCollection",
             "type" : "Feature",
             "geometry" : {
                 "type" : "Point",
-                "coordinates" : [-54.9553695189, -24.6004733329]},
-                "properties" : {
-                    "Departamento":"ALTO PARANA",
-          "Distrito":"Yguazu",
-          "Localidad":"Arroyo Guazú",
-          "Proyecto":"Arroyo Guazú",
-          "Programa":"Pueblos Originarios",
-          "Cantidad de Viviendas":"20",
-          "Empresa":"S.I.P. Servicios Integrales en Proyectos",
-          "Estado de Obra":"Rescindido",
-          "LPN Nº":"011/11"
-                }
-        },
-                 {   
-            "type" : "Feature",
-            "geometry" : {
-                "type" : "Point",
                 "coordinates" : [-54.6535620721, -25.3993917765]},
                 "properties" : {
                     "Departamento":"ALTO PARANA",
@@ -252,40 +201,6 @@ var viviendas =  { "type" : "FeatureCollection",
           "Estado de Obra":"En Ejecución",
           "Fecha de Inicio":"04/03/13",
           "Nivel":"4"
-                }
-        },
-                 {   
-            "type" : "Feature",
-            "geometry" : {
-                "type" : "Point",
-                "coordinates" : [-55.0729375088, -25.5585186643]},
-                "properties" : {
-                    "Departamento":"ALTO PARANA",
-          "Distrito":"Yguazu",
-          "Localidad":"Remanso Toro",
-          "Proyecto":"Remanso Toro",
-          "Programa":"Pueblos Originarios",
-          "Cantidad de Viviendas":"25",
-          "Empresa":"S.I.P. Servicios Integrales en Proyectos",
-          "Estado de Obra":"Rescindido",
-          "LPN Nº":"011/11"
-                }
-        },
-                 {   
-            "type" : "Feature",
-            "geometry" : {
-                "type" : "Point",
-                "coordinates" : [-54.6518944974, -25.5946266952]},
-                "properties" : {
-                    "Departamento":"ALTO PARANA",
-          "Distrito":"Yguazu",
-          "Localidad":"Puesto Cue",
-          "Proyecto":"Puesto cue - N. esperanza",
-          "Programa":"Pueblos Originarios",
-          "Cantidad de Viviendas":"12",
-          "Empresa":"S.I.P. Servicios Integrales en Proyectos",
-          "Estado de Obra":"Rescindido",
-          "LPN Nº":"011/11"
                 }
         },
                  {   
@@ -1368,24 +1283,6 @@ var viviendas =  { "type" : "FeatureCollection",
             "type" : "Feature",
             "geometry" : {
                 "type" : "Point",
-                "coordinates" : [-57.4908501047, -25.280210102]},
-                "properties" : {
-                    "Departamento":"CENTRAL",
-          "Distrito":"Luque",
-          "Localidad":"Luque",
-          "Proyecto":"Edificio de Departamentos Luque",
-          "Programa":"Viviendas Económicas",
-          "Cantidad de Viviendas":"14",
-          "Empresa":"TRAZO S.R.L.",
-          "Estado de Obra":"Rescindido",
-          "LPN Nº":"002/10",
-          "Fecha de Inicio":"12/11/10"
-                }
-        },
-                 {   
-            "type" : "Feature",
-            "geometry" : {
-                "type" : "Point",
                 "coordinates" : [-57.4096719153, -25.3447463876]},
                 "properties" : {
                     "Departamento":"CENTRAL",
@@ -1397,23 +1294,6 @@ var viviendas =  { "type" : "FeatureCollection",
           "Empresa":"HUGO A. SANABRIA L.---",
           "Estado de Obra":"Culminado",
           "LPN Nº":"005/09"
-                }
-        },
-                 {   
-            "type" : "Feature",
-            "geometry" : {
-                "type" : "Point",
-                "coordinates" : [-57.564252334, -25.4029868283]},
-                "properties" : {
-                    "Departamento":"CENTRAL",
-          "Distrito":"San Antonio",
-          "Localidad":"San Antonio",
-          "Proyecto":"Villa Adelaida - San Antonio",
-          "Programa":"Vya Renda",
-          "Cantidad de Viviendas":"12",
-          "Empresa":"MARRAING",
-          "Estado de Obra":"Rescindido",
-          "LPN Nº":"007/11"
                 }
         },
                  {   
@@ -2279,24 +2159,6 @@ var viviendas =  { "type" : "FeatureCollection",
             "type" : "Feature",
             "geometry" : {
                 "type" : "Point",
-                "coordinates" : [-56.2721581802, -25.6079808133]},
-                "properties" : {
-                    "Departamento":"GUAIRA",
-          "Distrito":"M. J. Troche",
-          "Localidad":"M.J.Troche",
-          "Proyecto":"Troche",
-          "Programa":"Viviendas Económicas",
-          "Cantidad de Viviendas":"50",
-          "Empresa":"LM CONSTRUCCIONES",
-          "Estado de Obra":"Rescindido",
-          "LPN Nº":"003/11",
-          "Fecha de Inicio":"11/10/11"
-                }
-        },
-                 {   
-            "type" : "Feature",
-            "geometry" : {
-                "type" : "Point",
                 "coordinates" : [-56.4861729204, -26.0666210666]},
                 "properties" : {
                     "Departamento":"GUAIRA",
@@ -2410,22 +2272,6 @@ var viviendas =  { "type" : "FeatureCollection",
           "Estado de Obra":"Culminado",
           "Fecha de Inicio":"06/01/14",
           "Nivel":"4"
-                }
-        },
-                 {   
-            "type" : "Feature",
-            "geometry" : {
-                "type" : "Point",
-                "coordinates" : [-54.7284712297, -26.3466583942]},
-                "properties" : {
-                    "Departamento":"ITAPUA",
-          "Distrito":"Mayor Julio Otaño",
-          "Proyecto":"Mayor Otaño",
-          "Programa":"Vya Renda",
-          "Cantidad de Viviendas":"50",
-          "Empresa":"CONSTRUCTORA K-NITO",
-          "Estado de Obra":"Rescindido",
-          "LPN Nº":"013/11"
                 }
         },
                  {   
@@ -2643,22 +2489,6 @@ var viviendas =  { "type" : "FeatureCollection",
           "Cantidad de Viviendas":"70",
           "Empresa":"ALFA Y OMEGA S.A. CONSTRUCTORA",
           "Estado de Obra":"En Ejecución"
-                }
-        },
-                 {   
-            "type" : "Feature",
-            "geometry" : {
-                "type" : "Point",
-                "coordinates" : [-57.2930166618, -25.5513257339]},
-                "properties" : {
-                    "Departamento":"PARAGUARI",
-          "Distrito":"Yaguaron",
-          "Proyecto":"Mbaritú - Yaguarón",
-          "Programa":"Viviendas Económicas",
-          "Cantidad de Viviendas":"75",
-          "Empresa":"HORMIMETAL CONSULTORA",
-          "Estado de Obra":"Rescindido",
-          "LPN Nº":"004/11"
                 }
         },
                  {   
@@ -2995,146 +2825,6 @@ var viviendas =  { "type" : "FeatureCollection",
           "Estado de Obra":"Paralizado",
           "LPN Nº":"003/11",
           "Fecha de Inicio":"18/07/11"
-                }
-        },
-                 {   
-            "type" : "Feature",
-            "geometry" : {
-                "type" : "Point",
-                "coordinates" : [-59.8701288827, -23.5380805516]},
-                "properties" : {
-                    "Departamento":"PTE. HAYES",
-          "Distrito":"Sin Nombre",
-          "Proyecto":"Novoctas",
-          "Programa":"Pueblos Originarios",
-          "Cantidad de Viviendas":"20",
-          "Empresa":"Lepo",
-          "Estado de Obra":"Rescindido",
-          "LPN Nº":"011/11",
-          "Fecha de Inicio":"23/01/12"
-                }
-        },
-                 {   
-            "type" : "Feature",
-            "geometry" : {
-                "type" : "Point",
-                "coordinates" : [-57.5614967485, -24.9608505612]},
-                "properties" : {
-                    "Departamento":"PTE. HAYES",
-          "Distrito":"Benjamin Aceval",
-          "Localidad":"Benjamin Aceval",
-          "Proyecto":"Ngalec Qom",
-          "Programa":"Pueblos Originarios",
-          "Cantidad de Viviendas":"20",
-          "Empresa":"Lepo",
-          "Estado de Obra":"Rescindido",
-          "LPN Nº":"011/11",
-          "Fecha de Inicio":"23/01/12"
-                }
-        },
-                 {   
-            "type" : "Feature",
-            "geometry" : {
-                "type" : "Point",
-                "coordinates" : [-58.4299060485, -22.8360464315]},
-                "properties" : {
-                    "Departamento":"PTE. HAYES",
-          "Distrito":"Puerto Pinasco",
-          "Localidad":"6 de Marzo",
-          "Proyecto":"6 de marzo - La Patria",
-          "Programa":"Pueblos Originarios",
-          "Cantidad de Viviendas":"18",
-          "Empresa":"Lepo",
-          "Estado de Obra":"Rescindido",
-          "LPN Nº":"011/11",
-          "Fecha de Inicio":"23/01/12"
-                }
-        },
-                 {   
-            "type" : "Feature",
-            "geometry" : {
-                "type" : "Point",
-                "coordinates" : [-59.9333425769, -22.8166679901]},
-                "properties" : {
-                    "Departamento":"PTE. HAYES",
-          "Distrito":"Sin Nombre",
-          "Proyecto":"Campo Largo",
-          "Programa":"Pueblos Originarios",
-          "Cantidad de Viviendas":"20",
-          "Empresa":"Lepo",
-          "Estado de Obra":"Rescindido",
-          "LPN Nº":"011/11",
-          "Fecha de Inicio":"23/01/12"
-                }
-        },
-                 {   
-            "type" : "Feature",
-            "geometry" : {
-                "type" : "Point",
-                "coordinates" : [-58.718548933, -23.980775173]},
-                "properties" : {
-                    "Departamento":"PTE. HAYES",
-          "Distrito":"Villa Hayes",
-          "Proyecto":"La Esperanza",
-          "Programa":"Pueblos Originarios",
-          "Cantidad de Viviendas":"66",
-          "Empresa":"Lepo",
-          "Estado de Obra":"Rescindido",
-          "LPN Nº":"011/11",
-          "Fecha de Inicio":"23/01/12"
-                }
-        },
-                 {   
-            "type" : "Feature",
-            "geometry" : {
-                "type" : "Point",
-                "coordinates" : [-57.637125041, -25.1932928712]},
-                "properties" : {
-                    "Departamento":"PTE. HAYES",
-          "Distrito":"Villa Hayes",
-          "Localidad":"Villa Hayes",
-          "Proyecto":"Quemkuket",
-          "Programa":"Pueblos Originarios",
-          "Cantidad de Viviendas":"30",
-          "Empresa":"Lepo",
-          "Estado de Obra":"Rescindido",
-          "LPN Nº":"011/11",
-          "Fecha de Inicio":"23/01/12"
-                }
-        },
-                 {   
-            "type" : "Feature",
-            "geometry" : {
-                "type" : "Point",
-                "coordinates" : [-59.5214124462, -23.0001280295]},
-                "properties" : {
-                    "Departamento":"PTE. HAYES",
-          "Distrito":"Villa Hayes",
-          "Proyecto":"Terrenal",
-          "Programa":"Pueblos Originarios",
-          "Cantidad de Viviendas":"28",
-          "Empresa":"Lepo",
-          "Estado de Obra":"Rescindido",
-          "LPN Nº":"011/11",
-          "Fecha de Inicio":"23/01/12"
-                }
-        },
-                 {   
-            "type" : "Feature",
-            "geometry" : {
-                "type" : "Point",
-                "coordinates" : [-60.7666655555, -23.7749993538]},
-                "properties" : {
-                    "Departamento":"PTE. HAYES",
-          "Distrito":"Tte. Esteban Martinez",
-          "Localidad":"San Leonardo",
-          "Proyecto":"Fishat - San Leonardo",
-          "Programa":"Pueblos Originarios",
-          "Cantidad de Viviendas":"30",
-          "Empresa":"Lepo",
-          "Estado de Obra":"Rescindido",
-          "LPN Nº":"011/11",
-          "Fecha de Inicio":"23/01/12"
                 }
         },
                  {   

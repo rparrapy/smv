@@ -69,13 +69,13 @@ function draw_map() {
     var marker = e.layer,
     feature = marker.feature;
 
-    var icon_color = SMV.COLOR_MAP[feature.properties.departamento];
-    var icon = L.mapbox.marker.icon();
-
-    if(icon_color){
-      icon = L.mapbox.marker.icon({'marker-color': icon_color});
+    var img = SMV.ESTADO_TO_ICON[feature.properties['Estado de Obra']];
+    if(img){
+      marker.setIcon(L.icon({
+        iconUrl: img,
+        iconSize: [32, 32]
+      }));
     }
-    marker.setIcon(icon);
   });
 
   geoJson.setGeoJSON(viviendas);
@@ -187,7 +187,8 @@ function setup_checkbox_values(name, selector){
   var values = get_unique_values(name);
 
   _.each(values, function(d){
-    var label = sprintf('<label class="btn btn-sm btn-primary"><input type="checkbox">%s</label>', d);
+    var icon = SMV.ESTADO_TO_ICON_CSS[d] || '';
+    var label = sprintf('<label class="btn btn-sm btn-primary %s"><input type="checkbox">%s</label>', icon, d);
     $(selector).append(label);
   });
 }

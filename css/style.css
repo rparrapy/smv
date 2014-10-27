@@ -301,3 +301,24 @@ h4{
 .nivel-fonavis{
     display: none;
 }
+
+.icon-paralizado {
+    background-image: url("../img/paralizado.png");
+    background-position: 2% 50%;
+    background-repeat: no-repeat;
+    background-size: 24px 24px;
+}
+
+.icon-ejecucion {
+    background-image: url("../img/ejecucion.png");
+    background-position: 2% 50%;
+    background-repeat: no-repeat;
+    background-size: 24px 24px;
+}
+
+.icon-culminado {
+    background-image: url("../img/culminado.png");
+    background-position: 2% 50%;
+    background-repeat: no-repeat;
+    background-size: 24px 24px;
+}

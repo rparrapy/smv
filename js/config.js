@@ -15,8 +15,16 @@ SMV.ATTR_TO_LABEL = {
         };
 
 
-SMV.COLOR_MAP = {
-  "Guaira": '#ff8888'
+SMV.ESTADO_TO_ICON = {
+  'Paralizado': 'img/paralizado.png',
+  'En Ejecución': 'img/ejecucion.png',
+  'Culminado': 'img/culminado.png'
+};
+
+SMV.ESTADO_TO_ICON_CSS = {
+  'Paralizado': 'icon-paralizado',
+  'En Ejecución': 'icon-ejecucion',
+  'Culminado': 'icon-culminado'
 };
 
 SMV.TABLE_COLUMNS = ["Departamento", "Distrito", "Proyecto", "Programa", "Estado de Obra", "LPN Nº", "Empresa", "Localidad",
