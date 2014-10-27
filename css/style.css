@@ -249,12 +249,7 @@ td.details-control {
     cursor: pointer;
 }
 
-#este-gobierno{
-    margin: 0 0 15px 0;
-    width: 100%;
-}
-
-#programa{
+#programa, #este-gobierno, #nivel{
     margin: 0 0 15px 0;
     width: 100%;
 }
@@ -301,4 +296,8 @@ h4{
 
 #section-about{
     margin: 40 5% 0 5%;
+}
+
+.nivel-fonavis{
+    display: none;
 }

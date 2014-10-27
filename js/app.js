@@ -54,10 +54,10 @@ function draw_map() {
     .on('baselayerchange', startLoading);
   
   var baseMaps = {
-    "Calles 2": osm,
+    "Calles OpenStreetMap": osm,
     "Terreno": mapbox,
     "Satélite": gglHybrid,
-    "Calles 1": gglRoadmap
+    "Calles Google Maps": gglRoadmap
   };
 
   map.addLayer(gglRoadmap);
@@ -326,10 +326,10 @@ function draw_table_map(table, tr){
 
   var layers = SMV.LAYERS();
   var baseMaps = {
-    "Calles 2": layers.OPEN_STREET_MAPS,
+    "Calles OpenStreetMap": layers.OPEN_STREET_MAPS,
     "Terreno": layers.MAPBOX,
     "Satélite": layers.GOOGLE_HYBRID,
-    "Calles 1": layers.GOOGLE_ROADMAP
+    "Calles Google Maps": layers.GOOGLE_ROADMAP
   };
 
   rowMap.addLayer(layers.GOOGLE_HYBRID);
@@ -652,7 +652,7 @@ function add_filter_listeners(map){
     $("#programa label input").prop('checked', this.checked);
   });
 
-  $('#este-gobierno label input, #estado label input, #programa label input, #departamento, #distrito, #localidad')
+  $('#este-gobierno label input, #estado label input, #programa label input, #nivel label input, #departamento, #distrito, #localidad')
     .change(function(){
       update_filters(map);
     });
@@ -668,37 +668,57 @@ function update_filters() {
   var distritos = get_selected_combo('#distrito');
   var localidades = get_selected_combo('#localidad');
 
+  show_nivel_fonavis(programas);
+  var niveles = get_selected_checkbox('#nivel label');
+
   SMV.geoJsonLayer.setFilter(function(feature) {
     // If this symbol is in the list, return true. if not, return false.
     // The 'in' operator in javascript does exactly that: given a string
     // or number, it says if that is in a object.
     // 2 in { 2: true } // true
     // 2 in { } // false
-    //console.log(feature.properties);
     var esteGobiernoFilter = !!!$("#este-gobierno input:checked").length || este_gobierno(feature.properties['Fecha de Inicio']);
     var programaFilter = !!!$("#programa input:checked").length || programas[feature.properties['Programa']];
     var estadoFilter = !!!$("#estado input:checked").length || estados[feature.properties['Estado de Obra']];
     var departamentoFilter = $.isEmptyObject(departamentos) || feature.properties['Departamento'].toLowerCase() in departamentos;
     var distritoFilter = $.isEmptyObject(distritos) || feature.properties['Distrito'].toLowerCase() in distritos;
     var localidadFilter = $.isEmptyObject(localidades) || (feature.properties['Localidad'] && feature.properties['Localidad'].toLowerCase() in localidades);
+    var nivelFilter = !!!$("#nivel input:checked").length || (feature.properties['Nivel'] && niveles[feature.properties['Nivel']]);
 
-    var showMarker = departamentoFilter && distritoFilter && localidadFilter && programaFilter && estadoFilter && esteGobiernoFilter;
+    var showMarker = departamentoFilter && distritoFilter && localidadFilter && programaFilter
+      && estadoFilter && esteGobiernoFilter && nivelFilter;
 
-    /*if(feature.properties['Estado Obra'] === 'En Proyecto'){
-      console.log(estadoFilter);
-      console.log(programaFilter);
-      console.log(departamentoFilter);
-      console.log(distritoFilter);
-      console.log(localidadFilter);
-      console.log(showMarker);
-    }*/
-    return (showMarker);
+    return showMarker;
   });
 
   SMV.markerLayer.clearLayers();
   SMV.markerLayer.addLayer(SMV.geoJsonLayer);
-  SMV.map.fitBounds(SMV.geoJsonLayer.getBounds());
+  if(SMV.geoJsonLayer.getLayers().length > 0){
+    SMV.map.fitBounds(SMV.geoJsonLayer.getBounds());
+  }else{
+    SMV.map.setView([-23.388, -60.189], 7);
+  }
   SMV.infoBox.update();
+}
+
+function show_nivel_fonavis(programas){
+  var p = [];
+  _(programas).each(function(value, key){
+    if(value){
+      p.push(key);
+    }
+  });
+
+  if(p.length === 1 && p[0] === 'FONAVIS'){
+    $('.nivel-fonavis').css('display', 'block');
+  }else{
+    var labels = $('#nivel label');
+    $('.nivel-fonavis').css('display', 'none');
+    labels.removeClass('active');
+    _.each(labels, function(l){
+      l.children[0].checked = false;
+    });
+  }
 }
 
 function este_gobierno(fecha){
