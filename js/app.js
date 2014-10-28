@@ -678,7 +678,7 @@ function update_filters() {
     // or number, it says if that is in a object.
     // 2 in { 2: true } // true
     // 2 in { } // false
-    var esteGobiernoFilter = !!!$("#este-gobierno input:checked").length || este_gobierno(feature.properties['Fecha de Inicio']);
+    var esteGobiernoFilter = !!!$("#este-gobierno input:checked").length || este_gobierno(feature.properties['Fecha de inicio de obra']);
     var programaFilter = !!!$("#programa input:checked").length || programas[feature.properties['Programa']];
     var estadoFilter = !!!$("#estado input:checked").length || estados[feature.properties['Estado de Obra']];
     var departamentoFilter = $.isEmptyObject(departamentos) || feature.properties['Departamento'].toLowerCase() in departamentos;

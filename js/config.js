@@ -10,7 +10,7 @@ SMV.ATTR_TO_LABEL = {
             Programa: 'Programa',
             'LPN Nº': 'LPN Nº',
             'Estado de Obra': 'Estado de Obra',
-            'Fecha de Inicio': 'Fecha de Inicio',
+            'Fecha de inicio de obra': 'Fecha de inicio de obra',
             'Fecha de recepcion definitiva': 'Fecha de recepcion definitiva'
         };
 
