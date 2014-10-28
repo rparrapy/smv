@@ -42,7 +42,7 @@ $(document).ready(function(){
 function check_url(){
   // Javascript to enable link to tab
   var url = document.location.toString();
-  var hash = url.split('#')[1] || 'section-mapa';
+  var hash = url.split('#')[1] || 'mapa';
   if (url.match('#')) {
       $('.navbar-nav a[href=#'+hash+']').tab('show') ;
   } 
@@ -51,7 +51,7 @@ function check_url(){
   $('.navbar-nav a').on('click', function (e) {
       window.location.hash = e.target.hash;
   })
-  return !_(['section-tabla', 'section-about']).contains(hash);
+  return !_(['listado', 'acerca-de']).contains(hash);
 }
 
 function draw_or_defer_map(mapTabActive){
@@ -60,7 +60,7 @@ function draw_or_defer_map(mapTabActive){
   }else{
     finishedLoading();
     $('.navbar-nav a').on('click', function (e) {
-      if(e.target.hash === '#section-mapa' && !!! SMV.map){
+      if(e.target.hash === '#mapa' && !!! SMV.map){
         SMV.map = draw_map();
       }
     });
@@ -419,13 +419,13 @@ function go_to_feature(target){
   SMV.markerLayer.eachLayer(function(marker) {
         var t = L.latLng(target[1], target[0]);
         if(t.equals(marker.getLatLng())){
-          $('#section-mapa').on('transitionend', function(){
+          $('#mapa').on('transitionend', function(){
             SMV.map.setView(t, 18);
             marker.fireEvent('click', {layer: marker});
             $(this).off('transitionend');
           });
 
-          $(".navbar-nav>li>a[href=#section-mapa]").click();
+          $(".navbar-nav>li>a[href=#mapa]").click();
           
         }
     });
@@ -481,12 +481,12 @@ function draw_sidetag(map, hide){
   });
 
   $('.navbar-nav>li>a').bind('click', function (e) {
-    if($(this).attr('href') === '#section-mapa'){
+    if($(this).attr('href') === '#mapa'){
       $('#opener').show();
       $('body').css('overflow', 'hidden');
       $('#opener').click();
     }
-    if($(this).attr('href') === '#section-tabla' || $(this).attr('href') === '#section-about'){
+    if($(this).attr('href') === '#listado' || $(this).attr('href') === '#acerca-de'){
       $('body').css('overflow', 'auto');
       if ($('#slide-panel').hasClass("visible")) {
         $('#opener').click();
