@@ -13,7 +13,7 @@ var viviendas =     { "type" : "FeatureCollection",
 					"Programa":"Pueblos Originarios",
 					"Cantidad de Viviendas":16,
 					"Empresa":"J.R. Constructora",
-					"Estado de Obra":"Paralizado",
+					"Estado de Obra":"En Ejecución",
 					"LPN Nº":"003/11",
 					"Fecha de inicio de obra":"8/7/14"
                 }
@@ -31,7 +31,7 @@ var viviendas =     { "type" : "FeatureCollection",
 					"Programa":"Pueblos Originarios",
 					"Cantidad de Viviendas":20,
 					"Empresa":"J.R. Constructora",
-					"Estado de Obra":"Paralizado",
+					"Estado de Obra":"Culminado",
 					"LPN Nº":"003/11",
 					"Fecha de inicio de obra":"8/7/14"
                 }
@@ -49,7 +49,7 @@ var viviendas =     { "type" : "FeatureCollection",
 					"Programa":"Pueblos Originarios",
 					"Cantidad de Viviendas":10,
 					"Empresa":"J.R. Constructora",
-					"Estado de Obra":"Paralizado",
+					"Estado de Obra":"En Ejecución",
 					"LPN Nº":"003/11",
 					"Fecha de inicio de obra":"8/7/14"
                 }
@@ -149,7 +149,7 @@ var viviendas =     { "type" : "FeatureCollection",
 					"Programa":"Viviendas Económicas",
 					"Cantidad de Viviendas":100,
 					"Empresa":"CONSTRUCTORA \"EL PROGRESO\".---",
-					"Estado de Obra":"En Ejecución",
+					"Estado de Obra":"Culminado",
 					"LPN Nº":"003/11",
 					"Fecha de inicio de obra":"13/9/14"
                 }
@@ -618,7 +618,7 @@ var viviendas =     { "type" : "FeatureCollection",
 					"Programa":"Viviendas Económicas",
 					"Cantidad de Viviendas":60,
 					"Empresa":"M & M CONSTRUCCIONES",
-					"Estado de Obra":"En Ejecución",
+					"Estado de Obra":"Culminado",
 					"LPN Nº":"019/11",
 					"Fecha de inicio de obra":"3/8/14"
                 }
@@ -654,7 +654,7 @@ var viviendas =     { "type" : "FeatureCollection",
 					"Programa":"Pueblos Originarios",
 					"Cantidad de Viviendas":11,
 					"Empresa":"Consorcio Pro Hogar",
-					"Estado de Obra":"Paralizado",
+					"Estado de Obra":"En Ejecución",
 					"LPN Nº":"003/11",
 					"Fecha de inicio de obra":"18/7/14"
                 }
@@ -793,7 +793,7 @@ var viviendas =     { "type" : "FeatureCollection",
 					"Programa":"Pueblos Originarios",
 					"Cantidad de Viviendas":12,
 					"Empresa":"ELEMEC",
-					"Estado de Obra":"En Ejecución",
+					"Estado de Obra":"Culminado",
 					"LPN Nº":"011/11",
 					"Fecha de inicio de obra":"9/2/14"
                 }
@@ -1029,7 +1029,7 @@ var viviendas =     { "type" : "FeatureCollection",
 					"Programa":"Pueblos Originarios",
 					"Cantidad de Viviendas":32,
 					"Empresa":"J.N. COMERCIAL E INDUSTRIA",
-					"Estado de Obra":"Paralizado",
+					"Estado de Obra":"En Ejecución",
 					"LPN Nº":"005/12",
 					"Fecha de inicio de obra":"17/9/14"
                 }
@@ -1587,7 +1587,7 @@ var viviendas =     { "type" : "FeatureCollection",
 					"Programa":"Viviendas Económicas",
 					"Cantidad de Viviendas":60,
 					"Empresa":"CONSORCIO PC",
-					"Estado de Obra":"Paralizado",
+					"Estado de Obra":"En Ejecución",
 					"LPN Nº":"019/11",
 					"Fecha de inicio de obra":"26/7/14"
                 }
@@ -1762,7 +1762,7 @@ var viviendas =     { "type" : "FeatureCollection",
 					"Programa":"Vya Renda",
 					"Cantidad de Viviendas":80,
 					"Empresa":"ARQ. RAMON A. GAONA",
-					"Estado de Obra":"Paralizado",
+					"Estado de Obra":"En Ejecución",
 					"LPN Nº":"024/12",
 					"Fecha de inicio de obra":"24/12/13"
                 }
@@ -2237,7 +2237,7 @@ var viviendas =     { "type" : "FeatureCollection",
 					"Programa":"Vya Renda",
 					"Cantidad de Viviendas":20,
 					"Empresa":"CONSTRUCTORA DIVINO NIÑO JESUS",
-					"Estado de Obra":"Paralizado",
+					"Estado de Obra":"En Ejecución",
 					"LPN Nº":"004/12",
 					"Fecha de inicio de obra":"25/1/14"
                 }
@@ -2542,7 +2542,7 @@ var viviendas =     { "type" : "FeatureCollection",
 					"Programa":"Viviendas Económicas",
 					"Cantidad de Viviendas":32,
 					"Empresa":"TECNOSUR INGENIERIA SRL",
-					"Estado de Obra":"Paralizado",
+					"Estado de Obra":"En Ejecución",
 					"LPN Nº":"003/11",
 					"Fecha de inicio de obra":"21/10/14"
                 }
@@ -2777,7 +2777,7 @@ var viviendas =     { "type" : "FeatureCollection",
 					"Programa":"Pueblos Originarios",
 					"Cantidad de Viviendas":30,
 					"Empresa":"CONSTRUCTORA DIVINO NIÑO JESUS",
-					"Estado de Obra":"Paralizado",
+					"Estado de Obra":"En Ejecución",
 					"LPN Nº":"005/12",
 					"Fecha de inicio de obra":"17/9/14"
                 }

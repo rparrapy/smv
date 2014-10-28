@@ -172,6 +172,21 @@ function setup_filters(){
   /*$("#localidad").select2();*/
   setup_checkbox_values('Programa', '#programa');
   setup_checkbox_values('Estado de Obra', '#estado');
+  
+  /*Convertimos el grupo de checboxes en algo similar a un grupo de radio buttons*/    
+  $('#estado label.btn').click(function(){
+      var self = $(this);
+      $(this).children('input:checkbox').each(function(){
+          if(!this.checked){
+              self.siblings('label.btn').each(function(){
+                  $(this).children('input:checkbox').each(function(){
+                      $(this).attr('checked', false);
+                      $(this).parent().removeClass('active');
+                  });
+              });
+          }
+      });
+  });
 }
 
 function setup_combo_values(name, selector){
