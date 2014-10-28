@@ -798,12 +798,19 @@ function get_selected_combo(selector){
 function setup_intro(){
   var stepsMapa = [
     { 
-      intro: "Bienvenido a esta visualización interactiva. Este tutorial te guiará paso a paso a través de las diferentes funcionalidades disponibles. \
-      Haz click en siguiente para comenzar."
+      intro: "Bienvenido a esta visualización interactiva.</br></br>Este tutorial te guiará paso a paso a través de las diferentes funcionalidades disponibles. \
+      </br></br>Haz click en siguiente para comenzar."
     },
     {
       element: '#tab-mapa',
       intro: "En esta sección, puedes ver las viviendas de acuerdo a su ubicación geográfica.",
+      position: "right"
+    },
+    {
+      intro: "<div id='demo-marker' class='leaflet-marker-icon marker-cluster marker-cluster-small leaflet-zoom-animated leaflet-clickable' tabindex='0'><div><span>8</span></div></div> \
+      </br></br>Un conglomerado agrupa varias obras de acuerdo al nivel de zoom del mapa. \
+      </br></br>El número en el centro indica la cantidad de proyectos agrupados en el conglomerado. \
+      </br></br>Para ver más de cerca las obras, haz click en el ícono del conglomerado.",
       position: "right"
     },
     {
@@ -818,7 +825,7 @@ function setup_intro(){
     },
     {
       element: '.leaflet-control-layers',
-      intro: "Cambia el mapa base con este componente. ¿Te gustaría ver una imagen satelital? Es posible!",
+      intro: "Cambia el mapa base con este componente.</br></br>¿Te gustaría ver una imagen satelital? Es posible!",
       position: "left"
     },
     {
@@ -835,8 +842,8 @@ function setup_intro(){
 
   var stepsListado = [
     { 
-      intro: "Bienvenido a esta visualización interactiva. Este tutorial te guiará paso a paso a través de las diferentes funcionalidades disponibles. \
-      Haz click en siguiente para comenzar."
+      intro: "Bienvenido a esta visualización interactiva.</br></br>Este tutorial te guiará paso a paso a través de las diferentes funcionalidades disponibles. \
+      </br></br>Haz click en siguiente para comenzar."
     },
     {
       element: '#tab-listado',
