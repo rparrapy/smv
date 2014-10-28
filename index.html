@@ -1,3 +1,31 @@
+<!--*
+ * @author  Rodrigo Parra 
+ * @copyright 2014 Governance and Democracy Program USAID-CEAMSO
+ * @license   http://www.gnu.org/licenses/gpl-2.0.html
+ * 
+ * USAID-CEAMSO
+ * Copyright (C) 2014 Governance and Democracy Program
+ * http://ceamso.org.py/es/proyectos/20-programa-de-democracia-y-gobernabilidad
+ * 
+----------------------------------------------------------------------------
+ * This file is part of the Governance and Democracy Program USAID-CEAMSO,
+ * is distributed as free software in the hope that it will be useful, but WITHOUT 
+ * ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS 
+ * FOR A PARTICULAR PURPOSE. You can redistribute it and/or modify it under the 
+ * terms of the GNU Lesser General Public License version 2 as published by the 
+ * Free Software Foundation, accessible from <http://www.gnu.org/licenses/> or write 
+ * to Free Software Foundation (FSF) Inc., 51 Franklin St, Fifth Floor, Boston, 
+ * MA 02111-1301, USA.
+ ---------------------------------------------------------------------------
+ * Este archivo es parte del Programa de Democracia y Gobernabilidad USAID-CEAMSO,
+ * es distribuido como software libre con la esperanza que sea de utilidad,
+ * pero sin NINGUNA GARANTÍA; sin garantía alguna implícita de ADECUACION a cualquier
+ * MERCADO o APLICACION EN PARTICULAR. Usted puede redistribuirlo y/o modificarlo 
+ * bajo los términos de la GNU Lesser General Public Licence versión 2 de la Free 
+ * Software Foundation, accesible en <http://www.gnu.org/licenses/> o escriba a la 
+ * Free Software Foundation (FSF) Inc., 51 Franklin St, Fifth Floor, Boston, 
+ * MA 02111-1301, USA.
+ * -->
 <meta charset="UTF-8">
 <html data-ember-extension="1">
   <head>
@@ -16,6 +44,7 @@
     <script src="bower_components/underscore/underscore-min.js"></script>
     <script src="bower_components/PapaParse/papaparse.min.js"></script>
     <script src="bower_components/momentjs/min/moment.min.js"></script>
+    <script src="bower_components/intro.js/minified/intro.min.js"></script>
     <script src="js/download.js"></script>
     <script src="js/viviendas.js"></script>
     <script src="js/config.js"></script>
@@ -28,6 +57,7 @@
     <link rel="stylesheet" href="bower_components/mapbox.js/mapbox.css">
     <link rel="stylesheet" href="bower_components/Leaflet.markercluster/dist/MarkerCluster.css">
     <link rel="stylesheet" href="bower_components/Leaflet.markercluster/dist/MarkerCluster.Default.css">
+    <link rel="stylesheet" href="bower_components/intro.js/minified/introjs.min.css">
     <link rel="stylesheet" href="css/style.css">
   </head>
 
@@ -46,10 +76,11 @@
                     <img id = "opendata" class="navbar-logo" src="img/od-logo.png" alt="Open Data">
                     <div class="navbar-header menu-wrapper">
                       <ul class="nav navbar-nav">
-                          <li class="active"><a data-toggle="tab" href="#section-mapa">Mapa</a></li>
-                          <li><a data-toggle="tab" href="#section-tabla">Listado</a></li>
-                          <li><a data-toggle="tab" href="#section-about">Acerca de</a></li>
-                          <li class="dropdown">
+                          <li id="tab-mapa" class="active"><a data-toggle="tab" href="#section-mapa">Mapa</a></li>
+                          <li id="tab-listado"><a data-toggle="tab" href="#section-tabla">Listado</a></li>
+                          <li id="tab-about"><a data-toggle="tab" href="#section-about">Acerca de</a></li>
+                          <li id="tab-ayuda"><a id="start-tour">Ayuda</a></li>
+                          <li id="tab-descargas" class="dropdown">
                               <a data-toggle="dropdown" class="dropdown-toggle" href="#">Descargas <b class="caret"></b></a>
                               <ul class="dropdown-menu">
                                   <li><a href="public/viviendas.xls" target="_blank">Excel</a></li>

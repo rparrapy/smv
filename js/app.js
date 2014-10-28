@@ -1,3 +1,32 @@
+/*
+ * @author  Rodrigo Parra 
+ * @copyright 2014 Governance and Democracy Program USAID-CEAMSO
+ * @license   http://www.gnu.org/licenses/gpl-2.0.html
+ * 
+ * USAID-CEAMSO
+ * Copyright (C) 2014 Governance and Democracy Program
+ * http://ceamso.org.py/es/proyectos/20-programa-de-democracia-y-gobernabilidad
+ * 
+----------------------------------------------------------------------------
+ * This file is part of the Governance and Democracy Program USAID-CEAMSO,
+ * is distributed as free software in the hope that it will be useful, but WITHOUT 
+ * ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS 
+ * FOR A PARTICULAR PURPOSE. You can redistribute it and/or modify it under the 
+ * terms of the GNU Lesser General Public License version 2 as published by the 
+ * Free Software Foundation, accessible from <http://www.gnu.org/licenses/> or write 
+ * to Free Software Foundation (FSF) Inc., 51 Franklin St, Fifth Floor, Boston, 
+ * MA 02111-1301, USA.
+ ---------------------------------------------------------------------------
+ * Este archivo es parte del Programa de Democracia y Gobernabilidad USAID-CEAMSO,
+ * es distribuido como software libre con la esperanza que sea de utilidad,
+ * pero sin NINGUNA GARANTÍA; sin garantía alguna implícita de ADECUACION a cualquier
+ * MERCADO o APLICACION EN PARTICULAR. Usted puede redistribuirlo y/o modificarlo 
+ * bajo los términos de la GNU Lesser General Public Licence versión 2 de la Free 
+ * Software Foundation, accesible en <http://www.gnu.org/licenses/> o escriba a la 
+ * Free Software Foundation (FSF) Inc., 51 Franklin St, Fifth Floor, Boston, 
+ * MA 02111-1301, USA.
+ */
+
 $(document).ready(function(){
   var mapTabActive = check_url();
   draw_table();
@@ -7,12 +36,13 @@ $(document).ready(function(){
   add_filter_listeners(map);
   setup_modal_navigation();
   setup_download_buttons();
+  setup_intro();
 });
 
 function check_url(){
   // Javascript to enable link to tab
   var url = document.location.toString();
-  var hash = url.split('#')[1];
+  var hash = url.split('#')[1] || 'section-mapa';
   if (url.match('#')) {
       $('.navbar-nav a[href=#'+hash+']').tab('show') ;
   } 
@@ -454,6 +484,7 @@ function draw_sidetag(map, hide){
     if($(this).attr('href') === '#section-mapa'){
       $('#opener').show();
       $('body').css('overflow', 'hidden');
+      $('#opener').click();
     }
     if($(this).attr('href') === '#section-tabla' || $(this).attr('href') === '#section-about'){
       $('body').css('overflow', 'auto');
@@ -762,6 +793,116 @@ function get_selected_combo(selector){
   });
 
   return enabled;
+}
+
+function setup_intro(){
+  var stepsMapa = [
+    { 
+      intro: "Bienvenido a esta visualización interactiva =)"
+    },
+    {
+      element: '#tab-mapa',
+      intro: "En esta sección, puedes ver las viviendas de acuerdo a su ubicación geográfica.",
+      position: "right"
+    },
+    {
+      element: '#slide-panel',
+      intro: "Filtra las viviendas en el mapa utilizando estas herramientas.",
+      position: 'right'
+    },
+    {
+      element: '.info-box',
+      intro: "Aquí puedes ver un resumen de las viviendas visibles en el mapa.",
+      position: "left"
+    },
+    {
+      element: '.leaflet-control-layers',
+      intro: "Cambia el mapa base con este componente. ¿Te gustaría ver una imagen satelital? Es posible!",
+      position: "left"
+    },
+    {
+      element: '#tab-descargas',
+      intro: "Haciendo click aquí puedes descargar los datos en formato Excel, CSV y JSON.",
+      position: "right"
+    },
+    {
+      element: '#tab-listado',
+      intro: "En la sección de listado, puedes ver datos de las viviendas de forma tabular. Visítala!",
+      position: "right"
+    }
+  ];
+
+  var stepsListado = [
+    { 
+      intro: "Bienvenido a esta visualización interactiva =)"
+    },
+    {
+      element: '#tab-listado',
+      intro: "En esta sección, puedes ver datos de las viviendas de forma tabular.",
+      position: "right"
+    },
+    {
+      element: document.querySelector('#lista_length label'),
+      intro: "Selecciona la cantidad de filas por página de la tabla.",
+      position: 'right'
+    },
+    {
+      element: document.querySelector('#lista_filter label'),
+      intro: "Filtra los resultados de acuerdo a los valores de cualquier campo.",
+      position: "left"
+    },
+    {
+      element: document.querySelectorAll('.column-filter')[0],
+      intro: "O filtra de acuerdo a los valores de una columna en particular.",
+    },
+    {
+      element: '#lista_info',
+      intro: "Aquí puedes ver un resumen de los resultados de tu búsqueda.",
+      position: "right"
+    },
+    {
+      element: '#lista_paginate',
+      intro: "Si los resultados son muchos, desplázate entre las páginas de la tabla.",
+      position: "left"
+    },
+    {
+      element: '#download-button-bar',
+      intro: "Descarga los resultados filtrados en JSON o CSV.",
+      position: "top"
+    },
+    {
+      element: '#tab-descargas',
+      intro: "O descarga todos los datos en formato Excel, CSV y JSON.",
+      position: "right"
+    },
+    {
+      element: '#tab-mapa',
+      intro: "Por último, ¿ya visitaste la sección del mapa interactivo?",
+      position: "right"
+    },
+  ];
+
+  $('#start-tour').click(function(){
+    var steps;
+    switch($('.menu-wrapper ul li.active').attr('id')) {
+      case "tab-mapa":
+          steps = stepsMapa;
+          break;
+      case "tab-listado":
+          steps = stepsListado;
+          break;
+      default:
+          steps = false;
+    }
+
+    introJs().setOptions({
+      doneLabel: 'Salir',
+      nextLabel: 'Siguiente &rarr;',
+      prevLabel: '&larr; Anterior',
+      skipLabel: 'Salir',
+      steps: steps
+    }).start();
+  });
 }
 
 /*Utilitario para eliminar acentos de la cadena, para poder comparar las claves
