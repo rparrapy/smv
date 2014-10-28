@@ -798,7 +798,8 @@ function get_selected_combo(selector){
 function setup_intro(){
   var stepsMapa = [
     { 
-      intro: "Bienvenido a esta visualización interactiva =)"
+      intro: "Bienvenido a esta visualización interactiva. Este tutorial te guiará paso a paso a través de las diferentes funcionalidades disponibles. \
+      Haz click en siguiente para comenzar."
     },
     {
       element: '#tab-mapa',
@@ -807,7 +808,7 @@ function setup_intro(){
     },
     {
       element: '#slide-panel',
-      intro: "Filtra las viviendas en el mapa utilizando estas herramientas.",
+      intro: "Filtra las viviendas por departamento, distrito, programa o estado de la obra.",
       position: 'right'
     },
     {
@@ -834,7 +835,8 @@ function setup_intro(){
 
   var stepsListado = [
     { 
-      intro: "Bienvenido a esta visualización interactiva =)"
+      intro: "Bienvenido a esta visualización interactiva. Este tutorial te guiará paso a paso a través de las diferentes funcionalidades disponibles. \
+      Haz click en siguiente para comenzar."
     },
     {
       element: '#tab-listado',
