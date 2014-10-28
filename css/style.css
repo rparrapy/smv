@@ -11,12 +11,21 @@ body
 }
 
 @media (max-width: 768px) {
+
+  #logo-right-wrapper, #logo-left-wrapper{
+    display: none;
+  }
+
+  .menu-wrapper{
+    display: block !important;
+  }
+
   .navbar-nav {
     margin-left: 0;
   }
 
   .navbar-logo{
-    float: left !important;
+    float: none !important;
     padding-bottom: 10px;
   }
 
@@ -33,18 +42,22 @@ body
     margin-bottom: 0px;
 }
 
+.navbar-brand, .navbar-header{
+    float: none;
+}
+
 .nav-pills{
     padding-left: 15px;
 }
 
 #menu-content{
-    padding: 15px 15px 0 15px;
+    padding: 0 15px 0 15px;
     float:left;
 }
 
 #slide-panel {
     width:300px;
-    height:95%;
+    height:90%;
     padding-top: 15px;
     background: #e7e7e7;
     margin-left:-300px;
@@ -80,7 +93,7 @@ body
 }
 
 #map { 
-    height: 93.5%;
+    height: 86%;
     width: 100%;
     position: absolute;
 }
@@ -97,7 +110,7 @@ table{
 
 .dataTables_wrapper{
     clear: none;
-    margin: 40px;
+    margin: 0 40 40 40;
 }
 
 .popup-table{
@@ -153,8 +166,19 @@ table{
 }
 
 .navbar-logo{
+    float: none;
+    height: 25px;
+    margin-bottom: 6px;
+    padding-right: 3px;
+}
+
+.navbar-logo-left{
+    float: left;
+    padding-right: 3px;
+}
+
+.navbar-logo-right{
     float: right;
-    padding-top: 10px;
     padding-right: 3px;
 }
 
@@ -303,22 +327,43 @@ h4{
 }
 
 .icon-paralizado {
-    background-image: url("../img/paralizado.png");
+    background-image: url("../img/paralizado.png") !important;
     background-position: 2% 50%;
     background-repeat: no-repeat;
     background-size: 24px 24px;
 }
 
 .icon-ejecucion {
-    background-image: url("../img/ejecucion.png");
+    background-image: url("../img/ejecucion.png") !important;
     background-position: 2% 50%;
     background-repeat: no-repeat;
     background-size: 24px 24px;
 }
 
 .icon-culminado {
-    background-image: url("../img/culminado.png");
+    background-image: url("../img/culminado.png") !important;
     background-position: 2% 50%;
     background-repeat: no-repeat;
     background-size: 24px 24px;
+}
+
+#cabecera{
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+    width: auto;
+}
+
+#logo-right-wrapper a{
+    float: right;
+}
+
+.menu-wrapper{
+    display: table;
+    margin: 0 auto;
+}
+
+#title{
+  font-weight: bold;
+  padding-top: 5px;
+  padding-bottom: 6px;
 }

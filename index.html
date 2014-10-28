@@ -32,26 +32,66 @@
   </head>
 
   <body>
-    <div class="navbar navbar-default">
-          <div class="navbar-header">
-            <a class="navbar-brand" href="#">Viviendas Construidas</a>
-          </div> 
-          <ul class="nav navbar-nav">
-              <li class="active"><a data-toggle="tab" href="#section-mapa">Mapa</a></li>
-              <li><a data-toggle="tab" href="#section-tabla">Listado</a></li>
-              <li><a data-toggle="tab" href="#section-about">Acerca de</a></li>
-              <li class="dropdown">
-                  <a data-toggle="dropdown" class="dropdown-toggle" href="#">Descargas <b class="caret"></b></a>
-                  <ul class="dropdown-menu">
-                      <li><a href="public/viviendas.xls" target="_blank">Excel</a></li>
-                      <li><a href="public/viviendas.csv" target="_blank">CSV</a></li>
-                      <li><a href="public/viviendas.json" target="_blank">JSON</a></li>
-                  </ul>
-              </li>
-          </ul>
-          <img id="cc-by" class="navbar-logo" src="img/cc-by-logo.png" alt="Open Data">
+    <div class="container" id="cabecera">
+            <div class="row navbar navbar-default">
+                <div id='logo-left-wrapper' class="col-lg-1 col-md-3 col-sm-4"> 
+                  <a href="http://www.senavitat.gov.py" class="logoiz"><img src="img/logosenavitat.png"></a>
+                </div>
+                <div class="col-lg-10 col-md-6 col-sm-4 text-center">
+                  <div>
+                    <div id="title" class="navbar-header">
+                      <a class="navbar-brand" href="#">Mapa de Viviendas</a>
+                    </div>
+                    <img id="cc-by" class="navbar-logo" src="img/cc-by-logo.png" alt="CC BY">
+                    <img id = "opendata" class="navbar-logo" src="img/od-logo.png" alt="Open Data">
+                    <div class="navbar-header menu-wrapper">
+                      <ul class="nav navbar-nav">
+                          <li class="active"><a data-toggle="tab" href="#section-mapa">Mapa</a></li>
+                          <li><a data-toggle="tab" href="#section-tabla">Listado</a></li>
+                          <li><a data-toggle="tab" href="#section-about">Acerca de</a></li>
+                          <li class="dropdown">
+                              <a data-toggle="dropdown" class="dropdown-toggle" href="#">Descargas <b class="caret"></b></a>
+                              <ul class="dropdown-menu">
+                                  <li><a href="public/viviendas.xls" target="_blank">Excel</a></li>
+                                  <li><a href="public/viviendas.csv" target="_blank">CSV</a></li>
+                                  <li><a href="public/viviendas.json" target="_blank">JSON</a></li>
+                              </ul>
+                          </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <div id="logo-right-wrapper" class="col-lg-1 col-md-3 col-sm-4">         
+                  <a href="http://www.presidencia.gov.py/" target="_blank" class="logoder"><img src="img/logogobierno.png"></a>
+                </div>
+            </div>
+    </div>
+    <!-- <div class="navbar navbar-default">
+          <img id="senavitat" class="navbar-logo-left" src="img/logosenavitat.jpg" alt="Senavitat">
+          <div>
+            <div class="navbar-header">
+              <a class="navbar-brand" href="#">Viviendas Construidas</a>
+            </div>
+            <div>
+              <ul class="nav navbar-nav">
+                  <li class="active"><a data-toggle="tab" href="#section-mapa">Mapa</a></li>
+                  <li><a data-toggle="tab" href="#section-tabla">Listado</a></li>
+                  <li><a data-toggle="tab" href="#section-about">Acerca de</a></li>
+                  <li class="dropdown">
+                      <a data-toggle="dropdown" class="dropdown-toggle" href="#">Descargas <b class="caret"></b></a>
+                      <ul class="dropdown-menu">
+                          <li><a href="public/viviendas.xls" target="_blank">Excel</a></li>
+                          <li><a href="public/viviendas.csv" target="_blank">CSV</a></li>
+                          <li><a href="public/viviendas.json" target="_blank">JSON</a></li>
+                      </ul>
+                  </li>
+              </ul>
+            </div>
+          </div>
+          <img id = "gobierno" class="navbar-logo-right" src="img/logogobierno.jpg" alt="Gobierno Nacional">
+          <img id="cc-by" class="navbar-logo" src="img/cc-by-logo.png" alt="CC BY">
           <img id = "opendata" class="navbar-logo" src="img/od-logo.png" alt="Open Data">
-      </div>
+    </div> -->
     <div id="slide-panel">
       <div id="menu-content" class="tab-content">
           <div id="menuA" class="tab-pane fade in active">
