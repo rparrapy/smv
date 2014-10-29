@@ -1,2 +1,7 @@
 *~
 .DS_Store
+bin/
+include/
+lib/
+local/
+static/
