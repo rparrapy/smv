@@ -29,43 +29,43 @@
 <meta charset="UTF-8">
 <html data-ember-extension="1">
   <head>
-    <script src="bower_components/jquery/dist/jquery.min.js"></script>
-    <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
-    <script src="bower_components/select2/select2.min.js"></script>
-    <script src="bower_components/datatables/media/js/jquery.dataTables.min.js"></script>
-    <script src="bower_components/datatables/media/js/dataTables.bootstrap.js"></script>
-    <script src="bower_components/mapbox.js/mapbox.js"></script>
-    <script src="bower_components/sprintf/src/sprintf.js"></script>
-    <script src="bower_components/Leaflet.markercluster/dist/leaflet.markercluster.js"></script>
-    <script src="bower_components/flexslider/jquery.flexslider-min.js"></script>
+    <script src="static/bower_components/jquery/dist/jquery.min.js"></script>
+    <script src="static/bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="static/bower_components/select2/select2.min.js"></script>
+    <script src="static/bower_components/datatables/media/js/jquery.dataTables.min.js"></script>
+    <script src="static/bower_components/datatables/media/js/dataTables.bootstrap.js"></script>
+    <script src="static/bower_components/mapbox.js/mapbox.js"></script>
+    <script src="static/bower_components/sprintf/src/sprintf.js"></script>
+    <script src="static/bower_components/Leaflet.markercluster/dist/leaflet.markercluster.js"></script>
+    <script src="static/bower_components/flexslider/jquery.flexslider-min.js"></script>
     <script src="http://maps.google.com/maps/api/js?v=3&sensor=false"></script>
-    <script src="bower_components/leaflet-plugins/layer/tile/Google.js"></script>
-    <script src="bower_components/spin.js/spin.js"></script>
-    <script src="bower_components/underscore/underscore-min.js"></script>
-    <script src="bower_components/PapaParse/papaparse.min.js"></script>
-    <script src="bower_components/momentjs/min/moment.min.js"></script>
-    <script src="bower_components/intro.js/minified/intro.min.js"></script>
-    <script src="js/download.js"></script>
-    <script src="js/viviendas.js"></script>
-    <script src="js/config.js"></script>
-    <script src="js/app.js"></script>
-    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="bower_components/datatables/media/css/dataTables.bootstrap.css">
-    <link rel="stylesheet" href="bower_components/select2/select2.css">
-    <link rel="stylesheet" href="bower_components/flexslider/flexslider.css">
-    <link rel="stylesheet" href="bower_components/mapbox.js/mapbox.css">
-    <link rel="stylesheet" href="bower_components/mapbox.js/mapbox.css">
-    <link rel="stylesheet" href="bower_components/Leaflet.markercluster/dist/MarkerCluster.css">
-    <link rel="stylesheet" href="bower_components/Leaflet.markercluster/dist/MarkerCluster.Default.css">
-    <link rel="stylesheet" href="bower_components/intro.js/minified/introjs.min.css">
-    <link rel="stylesheet" href="css/style.css">
+    <script src="static/bower_components/leaflet-plugins/layer/tile/Google.js"></script>
+    <script src="static/bower_components/spin.js/spin.js"></script>
+    <script src="static/bower_components/underscore/underscore-min.js"></script>
+    <script src="static/bower_components/PapaParse/papaparse.min.js"></script>
+    <script src="static/bower_components/momentjs/min/moment.min.js"></script>
+    <script src="static/bower_components/intro.js/minified/intro.min.js"></script>
+    <script src="static/js/download.js"></script>
+    <script src="static/js/viviendas.js"></script>
+    <script src="static/js/config.js"></script>
+    <script src="static/js/app.js"></script>
+    <link rel="stylesheet" href="static/bower_components/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="static/bower_components/datatables/media/css/dataTables.bootstrap.css">
+    <link rel="stylesheet" href="static/bower_components/select2/select2.css">
+    <link rel="stylesheet" href="static/bower_components/flexslider/flexslider.css">
+    <link rel="stylesheet" href="static/bower_components/mapbox.js/mapbox.css">
+    <link rel="stylesheet" href="static/bower_components/mapbox.js/mapbox.css">
+    <link rel="stylesheet" href="static/bower_components/Leaflet.markercluster/dist/MarkerCluster.css">
+    <link rel="stylesheet" href="static/bower_components/Leaflet.markercluster/dist/MarkerCluster.Default.css">
+    <link rel="stylesheet" href="static/bower_components/intro.js/minified/introjs.min.css">
+    <link rel="stylesheet" href="static/css/style.css">
   </head>
 
   <body>
     <div class="container" id="cabecera">
             <div class="row navbar navbar-default">
                 <div id='logo-left-wrapper' class="col-lg-1 col-md-3 col-sm-4"> 
-                  <a href="http://www.senavitat.gov.py" class="logoiz"><img src="img/logosenavitat.png"></a>
+                  <a href="http://www.senavitat.gov.py" class="logoiz"><img src="static/img/logosenavitat.png"></a>
                 </div>
                 <div class="col-lg-10 col-md-6 col-sm-4 text-center">
                   <div>
@@ -76,6 +76,7 @@
                       <ul class="nav navbar-nav">
                           <li id="tab-mapa" class="active"><a data-toggle="tab" href="#mapa">Mapa</a></li>
                           <li id="tab-listado"><a data-toggle="tab" href="#listado">Listado</a></li>
+                          <li id="tab-contacto"><a data-toggle="tab" href="#contacto">Contacto</a></li>
                           <li id="tab-about"><a data-toggle="tab" href="#acerca-de">Acerca de</a></li>
                           <li id="tab-ayuda"><a id="start-tour">Ayuda</a></li>
                           <li id="tab-descargas" class="dropdown">
@@ -86,14 +87,14 @@
                                   <li><a href="public/viviendas.json" target="_blank">JSON</a></li>
                               </ul>
                           </li>
-                          <li class="logo-li"><img id="cc-by" class="navbar-logo" src="img/cc-by-logo.png" alt="CC BY"></li>
-                          <li class="logo-li"><img id = "opendata" class="navbar-logo" src="img/od-logo.png" alt="Open Data"></li>
+                          <li class="logo-li"><img id="cc-by" class="navbar-logo" src="static/img/cc-by-logo.png" alt="CC BY"></li>
+                          <li class="logo-li"><img id = "opendata" class="navbar-logo" src="static/img/od-logo.png" alt="Open Data"></li>
                       </ul>
                     </div>
                   </div>
                 </div>
                 <div id="logo-right-wrapper" class="col-lg-1 col-md-3 col-sm-4">         
-                  <a href="http://www.presidencia.gov.py/" target="_blank" class="logoder"><img src="img/logogobierno.png"></a>
+                  <a href="http://www.presidencia.gov.py/" target="_blank" class="logoder"><img src="static/img/logogobierno.png"></a>
                 </div>
             </div>
     </div>
@@ -234,6 +235,28 @@
             <p>La visualización de viviendas a nivel país fue desarrollada por la Secretaría Nacional de la Vivienda y el Hábitat (SENAVITAT), con el apoyo del Programa Democracia y Gobernabilidad (PDG), con fondos de USAID, y ejecutado por CEAMSO.</p>
             <h2>¿Quién es parte del equipo técnico?</h2>
             <p>El código fuente de este portal de datos abiertos se encuentra disponible en Github <a href="#">aquí</a>.</p>
+          </div>
+          <div id="contacto" class="tab-pane fade">
+            <div id="contacto-wrapper">
+              <form>
+                <div class="form-group">
+                      <label for="inputEmail">Nombre y Apellido</label>
+                      <input type="text" class="form-control" id="inputEmail" placeholder="Nombre y Apellido">
+                  </div>
+                  <div class="form-group">
+                      <label for="inputEmail">Email</label>
+                      <input type="email" class="form-control" id="inputEmail" placeholder="Email">
+                  </div>
+                  <div class="form-group">
+                      <label for="inputPassword">Mensaje</label>
+                      <textarea id="mensaje" class="form-control" rows="3"></textarea>
+                  </div>
+                  <div class="checkbox-inline">
+                      <label><input type="checkbox">Mensaje Anónimo</label>
+                  </div>
+                  <button id="contacto-submit" type="submit" class="btn btn-primary">Enviar</button>
+              </form>
+            </div>
           </div>
       </div>
     </div>

@@ -16,9 +16,9 @@ SMV.ATTR_TO_LABEL = {
 
 
 SMV.ESTADO_TO_ICON = {
-  'Paralizado': 'img/paralizado.png',
-  'En Ejecución': 'img/ejecucion.png',
-  'Culminado': 'img/culminado.png'
+  'Paralizado': 'static/img/paralizado.png',
+  'En Ejecución': 'static/img/ejecucion.png',
+  'Culminado': 'static/img/culminado.png'
 };
 
 SMV.ESTADO_TO_ICON_CSS = {

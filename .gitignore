@@ -1,2 +1,7 @@
 *~
 .DS_Store
+bin/
+local/
+lib/
+include/
+*.pyc

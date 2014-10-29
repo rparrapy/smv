@@ -51,7 +51,7 @@ function check_url(){
   $('.navbar-nav a').on('click', function (e) {
       window.location.hash = e.target.hash;
   })
-  return !_(['listado', 'acerca-de']).contains(hash);
+  return !_(['listado', 'acerca-de', 'contacto']).contains(hash);
 }
 
 function draw_or_defer_map(mapTabActive){
@@ -486,7 +486,10 @@ function draw_sidetag(map, hide){
       $('body').css('overflow', 'hidden');
       $('#opener').click();
     }
-    if($(this).attr('href') === '#listado' || $(this).attr('href') === '#acerca-de'){
+    if($(this).attr('href') === '#listado' ||
+      $(this).attr('href') === '#acerca-de' ||
+        $(this).attr('href') === '#contacto'){
+
       $('body').css('overflow', 'auto');
       if ($('#slide-panel').hasClass("visible")) {
         $('#opener').click();
@@ -530,7 +533,7 @@ function draw_popup_tables(properties, attrs_by_tab){
       if(c == 0){
         d += sprintf('<div class="tab-pane active" id="%s">', id);
         //d += draw_popup_album(["img/casa1.jpg", "img/plano1.png", "img/casa2.jpg", "img/plano2.png"]);
-        d += draw_popup_album(["img/casa1.jpg", "img/casa2.jpg"]);
+        d += draw_popup_album(["static/img/casa1.jpg", "static/img/casa2.jpg"]);
       }else{
         d += sprintf('<div class="tab-pane" id="%s">', id);
       }

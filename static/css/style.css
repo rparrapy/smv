@@ -435,3 +435,13 @@ h4{
     z-index: 707;
     margin: 3% 0 0 40%;
 }
+
+#contacto-wrapper{
+    width: 50%;
+    margin: 0 auto;
+    padding-top: 50px;
+}
+
+#contacto-submit{
+    float: right;
+}
