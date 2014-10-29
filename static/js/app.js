@@ -37,6 +37,7 @@ $(document).ready(function(){
   setup_modal_navigation();
   setup_download_buttons();
   setup_intro();
+  setup_contact_form();
 });
 
 function check_url(){
@@ -914,6 +915,32 @@ function setup_intro(){
       skipLabel: 'Salir',
       steps: steps
     }).start();
+  });
+}
+
+function setup_contact_form(){
+  //callback handler for form submit
+  $("#contact-form").submit(function(e)
+  {
+    var self = this;
+    var postData = $(this).serializeArray();
+    var formURL = $(this).attr("action");
+    $.ajax(
+    {
+        url : formURL,
+        type: "POST",
+        data : postData,
+        success:function(data, textStatus, jqXHR) 
+        {
+            $(self)[0].reset();
+        },
+        error: function(jqXHR, textStatus, errorThrown) 
+        {
+            //if fails
+        }
+    });
+    e.preventDefault(); //STOP default action
+    e.unbind(); //unbind. to stop multiple form submit.
   });
 }
 

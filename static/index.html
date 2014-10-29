@@ -239,21 +239,21 @@
           </div>
           <div id="contacto" class="tab-pane fade">
             <div id="contacto-wrapper">
-              <form>
+              <form id="contact-form" action="contact" method="post">
                 <div class="form-group">
                       <label for="inputEmail">Nombre y Apellido</label>
-                      <input type="text" class="form-control" id="inputEmail" placeholder="Nombre y Apellido">
+                      <input name="nombre" type="text" class="form-control" id="inputEmail" placeholder="Nombre y Apellido">
                   </div>
                   <div class="form-group">
                       <label for="inputEmail">Email</label>
-                      <input type="email" class="form-control" id="inputEmail" placeholder="Email">
+                      <input name="email" type="email" class="form-control" id="inputEmail" placeholder="Email">
                   </div>
                   <div class="form-group">
                       <label for="inputPassword">Mensaje</label>
-                      <textarea id="mensaje" class="form-control" rows="3"></textarea>
+                      <textarea name="mensaje" id="inputMensaje" class="form-control" rows="3"></textarea>
                   </div>
                   <div class="checkbox-inline">
-                      <label><input type="checkbox">Mensaje Anónimo</label>
+                      <label><input name="anonimo" type="checkbox">Mensaje Anónimo</label>
                   </div>
                   <button id="contacto-submit" type="submit" class="btn btn-primary">Enviar</button>
               </form>
