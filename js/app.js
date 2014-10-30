@@ -394,6 +394,18 @@ function get_filtered_layer(target){
     var point = f.geometry.coordinates;
     return (point[0] === target[0] && point[1] === target[1]);
   });
+  geoJson.on('layeradd', function(e) {
+    var marker = e.layer,
+    feature = marker.feature;
+
+    var img = SMV.ESTADO_TO_ICON[feature.properties['Estado de Obra']];
+    if(img){
+      marker.setIcon(L.icon({
+        iconUrl: img,
+        iconSize: [32, 32]
+      }));
+    }
+  });
   geoJson.setGeoJSON(filteredJSON);
   return geoJson;
 }
