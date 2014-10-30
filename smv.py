@@ -15,11 +15,22 @@ def index():
 @app.route('/contact', methods=['GET', 'POST'])
 def contact():
     msg = Message("Desde la visualizacion de mapas!",
-                  body="Manda un email de contacto",
+                  body= __get_message_body(request),
                   sender="juan@perez.com",
                   recipients=["rodpar07@gmail.com"])
-    #mail.send(msg)
-    return request.form['nombre']
+
+    for k in request.files:
+        f = request.files[k]
+        if f.filename:
+            msg.attach(f.filename, f.headers['Content-Type'], f.read())
+
+    mail.send(msg)
+    return str(request.files['archivo'])
+
+def __get_message_body(request):
+    return '''
+                Mensaje recibido de %s
+           ''' % request.form['nombre']
 
 if __name__ == "__main__":
     app.run(debug = True, port = 5000)

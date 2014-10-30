@@ -449,3 +449,9 @@ h4{
 .logo-li{
     margin-left: 5px;
 }
+
+.required label:after {
+    content: "*";
+    font-weight: bold;
+    color: red;
+}

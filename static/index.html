@@ -45,6 +45,10 @@
     <script src="static/bower_components/PapaParse/papaparse.min.js"></script>
     <script src="static/bower_components/momentjs/min/moment.min.js"></script>
     <script src="static/bower_components/intro.js/minified/intro.min.js"></script>
+    <script src="static/bower_components/toastr/toastr.min.js"></script>
+    <script src="static/bower_components/bootstrapvalidator/dist/js/bootstrapValidator.min.js"></script>
+    <script src="static/bower_components/bootstrapvalidator/dist/js/language/es_ES.js"></script>
+    <script src="static/bower_components/bootstrap-filestyle/src/bootstrap-filestyle.js"></script>
     <script src="static/js/download.js"></script>
     <script src="static/js/viviendas.js"></script>
     <script src="static/js/config.js"></script>
@@ -58,6 +62,8 @@
     <link rel="stylesheet" href="static/bower_components/Leaflet.markercluster/dist/MarkerCluster.css">
     <link rel="stylesheet" href="static/bower_components/Leaflet.markercluster/dist/MarkerCluster.Default.css">
     <link rel="stylesheet" href="static/bower_components/intro.js/minified/introjs.min.css">
+    <link rel="stylesheet" href="static/bower_components/toastr/toastr.min.css">
+    <link rel="stylesheet" href="static/bower_components/bootstrapvalidator/dist/css/bootstrapValidator.min.css">
     <link rel="stylesheet" href="static/css/style.css">
   </head>
 
@@ -240,22 +246,43 @@
           <div id="contacto" class="tab-pane fade">
             <div id="contacto-wrapper">
               <form id="contact-form" action="contact" method="post">
-                <div class="form-group">
-                      <label for="inputEmail">Nombre y Apellido</label>
-                      <input name="nombre" type="text" class="form-control" id="inputEmail" placeholder="Nombre y Apellido">
-                  </div>
+                <div class="col-lg-12">
                   <div class="form-group">
-                      <label for="inputEmail">Email</label>
-                      <input name="email" type="email" class="form-control" id="inputEmail" placeholder="Email">
+                    <label for="inputEmail">Nombre y Apellido</label>
+                    <input name="nombre" type="text" class="form-control" id="inputName" placeholder="Nombre y Apellido">
                   </div>
+                </div>
+                <div class="col-lg-6">
                   <div class="form-group">
-                      <label for="inputPassword">Mensaje</label>
-                      <textarea name="mensaje" id="inputMensaje" class="form-control" rows="3"></textarea>
+                    <label for="inputEmail">Email</label>
+                    <input name="email" type="email" class="form-control" id="inputEmail" placeholder="Email">
                   </div>
-                  <div class="checkbox-inline">
-                      <label><input name="anonimo" type="checkbox">Mensaje Anónimo</label>
+                </div>
+                <div class="col-lg-6">
+                  <div class="form-group">
+                    <label for="inputTelefono">Teléfono</label>
+                    <input name="telefono" type="telefono" class="form-control" id="inputTelefono" placeholder="Telefono">
                   </div>
+                </div>
+                <div class="col-lg-12">
+                  <div class="form-group required">
+                    <label for="inputPassword">Mensaje</label>
+                    <textarea name="mensaje" id="inputMensaje" class="form-control" rows="3"></textarea>
+                  </div>
+                </div>
+                <!-- <div class="checkbox-inline">
+                    <label><input name="anonimo" type="checkbox">Mensaje Anónimo</label>
+                </div> -->
+                <div class="col-lg-12">
+                  <div class="form-group">
+                    <label>
+                      <input class="filestyle" name="archivo" type="file" data-buttonText="Adjunta un archivo" data-buttonBefore="true">
+                    </label>
+                  </div>
+                </div>
+                <div class="col-lg-12">
                   <button id="contacto-submit" type="submit" class="btn btn-primary">Enviar</button>
+                </div>
               </form>
             </div>
           </div>

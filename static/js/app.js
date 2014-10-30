@@ -931,28 +931,70 @@ function setup_intro(){
 }
 
 function setup_contact_form(){
-  //callback handler for form submit
-  $("#contact-form").submit(function(e)
-  {
-    var self = this;
-    var postData = $(this).serializeArray();
-    var formURL = $(this).attr("action");
-    $.ajax(
-    {
-        url : formURL,
-        type: "POST",
-        data : postData,
-        success:function(data, textStatus, jqXHR) 
-        {
-            $(self)[0].reset();
-        },
-        error: function(jqXHR, textStatus, errorThrown) 
-        {
-            //if fails
+  $("#contact-form").bootstrapValidator({
+    feedbackIcons: {
+                valid: 'glyphicon glyphicon-ok',
+                invalid: 'glyphicon glyphicon-remove',
+                validating: 'glyphicon glyphicon-refresh',
+                required: 'glyphicon glyphicon-asterisk',
+    },
+    fields: {
+      mensaje: {
+        validators: {
+          notEmpty: {}
         }
+      },
+      nombre: {
+        validators: {
+          stringLength: {
+              min: 0
+          },
+        }
+      },
+      telefono: {
+        validators: {
+          stringLength: {
+              min: 0
+          },
+        }
+      },
+      archivo: {
+        validators: {
+          file: {
+              maxSize: 2048 * 1024,
+              message: 'El tamaño máximo permitido para el archivo es de 2MB.'
+          }
+        }
+      }
+    }
+  }).on('success.form.bv', function(e) {
+
+    var form = $(e.target);
+    var formURL = $(form).attr("action");
+    var formData = new FormData($(form)[0]);
+
+    $.ajax({
+        url: formURL,
+      type: 'POST',
+          data:  formData,
+      mimeType:"multipart/form-data",
+      contentType: false,
+          cache: false,
+          processData:false,
+      success: function(data, textStatus, jqXHR)
+      {
+        $(form)[0].reset();
+        $(form).data('bootstrapValidator').resetForm();
+        toastr.success('Su mensaje fue enviado con éxito.');
+      },
+      error: function(jqXHR, textStatus, errorThrown) 
+      {
+       toastr.error('Ocurrió un error al enviar su mensaje, inténtelo de nuevo más tarde.');
+      }          
     });
-    e.preventDefault(); //STOP default action
-    e.unbind(); //unbind. to stop multiple form submit.
+
+    e.preventDefault(); //Prevent Default action.
+    return false; 
   });
 }
 
