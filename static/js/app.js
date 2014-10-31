@@ -530,11 +530,20 @@ function draw_popup(target){
   }
   target.layer.openPopup();
   setup_modal();
+  setup_contact_link(target.layer);
   SMV.infoBox.update(target.layer.feature);
   $('.flexslider').flexslider({
     animation: "slide"
   });
 
+}
+
+function setup_contact_link(layer){
+  $('#contact-link').click(function(){
+    SMV.feature = layer.feature;  
+    layer.closePopup();
+    $('#tab-contacto a')[0].click();
+  });
 }
 
 function draw_popup_tables(properties, attrs_by_tab){
@@ -543,7 +552,7 @@ function draw_popup_tables(properties, attrs_by_tab){
   for (key in attrs_by_tab) {
     if (attrs_by_tab.hasOwnProperty(key)) {
       var id = removeAccents(key.toLowerCase().split(" ").join("-"));
-      if(c == 0){
+      if(c === 0){
         d += sprintf('<div class="tab-pane active" id="%s">', id);
         //d += draw_popup_album(["img/casa1.jpg", "img/plano1.png", "img/casa2.jpg", "img/plano2.png"]);
         d += draw_popup_album(["static/img/casa1.jpg", "static/img/casa2.jpg"]);
@@ -551,7 +560,12 @@ function draw_popup_tables(properties, attrs_by_tab){
         d += sprintf('<div class="tab-pane" id="%s">', id);
       }
       
-      d += draw_popup_table(properties, attrs_by_tab[key]) + "</div>";
+      d += draw_popup_table(properties, attrs_by_tab[key]);
+      if(key === 'Detalles'){
+        d += '<p>¿Querés hacer un comentario, sugerencia o denuncia sobre esta obra? \
+          ¡Escribínos haciendo click <a id="contact-link" href"#">aquí</a>!</p>'
+      }
+      d += "</div>";
       c++;
     }
   }
@@ -972,6 +986,10 @@ function setup_contact_form(){
     var form = $(e.target);
     var formURL = $(form).attr("action");
     var formData = new FormData($(form)[0]);
+    if(SMV.feature){
+      console.log("Appending data!");
+      formData.append("obra", JSON.stringify(SMV.feature));
+    }
 
     $.ajax({
         url: formURL,
@@ -984,6 +1002,7 @@ function setup_contact_form(){
       success: function(data, textStatus, jqXHR)
       {
         $(form)[0].reset();
+        SMV.feature = null;
         $(form).data('bootstrapValidator').resetForm();
         toastr.success('Su mensaje fue enviado con éxito.');
       },
