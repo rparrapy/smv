@@ -988,13 +988,13 @@ function setup_contact_form(){
     var formData = new FormData($(form)[0]);
     if(SMV.feature){
       console.log("Appending data!");
-      formData.append("obra", JSON.stringify(SMV.feature));
+      formData.append("proyecto", JSON.stringify(SMV.feature));
     }
 
     $.ajax({
-        url: formURL,
+      url: formURL,
       type: 'POST',
-          data:  formData,
+      data:  formData,
       mimeType:"multipart/form-data",
       contentType: false,
           cache: false,
