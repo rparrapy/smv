@@ -987,7 +987,6 @@ function setup_contact_form(){
     var formURL = $(form).attr("action");
     var formData = new FormData($(form)[0]);
     if(SMV.feature){
-      console.log("Appending data!");
       formData.append("proyecto", JSON.stringify(SMV.feature));
     }
 
