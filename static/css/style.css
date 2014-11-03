@@ -48,11 +48,12 @@ body
     }
 
     .menu-wrapper{
-    display: block !important;
+        display: block !important;
     }
 
     #slide-panel {
-    height: 55% !important;
+        height: 55% !important;
+        height: calc(100% - 414px) !important;
     }
 
     .logo-li{
@@ -81,6 +82,7 @@ body
 
   #slide-panel {
     height: 60% !important;
+    height: calc(100% - 414px) !important;
   }  
 }
 
@@ -104,6 +106,7 @@ body
 #slide-panel {
     width:300px;
     height:86%;
+    height: calc(100% - 114px);
     padding-top: 15px;
     background: #e7e7e7;
     margin-left:-300px;
@@ -140,6 +143,7 @@ body
 
 #map { 
     height: 86%;
+    height: calc(100% - 114px);
     width: 100%;
     position: absolute;
 }
