@@ -168,7 +168,11 @@ table{
     font-size: 12;
 }
 
-.popup-table .attr-title{
+.form-table{
+    font-size: 12;
+}
+
+.popup-table .attr-title, .popup-table .attr-title{
     font-weight: bold;
 }
 
@@ -444,6 +448,12 @@ h4{
     width: 50%;
     margin: 0 auto;
     padding-top: 50px;
+    height: 400px;
+}
+
+#proyecto-wrapper{
+    width: 50%;
+    margin: 0 auto;
 }
 
 #contacto-submit{
@@ -462,4 +472,8 @@ h4{
 
 #contact-link{
     cursor: pointer;
+}
+
+#proyecto-wrapper{
+    padding-top: 50px;
 }

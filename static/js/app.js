@@ -543,6 +543,9 @@ function setup_contact_link(layer){
     SMV.feature = layer.feature;  
     layer.closePopup();
     $('#tab-contacto a')[0].click();
+    var table = draw_popup_table(layer.feature.properties, SMV.TABLE_COLUMNS, 'form-table');
+    var content = "<h4>Datos del Proyecto</h4>" + table;
+    $("#proyecto-wrapper").html(content);
   });
 }
 
@@ -560,7 +563,7 @@ function draw_popup_tables(properties, attrs_by_tab){
         d += sprintf('<div class="tab-pane" id="%s">', id);
       }
       
-      d += draw_popup_table(properties, attrs_by_tab[key]);
+      d += draw_popup_table(properties, attrs_by_tab[key], 'popup-table');
       if(key === 'Detalles'){
         d += '<p>¿Querés hacer un comentario, sugerencia o denuncia sobre esta obra? \
           ¡Escribínos haciendo click <a id="contact-link" href"#">aquí</a>!</p>'
@@ -573,8 +576,9 @@ function draw_popup_tables(properties, attrs_by_tab){
   return d;
 }
 
-function draw_popup_table (properties, attrs){
-  var t = "<table class=\'table table-striped popup-table table-condensed\'><tbody>";
+function draw_popup_table (properties, attrs, clazz){
+  var customClass = clazz || '';
+  var t = sprintf("<table class=\'table table-striped table-condensed %s\'><tbody>", customClass);
   for (var i = 0; i < attrs.length; i++) {
     var key = attrs[i];
     if (properties.hasOwnProperty(key)) {
@@ -1008,11 +1012,18 @@ function setup_contact_form(){
       error: function(jqXHR, textStatus, errorThrown) 
       {
        toastr.error('Ocurrió un error al enviar su mensaje, inténtelo de nuevo más tarde.');
+       $(form).data('bootstrapValidator').resetForm();
       }          
     });
 
     e.preventDefault(); //Prevent Default action.
     return false; 
+  });
+
+  $("#contacto-clear").click(function(){
+    $("#contact-form").data('bootstrapValidator').resetForm();
+    $("#proyecto-wrapper").html('');
+    SMV.feature = null;
   });
 }
 
