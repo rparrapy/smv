@@ -1,1 +1,1 @@
-web: python smv.py
+web: gunicorn smv:app
