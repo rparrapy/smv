@@ -8,10 +8,18 @@ SMV.ATTR_TO_LABEL = {
             Empresa: 'Empresa Constructora',
             'Cantidad de Viviendas': 'Cantidad de Viviendas',
             Programa: 'Programa',
-            'LPN Nº': 'LPN Nº',
+            'Licitación Nº': 'Licitación Nº',
+            'Contrato N°': 'Contrato N°',
             'Estado de Obra': 'Estado de Obra',
             'Fecha de inicio de obra': 'Fecha de inicio de obra',
-            'Fecha de recepcion definitiva': 'Fecha de recepcion definitiva'
+            'Fecha de entrega de obra': 'Fecha de entrega de obra',
+            'Dato de contacto - Empresa':  'Dato de contacto - Empresa',
+            'SAT - Servicio de Asistencia Técnica':'SAT - Servicio de Asistencia Técnica',
+            'Dato de contacto - SAT': 'Dato de contacto - SAT',
+            'EAT - Equipo de Asistencia Técnica': 'EAT - Equipo de Asistencia Técnica',
+            'Dato de contacto - EAT':'Dato de contacto - EAT',
+            'Origen del terreno':'Origen del terrenos',
+            'Porcentaje de avance':'Porcentaje de avance'
         };
 
 
@@ -23,16 +31,22 @@ SMV.ESTADO_TO_ICON = {
 
 SMV.ESTADO_TO_ICON_CSS = {
   'Paralizado': 'icon-paralizado',
-  'En Ejecución': 'icon-ejecucion',
-  'Culminado': 'icon-culminado'
+  'En ejecución': 'icon-ejecucion',
+  'Culminada': 'icon-culminado',
+  'En licitación': 'icon-licitacion'
 };
 
-SMV.TABLE_COLUMNS = ["Departamento", "Distrito", "Proyecto", "Programa", "Estado de Obra", "LPN Nº", "Empresa", "Localidad",
-              "Cantidad de Viviendas", "Fecha de Inicio", "Fecha de recepcion definitiva"];
+SMV.TABLE_COLUMNS = ["Departamento", "Distrito", "Proyecto", "Programa", "Estado de Obra", "Localidad", "Cantidad de Viviendas", "Licitación Nº",
+              "Contrato N°", "Empresa", "Dato de contacto - Empresa", "SAT - Servicio de Asistencia Técnica", "Dato de contacto - SAT",
+              "EAT - Equipo de Asistencia Técnica", "Dato de contacto - EAT", "Porcentaje de avance", "Origen del terreno",
+              "Fecha de inicio de obra", "Fecha de entrega de obra"];
 
 SMV.POPUP_ROWS = {
             "General": ["Departamento", "Distrito", "Proyecto", "Programa", "Estado de Obra", "Cantidad de Viviendas"],
-            "Detalles": ["LPN Nº", "Empresa", "Localidad", "Fecha de Inicio", "Fecha de recepcion definitiva"]
+            "Detalles": ["Localidad", "Licitación Nº",
+              "Contrato N°", "Empresa", "Dato de contacto - Empresa", "SAT - Servicio de Asistencia Técnica", "Dato de contacto - SAT",
+              "EAT - Equipo de Asistencia Técnica", "Dato de contacto - EAT", "Porcentaje de avance", "Origen del terreno",
+              "Fecha de inicio de obra", "Fecha de entrega de obra"]
 };
 
 SMV.DATA_COLUMNS = 5;

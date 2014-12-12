@@ -1,30 +1,6 @@
 /*
  * @author  Rodrigo Parra 
- * @copyright 2014 Governance and Democracy Program USAID-CEAMSO
  * @license   http://www.gnu.org/licenses/gpl-2.0.html
- * 
- * USAID-CEAMSO
- * Copyright (C) 2014 Governance and Democracy Program
- * http://ceamso.org.py/es/proyectos/20-programa-de-democracia-y-gobernabilidad
- * 
-----------------------------------------------------------------------------
- * This file is part of the Governance and Democracy Program USAID-CEAMSO,
- * is distributed as free software in the hope that it will be useful, but WITHOUT 
- * ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS 
- * FOR A PARTICULAR PURPOSE. You can redistribute it and/or modify it under the 
- * terms of the GNU Lesser General Public License version 2 as published by the 
- * Free Software Foundation, accessible from <http://www.gnu.org/licenses/> or write 
- * to Free Software Foundation (FSF) Inc., 51 Franklin St, Fifth Floor, Boston, 
- * MA 02111-1301, USA.
- ---------------------------------------------------------------------------
- * Este archivo es parte del Programa de Democracia y Gobernabilidad USAID-CEAMSO,
- * es distribuido como software libre con la esperanza que sea de utilidad,
- * pero sin NINGUNA GARANTÍA; sin garantía alguna implícita de ADECUACION a cualquier
- * MERCADO o APLICACION EN PARTICULAR. Usted puede redistribuirlo y/o modificarlo 
- * bajo los términos de la GNU Lesser General Public Licence versión 2 de la Free 
- * Software Foundation, accesible en <http://www.gnu.org/licenses/> o escriba a la 
- * Free Software Foundation (FSF) Inc., 51 Franklin St, Fifth Floor, Boston, 
- * MA 02111-1301, USA.
  */
 
 $(document).ready(function(){
@@ -51,6 +27,8 @@ function check_url(){
   // Change hash for page-reload
   $('.navbar-nav a').on('click', function (e) {
       window.location.hash = e.target.hash;
+      $('html,body').scrollTop(0);
+
   })
   return !_(['listado', 'acerca-de', 'contacto']).contains(hash);
 }
@@ -176,7 +154,7 @@ function draw_info_box(){
 function get_summary_message(features){
   var cantidadDepartamentos = _(features).chain()
     .map(function(f){ return f.properties['Departamento'] })
-    .filter(function(e){ return !(e === "ASUNCION")})
+    .filter(function(e){ return !(e === "Capital")})
     .unique().value().length;
 
   if(cantidadDepartamentos === 0){
@@ -184,7 +162,7 @@ function get_summary_message(features){
   }
 
   var cantidadProyectos = features.length;
-  var cantidadViviendas = _(features)
+  var cantidadViviendas = _(features).chain().filter(function(f){ return !isNaN(f.properties['Cantidad de Viviendas'])}).value()
     .reduce(function(cont, f){ return cont + parseInt(f.properties['Cantidad de Viviendas']) }, 0);
 
   var departamentoLabel = cantidadDepartamentos > 1 ? 'departamentos' : 'departamento';
@@ -202,7 +180,7 @@ function setup_filters(){
   $("#distrito").select2();
   /*$("#localidad").select2();*/
   setup_checkbox_values('Programa', '#programa');
-  setup_checkbox_values('Estado de Obra', '#estado');
+  setup_checkbox_values('Estado de Obra', '#estado', ['En ejecución', 'En licitación', 'Paralizado', 'Culminada']);
   
   /*Convertimos el grupo de checboxes en algo similar a un grupo de radio buttons*/    
   $('#estado label.btn').click(function(){
@@ -229,8 +207,8 @@ function setup_combo_values(name, selector){
   });
 }
 
-function setup_checkbox_values(name, selector){
-  var values = get_unique_values(name);
+function setup_checkbox_values(name, selector, filtered){
+  var values = filtered || get_unique_values(name);
 
   _.each(values, function(d){
     var icon = SMV.ESTADO_TO_ICON_CSS[d] || '';
@@ -558,7 +536,10 @@ function draw_popup_tables(properties, attrs_by_tab){
       if(c === 0){
         d += sprintf('<div class="tab-pane active" id="%s">', id);
         //d += draw_popup_album(["img/casa1.jpg", "img/plano1.png", "img/casa2.jpg", "img/plano2.png"]);
-        d += draw_popup_album(["static/img/casa1.jpg", "static/img/casa2.jpg"]);
+        var imgs = SMV.ROW_TO_IMGS[properties.id.toString()];
+        if(imgs){
+          d += draw_popup_album(imgs);
+        }
       }else{
         d += sprintf('<div class="tab-pane" id="%s">', id);
       }
@@ -637,6 +618,7 @@ function setup_modal(){
 
   $('li img').on('click',function(){
     var src = $(this).attr('src');
+    console.log(src);
     var img = '<img src="' + src + '" class="img-responsive"/>';
 
     var index = $(this).parent('li').index();
@@ -733,7 +715,7 @@ function add_filter_listeners(map){
     $("#programa label input").prop('checked', this.checked);
   });
 
-  $('#este-gobierno label input, #estado label input, #programa label input, #nivel label input, #departamento, #distrito, #localidad')
+  $('#este-gobierno label input, #estado label input, #programa label input, #departamento, #distrito, #localidad')
     .change(function(){
       update_filters(map);
     });
@@ -749,9 +731,6 @@ function update_filters() {
   var distritos = get_selected_combo('#distrito');
   var localidades = get_selected_combo('#localidad');
 
-  show_nivel_fonavis(programas);
-  var niveles = get_selected_checkbox('#nivel label');
-
   SMV.geoJsonLayer.setFilter(function(feature) {
     // If this symbol is in the list, return true. if not, return false.
     // The 'in' operator in javascript does exactly that: given a string
@@ -761,13 +740,12 @@ function update_filters() {
     var esteGobiernoFilter = !!!$("#este-gobierno input:checked").length || este_gobierno(feature.properties['Fecha de inicio de obra']);
     var programaFilter = !!!$("#programa input:checked").length || programas[feature.properties['Programa']];
     var estadoFilter = !!!$("#estado input:checked").length || estados[feature.properties['Estado de Obra']];
-    var departamentoFilter = $.isEmptyObject(departamentos) || feature.properties['Departamento'].toLowerCase() in departamentos;
+    var departamentoFilter = $.isEmptyObject(departamentos) || removeAccents(feature.properties['Departamento']).toLowerCase() in departamentos;
     var distritoFilter = $.isEmptyObject(distritos) || feature.properties['Distrito'].toLowerCase() in distritos;
     var localidadFilter = $.isEmptyObject(localidades) || (feature.properties['Localidad'] && feature.properties['Localidad'].toLowerCase() in localidades);
-    var nivelFilter = !!!$("#nivel input:checked").length || (feature.properties['Nivel'] && niveles[feature.properties['Nivel']]);
 
     var showMarker = departamentoFilter && distritoFilter && localidadFilter && programaFilter
-      && estadoFilter && esteGobiernoFilter && nivelFilter;
+      && estadoFilter && esteGobiernoFilter;
 
     return showMarker;
   });
@@ -782,26 +760,6 @@ function update_filters() {
   SMV.infoBox.update();
 }
 
-function show_nivel_fonavis(programas){
-  var p = [];
-  _(programas).each(function(value, key){
-    if(value){
-      p.push(key);
-    }
-  });
-
-  if(p.length === 1 && p[0] === 'FONAVIS'){
-    $('.nivel-fonavis').css('display', 'block');
-  }else{
-    var labels = $('#nivel label');
-    $('.nivel-fonavis').css('display', 'none');
-    labels.removeClass('active');
-    _.each(labels, function(l){
-      l.children[0].checked = false;
-    });
-  }
-}
-
 function este_gobierno(fecha){
   var inicioGobierno = moment('15/08/13', 'DD/MM/YY');
   return fecha && moment(fecha, 'DD/MM/YY') >= inicioGobierno;
@@ -810,9 +768,13 @@ function este_gobierno(fecha){
 function get_selected_checkbox(selector){
   var labels = $(selector);
   var enabled = {};
-
-  _.each(labels, function(l){ enabled[l.innerText] = l.children[0].checked; });
-
+  _.each(labels, function(l){
+    if(l.innerText){
+      enabled[l.innerText] = l.children[0].checked;
+    }else{
+      enabled[l.textContent] = l.children[0].checked;
+    }
+  });
   return enabled;
 }
 
