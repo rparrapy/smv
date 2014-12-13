@@ -1,4 +1,4 @@
-var viviendas =      { "type" : "FeatureCollection",
+var viviendas =  { "type" : "FeatureCollection",
       "features" : [
                  {   
             "type" : "Feature",
@@ -18,7 +18,7 @@ var viviendas =      { "type" : "FeatureCollection",
 					"Estado de Obra":"En ejecución",
 					"Porcentaje de avance":"85,25%",
 					"Licitación Nº":"001/11",
-					"Contrato N°":"001(12",
+					"Contrato N°":"001/12",
 					"Origen del terreno":"Municipal",
 					"Fecha de inicio de obra":"4/1/13",
 					"id":1
@@ -86,8 +86,13 @@ var viviendas =      { "type" : "FeatureCollection",
 					"Proyecto":"Capitán Bozzano",
 					"Programa":"Vy'a Renda",
 					"Cantidad de Viviendas":101,
+					"Empresa":"En proceso para licitación",
+					"SAT - Servicio de Asistencia Técnica":"No corresponde",
+					"EAT - Equipo de Asistencia Técnica":"No corresponde",
 					"Estado de Obra":"En licitación",
 					"Porcentaje de avance":"En licitación",
+					"Licitación Nº":"En proceso para licitación",
+					"Contrato N°":"En proceso para licitación",
 					"Fecha de inicio de obra":"A definir según contrato",
 					"Fecha de entrega de obra":"A definir según contrato",
 					"id":4
@@ -105,8 +110,13 @@ var viviendas =      { "type" : "FeatureCollection",
 					"Proyecto":"Rosa Mística",
 					"Programa":"Vy'a Renda",
 					"Cantidad de Viviendas":240,
+					"Empresa":"En proceso para licitación",
+					"SAT - Servicio de Asistencia Técnica":"No corresponde",
+					"EAT - Equipo de Asistencia Técnica":"No corresponde",
 					"Estado de Obra":"En licitación",
 					"Porcentaje de avance":"En licitación",
+					"Licitación Nº":"En proceso para licitación",
+					"Contrato N°":"En proceso para licitación",
 					"Fecha de inicio de obra":"A definir según contrato",
 					"Fecha de entrega de obra":"A definir según contrato",
 					"id":5
@@ -124,11 +134,16 @@ var viviendas =      { "type" : "FeatureCollection",
 					"Proyecto":"Villarrica",
 					"Programa":"Viviendas Económicas",
 					"Cantidad de Viviendas":100,
+					"Empresa":"En proceso licitatorio",
+					"SAT - Servicio de Asistencia Técnica":"No corresponde",
+					"EAT - Equipo de Asistencia Técnica":"No corresponde",
 					"Estado de Obra":"En licitación",
 					"Porcentaje de avance":"En licitación",
 					"Licitación Nº":"07/14",
+					"Contrato N°":"En licitación",
 					"Fecha de inicio de obra":"A definir según contrato",
 					"Fecha de entrega de obra":"A definir según contrato",
+					"Observaciones":"Obra paralizada a ser reactivada mediante esta licitación.",
 					"id":6
                 }
         },
@@ -144,11 +159,16 @@ var viviendas =      { "type" : "FeatureCollection",
 					"Proyecto":"Mbaritu",
 					"Programa":"Viviendas Económicas",
 					"Cantidad de Viviendas":75,
+					"Empresa":"En proceso licitatorio",
+					"SAT - Servicio de Asistencia Técnica":"No corresponde",
+					"EAT - Equipo de Asistencia Técnica":"No corresponde",
 					"Estado de Obra":"En licitación",
 					"Porcentaje de avance":"En licitación",
 					"Licitación Nº":"03/14",
+					"Contrato N°":"En licitación",
 					"Fecha de inicio de obra":"A definir según contrato",
 					"Fecha de entrega de obra":"A definir según contrato",
+					"Observaciones":"Obra paralizada a ser reactivada mediante esta licitación.",
 					"id":7
                 }
         },
@@ -1099,8 +1119,11 @@ var viviendas =      { "type" : "FeatureCollection",
 					"Distrito":"Cambyretá",
 					"Proyecto":"Asentamiento Nuevo Amanecer III",
 					"Programa":"Che Tapýi",
+					"Cantidad de Viviendas":141,
 					"SAT - Servicio de Asistencia Técnica":"No corresponde",
 					"EAT - Equipo de Asistencia Técnica":"No corresponde",
+					"Estado de Obra":"En ejecución",
+					"Porcentaje de avance":"0%",
 					"Licitación Nº":"001/14",
 					"id":47
                 }
@@ -1223,6 +1246,7 @@ var viviendas =      { "type" : "FeatureCollection",
 					"Origen del terreno":"Terreno ofertado por la empresa constructora",
 					"Fecha de inicio de obra":"A definir según contrato",
 					"Fecha de entrega de obra":"A definir según contrato",
+					"Observaciones":"Coordenada corresponde al centro del distrito. La localización de las obras aún no se tienen definidas.",
 					"id":52
                 }
         },
@@ -1248,6 +1272,7 @@ var viviendas =      { "type" : "FeatureCollection",
 					"Origen del terreno":"Terreno ofertado por la empresa constructora",
 					"Fecha de inicio de obra":"A definir según contrato",
 					"Fecha de entrega de obra":"A definir según contrato",
+					"Observaciones":"Coordenada corresponde al centro del distrito. La localización de las obras aún no se tienen definidas.",
 					"id":53
                 }
         },
@@ -1273,6 +1298,7 @@ var viviendas =      { "type" : "FeatureCollection",
 					"Origen del terreno":"Terreno ofertado por la empresa constructora",
 					"Fecha de inicio de obra":"A definir según contrato",
 					"Fecha de entrega de obra":"A definir según contrato",
+					"Observaciones":"Coordenada corresponde al centro del distrito. La localización de las obras aún no se tienen definidas.",
 					"id":54
                 }
         },
@@ -1298,6 +1324,7 @@ var viviendas =      { "type" : "FeatureCollection",
 					"Origen del terreno":"Terreno ofertado por la empresa constructora",
 					"Fecha de inicio de obra":"A definir según contrato",
 					"Fecha de entrega de obra":"A definir según contrato",
+					"Observaciones":"Coordenada corresponde al centro del distrito. La localización de las obras aún no se tienen definidas.",
 					"id":55
                 }
         },
@@ -1323,6 +1350,7 @@ var viviendas =      { "type" : "FeatureCollection",
 					"Origen del terreno":"Terreno ofertado por la empresa constructora",
 					"Fecha de inicio de obra":"A definir según contrato",
 					"Fecha de entrega de obra":"A definir según contrato",
+					"Observaciones":"Coordenada corresponde al centro del distrito. La localización de las obras aún no se tienen definidas.",
 					"id":56
                 }
         },
@@ -1348,6 +1376,7 @@ var viviendas =      { "type" : "FeatureCollection",
 					"Origen del terreno":"Terreno ofertado por la empresa constructora",
 					"Fecha de inicio de obra":"A definir según contrato",
 					"Fecha de entrega de obra":"A definir según contrato",
+					"Observaciones":"Coordenada corresponde al centro del distrito. La localización de las obras aún no se tienen definidas.",
 					"id":57
                 }
         },
@@ -1373,6 +1402,7 @@ var viviendas =      { "type" : "FeatureCollection",
 					"Origen del terreno":"Terreno ofertado por la empresa constructora",
 					"Fecha de inicio de obra":"A definir según contrato",
 					"Fecha de entrega de obra":"A definir según contrato",
+					"Observaciones":"Coordenada corresponde al centro del distrito. La localización de las obras aún no se tienen definidas.",
 					"id":58
                 }
         },
@@ -1398,6 +1428,7 @@ var viviendas =      { "type" : "FeatureCollection",
 					"Origen del terreno":"Terreno ofertado por la empresa constructora",
 					"Fecha de inicio de obra":"A definir según contrato",
 					"Fecha de entrega de obra":"A definir según contrato",
+					"Observaciones":"Coordenada corresponde al centro del distrito. La localización de las obras aún no se tienen definidas.",
 					"id":59
                 }
         },
@@ -1423,6 +1454,7 @@ var viviendas =      { "type" : "FeatureCollection",
 					"Origen del terreno":"Terreno ofertado por la empresa constructora",
 					"Fecha de inicio de obra":"A definir según contrato",
 					"Fecha de entrega de obra":"A definir según contrato",
+					"Observaciones":"Coordenada corresponde al centro del distrito. La localización de las obras aún no se tienen definidas.",
 					"id":60
                 }
         },
@@ -1448,6 +1480,7 @@ var viviendas =      { "type" : "FeatureCollection",
 					"Origen del terreno":"Terreno ofertado por la empresa constructora",
 					"Fecha de inicio de obra":"A definir según contrato",
 					"Fecha de entrega de obra":"A definir según contrato",
+					"Observaciones":"Coordenada corresponde al centro del distrito. La localización de las obras aún no se tienen definidas.",
 					"id":61
                 }
         },
@@ -1556,7 +1589,7 @@ var viviendas =      { "type" : "FeatureCollection",
 					"SAT - Servicio de Asistencia Técnica":"No corresponde",
 					"EAT - Equipo de Asistencia Técnica":"Sonia  Gutierrez",
 					"Dato de contacto - EAT":"0981-635500",
-					"Estado de Obra":"terminada con resalvas",
+					"Estado de Obra":"Culminada",
 					"Porcentaje de avance":"90%",
 					"Licitación Nº":"No corresponde",
 					"Fecha de inicio de obra":"Marzo del 2012",
@@ -1601,7 +1634,7 @@ var viviendas =      { "type" : "FeatureCollection",
 					"EAT - Equipo de Asistencia Técnica":"Arq. Hugo Acevedo",
 					"Dato de contacto - EAT":"0981-925397",
 					"Estado de Obra":"Culminada",
-					"Porcentaje de avance":"100% FALTA ACTA RECEP.",
+					"Porcentaje de avance":"100%",
 					"Licitación Nº":"No corresponde",
 					"Fecha de inicio de obra":"Setiembre del 2012",
 					"id":68
@@ -1687,7 +1720,7 @@ var viviendas =      { "type" : "FeatureCollection",
 					"SAT - Servicio de Asistencia Técnica":"No corresponde",
 					"EAT - Equipo de Asistencia Técnica":"Arq. Ilse Cronel",
 					"Dato de contacto - EAT":"0981-635500",
-					"Estado de Obra":"terminada con resalvas",
+					"Estado de Obra":"Culminada",
 					"Porcentaje de avance":"90%",
 					"Licitación Nº":"No corresponde",
 					"Fecha de inicio de obra":"Mayo del 2013",
@@ -1764,28 +1797,6 @@ var viviendas =      { "type" : "FeatureCollection",
             "type" : "Feature",
             "geometry" : {
                 "type" : "Point",
-                "coordinates" : [-57.3249669298, -25.3943095766]},
-                "properties" : {
-                    "Departamento":"Central",
-					"Distrito":"Itauguá",
-					"Proyecto":"Coop. Ñapua Hagua Ltda.",
-					"Programa":"FONCOOP",
-					"Cantidad de Viviendas":38,
-					"Empresa":"AREA ",
-					"SAT - Servicio de Asistencia Técnica":"No corresponde",
-					"EAT - Equipo de Asistencia Técnica":"Arq. Hugo Acevedo",
-					"Dato de contacto - EAT":"0981-925397",
-					"Estado de Obra":"SE PAGO SOLO TERRENO",
-					"Porcentaje de avance":"CON PROBLEMAS LA COOP.",
-					"Licitación Nº":"No corresponde",
-					"Fecha de inicio de obra":"Ceder derechos y acciones sobre el proyecto a otra Coop. ",
-					"id":76
-                }
-        },
-                 {   
-            "type" : "Feature",
-            "geometry" : {
-                "type" : "Point",
                 "coordinates" : [-57.465440121, -25.2324664386]},
                 "properties" : {
                     "Departamento":"Central",
@@ -1799,71 +1810,9 @@ var viviendas =      { "type" : "FeatureCollection",
 					"EAT - Equipo de Asistencia Técnica":"Óscar Barboza",
 					"Dato de contacto - EAT":"0984-654724",
 					"Estado de Obra":"En ejecución",
-					"Porcentaje de avance":"ETAPA DE ESCRITURACION",
 					"Licitación Nº":"No corresponde",
 					"Fecha de inicio de obra":"no desembolsado hasta ahora",
-					"id":77
-                }
-        },
-                 {   
-            "type" : "Feature",
-            "geometry" : {
-                "type" : "Point",
-                "coordinates" : [-57.5585521242, -25.3763419873]},
-                "properties" : {
-                    "Departamento":"Central",
-					"Distrito":"Ñemby",
-					"Proyecto":"Coop. Oga Reka Ltda.",
-					"Programa":"FONCOOP",
-					"Cantidad de Viviendas":40,
-					"Empresa":"ING.  RICARDO MENDOZA",
-					"SAT - Servicio de Asistencia Técnica":"No corresponde",
-					"EAT - Equipo de Asistencia Técnica":"Ing. Ricardo Mendoza",
-					"Dato de contacto - EAT":"0981-509697",
-					"Estado de Obra":"EN COMITÉ DE CREDITOS",
-					"Licitación Nº":"No corresponde",
-					"id":78
-                }
-        },
-                 {   
-            "type" : "Feature",
-            "geometry" : {
-                "type" : "Point",
-                "coordinates" : [-57.4628356964, -25.231625741]},
-                "properties" : {
-                    "Departamento":"Central",
-					"Distrito":"Luque",
-					"Proyecto":"Coop. 8 De Marzo",
-					"Programa":"FONCOOP",
-					"Cantidad de Viviendas":26,
-					"Empresa":"BARBOZA OSCAR",
-					"SAT - Servicio de Asistencia Técnica":"No corresponde",
-					"EAT - Equipo de Asistencia Técnica":"Óscar Barboza",
-					"Dato de contacto - EAT":"0984-654724",
-					"Estado de Obra":"EN ANALISIS DPTO. CREDITO",
-					"Porcentaje de avance":"FALTA DICTAMEN SOCIAL",
-					"Licitación Nº":"No corresponde",
-					"id":79
-                }
-        },
-                 {   
-            "type" : "Feature",
-            "geometry" : {
-                "type" : "Point",
-                "coordinates" : [-57.4529593198, -25.443114547]},
-                "properties" : {
-                    "Departamento":"Central",
-					"Distrito":"J. A. Saldívar",
-					"Proyecto":"Coop. Toledo Cañada II",
-					"Programa":"FONCOOP",
-					"Cantidad de Viviendas":40,
-					"Empresa":"J.L CONSTRUCCIONES  ING. LAHE",
-					"SAT - Servicio de Asistencia Técnica":"No corresponde",
-					"EAT - Equipo de Asistencia Técnica":"Ing. Lahe",
-					"Dato de contacto - EAT":"0981-449776",
-					"Estado de Obra":"EN ANALISIS DPTO. CREDITO",
-					"Licitación Nº":"No corresponde",
-					"id":80
+					"id":76
                 }
         },
                  {   
@@ -1884,7 +1833,7 @@ var viviendas =      { "type" : "FeatureCollection",
 					"Estado de Obra":"Paralizado",
 					"Porcentaje de avance":"0,00%",
 					"Licitación Nº":"011/11",
-					"id":81
+					"id":77
                 }
         },
                  {   
@@ -1906,7 +1855,7 @@ var viviendas =      { "type" : "FeatureCollection",
 					"Estado de Obra":"Paralizado",
 					"Porcentaje de avance":"10,00%",
 					"Licitación Nº":"003/11",
-					"id":82
+					"id":78
                 }
         },
                  {   
@@ -1928,7 +1877,7 @@ var viviendas =      { "type" : "FeatureCollection",
 					"Estado de Obra":"Paralizado",
 					"Porcentaje de avance":"10,00%",
 					"Licitación Nº":"003/11",
-					"id":83
+					"id":79
                 }
         },
                  {   
@@ -1950,7 +1899,7 @@ var viviendas =      { "type" : "FeatureCollection",
 					"Estado de Obra":"Paralizado",
 					"Porcentaje de avance":"0,00%",
 					"Licitación Nº":"003/11",
-					"id":84
+					"id":80
                 }
         },
                  {   
@@ -1972,7 +1921,7 @@ var viviendas =      { "type" : "FeatureCollection",
 					"Estado de Obra":"Paralizado",
 					"Porcentaje de avance":"95,00%",
 					"Licitación Nº":"003/11",
-					"id":85
+					"id":81
                 }
         },
                  {   
@@ -1993,7 +1942,7 @@ var viviendas =      { "type" : "FeatureCollection",
 					"Estado de Obra":"Paralizado",
 					"Porcentaje de avance":"95,00%",
 					"Licitación Nº":"003/11",
-					"id":86
+					"id":82
                 }
         },
                  {   
@@ -2014,7 +1963,7 @@ var viviendas =      { "type" : "FeatureCollection",
 					"Estado de Obra":"Paralizado",
 					"Porcentaje de avance":"18,00%",
 					"Licitación Nº":"002/13",
-					"id":87
+					"id":83
                 }
         },
                  {   
@@ -2035,7 +1984,7 @@ var viviendas =      { "type" : "FeatureCollection",
 					"Estado de Obra":"Paralizado",
 					"Porcentaje de avance":"76,71%",
 					"Licitación Nº":"003/11",
-					"id":88
+					"id":84
                 }
         },
                  {   
@@ -2056,7 +2005,7 @@ var viviendas =      { "type" : "FeatureCollection",
 					"Estado de Obra":"Paralizado",
 					"Porcentaje de avance":"76,71%",
 					"Licitación Nº":"003/11",
-					"id":89
+					"id":85
                 }
         },
                  {   
@@ -2077,7 +2026,7 @@ var viviendas =      { "type" : "FeatureCollection",
 					"Estado de Obra":"Paralizado",
 					"Porcentaje de avance":"76,71%",
 					"Licitación Nº":"003/11",
-					"id":90
+					"id":86
                 }
         },
                  {   
@@ -2098,7 +2047,7 @@ var viviendas =      { "type" : "FeatureCollection",
 					"Estado de Obra":"Paralizado",
 					"Porcentaje de avance":"76,71%",
 					"Licitación Nº":"003/11",
-					"id":91
+					"id":87
                 }
         },
                  {   
@@ -2119,7 +2068,7 @@ var viviendas =      { "type" : "FeatureCollection",
 					"Estado de Obra":"Paralizado",
 					"Porcentaje de avance":"55,00%",
 					"Licitación Nº":"011/11",
-					"id":92
+					"id":88
                 }
         },
                  {   
@@ -2139,7 +2088,7 @@ var viviendas =      { "type" : "FeatureCollection",
 					"Estado de Obra":"Paralizado",
 					"Porcentaje de avance":"15,00%",
 					"Licitación Nº":"009/12",
-					"id":93
+					"id":89
                 }
         },
                  {   
@@ -2160,7 +2109,7 @@ var viviendas =      { "type" : "FeatureCollection",
 					"Estado de Obra":"Paralizado",
 					"Porcentaje de avance":"82,61%",
 					"Licitación Nº":"003/11",
-					"id":94
+					"id":90
                 }
         },
                  {   
@@ -2181,7 +2130,7 @@ var viviendas =      { "type" : "FeatureCollection",
 					"Estado de Obra":"Paralizado",
 					"Porcentaje de avance":"73,00%",
 					"Licitación Nº":"011/11",
-					"id":95
+					"id":91
                 }
         },
                  {   
@@ -2202,7 +2151,7 @@ var viviendas =      { "type" : "FeatureCollection",
 					"Estado de Obra":"En ejecución",
 					"Porcentaje de avance":"47,00%",
 					"Licitación Nº":"015/12",
-					"id":96
+					"id":92
                 }
         },
                  {   
@@ -2223,7 +2172,7 @@ var viviendas =      { "type" : "FeatureCollection",
 					"Estado de Obra":"Paralizado",
 					"Porcentaje de avance":"82,61%",
 					"Licitación Nº":"003/11",
-					"id":97
+					"id":93
                 }
         },
                  {   
@@ -2244,7 +2193,7 @@ var viviendas =      { "type" : "FeatureCollection",
 					"Estado de Obra":"Paralizado",
 					"Porcentaje de avance":"40,00%",
 					"Licitación Nº":"011/11",
-					"id":98
+					"id":94
                 }
         },
                  {   
@@ -2265,7 +2214,7 @@ var viviendas =      { "type" : "FeatureCollection",
 					"Estado de Obra":"Paralizado",
 					"Porcentaje de avance":"45,00%",
 					"Licitación Nº":"011/11",
-					"id":99
+					"id":95
                 }
         },
                  {   
@@ -2286,7 +2235,7 @@ var viviendas =      { "type" : "FeatureCollection",
 					"Estado de Obra":"En ejecución",
 					"Porcentaje de avance":"40,00%",
 					"Licitación Nº":"015/12",
-					"id":100
+					"id":96
                 }
         },
                  {   
@@ -2307,7 +2256,7 @@ var viviendas =      { "type" : "FeatureCollection",
 					"Estado de Obra":"En ejecución",
 					"Porcentaje de avance":"45,00%",
 					"Licitación Nº":"015/12",
-					"id":101
+					"id":97
                 }
         },
                  {   
@@ -2328,7 +2277,7 @@ var viviendas =      { "type" : "FeatureCollection",
 					"Estado de Obra":"En ejecución",
 					"Porcentaje de avance":"45,00%",
 					"Licitación Nº":"015/12",
-					"id":102
+					"id":98
                 }
         },
                  {   
@@ -2349,7 +2298,7 @@ var viviendas =      { "type" : "FeatureCollection",
 					"Estado de Obra":"En ejecución",
 					"Porcentaje de avance":"45,00%",
 					"Licitación Nº":"015/12",
-					"id":103
+					"id":99
                 }
         },
                  {   
@@ -2370,7 +2319,7 @@ var viviendas =      { "type" : "FeatureCollection",
 					"Estado de Obra":"Paralizado",
 					"Porcentaje de avance":"45,00%",
 					"Licitación Nº":"003/11",
-					"id":104
+					"id":100
                 }
         },
                  {   
@@ -2391,7 +2340,7 @@ var viviendas =      { "type" : "FeatureCollection",
 					"Estado de Obra":"Paralizado",
 					"Porcentaje de avance":"45,00%",
 					"Licitación Nº":"003/11",
-					"id":105
+					"id":101
                 }
         },
                  {   
@@ -2412,7 +2361,7 @@ var viviendas =      { "type" : "FeatureCollection",
 					"Estado de Obra":"Paralizado",
 					"Porcentaje de avance":"45,00%",
 					"Licitación Nº":"003/11",
-					"id":106
+					"id":102
                 }
         },
                  {   
@@ -2433,7 +2382,7 @@ var viviendas =      { "type" : "FeatureCollection",
 					"Estado de Obra":"Paralizado",
 					"Porcentaje de avance":"45,00%",
 					"Licitación Nº":"003/11",
-					"id":107
+					"id":103
                 }
         },
                  {   
@@ -2454,7 +2403,7 @@ var viviendas =      { "type" : "FeatureCollection",
 					"Estado de Obra":"Paralizado",
 					"Porcentaje de avance":"43,12%",
 					"Licitación Nº":"005/12",
-					"id":108
+					"id":104
                 }
         },
                  {   
@@ -2475,7 +2424,7 @@ var viviendas =      { "type" : "FeatureCollection",
 					"Estado de Obra":"Paralizado",
 					"Porcentaje de avance":"53,97%",
 					"Licitación Nº":"005/12",
-					"id":109
+					"id":105
                 }
         },
                  {   
@@ -2496,7 +2445,7 @@ var viviendas =      { "type" : "FeatureCollection",
 					"Estado de Obra":"Paralizado",
 					"Porcentaje de avance":"55,21%",
 					"Licitación Nº":"005/12",
-					"id":110
+					"id":106
                 }
         },
                  {   
@@ -2517,7 +2466,7 @@ var viviendas =      { "type" : "FeatureCollection",
 					"Estado de Obra":"Paralizado",
 					"Porcentaje de avance":"23,16%",
 					"Licitación Nº":"005/12",
-					"id":111
+					"id":107
                 }
         },
                  {   
@@ -2538,7 +2487,7 @@ var viviendas =      { "type" : "FeatureCollection",
 					"Estado de Obra":"Paralizado",
 					"Porcentaje de avance":"45,00%",
 					"Licitación Nº":"015/12",
-					"id":112
+					"id":108
                 }
         },
                  {   
@@ -2559,7 +2508,7 @@ var viviendas =      { "type" : "FeatureCollection",
 					"Estado de Obra":"Paralizado",
 					"Porcentaje de avance":"21,00%",
 					"Licitación Nº":"005/12",
-					"id":113
+					"id":109
                 }
         },
                  {   
@@ -2580,7 +2529,7 @@ var viviendas =      { "type" : "FeatureCollection",
 					"Estado de Obra":"En ejecución",
 					"Porcentaje de avance":"93,00%",
 					"Licitación Nº":"015/12",
-					"id":114
+					"id":110
                 }
         },
                  {   
@@ -2601,7 +2550,7 @@ var viviendas =      { "type" : "FeatureCollection",
 					"Estado de Obra":"Paralizado",
 					"Porcentaje de avance":"55,00%",
 					"Licitación Nº":"015/12",
-					"id":115
+					"id":111
                 }
         },
                  {   
@@ -2623,7 +2572,7 @@ var viviendas =      { "type" : "FeatureCollection",
 					"Estado de Obra":"Paralizado",
 					"Porcentaje de avance":"66,89%",
 					"Licitación Nº":"003/11",
-					"id":116
+					"id":112
                 }
         },
                  {   
@@ -2645,7 +2594,7 @@ var viviendas =      { "type" : "FeatureCollection",
 					"Estado de Obra":"Paralizado",
 					"Porcentaje de avance":"66,89%",
 					"Licitación Nº":"003/11",
-					"id":117
+					"id":113
                 }
         },
                  {   
@@ -2667,7 +2616,7 @@ var viviendas =      { "type" : "FeatureCollection",
 					"Estado de Obra":"Paralizado",
 					"Porcentaje de avance":"66,89%",
 					"Licitación Nº":"003/11",
-					"id":118
+					"id":114
                 }
         },
                  {   
@@ -2689,7 +2638,7 @@ var viviendas =      { "type" : "FeatureCollection",
 					"Estado de Obra":"Paralizado",
 					"Porcentaje de avance":"66,89%",
 					"Licitación Nº":"003/11",
-					"id":119
+					"id":115
                 }
         },
                  {   
@@ -2711,7 +2660,7 @@ var viviendas =      { "type" : "FeatureCollection",
 					"Estado de Obra":"Paralizado",
 					"Porcentaje de avance":"66,89%",
 					"Licitación Nº":"003/11",
-					"id":120
+					"id":116
                 }
         },
                  {   
@@ -2733,7 +2682,7 @@ var viviendas =      { "type" : "FeatureCollection",
 					"Estado de Obra":"Paralizado",
 					"Porcentaje de avance":"66,89%",
 					"Licitación Nº":"003/11",
-					"id":121
+					"id":117
                 }
         },
                  {   
@@ -2755,7 +2704,7 @@ var viviendas =      { "type" : "FeatureCollection",
 					"Estado de Obra":"Paralizado",
 					"Porcentaje de avance":"66,89%",
 					"Licitación Nº":"003/11",
-					"id":122
+					"id":118
                 }
         },
                  {   
@@ -2777,7 +2726,7 @@ var viviendas =      { "type" : "FeatureCollection",
 					"Estado de Obra":"Paralizado",
 					"Porcentaje de avance":"66,89%",
 					"Licitación Nº":"003/11",
-					"id":123
+					"id":119
                 }
         },
                  {   
@@ -2799,7 +2748,7 @@ var viviendas =      { "type" : "FeatureCollection",
 					"Estado de Obra":"Paralizado",
 					"Porcentaje de avance":"66,89%",
 					"Licitación Nº":"003/11",
-					"id":124
+					"id":120
                 }
         },
                  {   
@@ -2821,7 +2770,7 @@ var viviendas =      { "type" : "FeatureCollection",
 					"Estado de Obra":"Paralizado",
 					"Porcentaje de avance":"66,89%",
 					"Licitación Nº":"003/11",
-					"id":125
+					"id":121
                 }
         },
                  {   
@@ -2842,7 +2791,7 @@ var viviendas =      { "type" : "FeatureCollection",
 					"Estado de Obra":"Paralizado",
 					"Porcentaje de avance":"40,00%",
 					"Licitación Nº":"005/12",
-					"id":126
+					"id":122
                 }
         },
                  {   
@@ -2864,7 +2813,7 @@ var viviendas =      { "type" : "FeatureCollection",
 					"Estado de Obra":"Paralizado",
 					"Porcentaje de avance":"35,00%",
 					"Licitación Nº":"003/11",
-					"id":127
+					"id":123
                 }
         },
                  {   
@@ -2885,7 +2834,7 @@ var viviendas =      { "type" : "FeatureCollection",
 					"Estado de Obra":"Paralizado",
 					"Porcentaje de avance":"40,78%",
 					"Licitación Nº":"005/12",
-					"id":128
+					"id":124
                 }
         },
                  {   
@@ -2906,7 +2855,7 @@ var viviendas =      { "type" : "FeatureCollection",
 					"Estado de Obra":"En ejecución",
 					"Porcentaje de avance":"90,67%",
 					"Licitación Nº":"015/12",
-					"id":129
+					"id":125
                 }
         },
                  {   
@@ -2927,7 +2876,7 @@ var viviendas =      { "type" : "FeatureCollection",
 					"Estado de Obra":"En ejecución",
 					"Porcentaje de avance":"90,00%",
 					"Licitación Nº":"015/12",
-					"id":130
+					"id":126
                 }
         },
                  {   
@@ -2949,7 +2898,7 @@ var viviendas =      { "type" : "FeatureCollection",
 					"Estado de Obra":"En ejecución",
 					"Porcentaje de avance":"70,00%",
 					"Licitación Nº":"015/12",
-					"id":131
+					"id":127
                 }
         },
                  {   
@@ -2970,7 +2919,7 @@ var viviendas =      { "type" : "FeatureCollection",
 					"Estado de Obra":"Paralizado",
 					"Porcentaje de avance":"66,00%",
 					"Licitación Nº":"003/11",
-					"id":132
+					"id":128
                 }
         },
                  {   
@@ -2991,7 +2940,7 @@ var viviendas =      { "type" : "FeatureCollection",
 					"Estado de Obra":"Paralizado",
 					"Porcentaje de avance":"70,00%",
 					"Licitación Nº":"003/11",
-					"id":133
+					"id":129
                 }
         },
                  {   
@@ -3012,7 +2961,7 @@ var viviendas =      { "type" : "FeatureCollection",
 					"Estado de Obra":"Paralizado",
 					"Porcentaje de avance":"51,23%",
 					"Licitación Nº":"019/11",
-					"id":134
+					"id":130
                 }
         },
                  {   
@@ -3033,7 +2982,7 @@ var viviendas =      { "type" : "FeatureCollection",
 					"Estado de Obra":"Paralizado",
 					"Porcentaje de avance":"56,00%",
 					"Licitación Nº":"004/10",
-					"id":135
+					"id":131
                 }
         },
                  {   
@@ -3054,7 +3003,7 @@ var viviendas =      { "type" : "FeatureCollection",
 					"Estado de Obra":"En ejecución",
 					"Porcentaje de avance":"86,91%",
 					"Licitación Nº":"019/11",
-					"id":136
+					"id":132
                 }
         },
                  {   
@@ -3075,7 +3024,7 @@ var viviendas =      { "type" : "FeatureCollection",
 					"Estado de Obra":"Paralizado",
 					"Porcentaje de avance":"70,00%",
 					"Licitación Nº":"019/11",
-					"id":137
+					"id":133
                 }
         },
                  {   
@@ -3096,7 +3045,7 @@ var viviendas =      { "type" : "FeatureCollection",
 					"Estado de Obra":"Paralizado",
 					"Porcentaje de avance":"93,27%",
 					"Licitación Nº":"014/11",
-					"id":138
+					"id":134
                 }
         },
                  {   
@@ -3117,7 +3066,7 @@ var viviendas =      { "type" : "FeatureCollection",
 					"Estado de Obra":"Paralizado",
 					"Porcentaje de avance":"17,13%",
 					"Licitación Nº":"019/11",
-					"id":139
+					"id":135
                 }
         },
                  {   
@@ -3138,7 +3087,7 @@ var viviendas =      { "type" : "FeatureCollection",
 					"Estado de Obra":"Paralizado",
 					"Porcentaje de avance":"37,54%",
 					"Licitación Nº":"014/11",
-					"id":140
+					"id":136
                 }
         },
                  {   
@@ -3159,7 +3108,7 @@ var viviendas =      { "type" : "FeatureCollection",
 					"Estado de Obra":"En ejecución",
 					"Porcentaje de avance":"59,50%",
 					"Licitación Nº":"006/10",
-					"id":141
+					"id":137
                 }
         },
                  {   
@@ -3180,7 +3129,7 @@ var viviendas =      { "type" : "FeatureCollection",
 					"Estado de Obra":"Paralizado",
 					"Porcentaje de avance":"49,00%",
 					"Licitación Nº":"013/12",
-					"id":142
+					"id":138
                 }
         },
                  {   
@@ -3201,7 +3150,7 @@ var viviendas =      { "type" : "FeatureCollection",
 					"Estado de Obra":"Paralizado",
 					"Porcentaje de avance":"0,00%",
 					"Licitación Nº":"014/12",
-					"id":143
+					"id":139
                 }
         },
                  {   
@@ -3222,7 +3171,7 @@ var viviendas =      { "type" : "FeatureCollection",
 					"Estado de Obra":"Paralizado",
 					"Porcentaje de avance":"88,81%",
 					"Licitación Nº":"003/11",
-					"id":144
+					"id":140
                 }
         },
                  {   
@@ -3243,7 +3192,7 @@ var viviendas =      { "type" : "FeatureCollection",
 					"Estado de Obra":"Paralizado",
 					"Porcentaje de avance":"20,00%",
 					"Licitación Nº":"003/11",
-					"id":145
+					"id":141
                 }
         },
                  {   
@@ -3264,7 +3213,7 @@ var viviendas =      { "type" : "FeatureCollection",
 					"Estado de Obra":"Paralizado",
 					"Porcentaje de avance":"26,90%",
 					"Licitación Nº":"003/11",
-					"id":146
+					"id":142
                 }
         },
                  {   
@@ -3285,7 +3234,7 @@ var viviendas =      { "type" : "FeatureCollection",
 					"Estado de Obra":"Paralizado",
 					"Porcentaje de avance":"20,00%",
 					"Licitación Nº":"019/11",
-					"id":147
+					"id":143
                 }
         },
                  {   
@@ -3306,7 +3255,7 @@ var viviendas =      { "type" : "FeatureCollection",
 					"Estado de Obra":"Paralizado",
 					"Porcentaje de avance":"0,00%",
 					"Licitación Nº":"018/12",
-					"id":148
+					"id":144
                 }
         },
                  {   
@@ -3327,7 +3276,7 @@ var viviendas =      { "type" : "FeatureCollection",
 					"Estado de Obra":"Paralizado",
 					"Porcentaje de avance":"53,17%",
 					"Licitación Nº":"004/12",
-					"id":149
+					"id":145
                 }
         },
                  {   
@@ -3347,7 +3296,7 @@ var viviendas =      { "type" : "FeatureCollection",
 					"EAT - Equipo de Asistencia Técnica":"No corresponde",
 					"Estado de Obra":"Paralizado",
 					"Licitación Nº":"018/11",
-					"id":150
+					"id":146
                 }
         },
                  {   
@@ -3368,7 +3317,7 @@ var viviendas =      { "type" : "FeatureCollection",
 					"Estado de Obra":"Paralizado",
 					"Porcentaje de avance":"14,69%",
 					"Licitación Nº":"011/12",
-					"id":151
+					"id":147
                 }
         },
                  {   
@@ -3389,7 +3338,7 @@ var viviendas =      { "type" : "FeatureCollection",
 					"Estado de Obra":"Paralizado",
 					"Porcentaje de avance":"31,21%",
 					"Licitación Nº":"002/12",
-					"id":152
+					"id":148
                 }
         },
                  {   
@@ -3410,7 +3359,7 @@ var viviendas =      { "type" : "FeatureCollection",
 					"Estado de Obra":"Paralizado",
 					"Porcentaje de avance":"86,01%",
 					"Licitación Nº":"013/11",
-					"id":153
+					"id":149
                 }
         },
                  {   
@@ -3431,7 +3380,7 @@ var viviendas =      { "type" : "FeatureCollection",
 					"Estado de Obra":"Paralizado",
 					"Porcentaje de avance":"48,87%",
 					"Licitación Nº":"004/12",
-					"id":154
+					"id":150
                 }
         },
                  {   
@@ -3452,7 +3401,7 @@ var viviendas =      { "type" : "FeatureCollection",
 					"Estado de Obra":"Paralizado",
 					"Porcentaje de avance":"46,63%",
 					"Licitación Nº":"002/12",
-					"id":155
+					"id":151
                 }
         },
                  {   
@@ -3473,7 +3422,7 @@ var viviendas =      { "type" : "FeatureCollection",
 					"Estado de Obra":"Paralizado",
 					"Porcentaje de avance":"58,82%",
 					"Licitación Nº":"002/12",
-					"id":156
+					"id":152
                 }
         },
                  {   
@@ -3494,7 +3443,7 @@ var viviendas =      { "type" : "FeatureCollection",
 					"Estado de Obra":"Paralizado",
 					"Porcentaje de avance":"5,00%",
 					"Licitación Nº":"024/12",
-					"id":157
+					"id":153
                 }
         },
                  {   
@@ -3515,7 +3464,7 @@ var viviendas =      { "type" : "FeatureCollection",
 					"Estado de Obra":"Paralizado",
 					"Porcentaje de avance":"0,00%",
 					"Licitación Nº":"020/11",
-					"id":158
+					"id":154
                 }
         },
                  {   
@@ -3536,7 +3485,7 @@ var viviendas =      { "type" : "FeatureCollection",
 					"Estado de Obra":"Paralizado",
 					"Porcentaje de avance":"40,00%",
 					"Licitación Nº":"020/11",
-					"id":159
+					"id":155
                 }
         },
                  {   
@@ -3557,7 +3506,7 @@ var viviendas =      { "type" : "FeatureCollection",
 					"Estado de Obra":"Paralizado",
 					"Porcentaje de avance":"22,73%",
 					"Licitación Nº":"004/12",
-					"id":160
+					"id":156
                 }
         },
                  {   
@@ -3578,7 +3527,7 @@ var viviendas =      { "type" : "FeatureCollection",
 					"Estado de Obra":"En ejecución",
 					"Porcentaje de avance":"53,00%",
 					"Licitación Nº":"020/11",
-					"id":161
+					"id":157
                 }
         },
                  {   
@@ -3599,7 +3548,7 @@ var viviendas =      { "type" : "FeatureCollection",
 					"Estado de Obra":"En ejecución",
 					"Porcentaje de avance":"95,00%",
 					"Licitación Nº":"CD",
-					"id":162
+					"id":158
                 }
         },
                  {   
@@ -3620,7 +3569,7 @@ var viviendas =      { "type" : "FeatureCollection",
 					"Estado de Obra":"En ejecución",
 					"Porcentaje de avance":"95,00%",
 					"Licitación Nº":"004/12",
-					"id":163
+					"id":159
                 }
         },
                  {   
@@ -3641,7 +3590,7 @@ var viviendas =      { "type" : "FeatureCollection",
 					"Estado de Obra":"En ejecución",
 					"Porcentaje de avance":"95,00%",
 					"Licitación Nº":"004/12",
-					"id":164
+					"id":160
                 }
         },
                  {   
@@ -3662,7 +3611,7 @@ var viviendas =      { "type" : "FeatureCollection",
 					"Estado de Obra":"Paralizado",
 					"Porcentaje de avance":"10,93%",
 					"Licitación Nº":"004/12",
-					"id":165
+					"id":161
                 }
         },
                  {   
@@ -3676,13 +3625,14 @@ var viviendas =      { "type" : "FeatureCollection",
 					"Proyecto":"La Candelaria-Atyra",
 					"Programa":"Vy'a Renda",
 					"Cantidad de Viviendas":20,
-					"Empresa":"K Y V CONSTRUCCIONES",
+					"Empresa":"KyV Construcciones",
 					"Dato de contacto - Empresa":"Representante: Ing. Victor Hugo Villasboa Maidana Paraguay, 23 Proyectadas N°484 casi 14 de Mayo Ttelef:(021) 392 799",
 					"SAT - Servicio de Asistencia Técnica":"No corresponde",
 					"EAT - Equipo de Asistencia Técnica":"No corresponde",
 					"Estado de Obra":"Paralizado",
 					"Porcentaje de avance":"60,50%",
-					"id":166
+					"Licitación Nº":"02/2012",
+					"id":162
                 }
         },
                  {   
@@ -3703,7 +3653,7 @@ var viviendas =      { "type" : "FeatureCollection",
 					"Estado de Obra":"Paralizado",
 					"Porcentaje de avance":"29,75%",
 					"Licitación Nº":"002/12",
-					"id":167
+					"id":163
                 }
         },
                  {   
@@ -3724,7 +3674,7 @@ var viviendas =      { "type" : "FeatureCollection",
 					"Estado de Obra":"Paralizado",
 					"Porcentaje de avance":"20,94%",
 					"Licitación Nº":"011/12",
-					"id":168
+					"id":164
                 }
         },
                  {   
@@ -3745,7 +3695,7 @@ var viviendas =      { "type" : "FeatureCollection",
 					"Estado de Obra":"Paralizado",
 					"Porcentaje de avance":"52,00%",
 					"Licitación Nº":"024/12",
-					"id":169
+					"id":165
                 }
         },
                  {   
@@ -3766,7 +3716,7 @@ var viviendas =      { "type" : "FeatureCollection",
 					"Estado de Obra":"Paralizado",
 					"Porcentaje de avance":"48,00%",
 					"Licitación Nº":"013/11",
-					"id":170
+					"id":166
                 }
         },
                  {   
@@ -3787,7 +3737,7 @@ var viviendas =      { "type" : "FeatureCollection",
 					"Estado de Obra":"En ejecución",
 					"Porcentaje de avance":"95,00%",
 					"Licitación Nº":"018/11",
-					"id":171
+					"id":167
                 }
         },
                  {   
@@ -3808,7 +3758,7 @@ var viviendas =      { "type" : "FeatureCollection",
 					"Estado de Obra":"Paralizado",
 					"Porcentaje de avance":"89,00%",
 					"Licitación Nº":"007/11",
-					"id":172
+					"id":168
                 }
         },
                  {   
@@ -3829,7 +3779,7 @@ var viviendas =      { "type" : "FeatureCollection",
 					"Estado de Obra":"Paralizado",
 					"Porcentaje de avance":"3,00%",
 					"Licitación Nº":"011/12",
-					"id":173
+					"id":169
                 }
         },
                  {   
@@ -3850,7 +3800,7 @@ var viviendas =      { "type" : "FeatureCollection",
 					"Estado de Obra":"Paralizado",
 					"Porcentaje de avance":"0,00%",
 					"Licitación Nº":"018/12",
-					"id":174
+					"id":170
                 }
         },
                  {   
@@ -3871,7 +3821,7 @@ var viviendas =      { "type" : "FeatureCollection",
 					"Estado de Obra":"Paralizado",
 					"Porcentaje de avance":"40,00%",
 					"Licitación Nº":"018/11",
-					"id":175
+					"id":171
                 }
         },
                  {   
@@ -3892,7 +3842,7 @@ var viviendas =      { "type" : "FeatureCollection",
 					"Estado de Obra":"Paralizado",
 					"Porcentaje de avance":"3.10%",
 					"Licitación Nº":"011/11",
-					"id":176
+					"id":172
                 }
         },
                  {   
@@ -3913,7 +3863,7 @@ var viviendas =      { "type" : "FeatureCollection",
 					"Estado de Obra":"Paralizado",
 					"Porcentaje de avance":"70,00%",
 					"Licitación Nº":"018/11",
-					"id":177
+					"id":173
                 }
         },
                  {   
@@ -3934,7 +3884,7 @@ var viviendas =      { "type" : "FeatureCollection",
 					"Estado de Obra":"En ejecución",
 					"Porcentaje de avance":"95,00%",
 					"Licitación Nº":"004/12",
-					"id":178
+					"id":174
                 }
         },
                  {   
@@ -3955,7 +3905,7 @@ var viviendas =      { "type" : "FeatureCollection",
 					"Estado de Obra":"Paralizado",
 					"Porcentaje de avance":"35,00%",
 					"Licitación Nº":"020/12",
-					"id":179
+					"id":175
                 }
         },
                  {   
@@ -3972,10 +3922,12 @@ var viviendas =      { "type" : "FeatureCollection",
 					"SAT - Servicio de Asistencia Técnica":"ALTO FORREST  PARAGUAY",
 					"Dato de contacto - SAT":"Verónica Elvira Coronel. 0985 891 036. veliferme@hotmail.com",
 					"EAT - Equipo de Asistencia Técnica":"No corresponde",
+					"Estado de Obra":"En ejecución",
+					"Porcentaje de avance":"95%",
 					"Licitación Nº":"No corresponde",
 					"Origen del terreno":"Terreno comunitario",
 					"Calificación provisional":"17/8/12",
-					"id":180
+					"id":176
                 }
         },
                  {   
@@ -3992,11 +3944,12 @@ var viviendas =      { "type" : "FeatureCollection",
 					"SAT - Servicio de Asistencia Técnica":"CODES",
 					"Dato de contacto - SAT":"Arq. Alfonso Olmedo. 0992 283 352 - (021) 301-015.",
 					"EAT - Equipo de Asistencia Técnica":"No corresponde",
-					"Porcentaje de avance":"90% de avance",
+					"Estado de Obra":"En ejecución",
+					"Porcentaje de avance":"90%",
 					"Licitación Nº":"No corresponde",
 					"Origen del terreno":"Terreno comunitario",
 					"Calificación provisional":"162.111.977",
-					"id":181
+					"id":177
                 }
         },
                  {   
@@ -4013,10 +3966,12 @@ var viviendas =      { "type" : "FeatureCollection",
 					"SAT - Servicio de Asistencia Técnica":"ARQUIDEC S.R.L.",
 					"Dato de contacto - SAT":"Faustino Correa. 0982 279 400. arqudec_srl@yahoo.com ",
 					"EAT - Equipo de Asistencia Técnica":"No corresponde",
+					"Estado de Obra":"En ejecución",
+					"Porcentaje de avance":"95%",
 					"Licitación Nº":"No corresponde",
 					"Origen del terreno":"Propiedad de los Beneficiarios",
 					"Calificación provisional":"8/3/13",
-					"id":182
+					"id":178
                 }
         },
                  {   
@@ -4036,7 +3991,7 @@ var viviendas =      { "type" : "FeatureCollection",
 					"Licitación Nº":"No corresponde",
 					"Origen del terreno":"Propiedad de la SAS",
 					"Calificación provisional":"21/1/13",
-					"id":183
+					"id":179
                 }
         },
                  {   
@@ -4057,7 +4012,7 @@ var viviendas =      { "type" : "FeatureCollection",
 					"Licitación Nº":"No corresponde",
 					"Origen del terreno":"Propiedad privada (compra de terreno)",
 					"Calificación provisional":"31/10/11",
-					"id":184
+					"id":180
                 }
         },
                  {   
@@ -4079,7 +4034,7 @@ var viviendas =      { "type" : "FeatureCollection",
 					"Licitación Nº":"No corresponde",
 					"Origen del terreno":"Propiedad privada (compra de terreno)",
 					"Calificación provisional":"8/8/12",
-					"id":185
+					"id":181
                 }
         },
                  {   
@@ -4096,11 +4051,12 @@ var viviendas =      { "type" : "FeatureCollection",
 					"SAT - Servicio de Asistencia Técnica":"LIC. MARIA MERCEDES ENRIQUEZ",
 					"Dato de contacto - SAT":"Lic.Maria Mercedes Enrriquez. 0971 423 949. sat_m.a@hotmail.com",
 					"EAT - Equipo de Asistencia Técnica":"No corresponde",
-					"Porcentaje de avance":"esas 10 estan 100%",
+					"Estado de Obra":"En ejecución",
+					"Porcentaje de avance":"95%",
 					"Licitación Nº":"No corresponde",
 					"Origen del terreno":"Terreno comunitario",
 					"Calificación provisional":"13/2/13",
-					"id":186
+					"id":182
                 }
         },
                  {   
@@ -4117,11 +4073,12 @@ var viviendas =      { "type" : "FeatureCollection",
 					"SAT - Servicio de Asistencia Técnica":"LIC. MARIA MERCEDES ENRIQUEZ",
 					"Dato de contacto - SAT":"Lic.Maria Mercedes Enrriquez. 0971 423 949. sat_m.a@hotmail.com",
 					"EAT - Equipo de Asistencia Técnica":"No corresponde",
-					"Porcentaje de avance":"95% de avance",
+					"Estado de Obra":"En ejecución",
+					"Porcentaje de avance":"95%",
 					"Licitación Nº":"No corresponde",
 					"Origen del terreno":"Terreno comunitario",
 					"Calificación provisional":"6/2/13",
-					"id":187
+					"id":183
                 }
         },
                  {   
@@ -4143,7 +4100,7 @@ var viviendas =      { "type" : "FeatureCollection",
 					"Licitación Nº":"No corresponde",
 					"Origen del terreno":"Terreno comunitario",
 					"Calificación provisional":"15/2/13",
-					"id":188
+					"id":184
                 }
         },
                  {   
@@ -4165,7 +4122,7 @@ var viviendas =      { "type" : "FeatureCollection",
 					"Licitación Nº":"No corresponde",
 					"Origen del terreno":"Propiedad de la Municipalidad",
 					"Calificación provisional":"30/1/13",
-					"id":189
+					"id":185
                 }
         },
                  {   
@@ -4182,11 +4139,11 @@ var viviendas =      { "type" : "FeatureCollection",
 					"SAT - Servicio de Asistencia Técnica":"NATANAEL CADOGAN DUARTE",
 					"Dato de contacto - SAT":"Natanael Cadogan Duarte. 0981 156 421. (021) 203 433",
 					"EAT - Equipo de Asistencia Técnica":"No corresponde",
-					"Porcentaje de avance":"100% de avance",
+					"Porcentaje de avance":"100%",
 					"Licitación Nº":"No corresponde",
 					"Origen del terreno":"Propiedad de la SAS",
 					"Calificación provisional":"8/3/13",
-					"id":190
+					"id":186
                 }
         },
                  {   
@@ -4203,11 +4160,11 @@ var viviendas =      { "type" : "FeatureCollection",
 					"SAT - Servicio de Asistencia Técnica":"RIGOBERTO GONZALEZ GIMENEZ",
 					"Dato de contacto - SAT":"Rigoberto Gonzalez Gimenez. 0981 889 632. Rigoberto.consul@gmail.com",
 					"EAT - Equipo de Asistencia Técnica":"No corresponde",
-					"Porcentaje de avance":"100% de avance",
+					"Porcentaje de avance":"100%",
 					"Licitación Nº":"No corresponde",
 					"Origen del terreno":"Propiedad de la SAS",
 					"Calificación provisional":"15/2/13",
-					"id":191
+					"id":187
                 }
         },
                  {   
@@ -4227,7 +4184,7 @@ var viviendas =      { "type" : "FeatureCollection",
 					"Licitación Nº":"No corresponde",
 					"Origen del terreno":"Propiedad privada (compra de terreno)",
 					"Calificación provisional":"10/5/13",
-					"id":192
+					"id":188
                 }
         },
                  {   
@@ -4244,11 +4201,12 @@ var viviendas =      { "type" : "FeatureCollection",
 					"SAT - Servicio de Asistencia Técnica":"RIGOBERTO GONZALEZ GIMENEZ",
 					"Dato de contacto - SAT":"Rigoberto Gonzalez Gimenez. 0981 889 632. Rigoberto.consul@gmail.com",
 					"EAT - Equipo de Asistencia Técnica":"No corresponde",
-					"Porcentaje de avance":"85% de avance",
+					"Estado de Obra":"En ejecución",
+					"Porcentaje de avance":"85%",
 					"Licitación Nº":"No corresponde",
 					"Origen del terreno":"Propiedad de la SAS",
 					"Calificación provisional":"20/12/12",
-					"id":193
+					"id":189
                 }
         },
                  {   
@@ -4265,10 +4223,12 @@ var viviendas =      { "type" : "FeatureCollection",
 					"SAT - Servicio de Asistencia Técnica":"INGENIERIA Y PROYECTOS PARAGUAY - IPP",
 					"Dato de contacto - SAT":"Ing. Manuel Lombardo. 0971 291 547. ma-lombardo@hotmail.com ",
 					"EAT - Equipo de Asistencia Técnica":"No corresponde",
+					"Estado de Obra":"Culminada",
+					"Porcentaje de avance":"i",
 					"Licitación Nº":"No corresponde",
 					"Origen del terreno":"Propiedad privada (compra de terreno)",
 					"Calificación provisional":"17/9/12",
-					"id":194
+					"id":190
                 }
         },
                  {   
@@ -4285,11 +4245,11 @@ var viviendas =      { "type" : "FeatureCollection",
 					"SAT - Servicio de Asistencia Técnica":"ARQ. REBECA ZELAYA GONZALEZ",
 					"Dato de contacto - SAT":"Arq. Rebeca Zelaya. 0981 582 624. rebe_zegon@hotmail.com ",
 					"EAT - Equipo de Asistencia Técnica":"No corresponde",
-					"Porcentaje de avance":"100% de avance",
+					"Porcentaje de avance":"100%",
 					"Licitación Nº":"No corresponde",
 					"Origen del terreno":"Propiedad de la SAS",
 					"Calificación provisional":"24/6/13",
-					"id":195
+					"id":191
                 }
         },
                  {   
@@ -4309,7 +4269,7 @@ var viviendas =      { "type" : "FeatureCollection",
 					"Licitación Nº":"No corresponde",
 					"Origen del terreno":"Propiedad de la Municipalidad",
 					"Calificación provisional":"24.722.726",
-					"id":196
+					"id":192
                 }
         },
                  {   
@@ -4326,11 +4286,12 @@ var viviendas =      { "type" : "FeatureCollection",
 					"SAT - Servicio de Asistencia Técnica":"ASOCIACION TEKOVERA",
 					"Dato de contacto - SAT":"Arq. Ilse Coronel. 0981 426 280. adricoronel@gmail.com",
 					"EAT - Equipo de Asistencia Técnica":"No corresponde",
-					"Porcentaje de avance":"90% de avance",
+					"Estado de Obra":"En ejecución",
+					"Porcentaje de avance":"90%",
 					"Licitación Nº":"No corresponde",
 					"Origen del terreno":"Propiedad privada (compra de terreno)",
 					"Calificación provisional":"99.493.231",
-					"id":197
+					"id":193
                 }
         },
                  {   
@@ -4351,7 +4312,7 @@ var viviendas =      { "type" : "FeatureCollection",
 					"Licitación Nº":"No corresponde",
 					"Origen del terreno":"Propiedad privada (compra de terreno)",
 					"Calificación provisional":"5/6/12",
-					"id":198
+					"id":194
                 }
         },
                  {   
@@ -4368,11 +4329,12 @@ var viviendas =      { "type" : "FeatureCollection",
 					"SAT - Servicio de Asistencia Técnica":"LIC. MARIA MERCEDES ENRIQUEZ",
 					"Dato de contacto - SAT":"Lic.Maria Mercedes Enrriquez. 0971 423 949. sat_m.a@hotmail.com",
 					"EAT - Equipo de Asistencia Técnica":"No corresponde",
-					"Porcentaje de avance":"50% de avance",
+					"Estado de Obra":"En ejecución",
+					"Porcentaje de avance":"50%",
 					"Licitación Nº":"No corresponde",
 					"Origen del terreno":"Propiedad privada (compra de terreno)",
 					"Calificación provisional":"27/9/11",
-					"id":199
+					"id":195
                 }
         },
                  {   
@@ -4389,11 +4351,12 @@ var viviendas =      { "type" : "FeatureCollection",
 					"SAT - Servicio de Asistencia Técnica":"INGENIERIA Y PROYECTOS PARAGUAY - IPP",
 					"Dato de contacto - SAT":"Ing. Manuel Lombardo. 0971 291 547. ma-lombardo@hotmail.com ",
 					"EAT - Equipo de Asistencia Técnica":"No corresponde",
-					"Porcentaje de avance":"0,92",
+					"Estado de Obra":"Culminada",
+					"Porcentaje de avance":"i",
 					"Licitación Nº":"No corresponde",
 					"Origen del terreno":"Propiedad privada (compra de terreno)",
 					"Calificación provisional":"2/12/11",
-					"id":200
+					"id":196
                 }
         },
                  {   
@@ -4411,9 +4374,9 @@ var viviendas =      { "type" : "FeatureCollection",
 					"Dato de contacto - SAT":"Cristhian Manuel Araujo. 0981 382 177. info@geo.com.py",
 					"EAT - Equipo de Asistencia Técnica":"No corresponde",
 					"Licitación Nº":"No corresponde",
-					"Origen del terreno":"Propiedad del INDERT",
+					"Origen del terreno":"INDERT",
 					"Calificación provisional":"11/3/11",
-					"id":201
+					"id":197
                 }
         },
                  {   
@@ -4433,7 +4396,7 @@ var viviendas =      { "type" : "FeatureCollection",
 					"Licitación Nº":"No corresponde",
 					"Origen del terreno":"Propiedad privada (compra de terreno)",
 					"Calificación provisional":"15/11/12",
-					"id":202
+					"id":198
                 }
         },
                  {   
@@ -4450,11 +4413,12 @@ var viviendas =      { "type" : "FeatureCollection",
 					"SAT - Servicio de Asistencia Técnica":"COTEP S.A.",
 					"Dato de contacto - SAT":"Julio Cesar Roman. 0981 902 068. tareascotepsa@gmail.com ",
 					"EAT - Equipo de Asistencia Técnica":"No corresponde",
-					"Porcentaje de avance":"95%  de avance",
+					"Estado de Obra":"En ejecución",
+					"Porcentaje de avance":"95%",
 					"Licitación Nº":"No corresponde",
 					"Origen del terreno":"Propiedad privada (compra de terreno)",
 					"Calificación provisional":"31/8/12",
-					"id":203
+					"id":199
                 }
         },
                  {   
@@ -4475,7 +4439,7 @@ var viviendas =      { "type" : "FeatureCollection",
 					"Porcentaje de avance":"cd",
 					"Licitación Nº":"No corresponde",
 					"Origen del terreno":"Propiedad de la SAS",
-					"id":204
+					"id":200
                 }
         },
                  {   
@@ -4492,11 +4456,12 @@ var viviendas =      { "type" : "FeatureCollection",
 					"SAT - Servicio de Asistencia Técnica":"CODES",
 					"Dato de contacto - SAT":"Arq. Alfonso Olmedo. 0992 283 352 - (021) 301-015.",
 					"EAT - Equipo de Asistencia Técnica":"No corresponde",
-					"Porcentaje de avance":"50% de avance",
+					"Estado de Obra":"En ejecución",
+					"Porcentaje de avance":"50%",
 					"Licitación Nº":"No corresponde",
 					"Origen del terreno":"Terreno comunitario",
 					"Calificación provisional":"188.953.468",
-					"id":205
+					"id":201
                 }
         },
                  {   
@@ -4516,7 +4481,7 @@ var viviendas =      { "type" : "FeatureCollection",
 					"Licitación Nº":"No corresponde",
 					"Origen del terreno":"Propiedad de los Beneficiarios",
 					"Calificación provisional":"18/10/13",
-					"id":206
+					"id":202
                 }
         },
                  {   
@@ -4536,7 +4501,7 @@ var viviendas =      { "type" : "FeatureCollection",
 					"Licitación Nº":"No corresponde",
 					"Origen del terreno":"Terreno comunitario",
 					"Calificación provisional":"12/6/13",
-					"id":207
+					"id":203
                 }
         },
                  {   
@@ -4553,11 +4518,11 @@ var viviendas =      { "type" : "FeatureCollection",
 					"SAT - Servicio de Asistencia Técnica":"ACG CONSULTORA INTEGRAL",
 					"Dato de contacto - SAT":"Abog. Federico Cabral. 0983 597 347. (021) 528 973",
 					"EAT - Equipo de Asistencia Técnica":"No corresponde",
-					"Porcentaje de avance":"100% de avance",
+					"Porcentaje de avance":"100%",
 					"Licitación Nº":"No corresponde",
 					"Origen del terreno":"Propiedad de la SAS",
 					"Calificación provisional":"1/8/13",
-					"id":208
+					"id":204
                 }
         },
                  {   
@@ -4574,11 +4539,12 @@ var viviendas =      { "type" : "FeatureCollection",
 					"SAT - Servicio de Asistencia Técnica":"ACG CONSULTORA INTEGRAL",
 					"Dato de contacto - SAT":"Abog. Federico Cabral. 0983 597 347. (021) 528 973",
 					"EAT - Equipo de Asistencia Técnica":"No corresponde",
-					"Porcentaje de avance":"92% de avance",
+					"Estado de Obra":"En ejecución",
+					"Porcentaje de avance":"92%",
 					"Licitación Nº":"No corresponde",
 					"Origen del terreno":"Propiedad de la SAS",
 					"Calificación provisional":"1/8/13",
-					"id":209
+					"id":205
                 }
         },
                  {   
@@ -4598,7 +4564,7 @@ var viviendas =      { "type" : "FeatureCollection",
 					"Licitación Nº":"No corresponde",
 					"Origen del terreno":"Terreno comunitario",
 					"Calificación provisional":"5/6/13",
-					"id":210
+					"id":206
                 }
         },
                  {   
@@ -4615,11 +4581,11 @@ var viviendas =      { "type" : "FeatureCollection",
 					"SAT - Servicio de Asistencia Técnica":"CEDES/HABITAT",
 					"Dato de contacto - SAT":"Arq. Emma Gill. 0981444 295. cedeshab@gmail.com",
 					"EAT - Equipo de Asistencia Técnica":"No corresponde",
-					"Porcentaje de avance":"100% de avance",
+					"Porcentaje de avance":"100%",
 					"Licitación Nº":"No corresponde",
 					"Origen del terreno":"Terreno comunitario",
 					"Calificación provisional":"18/6/13",
-					"id":211
+					"id":207
                 }
         },
                  {   
@@ -4636,11 +4602,12 @@ var viviendas =      { "type" : "FeatureCollection",
 					"SAT - Servicio de Asistencia Técnica":"CEDES/HABITAT",
 					"Dato de contacto - SAT":"Arq. Emma Gill. 0981444 295. cedeshab@gmail.com",
 					"EAT - Equipo de Asistencia Técnica":"No corresponde",
-					"Porcentaje de avance":"95% de avance",
+					"Estado de Obra":"En ejecución",
+					"Porcentaje de avance":"95%",
 					"Licitación Nº":"No corresponde",
 					"Origen del terreno":"Terreno comunitario",
 					"Calificación provisional":"18/6/13",
-					"id":212
+					"id":208
                 }
         },
                  {   
@@ -4659,7 +4626,7 @@ var viviendas =      { "type" : "FeatureCollection",
 					"EAT - Equipo de Asistencia Técnica":"No corresponde",
 					"Licitación Nº":"No corresponde",
 					"Origen del terreno":"Terreno comunitario",
-					"id":213
+					"id":209
                 }
         },
                  {   
@@ -4676,11 +4643,12 @@ var viviendas =      { "type" : "FeatureCollection",
 					"SAT - Servicio de Asistencia Técnica":"CESARINA BARRETO DE ENCISO",
 					"Dato de contacto - SAT":"Cesarina Barreto De Enciso. 0984 133 838. cesarinaenciso@hotmail.com",
 					"EAT - Equipo de Asistencia Técnica":"No corresponde",
-					"Porcentaje de avance":"95% de avance",
+					"Estado de Obra":"En ejecución",
+					"Porcentaje de avance":"95%",
 					"Licitación Nº":"No corresponde",
 					"Origen del terreno":"Propiedad privada (compra de terreno)",
 					"Calificación provisional":"82.846.011",
-					"id":214
+					"id":210
                 }
         },
                  {   
@@ -4697,11 +4665,11 @@ var viviendas =      { "type" : "FeatureCollection",
 					"SAT - Servicio de Asistencia Técnica":"FREDDY DIOSNEL ROLON",
 					"Dato de contacto - SAT":"Freddy Diosnel Rolon. 0981 458 666. fredydiosnelrolon@hotmail.com",
 					"EAT - Equipo de Asistencia Técnica":"No corresponde",
-					"Porcentaje de avance":"100% de avance",
+					"Porcentaje de avance":"100%",
 					"Licitación Nº":"No corresponde",
 					"Origen del terreno":"Propiedad de la SAS",
 					"Calificación provisional":"17/7/14",
-					"id":215
+					"id":211
                 }
         },
                  {   
@@ -4718,11 +4686,12 @@ var viviendas =      { "type" : "FeatureCollection",
 					"SAT - Servicio de Asistencia Técnica":"LIC. MARIA MERCEDES ENRIQUEZ",
 					"Dato de contacto - SAT":"Lic.Maria Mercedes Enrriquez. 0971 423 949. sat_m.a@hotmail.com",
 					"EAT - Equipo de Asistencia Técnica":"No corresponde",
-					"Porcentaje de avance":"60% de avance",
+					"Estado de Obra":"En ejecución",
+					"Porcentaje de avance":"60%",
 					"Licitación Nº":"No corresponde",
 					"Origen del terreno":"Propiedad privada (compra de terreno)",
 					"Calificación provisional":"8/8/12",
-					"id":216
+					"id":212
                 }
         },
                  {   
@@ -4739,11 +4708,12 @@ var viviendas =      { "type" : "FeatureCollection",
 					"SAT - Servicio de Asistencia Técnica":"LIC. MARIA MERCEDES ENRIQUEZ",
 					"Dato de contacto - SAT":"Lic.Maria Mercedes Enrriquez. 0971 423 949. sat_m.a@hotmail.com",
 					"EAT - Equipo de Asistencia Técnica":"No corresponde",
-					"Porcentaje de avance":"100%de avance",
+					"Estado de Obra":"En ejecución",
+					"Porcentaje de avance":"100%",
 					"Licitación Nº":"No corresponde",
 					"Origen del terreno":"Propiedad de los Beneficiarios",
 					"Calificación provisional":"17/6/13",
-					"id":217
+					"id":213
                 }
         },
                  {   
@@ -4760,11 +4730,12 @@ var viviendas =      { "type" : "FeatureCollection",
 					"SAT - Servicio de Asistencia Técnica":"LIC. MARIA MERCEDES ENRIQUEZ",
 					"Dato de contacto - SAT":"Lic.Maria Mercedes Enrriquez. 0971 423 949. sat_m.a@hotmail.com",
 					"EAT - Equipo de Asistencia Técnica":"No corresponde",
-					"Porcentaje de avance":"60% de avance",
+					"Estado de Obra":"En ejecución",
+					"Porcentaje de avance":"78%",
 					"Licitación Nº":"No corresponde",
 					"Origen del terreno":"Propiedad de la Municipalidad",
 					"Calificación provisional":"12/12/12",
-					"id":218
+					"id":214
                 }
         },
                  {   
@@ -4781,11 +4752,12 @@ var viviendas =      { "type" : "FeatureCollection",
 					"SAT - Servicio de Asistencia Técnica":"LIC. MARIA MERCEDES ENRIQUEZ",
 					"Dato de contacto - SAT":"Lic.Maria Mercedes Enrriquez. 0971 423 949. sat_m.a@hotmail.com",
 					"EAT - Equipo de Asistencia Técnica":"No corresponde",
-					"Porcentaje de avance":"60% de avance",
+					"Estado de Obra":"En ejecución",
+					"Porcentaje de avance":"60%",
 					"Licitación Nº":"No corresponde",
 					"Origen del terreno":"Terreno comunitario",
 					"Calificación provisional":"20/6/13",
-					"id":219
+					"id":215
                 }
         },
                  {   
@@ -4802,11 +4774,12 @@ var viviendas =      { "type" : "FeatureCollection",
 					"SAT - Servicio de Asistencia Técnica":"LIC. MARIA MERCEDES ENRIQUEZ",
 					"Dato de contacto - SAT":"Lic.Maria Mercedes Enrriquez. 0971 423 949. sat_m.a@hotmail.com",
 					"EAT - Equipo de Asistencia Técnica":"No corresponde",
-					"Porcentaje de avance":"50% de avance",
+					"Estado de Obra":"En ejecución",
+					"Porcentaje de avance":"50%",
 					"Licitación Nº":"No corresponde",
 					"Origen del terreno":"Propiedad de la Municipalidad",
 					"Calificación provisional":"15/7/13",
-					"id":220
+					"id":216
                 }
         },
                  {   
@@ -4823,11 +4796,12 @@ var viviendas =      { "type" : "FeatureCollection",
 					"SAT - Servicio de Asistencia Técnica":"NATANAEL CADOGAN DUARTE",
 					"Dato de contacto - SAT":"Natanael Cadogan Duarte. 0981 156 421. (021) 203 433",
 					"EAT - Equipo de Asistencia Técnica":"No corresponde",
-					"Porcentaje de avance":"10% de avance",
+					"Estado de Obra":"En ejecución",
+					"Porcentaje de avance":"10%",
 					"Licitación Nº":"No corresponde",
 					"Origen del terreno":"Propiedad privada (compra de terreno)",
 					"Calificación provisional":"31/7/13",
-					"id":221
+					"id":217
                 }
         },
                  {   
@@ -4848,7 +4822,7 @@ var viviendas =      { "type" : "FeatureCollection",
 					"Licitación Nº":"No corresponde",
 					"Origen del terreno":"Propiedad privada (compra de terreno)",
 					"Calificación provisional":"9/8/13",
-					"id":222
+					"id":218
                 }
         },
                  {   
@@ -4865,11 +4839,12 @@ var viviendas =      { "type" : "FeatureCollection",
 					"SAT - Servicio de Asistencia Técnica":"RIGOBERTO GONZALEZ GIMENEZ",
 					"Dato de contacto - SAT":"Rigoberto Gonzalez Gimenez. 0981 889 632. Rigoberto.consul@gmail.com",
 					"EAT - Equipo de Asistencia Técnica":"No corresponde",
-					"Porcentaje de avance":"80% de avance",
+					"Estado de Obra":"En ejecución",
+					"Porcentaje de avance":"80%",
 					"Licitación Nº":"No corresponde",
 					"Origen del terreno":"Propiedad de la SAS",
 					"Calificación provisional":"19/12/13",
-					"id":223
+					"id":219
                 }
         },
                  {   
@@ -4886,11 +4861,12 @@ var viviendas =      { "type" : "FeatureCollection",
 					"SAT - Servicio de Asistencia Técnica":"RIGOBERTO GONZALEZ GIMENEZ",
 					"Dato de contacto - SAT":"Rigoberto Gonzalez Gimenez. 0981 889 632. Rigoberto.consul@gmail.com",
 					"EAT - Equipo de Asistencia Técnica":"No corresponde",
-					"Porcentaje de avance":"60% de avance",
+					"Estado de Obra":"En ejecución",
+					"Porcentaje de avance":"60%",
 					"Licitación Nº":"No corresponde",
 					"Origen del terreno":"Propiedad de la SAS",
 					"Calificación provisional":"16/1/14",
-					"id":224
+					"id":220
                 }
         },
                  {   
@@ -4907,11 +4883,12 @@ var viviendas =      { "type" : "FeatureCollection",
 					"SAT - Servicio de Asistencia Técnica":"RIGOBERTO GONZALEZ GIMENEZ",
 					"Dato de contacto - SAT":"Rigoberto Gonzalez Gimenez. 0981 889 632. Rigoberto.consul@gmail.com",
 					"EAT - Equipo de Asistencia Técnica":"No corresponde",
-					"Porcentaje de avance":"50% de avance",
+					"Estado de Obra":"En ejecución",
+					"Porcentaje de avance":"50%",
 					"Licitación Nº":"No corresponde",
 					"Origen del terreno":"Propiedad de la SAS",
 					"Calificación provisional":"11/10/13",
-					"id":225
+					"id":221
                 }
         },
                  {   
@@ -4928,11 +4905,12 @@ var viviendas =      { "type" : "FeatureCollection",
 					"SAT - Servicio de Asistencia Técnica":"RIGOBERTO GONZALEZ GIMENEZ",
 					"Dato de contacto - SAT":"Rigoberto Gonzalez Gimenez. 0981 889 632. Rigoberto.consul@gmail.com",
 					"EAT - Equipo de Asistencia Técnica":"No corresponde",
-					"Porcentaje de avance":"25% de avance",
+					"Estado de Obra":"En ejecución",
+					"Porcentaje de avance":"25%",
 					"Licitación Nº":"No corresponde",
 					"Origen del terreno":"Propiedad de la SAS",
 					"Calificación provisional":"26/7/13",
-					"id":226
+					"id":222
                 }
         },
                  {   
@@ -4949,11 +4927,12 @@ var viviendas =      { "type" : "FeatureCollection",
 					"SAT - Servicio de Asistencia Técnica":"VERONICA OJEDA CASTELLI",
 					"Dato de contacto - SAT":"Abog. Veronica Ojeda. 0981 407 827. vojedacastelli@gmail.com",
 					"EAT - Equipo de Asistencia Técnica":"No corresponde",
-					"Porcentaje de avance":"60% de avance",
+					"Estado de Obra":"En ejecución",
+					"Porcentaje de avance":"60%",
 					"Licitación Nº":"No corresponde",
 					"Origen del terreno":"Propiedad de la SAS",
 					"Calificación provisional":"16/12/13",
-					"id":227
+					"id":223
                 }
         },
                  {   
@@ -4970,11 +4949,12 @@ var viviendas =      { "type" : "FeatureCollection",
 					"SAT - Servicio de Asistencia Técnica":"VERONICA OJEDA CASTELLI",
 					"Dato de contacto - SAT":"Abog. Veronica Ojeda. 0981 407 827. vojedacastelli@gmail.com",
 					"EAT - Equipo de Asistencia Técnica":"No corresponde",
-					"Porcentaje de avance":"80% de avance",
+					"Estado de Obra":"En ejecución",
+					"Porcentaje de avance":"80%",
 					"Licitación Nº":"No corresponde",
 					"Origen del terreno":"Propiedad de la SAS",
 					"Calificación provisional":"13/12/13",
-					"id":228
+					"id":224
                 }
         },
                  {   
@@ -4994,7 +4974,7 @@ var viviendas =      { "type" : "FeatureCollection",
 					"Licitación Nº":"No corresponde",
 					"Origen del terreno":"Propiedad privada (compra de terreno)",
 					"Calificación provisional":"6/2/14",
-					"id":229
+					"id":225
                 }
         },
                  {   
@@ -5012,9 +4992,9 @@ var viviendas =      { "type" : "FeatureCollection",
 					"Dato de contacto - SAT":"Arq. Ilse Coronel. 0981 426 280. adricoronel@gmail.com",
 					"EAT - Equipo de Asistencia Técnica":"No corresponde",
 					"Licitación Nº":"No corresponde",
-					"Origen del terreno":"Propiedad del INDERT",
+					"Origen del terreno":"INDERT",
 					"Calificación provisional":"59.828.899",
-					"id":230
+					"id":226
                 }
         },
                  {   
@@ -5032,9 +5012,9 @@ var viviendas =      { "type" : "FeatureCollection",
 					"Dato de contacto - SAT":"Arq. Ilse Coronel. 0981 426 280. adricoronel@gmail.com",
 					"EAT - Equipo de Asistencia Técnica":"No corresponde",
 					"Licitación Nº":"No corresponde",
-					"Origen del terreno":"Propiedad del INDERT",
+					"Origen del terreno":"INDERT",
 					"Calificación provisional":"59.828.899",
-					"id":231
+					"id":227
                 }
         },
                  {   
@@ -5052,9 +5032,9 @@ var viviendas =      { "type" : "FeatureCollection",
 					"Dato de contacto - SAT":"Mary Lechenuk. 0981 491 993. mlisnichuk@habitat.org.py",
 					"EAT - Equipo de Asistencia Técnica":"No corresponde",
 					"Licitación Nº":"No corresponde",
-					"Origen del terreno":"Propiedad del INDERT",
+					"Origen del terreno":"INDERT",
 					"Calificación provisional":"6/5/14",
-					"id":232
+					"id":228
                 }
         },
                  {   
@@ -5072,9 +5052,9 @@ var viviendas =      { "type" : "FeatureCollection",
 					"Dato de contacto - SAT":"Lic.Maria Mercedes Enrriquez. 0971 423 949. sat_m.a@hotmail.com",
 					"EAT - Equipo de Asistencia Técnica":"No corresponde",
 					"Licitación Nº":"No corresponde",
-					"Origen del terreno":"Propiedad del INDERT",
+					"Origen del terreno":"INDERT",
 					"Calificación provisional":"28/3/14",
-					"id":233
+					"id":229
                 }
         },
                  {   
@@ -5091,11 +5071,12 @@ var viviendas =      { "type" : "FeatureCollection",
 					"SAT - Servicio de Asistencia Técnica":"LIC. MARIA MERCEDES ENRIQUEZ",
 					"Dato de contacto - SAT":"Lic.Maria Mercedes Enrriquez. 0971 423 949. sat_m.a@hotmail.com",
 					"EAT - Equipo de Asistencia Técnica":"No corresponde",
+					"Estado de Obra":"En ejecución",
 					"Porcentaje de avance":"hablar con julio 20% es segun laura",
 					"Licitación Nº":"No corresponde",
 					"Origen del terreno":"Terreno comunitario",
 					"Calificación provisional":"12/3/14",
-					"id":234
+					"id":230
                 }
         },
                  {   
@@ -5112,11 +5093,12 @@ var viviendas =      { "type" : "FeatureCollection",
 					"SAT - Servicio de Asistencia Técnica":"LIC. NILSA TORRES",
 					"Dato de contacto - SAT":"Lic. Nilsa Magdalena Torres. 0981 616 590. Nilsacolman@hotmail.com",
 					"EAT - Equipo de Asistencia Técnica":"No corresponde",
-					"Porcentaje de avance":"90 % buenas terminaciones",
+					"Estado de Obra":"En ejecución",
+					"Porcentaje de avance":"90%",
 					"Licitación Nº":"No corresponde",
-					"Origen del terreno":"Propiedad del INDERT",
+					"Origen del terreno":"INDERT",
 					"Calificación provisional":"1/4/14",
-					"id":235
+					"id":231
                 }
         },
                  {   
@@ -5136,7 +5118,7 @@ var viviendas =      { "type" : "FeatureCollection",
 					"Licitación Nº":"No corresponde",
 					"Origen del terreno":"Propiedad de la SAS",
 					"Calificación provisional":"31/7/13",
-					"id":236
+					"id":232
                 }
         },
                  {   
@@ -5156,7 +5138,7 @@ var viviendas =      { "type" : "FeatureCollection",
 					"Licitación Nº":"No corresponde",
 					"Origen del terreno":"Propiedad de la SAS",
 					"Calificación provisional":"31/7/13",
-					"id":237
+					"id":233
                 }
         },
                  {   
@@ -5173,11 +5155,12 @@ var viviendas =      { "type" : "FeatureCollection",
 					"SAT - Servicio de Asistencia Técnica":"CONTACONSULT",
 					"Dato de contacto - SAT":"Lic. Jorge Andriotti. 0985 101 565. jorgeandriotti@yahoo.com ",
 					"EAT - Equipo de Asistencia Técnica":"No corresponde",
-					"Porcentaje de avance":"45% de avance",
+					"Estado de Obra":"En ejecución",
+					"Porcentaje de avance":"45%",
 					"Licitación Nº":"No corresponde",
 					"Origen del terreno":"Propiedad privada (compra de terreno)",
 					"Calificación provisional":"15/7/13",
-					"id":238
+					"id":234
                 }
         },
                  {   
@@ -5197,7 +5180,7 @@ var viviendas =      { "type" : "FeatureCollection",
 					"Licitación Nº":"No corresponde",
 					"Origen del terreno":"Propiedad privada (compra de terreno)",
 					"Calificación provisional":"19/7/13",
-					"id":239
+					"id":235
                 }
         },
                  {   
@@ -5214,11 +5197,12 @@ var viviendas =      { "type" : "FeatureCollection",
 					"SAT - Servicio de Asistencia Técnica":"LIC. MARIA MERCEDES ENRIQUEZ",
 					"Dato de contacto - SAT":"Lic.Maria Mercedes Enrriquez. 0971 423 949. sat_m.a@hotmail.com",
 					"EAT - Equipo de Asistencia Técnica":"No corresponde",
-					"Porcentaje de avance":"40% de avance",
+					"Estado de Obra":"En ejecución",
+					"Porcentaje de avance":"40%",
 					"Licitación Nº":"No corresponde",
 					"Origen del terreno":"Propiedad privada (compra de terreno)",
 					"Calificación provisional":"19/7/13",
-					"id":240
+					"id":236
                 }
         },
                  {   
@@ -5235,11 +5219,12 @@ var viviendas =      { "type" : "FeatureCollection",
 					"SAT - Servicio de Asistencia Técnica":"CESARINA BARRETO DE ENCISO",
 					"Dato de contacto - SAT":"Cesarina Barreto De Enciso. 0984 133 838. cesarinaenciso@hotmail.com",
 					"EAT - Equipo de Asistencia Técnica":"No corresponde",
-					"Porcentaje de avance":0,
+					"Estado de Obra":"En ejecución",
+					"Porcentaje de avance":"0%",
 					"Licitación Nº":"No corresponde",
 					"Origen del terreno":"Propiedad privada (compra de terreno)",
 					"Calificación provisional":"39.754.447",
-					"id":241
+					"id":237
                 }
         },
                  {   
@@ -5256,11 +5241,12 @@ var viviendas =      { "type" : "FeatureCollection",
 					"SAT - Servicio de Asistencia Técnica":"CESARINA BARRETO DE ENCISO",
 					"Dato de contacto - SAT":"Cesarina Barreto De Enciso. 0984 133 838. cesarinaenciso@hotmail.com",
 					"EAT - Equipo de Asistencia Técnica":"No corresponde",
-					"Porcentaje de avance":"0,2",
+					"Estado de Obra":"En ejecución",
+					"Porcentaje de avance":"20%",
 					"Licitación Nº":"No corresponde",
 					"Origen del terreno":"Propiedad privada (compra de terreno)",
 					"Calificación provisional":"157.513.100",
-					"id":242
+					"id":238
                 }
         },
                  {   
@@ -5277,11 +5263,12 @@ var viviendas =      { "type" : "FeatureCollection",
 					"SAT - Servicio de Asistencia Técnica":"CESARINA BARRETO DE ENCISO",
 					"Dato de contacto - SAT":"Cesarina Barreto De Enciso. 0984 133 838. cesarinaenciso@hotmail.com",
 					"EAT - Equipo de Asistencia Técnica":"No corresponde",
-					"Porcentaje de avance":1,
+					"Estado de Obra":"En ejecución",
+					"Porcentaje de avance":"10%",
 					"Licitación Nº":"No corresponde",
 					"Origen del terreno":"Propiedad de la SAS",
 					"Calificación provisional":"76.137.558",
-					"id":243
+					"id":239
                 }
         },
                  {   
@@ -5301,7 +5288,7 @@ var viviendas =      { "type" : "FeatureCollection",
 					"Licitación Nº":"No corresponde",
 					"Origen del terreno":"Propiedad privada (compra de terreno)",
 					"Calificación provisional":"92.832.670",
-					"id":244
+					"id":240
                 }
         },
                  {   
@@ -5318,11 +5305,12 @@ var viviendas =      { "type" : "FeatureCollection",
 					"SAT - Servicio de Asistencia Técnica":"COTEP S.A.",
 					"Dato de contacto - SAT":"Julio Cesar Roman. 0981 902 068. tareascotepsa@gmail.com ",
 					"EAT - Equipo de Asistencia Técnica":"No corresponde",
-					"Porcentaje de avance":"70% de avance",
+					"Estado de Obra":"En ejecución",
+					"Porcentaje de avance":"70%",
 					"Licitación Nº":"No corresponde",
 					"Origen del terreno":"Propiedad de la Municipalidad",
 					"Calificación provisional":"5/12/13",
-					"id":245
+					"id":241
                 }
         },
                  {   
@@ -5339,11 +5327,11 @@ var viviendas =      { "type" : "FeatureCollection",
 					"SAT - Servicio de Asistencia Técnica":"COTEP S.A.",
 					"Dato de contacto - SAT":"Julio Cesar Roman. 0981 902 068. tareascotepsa@gmail.com ",
 					"EAT - Equipo de Asistencia Técnica":"No corresponde",
-					"Porcentaje de avance":"100% de avance",
+					"Porcentaje de avance":"100%",
 					"Licitación Nº":"No corresponde",
 					"Origen del terreno":"Propiedad privada (compra de terreno)",
 					"Calificación provisional":"31/1/13",
-					"id":246
+					"id":242
                 }
         },
                  {   
@@ -5360,11 +5348,12 @@ var viviendas =      { "type" : "FeatureCollection",
 					"SAT - Servicio de Asistencia Técnica":"LIC. MARIA MERCEDES ENRIQUEZ",
 					"Dato de contacto - SAT":"Lic.Maria Mercedes Enrriquez. 0971 423 949. sat_m.a@hotmail.com",
 					"EAT - Equipo de Asistencia Técnica":"No corresponde",
-					"Porcentaje de avance":"95% de avance",
+					"Estado de Obra":"En ejecución",
+					"Porcentaje de avance":"95%",
 					"Licitación Nº":"No corresponde",
 					"Origen del terreno":"Propiedad de la Municipalidad",
 					"Calificación provisional":"26/7/13",
-					"id":247
+					"id":243
                 }
         },
                  {   
@@ -5384,7 +5373,7 @@ var viviendas =      { "type" : "FeatureCollection",
 					"Licitación Nº":"No corresponde",
 					"Origen del terreno":"Terreno comunitario",
 					"Calificación provisional":"12/5/14",
-					"id":248
+					"id":244
                 }
         },
                  {   
@@ -5403,7 +5392,7 @@ var viviendas =      { "type" : "FeatureCollection",
 					"EAT - Equipo de Asistencia Técnica":"No corresponde",
 					"Licitación Nº":"No corresponde",
 					"Calificación provisional":0,
-					"id":249
+					"id":245
                 }
         },
                  {   
@@ -5420,11 +5409,12 @@ var viviendas =      { "type" : "FeatureCollection",
 					"SAT - Servicio de Asistencia Técnica":"FREDDY DIOSNEL ROLON",
 					"Dato de contacto - SAT":"Freddy Diosnel Rolon. 0981 458 666. fredydiosnelrolon@hotmail.com",
 					"EAT - Equipo de Asistencia Técnica":"No corresponde",
-					"Porcentaje de avance":"98% de avance",
+					"Estado de Obra":"En ejecución",
+					"Porcentaje de avance":"98%",
 					"Licitación Nº":"No corresponde",
-					"Origen del terreno":"Propiedad del INDERT",
+					"Origen del terreno":"INDERT",
 					"Calificación provisional":"9/7/14",
-					"id":250
+					"id":246
                 }
         },
                  {   
@@ -5444,7 +5434,7 @@ var viviendas =      { "type" : "FeatureCollection",
 					"Licitación Nº":"No corresponde",
 					"Origen del terreno":"Propiedad privada (compra de terreno)",
 					"Calificación provisional":"8/4/14",
-					"id":251
+					"id":247
                 }
         },
                  {   
@@ -5462,9 +5452,9 @@ var viviendas =      { "type" : "FeatureCollection",
 					"Dato de contacto - SAT":"Mary Lechenuk. 0981 491 993. mlisnichuk@habitat.org.py",
 					"EAT - Equipo de Asistencia Técnica":"No corresponde",
 					"Licitación Nº":"No corresponde",
-					"Origen del terreno":"Propiedad del INDERT",
+					"Origen del terreno":"INDERT",
 					"Calificación provisional":"6/5/14",
-					"id":252
+					"id":248
                 }
         },
                  {   
@@ -5484,7 +5474,7 @@ var viviendas =      { "type" : "FeatureCollection",
 					"Licitación Nº":"No corresponde",
 					"Origen del terreno":"Propiedad de los Beneficiarios",
 					"Calificación provisional":"22/11/13",
-					"id":253
+					"id":249
                 }
         },
                  {   
@@ -5501,11 +5491,12 @@ var viviendas =      { "type" : "FeatureCollection",
 					"SAT - Servicio de Asistencia Técnica":"LIC. MARIA MERCEDES ENRIQUEZ",
 					"Dato de contacto - SAT":"Lic.Maria Mercedes Enrriquez. 0971 423 949. sat_m.a@hotmail.com",
 					"EAT - Equipo de Asistencia Técnica":"No corresponde",
-					"Porcentaje de avance":"20% de avance",
+					"Estado de Obra":"En ejecución",
+					"Porcentaje de avance":"20%",
 					"Licitación Nº":"No corresponde",
 					"Origen del terreno":"Propiedad privada (compra de terreno)",
 					"Calificación provisional":"28/11/13",
-					"id":254
+					"id":250
                 }
         },
                  {   
@@ -5522,11 +5513,12 @@ var viviendas =      { "type" : "FeatureCollection",
 					"SAT - Servicio de Asistencia Técnica":"LIC. NILSA TORRES",
 					"Dato de contacto - SAT":"Lic. Nilsa Magdalena Torres. 0981 616 590. Nilsacolman@hotmail.com",
 					"EAT - Equipo de Asistencia Técnica":"No corresponde",
-					"Porcentaje de avance":"70% le faltan unas cuantas terminaciones",
+					"Estado de Obra":"En ejecución",
+					"Porcentaje de avance":"70%",
 					"Licitación Nº":"No corresponde",
-					"Origen del terreno":"Propiedad del INDERT",
+					"Origen del terreno":"INDERT",
 					"Calificación provisional":"1/4/14",
-					"id":255
+					"id":251
                 }
         },
                  {   
@@ -5544,9 +5536,9 @@ var viviendas =      { "type" : "FeatureCollection",
 					"Dato de contacto - SAT":"Lic. Nilsa Magdalena Torres. 0981 616 590. Nilsacolman@hotmail.com",
 					"EAT - Equipo de Asistencia Técnica":"No corresponde",
 					"Licitación Nº":"No corresponde",
-					"Origen del terreno":"Propiedad del INDERT",
+					"Origen del terreno":"INDERT",
 					"Calificación provisional":"1/4/14",
-					"id":256
+					"id":252
                 }
         },
                  {   
@@ -5565,7 +5557,7 @@ var viviendas =      { "type" : "FeatureCollection",
 					"EAT - Equipo de Asistencia Técnica":"No corresponde",
 					"Licitación Nº":"No corresponde",
 					"Origen del terreno":"Terreno comunitario",
-					"id":257
+					"id":253
                 }
         },
                  {   
@@ -5582,11 +5574,12 @@ var viviendas =      { "type" : "FeatureCollection",
 					"SAT - Servicio de Asistencia Técnica":"INGENIERIA Y PROYECTOS PARAGUAY - IPP",
 					"Dato de contacto - SAT":"Ing. Manuel Lombardo. 0971 291 547. ma-lombardo@hotmail.com ",
 					"EAT - Equipo de Asistencia Técnica":"No corresponde",
-					"Porcentaje de avance":"72% de avance",
+					"Estado de Obra":"En ejecución",
+					"Porcentaje de avance":"72%",
 					"Licitación Nº":"No corresponde",
 					"Origen del terreno":"Propiedad privada (compra de terreno)",
 					"Calificación provisional":"28/7/11",
-					"id":258
+					"id":254
                 }
         },
                  {   
@@ -5603,11 +5596,12 @@ var viviendas =      { "type" : "FeatureCollection",
 					"SAT - Servicio de Asistencia Técnica":"ARQUIDEC S.R.L.",
 					"Dato de contacto - SAT":"Faustino Correa. 0982 279 400. arqudec_srl@yahoo.com ",
 					"EAT - Equipo de Asistencia Técnica":"No corresponde",
-					"Porcentaje de avance":"10% de avance",
+					"Estado de Obra":"En ejecución",
+					"Porcentaje de avance":"10%",
 					"Licitación Nº":"No corresponde",
 					"Origen del terreno":"Propiedad privada (compra de terreno)",
 					"Calificación provisional":"19/11/13",
-					"id":259
+					"id":255
                 }
         },
                  {   
@@ -5624,11 +5618,12 @@ var viviendas =      { "type" : "FeatureCollection",
 					"SAT - Servicio de Asistencia Técnica":"ARQUIDEC S.R.L.",
 					"Dato de contacto - SAT":"Faustino Correa. 0982 279 400. arqudec_srl@yahoo.com ",
 					"EAT - Equipo de Asistencia Técnica":"No corresponde",
-					"Porcentaje de avance":"45% de avance",
+					"Estado de Obra":"En ejecución",
+					"Porcentaje de avance":"45%",
 					"Licitación Nº":"No corresponde",
 					"Origen del terreno":"Propiedad privada (compra de terreno)",
 					"Calificación provisional":"21/3/13",
-					"id":260
+					"id":256
                 }
         },
                  {   
@@ -5645,11 +5640,12 @@ var viviendas =      { "type" : "FeatureCollection",
 					"SAT - Servicio de Asistencia Técnica":"CEDES/HABITAT",
 					"Dato de contacto - SAT":"Arq. Emma Gill. 0981444 295. cedeshab@gmail.com",
 					"EAT - Equipo de Asistencia Técnica":"No corresponde",
-					"Porcentaje de avance":"80% de avance",
+					"Estado de Obra":"En ejecución",
+					"Porcentaje de avance":"80%",
 					"Licitación Nº":"No corresponde",
-					"Origen del terreno":"Propiedad de SENAVITAT",
+					"Origen del terreno":"SENAVITAT",
 					"Calificación provisional":"13/2/14",
-					"id":261
+					"id":257
                 }
         },
                  {   
@@ -5666,11 +5662,12 @@ var viviendas =      { "type" : "FeatureCollection",
 					"SAT - Servicio de Asistencia Técnica":"CESARINA BARRETO DE ENCISO",
 					"Dato de contacto - SAT":"Cesarina Barreto De Enciso. 0984 133 838. cesarinaenciso@hotmail.com",
 					"EAT - Equipo de Asistencia Técnica":"No corresponde",
-					"Porcentaje de avance":"40% de avance",
+					"Estado de Obra":"En ejecución",
+					"Porcentaje de avance":"40%",
 					"Licitación Nº":"No corresponde",
 					"Origen del terreno":"Propiedad privada (compra de terreno)",
 					"Calificación provisional":"135.791.177",
-					"id":262
+					"id":258
                 }
         },
                  {   
@@ -5686,9 +5683,10 @@ var viviendas =      { "type" : "FeatureCollection",
 					"Cantidad de Viviendas":20,
 					"SAT - Servicio de Asistencia Técnica":"ARQ. OSVALDO GRANADA",
 					"EAT - Equipo de Asistencia Técnica":"No corresponde",
-					"Porcentaje de avance":"20% de avance",
+					"Estado de Obra":"En ejecución",
+					"Porcentaje de avance":"20%",
 					"Licitación Nº":"No corresponde",
-					"id":263
+					"id":259
                 }
         },
                  {   
@@ -5705,11 +5703,12 @@ var viviendas =      { "type" : "FeatureCollection",
 					"SAT - Servicio de Asistencia Técnica":"EMPRENDIMIENTOS INMOBILIARIOS",
 					"Dato de contacto - SAT":"Cristhian Manuel Araujo. 0981 382 177. info@geo.com.py",
 					"EAT - Equipo de Asistencia Técnica":"No corresponde",
-					"Porcentaje de avance":"40% de avance",
+					"Estado de Obra":"En ejecución",
+					"Porcentaje de avance":"40%",
 					"Licitación Nº":"No corresponde",
 					"Origen del terreno":"Propiedad privada (compra de terreno)",
 					"Calificación provisional":"26/7/14",
-					"id":264
+					"id":260
                 }
         },
                  {   
@@ -5729,7 +5728,7 @@ var viviendas =      { "type" : "FeatureCollection",
 					"Licitación Nº":"No corresponde",
 					"Origen del terreno":"Propiedad de la SAS",
 					"Calificación provisional":"17/7/14",
-					"id":265
+					"id":261
                 }
         },
                  {   
@@ -5749,7 +5748,7 @@ var viviendas =      { "type" : "FeatureCollection",
 					"Licitación Nº":"No corresponde",
 					"Origen del terreno":"Propiedad privada (compra de terreno)",
 					"Calificación provisional":"6/5/14",
-					"id":266
+					"id":262
                 }
         },
                  {   
@@ -5766,11 +5765,12 @@ var viviendas =      { "type" : "FeatureCollection",
 					"SAT - Servicio de Asistencia Técnica":"FUNDACION OJETYPEKA",
 					"Dato de contacto - SAT":"Maria Lourdes Meaurio. 0982 514 810. fundacionjetypeka@hotmail.com",
 					"EAT - Equipo de Asistencia Técnica":"No corresponde",
-					"Porcentaje de avance":"45% de avance",
+					"Estado de Obra":"En ejecución",
+					"Porcentaje de avance":"45%",
 					"Licitación Nº":"No corresponde",
 					"Origen del terreno":"Propiedad de la SAS",
 					"Calificación provisional":"2/8/13",
-					"id":267
+					"id":263
                 }
         },
                  {   
@@ -5790,7 +5790,7 @@ var viviendas =      { "type" : "FeatureCollection",
 					"Licitación Nº":"No corresponde",
 					"Origen del terreno":"Terreno comunitario",
 					"Calificación provisional":"85.688.006",
-					"id":268
+					"id":264
                 }
         },
                  {   
@@ -5807,11 +5807,12 @@ var viviendas =      { "type" : "FeatureCollection",
 					"SAT - Servicio de Asistencia Técnica":"ARQ. REBECA ZELAYA GONZALEZ",
 					"Dato de contacto - SAT":"Arq. Rebeca Zelaya. 0981 582 624. rebe_zegon@hotmail.com ",
 					"EAT - Equipo de Asistencia Técnica":"No corresponde",
-					"Porcentaje de avance":"50% de avance",
+					"Estado de Obra":"En ejecución",
+					"Porcentaje de avance":"50%",
 					"Licitación Nº":"No corresponde",
 					"Origen del terreno":"Propiedad de la SAS",
 					"Calificación provisional":"30/5/14",
-					"id":269
+					"id":265
                 }
         },
                  {   
@@ -5828,11 +5829,12 @@ var viviendas =      { "type" : "FeatureCollection",
 					"SAT - Servicio de Asistencia Técnica":"ARQ. REBECA ZELAYA GONZALEZ",
 					"Dato de contacto - SAT":"Arq. Rebeca Zelaya. 0981 582 624. rebe_zegon@hotmail.com ",
 					"EAT - Equipo de Asistencia Técnica":"No corresponde",
-					"Porcentaje de avance":"35% de avance",
+					"Estado de Obra":"En ejecución",
+					"Porcentaje de avance":"35%",
 					"Licitación Nº":"No corresponde",
 					"Origen del terreno":"Propiedad de la SAS",
 					"Calificación provisional":"21/4/14",
-					"id":270
+					"id":266
                 }
         },
                  {   
@@ -5852,7 +5854,7 @@ var viviendas =      { "type" : "FeatureCollection",
 					"Licitación Nº":"No corresponde",
 					"Origen del terreno":"Terreno comunitario",
 					"Calificación provisional":"34.275.202",
-					"id":271
+					"id":267
                 }
         },
                  {   
@@ -5869,11 +5871,12 @@ var viviendas =      { "type" : "FeatureCollection",
 					"SAT - Servicio de Asistencia Técnica":"ARQUIDEC S.R.L.",
 					"Dato de contacto - SAT":"Faustino Correa. 0982 279 400. arqudec_srl@yahoo.com ",
 					"EAT - Equipo de Asistencia Técnica":"No corresponde",
-					"Porcentaje de avance":"45% de avance",
+					"Estado de Obra":"En ejecución",
+					"Porcentaje de avance":"45%",
 					"Licitación Nº":"No corresponde",
 					"Origen del terreno":"Propiedad privada (compra de terreno)",
 					"Calificación provisional":"21/2/13",
-					"id":272
+					"id":268
                 }
         },
                  {   
@@ -5893,7 +5896,7 @@ var viviendas =      { "type" : "FeatureCollection",
 					"Licitación Nº":"No corresponde",
 					"Origen del terreno":"Propiedad de la SAS",
 					"Calificación provisional":"24.473.901",
-					"id":273
+					"id":269
                 }
         },
                  {   
@@ -5913,7 +5916,7 @@ var viviendas =      { "type" : "FeatureCollection",
 					"Licitación Nº":"No corresponde",
 					"Origen del terreno":"Propiedad de la SAS",
 					"Calificación provisional":"68.798.808",
-					"id":274
+					"id":270
                 }
         },
                  {   
@@ -5930,11 +5933,12 @@ var viviendas =      { "type" : "FeatureCollection",
 					"SAT - Servicio de Asistencia Técnica":"CONTACONSULT",
 					"Dato de contacto - SAT":"Lic. Jorge Andriotti. 0985 101 565. jorgeandriotti@yahoo.com ",
 					"EAT - Equipo de Asistencia Técnica":"No corresponde",
-					"Porcentaje de avance":"60% de avance",
+					"Estado de Obra":"En ejecución",
+					"Porcentaje de avance":"60%",
 					"Licitación Nº":"No corresponde",
 					"Origen del terreno":"Propiedad de la SAS",
 					"Calificación provisional":"10/5/14",
-					"id":275
+					"id":271
                 }
         },
                  {   
@@ -5951,11 +5955,12 @@ var viviendas =      { "type" : "FeatureCollection",
 					"SAT - Servicio de Asistencia Técnica":"CEDES/HABITAT",
 					"Dato de contacto - SAT":"Arq. Emma Gill. 0981444 295. cedeshab@gmail.com",
 					"EAT - Equipo de Asistencia Técnica":"No corresponde",
-					"Porcentaje de avance":"10% de avance",
+					"Estado de Obra":"En ejecución",
+					"Porcentaje de avance":"10%",
 					"Licitación Nº":"No corresponde",
 					"Origen del terreno":"Propiedad de la SAS",
 					"Calificación provisional":"2/7/14",
-					"id":276
+					"id":272
                 }
         },
                  {   
@@ -5975,9 +5980,9 @@ var viviendas =      { "type" : "FeatureCollection",
 					"Estado de Obra":"Culminada",
 					"Porcentaje de avance":"cd",
 					"Licitación Nº":"No corresponde",
-					"Origen del terreno":"Propiedad Municipal",
+					"Origen del terreno":"Municipal",
 					"Calificación provisional":"20/6/12",
-					"id":277
+					"id":273
                 }
         },
                  {   
@@ -5999,7 +6004,7 @@ var viviendas =      { "type" : "FeatureCollection",
 					"Licitación Nº":"No corresponde",
 					"Origen del terreno":"Propiedad Privada",
 					"Calificación provisional":"9/7/12",
-					"id":278
+					"id":274
                 }
         },
                  {   
@@ -6019,9 +6024,9 @@ var viviendas =      { "type" : "FeatureCollection",
 					"Estado de Obra":"Culminada",
 					"Porcentaje de avance":"cd",
 					"Licitación Nº":"No corresponde",
-					"Origen del terreno":"Propiedad de Beneficiarios",
+					"Origen del terreno":"Propiedad de los Beneficiarios",
 					"Calificación provisional":"###############################################################################################################################################################################################################################################################",
-					"id":279
+					"id":275
                 }
         },
                  {   
@@ -6041,7 +6046,7 @@ var viviendas =      { "type" : "FeatureCollection",
 					"Porcentaje de avance":"i",
 					"Licitación Nº":"No corresponde",
 					"Origen del terreno":"Terreno comunitario",
-					"id":280
+					"id":276
                 }
         },
                  {   
@@ -6062,7 +6067,7 @@ var viviendas =      { "type" : "FeatureCollection",
 					"Licitación Nº":"No corresponde",
 					"Origen del terreno":"Terreno Comunitario",
 					"Calificación provisional":"19/11/12",
-					"id":281
+					"id":277
                 }
         },
                  {   
@@ -6084,7 +6089,7 @@ var viviendas =      { "type" : "FeatureCollection",
 					"Licitación Nº":"No corresponde",
 					"Origen del terreno":"Propiedad de la SAS",
 					"Calificación provisional":"-",
-					"id":282
+					"id":278
                 }
         },
                  {   
@@ -6106,7 +6111,7 @@ var viviendas =      { "type" : "FeatureCollection",
 					"Licitación Nº":"No corresponde",
 					"Origen del terreno":"Propiedad de la SAS",
 					"Calificación provisional":"4/2/13",
-					"id":283
+					"id":279
                 }
         },
                  {   
@@ -6128,14 +6133,14 @@ var viviendas =      { "type" : "FeatureCollection",
 					"Licitación Nº":"No corresponde",
 					"Origen del terreno":"Propiedad de la SAS",
 					"Calificación provisional":"9/1/13",
-					"id":284
+					"id":280
                 }
         },
                  {   
             "type" : "Feature",
             "geometry" : {
                 "type" : "Point",
-                "coordinates" : [-56.4058045643, -25.4551360217]},
+                "coordinates" : [-56.4310890086, -25.4529153929]},
                 "properties" : {
                     "Departamento":"Caaguazú",
 					"Distrito":"Coronel Oviedo",
@@ -6150,7 +6155,7 @@ var viviendas =      { "type" : "FeatureCollection",
 					"Licitación Nº":"No corresponde",
 					"Origen del terreno":"Propiedad de la SAS",
 					"Calificación provisional":"20/11/12",
-					"id":285
+					"id":281
                 }
         },
                  {   
@@ -6170,7 +6175,7 @@ var viviendas =      { "type" : "FeatureCollection",
 					"Licitación Nº":"No corresponde",
 					"Origen del terreno":"Propiedad de la SAS",
 					"Calificación provisional":"108.777.150",
-					"id":286
+					"id":282
                 }
         },
                  {   
@@ -6190,9 +6195,9 @@ var viviendas =      { "type" : "FeatureCollection",
 					"Estado de Obra":"Culminada",
 					"Porcentaje de avance":"cd",
 					"Licitación Nº":"No corresponde",
-					"Origen del terreno":"Propiedad Municipal",
+					"Origen del terreno":"Municipal",
 					"Calificación provisional":"8/8/12",
-					"id":287
+					"id":283
                 }
         },
                  {   
@@ -6209,10 +6214,10 @@ var viviendas =      { "type" : "FeatureCollection",
 					"SAT - Servicio de Asistencia Técnica":"ASOCIACION TEKOVERA",
 					"Dato de contacto - SAT":"Arq. Ilse Coronel. 0981 426 280. adricoronel@gmail.com",
 					"EAT - Equipo de Asistencia Técnica":"No corresponde",
-					"Porcentaje de avance":"100% de avance",
+					"Porcentaje de avance":"100%",
 					"Licitación Nº":"No corresponde",
 					"Origen del terreno":"Propiedad de la Municipalidad",
-					"id":288
+					"id":284
                 }
         },
                  {   
@@ -6231,7 +6236,7 @@ var viviendas =      { "type" : "FeatureCollection",
 					"EAT - Equipo de Asistencia Técnica":"No corresponde",
 					"Licitación Nº":"No corresponde",
 					"Calificación provisional":"26/2/13",
-					"id":289
+					"id":285
                 }
         },
                  {   
@@ -6251,7 +6256,7 @@ var viviendas =      { "type" : "FeatureCollection",
 					"Licitación Nº":"No corresponde",
 					"Origen del terreno":"Propiedad privada (compra de terreno)",
 					"Calificación provisional":"30/5/11",
-					"id":290
+					"id":286
                 }
         },
                  {   
@@ -6271,7 +6276,7 @@ var viviendas =      { "type" : "FeatureCollection",
 					"Licitación Nº":"No corresponde",
 					"Origen del terreno":"Propiedad de la SAS",
 					"Calificación provisional":"5/9/13",
-					"id":291
+					"id":287
                 }
         },
                  {   
@@ -6291,7 +6296,7 @@ var viviendas =      { "type" : "FeatureCollection",
 					"Licitación Nº":"No corresponde",
 					"Origen del terreno":"Propiedad de la SAS",
 					"Calificación provisional":"70.701.074",
-					"id":292
+					"id":288
                 }
         },
                  {   
@@ -6311,7 +6316,7 @@ var viviendas =      { "type" : "FeatureCollection",
 					"Licitación Nº":"No corresponde",
 					"Origen del terreno":"Propiedad privada (compra de terreno)",
 					"Calificación provisional":"15/11/12",
-					"id":293
+					"id":289
                 }
         },
                  {   
@@ -6333,7 +6338,7 @@ var viviendas =      { "type" : "FeatureCollection",
 					"Licitación Nº":"No corresponde",
 					"Origen del terreno":"Propiedad Privada",
 					"Calificación provisional":"25/10/12",
-					"id":294
+					"id":290
                 }
         },
                  {   
@@ -6353,7 +6358,7 @@ var viviendas =      { "type" : "FeatureCollection",
 					"Porcentaje de avance":"i",
 					"Licitación Nº":"No corresponde",
 					"Origen del terreno":"Propiedad Privada",
-					"id":295
+					"id":291
                 }
         },
                  {   
@@ -6374,7 +6379,7 @@ var viviendas =      { "type" : "FeatureCollection",
 					"Licitación Nº":"No corresponde",
 					"Origen del terreno":"Propiedad Privada",
 					"Calificación provisional":"16/8/14",
-					"id":296
+					"id":292
                 }
         },
                  {   
@@ -6393,7 +6398,7 @@ var viviendas =      { "type" : "FeatureCollection",
 					"EAT - Equipo de Asistencia Técnica":"No corresponde",
 					"Licitación Nº":"No corresponde",
 					"Origen del terreno":"Propiedad de la SAS",
-					"id":297
+					"id":293
                 }
         },
                  {   
@@ -6410,11 +6415,12 @@ var viviendas =      { "type" : "FeatureCollection",
 					"SAT - Servicio de Asistencia Técnica":"LIC. MARIA MERCEDES ENRIQUEZ",
 					"Dato de contacto - SAT":"Lic.Maria Mercedes Enrriquez. 0971 423 949. sat_m.a@hotmail.com",
 					"EAT - Equipo de Asistencia Técnica":"No corresponde",
-					"Porcentaje de avance":"90% de avance",
+					"Estado de Obra":"En ejecución",
+					"Porcentaje de avance":"90%",
 					"Licitación Nº":"No corresponde",
 					"Origen del terreno":"Propiedad Privada",
 					"Calificación provisional":"1/8/13",
-					"id":298
+					"id":294
                 }
         },
                  {   
@@ -6434,7 +6440,7 @@ var viviendas =      { "type" : "FeatureCollection",
 					"Licitación Nº":"No corresponde",
 					"Origen del terreno":"Propiedad de los Beneficiarios",
 					"Calificación provisional":"22/11/13",
-					"id":299
+					"id":295
                 }
         },
                  {   
@@ -6454,7 +6460,7 @@ var viviendas =      { "type" : "FeatureCollection",
 					"Licitación Nº":"No corresponde",
 					"Origen del terreno":"Propiedad de la SAS",
 					"Calificación provisional":"2/8/13",
-					"id":300
+					"id":296
                 }
         },
                  {   
@@ -6473,7 +6479,7 @@ var viviendas =      { "type" : "FeatureCollection",
 					"EAT - Equipo de Asistencia Técnica":"No corresponde",
 					"Licitación Nº":"No corresponde",
 					"Origen del terreno":"Propiedad privada (compra de terreno)",
-					"id":301
+					"id":297
                 }
         },
                  {   
@@ -6490,11 +6496,12 @@ var viviendas =      { "type" : "FeatureCollection",
 					"SAT - Servicio de Asistencia Técnica":"SRA. DIANA RAQUEL ARECO VERA",
 					"Dato de contacto - SAT":"Diana Raquel Areco. 0981 901 486",
 					"EAT - Equipo de Asistencia Técnica":"No corresponde",
-					"Porcentaje de avance":"0,25",
+					"Estado de Obra":"En ejecución",
+					"Porcentaje de avance":"25%",
 					"Licitación Nº":"No corresponde",
 					"Origen del terreno":"Propiedad Privada",
 					"Calificación provisional":"30/4/14",
-					"id":302
+					"id":298
                 }
         },
                  {   
@@ -6511,10 +6518,10 @@ var viviendas =      { "type" : "FeatureCollection",
 					"SAT - Servicio de Asistencia Técnica":"ASOCIACION TEKOVERA",
 					"Dato de contacto - SAT":"Arq. Ilse Coronel. 0981 426 280. adricoronel@gmail.com",
 					"EAT - Equipo de Asistencia Técnica":"No corresponde",
-					"Porcentaje de avance":"100% de avance",
+					"Porcentaje de avance":"100%",
 					"Licitación Nº":"No corresponde",
 					"Origen del terreno":"Propiedad de la Municipalidad",
-					"id":303
+					"id":299
                 }
         },
                  {   
@@ -6533,7 +6540,7 @@ var viviendas =      { "type" : "FeatureCollection",
 					"EAT - Equipo de Asistencia Técnica":"No corresponde",
 					"Licitación Nº":"No corresponde",
 					"Origen del terreno":"Propiedad Privada",
-					"id":304
+					"id":300
                 }
         },
                  {   
@@ -6551,11 +6558,11 @@ var viviendas =      { "type" : "FeatureCollection",
 					"Dato de contacto - SAT":"Ing. Cesar Recalde. 0981 170 159. ryrconstrucciones@hotmail.com",
 					"EAT - Equipo de Asistencia Técnica":"No corresponde",
 					"Estado de Obra":"Paralizado",
-					"Porcentaje de avance":"90% de avance",
+					"Porcentaje de avance":"90%",
 					"Licitación Nº":"No corresponde",
 					"Origen del terreno":"Propiedad de la SAS",
 					"Calificación provisional":"4/12/12",
-					"id":305
+					"id":301
                 }
         },
                  {   
@@ -6574,11 +6581,11 @@ var viviendas =      { "type" : "FeatureCollection",
 					"Dato de contacto - SAT":"Ing. Manuel Lombardo. 0971 291 547. ma-lombardo@hotmail.com ",
 					"EAT - Equipo de Asistencia Técnica":"No corresponde",
 					"Estado de Obra":"Paralizado",
-					"Porcentaje de avance":"45% de avance",
+					"Porcentaje de avance":"45%",
 					"Licitación Nº":"No corresponde",
 					"Origen del terreno":"Propiedad privada (compra de terreno)",
 					"Calificación provisional":"5/8/11",
-					"id":306
+					"id":302
                 }
         },
                  {   
@@ -6596,11 +6603,11 @@ var viviendas =      { "type" : "FeatureCollection",
 					"Dato de contacto - SAT":"Lic. Camilo Recalde. 0984 448 098 ",
 					"EAT - Equipo de Asistencia Técnica":"No corresponde",
 					"Estado de Obra":"Paralizado",
-					"Porcentaje de avance":"80% de avance",
+					"Porcentaje de avance":"80%",
 					"Licitación Nº":"No corresponde",
 					"Origen del terreno":"Propiedad de la SAS",
 					"Calificación provisional":"16/1/13",
-					"id":307
+					"id":303
                 }
         },
                  {   
@@ -6621,7 +6628,7 @@ var viviendas =      { "type" : "FeatureCollection",
 					"Licitación Nº":"No corresponde",
 					"Origen del terreno":"Propiedad de la SAS",
 					"Calificación provisional":"25/2/13",
-					"id":308
+					"id":304
                 }
         },
                  {   
@@ -6642,7 +6649,7 @@ var viviendas =      { "type" : "FeatureCollection",
 					"Licitación Nº":"No corresponde",
 					"Origen del terreno":"Propiedad de la SAS",
 					"Calificación provisional":"25/2/13",
-					"id":309
+					"id":305
                 }
         },
                  {   
@@ -6660,11 +6667,11 @@ var viviendas =      { "type" : "FeatureCollection",
 					"Dato de contacto - SAT":"Lic. Camilo Recalde. 0984 448 098 ",
 					"EAT - Equipo de Asistencia Técnica":"No corresponde",
 					"Estado de Obra":"Paralizado",
-					"Porcentaje de avance":"80% de avance",
+					"Porcentaje de avance":"80%",
 					"Licitación Nº":"No corresponde",
 					"Origen del terreno":"Propiedad de la SAS",
 					"Calificación provisional":"16/1/13",
-					"id":310
+					"id":306
                 }
         },
                  {   
@@ -6685,7 +6692,7 @@ var viviendas =      { "type" : "FeatureCollection",
 					"Licitación Nº":"No corresponde",
 					"Origen del terreno":"Propiedad de la SAS",
 					"Calificación provisional":"15/1/13",
-					"id":311
+					"id":307
                 }
         },
                  {   
@@ -6706,7 +6713,7 @@ var viviendas =      { "type" : "FeatureCollection",
 					"Licitación Nº":"No corresponde",
 					"Origen del terreno":"Propiedad de la SAS",
 					"Calificación provisional":"25/2/13",
-					"id":312
+					"id":308
                 }
         },
                  {   
@@ -6727,7 +6734,7 @@ var viviendas =      { "type" : "FeatureCollection",
 					"Licitación Nº":"No corresponde",
 					"Origen del terreno":"Propiedad de la SAS",
 					"Calificación provisional":"25/2/13",
-					"id":313
+					"id":309
                 }
         },
                  {   
@@ -6748,7 +6755,7 @@ var viviendas =      { "type" : "FeatureCollection",
 					"Licitación Nº":"No corresponde",
 					"Origen del terreno":"Propiedad de la SAS",
 					"Calificación provisional":"15/1/13",
-					"id":314
+					"id":310
                 }
         },
                  {   
@@ -6769,7 +6776,7 @@ var viviendas =      { "type" : "FeatureCollection",
 					"Licitación Nº":"No corresponde",
 					"Origen del terreno":"Propiedad de la SAS",
 					"Calificación provisional":"15/1/13",
-					"id":315
+					"id":311
                 }
         },
                  {   
@@ -6790,7 +6797,7 @@ var viviendas =      { "type" : "FeatureCollection",
 					"Licitación Nº":"No corresponde",
 					"Origen del terreno":"Propiedad de la SAS",
 					"Calificación provisional":"16/1/13",
-					"id":316
+					"id":312
                 }
         },
                  {   
@@ -6810,7 +6817,7 @@ var viviendas =      { "type" : "FeatureCollection",
 					"Licitación Nº":"No corresponde",
 					"Origen del terreno":"Propiedad Privada",
 					"Calificación provisional":"5/9/14",
-					"id":317
+					"id":313
                 }
         },
                  {   
@@ -6830,7 +6837,7 @@ var viviendas =      { "type" : "FeatureCollection",
 					"Licitación Nº":"No corresponde",
 					"Origen del terreno":"Terreno comunitario",
 					"Calificación provisional":"270.909.352",
-					"id":318
+					"id":314
                 }
         },
                  {   
@@ -6849,7 +6856,7 @@ var viviendas =      { "type" : "FeatureCollection",
 					"EAT - Equipo de Asistencia Técnica":"No corresponde",
 					"Licitación Nº":"No corresponde",
 					"Origen del terreno":"Propiedad de la SAS",
-					"id":319
+					"id":315
                 }
         },
                  {   
@@ -6867,11 +6874,11 @@ var viviendas =      { "type" : "FeatureCollection",
 					"Dato de contacto - SAT":"Lic. Camilo Recalde. 0984 448 098 ",
 					"EAT - Equipo de Asistencia Técnica":"No corresponde",
 					"Estado de Obra":"Paralizado",
-					"Porcentaje de avance":"5% de avance",
+					"Porcentaje de avance":"5%",
 					"Licitación Nº":"No corresponde",
 					"Origen del terreno":"Propiedad privada (compra de terreno)",
 					"Calificación provisional":"27/2/13",
-					"id":320
+					"id":316
                 }
         },
                  {   
@@ -6889,11 +6896,11 @@ var viviendas =      { "type" : "FeatureCollection",
 					"Dato de contacto - SAT":"Lic. Camilo Recalde. 0984 448 098 ",
 					"EAT - Equipo de Asistencia Técnica":"No corresponde",
 					"Estado de Obra":"Paralizado",
-					"Porcentaje de avance":"5% de avance",
+					"Porcentaje de avance":"5%",
 					"Licitación Nº":"No corresponde",
 					"Origen del terreno":"Propiedad privada (compra de terreno)",
 					"Calificación provisional":"27/2/13",
-					"id":321
+					"id":317
                 }
         },
                  {   
@@ -6911,11 +6918,11 @@ var viviendas =      { "type" : "FeatureCollection",
 					"Dato de contacto - SAT":"Maria Lourdes Meaurio. 0982 514 810. fundacionjetypeka@hotmail.com",
 					"EAT - Equipo de Asistencia Técnica":"No corresponde",
 					"Estado de Obra":"Paralizado",
-					"Porcentaje de avance":"45% de avance",
+					"Porcentaje de avance":"45%",
 					"Licitación Nº":"No corresponde",
 					"Origen del terreno":"Propiedad de la SAS",
 					"Calificación provisional":"14/7/14",
-					"id":322
+					"id":318
                 }
         },
                  {   
@@ -6932,11 +6939,12 @@ var viviendas =      { "type" : "FeatureCollection",
 					"SAT - Servicio de Asistencia Técnica":"C CONSULTORES",
 					"Dato de contacto - SAT":"Juan Corbalan, Maria Villanueva. 0981 901 337. corvalan@cconsultores.com.py",
 					"EAT - Equipo de Asistencia Técnica":"No corresponde",
-					"Porcentaje de avance":"95% de avance",
+					"Estado de Obra":"En ejecución",
+					"Porcentaje de avance":"95%",
 					"Licitación Nº":"No corresponde",
 					"Origen del terreno":"Propiedad de la Municipalidad",
 					"Calificación provisional":"13.558.908",
-					"id":323
+					"id":319
                 }
         },
                  {   
@@ -6953,11 +6961,12 @@ var viviendas =      { "type" : "FeatureCollection",
 					"SAT - Servicio de Asistencia Técnica":"C CONSULTORES",
 					"Dato de contacto - SAT":"Juan Corbalan, Maria Villanueva. 0981 901 337. corvalan@cconsultores.com.py",
 					"EAT - Equipo de Asistencia Técnica":"No corresponde",
-					"Porcentaje de avance":"100% de avance",
+					"Estado de Obra":"En ejecución",
+					"Porcentaje de avance":"95%",
 					"Licitación Nº":"No corresponde",
 					"Origen del terreno":"Propiedad de la Municipalidad",
 					"Calificación provisional":"32.139.544",
-					"id":324
+					"id":320
                 }
         },
                  {   
@@ -6974,11 +6983,12 @@ var viviendas =      { "type" : "FeatureCollection",
 					"SAT - Servicio de Asistencia Técnica":"C CONSULTORES",
 					"Dato de contacto - SAT":"Juan Corbalan, Maria Villanueva. 0981 901 337. corvalan@cconsultores.com.py",
 					"EAT - Equipo de Asistencia Técnica":"No corresponde",
-					"Porcentaje de avance":"100% de avance",
+					"Estado de Obra":"En ejecución",
+					"Porcentaje de avance":"95%",
 					"Licitación Nº":"No corresponde",
 					"Origen del terreno":"Propiedad de la Municipalidad",
 					"Calificación provisional":"32.139.544",
-					"id":325
+					"id":321
                 }
         },
                  {   
@@ -6995,11 +7005,12 @@ var viviendas =      { "type" : "FeatureCollection",
 					"SAT - Servicio de Asistencia Técnica":"ARQUIDEC S.R.L.",
 					"Dato de contacto - SAT":"Faustino Correa. 0982 279 400. arqudec_srl@yahoo.com ",
 					"EAT - Equipo de Asistencia Técnica":"No corresponde",
-					"Porcentaje de avance":"60% de avance",
+					"Estado de Obra":"En ejecución",
+					"Porcentaje de avance":"60%",
 					"Licitación Nº":"No corresponde",
 					"Origen del terreno":"Propiedad privada (compra de terreno)",
 					"Calificación provisional":"6/2/13",
-					"id":326
+					"id":322
                 }
         },
                  {   
@@ -7016,10 +7027,11 @@ var viviendas =      { "type" : "FeatureCollection",
 					"SAT - Servicio de Asistencia Técnica":"INGENIERIA Y PROYECTOS PARAGUAY - IPP",
 					"Dato de contacto - SAT":"Ing. Manuel Lombardo. 0971 291 547. ma-lombardo@hotmail.com ",
 					"EAT - Equipo de Asistencia Técnica":"No corresponde",
-					"Porcentaje de avance":"100% de avance",
+					"Estado de Obra":"En ejecución",
+					"Porcentaje de avance":"95%",
 					"Licitación Nº":"No corresponde",
 					"Origen del terreno":"Propiedad privada (compra de terreno)",
-					"id":327
+					"id":323
                 }
         },
                  {   
@@ -7036,11 +7048,12 @@ var viviendas =      { "type" : "FeatureCollection",
 					"SAT - Servicio de Asistencia Técnica":"C CONSULTORES",
 					"Dato de contacto - SAT":"Juan Corbalan, Maria Villanueva. 0981 901 337. corvalan@cconsultores.com.py",
 					"EAT - Equipo de Asistencia Técnica":"No corresponde",
-					"Porcentaje de avance":"95% de avance",
+					"Estado de Obra":"En ejecución",
+					"Porcentaje de avance":"95%",
 					"Licitación Nº":"No corresponde",
 					"Origen del terreno":"Propiedad de la Municipalidad",
 					"Calificación provisional":"20.712.397",
-					"id":328
+					"id":324
                 }
         },
                  {   
@@ -7057,11 +7070,12 @@ var viviendas =      { "type" : "FeatureCollection",
 					"SAT - Servicio de Asistencia Técnica":"ARQ. CARLOS RIVAS",
 					"Dato de contacto - SAT":"Arq. Carlos Rivas. 0981 360 427.crivas60@hotmail.com",
 					"EAT - Equipo de Asistencia Técnica":"No corresponde",
-					"Porcentaje de avance":"97% de avance",
+					"Estado de Obra":"En ejecución",
+					"Porcentaje de avance":"97%",
 					"Licitación Nº":"No corresponde",
 					"Origen del terreno":"Propiedad privada (compra de terreno)",
 					"Calificación provisional":"21/12/11",
-					"id":329
+					"id":325
                 }
         },
                  {   
@@ -7078,11 +7092,12 @@ var viviendas =      { "type" : "FeatureCollection",
 					"SAT - Servicio de Asistencia Técnica":"C CONSULTORES",
 					"Dato de contacto - SAT":"Juan Corbalan, Maria Villanueva. 0981 901 337. corvalan@cconsultores.com.py",
 					"EAT - Equipo de Asistencia Técnica":"No corresponde",
-					"Porcentaje de avance":"100% de avance",
+					"Estado de Obra":"En ejecución",
+					"Porcentaje de avance":"100%",
 					"Licitación Nº":"No corresponde",
 					"Origen del terreno":"Propiedad de la Municipalidad",
 					"Calificación provisional":"32.527.066",
-					"id":330
+					"id":326
                 }
         },
                  {   
@@ -7099,11 +7114,12 @@ var viviendas =      { "type" : "FeatureCollection",
 					"SAT - Servicio de Asistencia Técnica":"ARQ. REBECA ZELAYA GONZALEZ",
 					"Dato de contacto - SAT":"Arq. Rebeca Zelaya. 0981 582 624. rebe_zegon@hotmail.com ",
 					"EAT - Equipo de Asistencia Técnica":"No corresponde",
-					"Porcentaje de avance":"100% de avance",
+					"Estado de Obra":"En ejecución",
+					"Porcentaje de avance":"100%",
 					"Licitación Nº":"No corresponde",
 					"Origen del terreno":"Propiedad de la SAS",
 					"Calificación provisional":"24/6/13",
-					"id":331
+					"id":327
                 }
         },
                  {   
@@ -7120,11 +7136,12 @@ var viviendas =      { "type" : "FeatureCollection",
 					"SAT - Servicio de Asistencia Técnica":"ARQUIDEC S.R.L.",
 					"Dato de contacto - SAT":"Faustino Correa. 0982 279 400. arqudec_srl@yahoo.com ",
 					"EAT - Equipo de Asistencia Técnica":"No corresponde",
-					"Porcentaje de avance":"90% de avance",
+					"Estado de Obra":"En ejecución",
+					"Porcentaje de avance":"90%",
 					"Licitación Nº":"No corresponde",
 					"Origen del terreno":"Propiedad privada (compra de terreno)",
 					"Calificación provisional":"27/9/12",
-					"id":332
+					"id":328
                 }
         },
                  {   
@@ -7141,10 +7158,11 @@ var viviendas =      { "type" : "FeatureCollection",
 					"SAT - Servicio de Asistencia Técnica":"ASOCIACION TEKOVERA",
 					"Dato de contacto - SAT":"Arq. Ilse Coronel. 0981 426 280. adricoronel@gmail.com",
 					"EAT - Equipo de Asistencia Técnica":"No corresponde",
-					"Porcentaje de avance":"100% de avance",
+					"Estado de Obra":"En ejecución",
+					"Porcentaje de avance":"100%",
 					"Licitación Nº":"No corresponde",
 					"Calificación provisional":0,
-					"id":333
+					"id":329
                 }
         },
                  {   
@@ -7161,11 +7179,12 @@ var viviendas =      { "type" : "FeatureCollection",
 					"SAT - Servicio de Asistencia Técnica":"CEDES/HABITAT",
 					"Dato de contacto - SAT":"Arq. Emma Gill. 0981444 295. cedeshab@gmail.com",
 					"EAT - Equipo de Asistencia Técnica":"No corresponde",
-					"Porcentaje de avance":"90% de avance",
+					"Estado de Obra":"En ejecución",
+					"Porcentaje de avance":"90%",
 					"Licitación Nº":"No corresponde",
 					"Origen del terreno":"Propiedad de la SAS",
 					"Calificación provisional":"10/12/13",
-					"id":334
+					"id":330
                 }
         },
                  {   
@@ -7182,11 +7201,12 @@ var viviendas =      { "type" : "FeatureCollection",
 					"SAT - Servicio de Asistencia Técnica":"CONSULTORA NOESIS",
 					"Dato de contacto - SAT":"Fernando Javier Diaz. 0981 810 277. javier@sgpsa.com",
 					"EAT - Equipo de Asistencia Técnica":"No corresponde",
-					"Porcentaje de avance":"85% de avance",
+					"Estado de Obra":"En ejecución",
+					"Porcentaje de avance":"85%",
 					"Licitación Nº":"No corresponde",
 					"Origen del terreno":"Propiedad de la SAS",
 					"Calificación provisional":"31/7/13",
-					"id":335
+					"id":331
                 }
         },
                  {   
@@ -7203,11 +7223,12 @@ var viviendas =      { "type" : "FeatureCollection",
 					"SAT - Servicio de Asistencia Técnica":"CONSULTORA NOESIS",
 					"Dato de contacto - SAT":"Fernando Javier Diaz. 0981 810 277. javier@sgpsa.com",
 					"EAT - Equipo de Asistencia Técnica":"No corresponde",
-					"Porcentaje de avance":"85% de avance",
+					"Estado de Obra":"En ejecución",
+					"Porcentaje de avance":"85%",
 					"Licitación Nº":"No corresponde",
 					"Origen del terreno":"Propiedad de la SAS",
 					"Calificación provisional":"31/7/13",
-					"id":336
+					"id":332
                 }
         },
                  {   
@@ -7224,11 +7245,12 @@ var viviendas =      { "type" : "FeatureCollection",
 					"SAT - Servicio de Asistencia Técnica":"ARQ. REBECA ZELAYA GONZALEZ",
 					"Dato de contacto - SAT":"Arq. Rebeca Zelaya. 0981 582 624. rebe_zegon@hotmail.com ",
 					"EAT - Equipo de Asistencia Técnica":"No corresponde",
-					"Porcentaje de avance":"100% de avance",
+					"Estado de Obra":"En ejecución",
+					"Porcentaje de avance":"100%",
 					"Licitación Nº":"No corresponde",
 					"Origen del terreno":"Propiedad de la SAS",
 					"Calificación provisional":"6/5/14",
-					"id":337
+					"id":333
                 }
         },
                  {   
@@ -7245,11 +7267,12 @@ var viviendas =      { "type" : "FeatureCollection",
 					"SAT - Servicio de Asistencia Técnica":"ARQUIDEC S.R.L.",
 					"Dato de contacto - SAT":"Faustino Correa. 0982 279 400. arqudec_srl@yahoo.com ",
 					"EAT - Equipo de Asistencia Técnica":"No corresponde",
-					"Porcentaje de avance":"97% de avance",
+					"Estado de Obra":"En ejecución",
+					"Porcentaje de avance":"97%",
 					"Licitación Nº":"No corresponde",
 					"Origen del terreno":"Propiedad privada (compra de terreno)",
 					"Calificación provisional":"13/11/12",
-					"id":338
+					"id":334
                 }
         },
                  {   
@@ -7268,7 +7291,7 @@ var viviendas =      { "type" : "FeatureCollection",
 					"EAT - Equipo de Asistencia Técnica":"No corresponde",
 					"Licitación Nº":"No corresponde",
 					"Origen del terreno":"Propiedad privada (compra de terreno)",
-					"id":339
+					"id":335
                 }
         },
                  {   
@@ -7287,7 +7310,7 @@ var viviendas =      { "type" : "FeatureCollection",
 					"EAT - Equipo de Asistencia Técnica":"No corresponde",
 					"Licitación Nº":"No corresponde",
 					"Origen del terreno":"Propiedad privada (compra de terreno)",
-					"id":340
+					"id":336
                 }
         },
                  {   
@@ -7306,7 +7329,7 @@ var viviendas =      { "type" : "FeatureCollection",
 					"EAT - Equipo de Asistencia Técnica":"No corresponde",
 					"Licitación Nº":"No corresponde",
 					"Origen del terreno":"Propiedad privada (compra de terreno)",
-					"id":341
+					"id":337
                 }
         },
                  {   
@@ -7326,7 +7349,7 @@ var viviendas =      { "type" : "FeatureCollection",
 					"Licitación Nº":"No corresponde",
 					"Origen del terreno":"Propiedad Comunitaria",
 					"Calificación provisional":"26/8/14",
-					"id":342
+					"id":338
                 }
         },
                  {   
@@ -7343,10 +7366,11 @@ var viviendas =      { "type" : "FeatureCollection",
 					"SAT - Servicio de Asistencia Técnica":"VERONICA OJEDA CASTELLI",
 					"Dato de contacto - SAT":"Abog. Veronica Ojeda. 0981 407 827. vojedacastelli@gmail.com",
 					"EAT - Equipo de Asistencia Técnica":"No corresponde",
+					"Porcentaje de avance":"95%",
 					"Licitación Nº":"No corresponde",
-					"Origen del terreno":"Propiedad del Indert",
+					"Origen del terreno":"INDERT",
 					"Calificación provisional":"23/8/11",
-					"id":343
+					"id":339
                 }
         },
                  {   
@@ -7366,7 +7390,7 @@ var viviendas =      { "type" : "FeatureCollection",
 					"Licitación Nº":"No corresponde",
 					"Origen del terreno":"Propiedad de la SAS",
 					"Calificación provisional":"6/2/13",
-					"id":344
+					"id":340
                 }
         },
                  {   
@@ -7386,7 +7410,7 @@ var viviendas =      { "type" : "FeatureCollection",
 					"Licitación Nº":"No corresponde",
 					"Origen del terreno":"Propiedad de la Municipalidad",
 					"Calificación provisional":"22.252.088",
-					"id":345
+					"id":341
                 }
         },
                  {   
@@ -7408,7 +7432,7 @@ var viviendas =      { "type" : "FeatureCollection",
 					"Licitación Nº":"No corresponde",
 					"Origen del terreno":"Propiedad de la Municipalidad",
 					"Calificación provisional":"133.558.031",
-					"id":346
+					"id":342
                 }
         },
                  {   
@@ -7426,7 +7450,7 @@ var viviendas =      { "type" : "FeatureCollection",
 					"Dato de contacto - SAT":"Lic. Jorge Andriotti. 0985 101 565. jorgeandriotti@yahoo.com ",
 					"EAT - Equipo de Asistencia Técnica":"No corresponde",
 					"Licitación Nº":"No corresponde",
-					"id":347
+					"id":343
                 }
         },
                  {   
@@ -7443,9 +7467,12 @@ var viviendas =      { "type" : "FeatureCollection",
 					"Empresa":"En proceso para licitación",
 					"SAT - Servicio de Asistencia Técnica":"No corresponde",
 					"EAT - Equipo de Asistencia Técnica":"No corresponde",
-					"Estado de Obra":"En proceso para licitación",
+					"Estado de Obra":"En licitación",
+					"Porcentaje de avance":"En proceso para licitación",
+					"Licitación Nº":"En proceso para licitación",
+					"Contrato N°":"En proceso para licitación",
 					"Origen del terreno":"Municipal",
-					"id":348
+					"id":344
                 }
         },
                  {   
@@ -7462,9 +7489,12 @@ var viviendas =      { "type" : "FeatureCollection",
 					"Empresa":"En proceso para licitación",
 					"SAT - Servicio de Asistencia Técnica":"No corresponde",
 					"EAT - Equipo de Asistencia Técnica":"No corresponde",
-					"Estado de Obra":"En proceso para licitación",
+					"Estado de Obra":"En licitación",
+					"Porcentaje de avance":"En proceso para licitación",
+					"Licitación Nº":"En proceso para licitación",
+					"Contrato N°":"En proceso para licitación",
 					"Origen del terreno":"Municipal",
-					"id":349
+					"id":345
                 }
         },
                  {   
@@ -7481,9 +7511,12 @@ var viviendas =      { "type" : "FeatureCollection",
 					"Empresa":"En proceso para licitación",
 					"SAT - Servicio de Asistencia Técnica":"No corresponde",
 					"EAT - Equipo de Asistencia Técnica":"No corresponde",
-					"Estado de Obra":"En proceso para licitación",
+					"Estado de Obra":"En licitación",
+					"Porcentaje de avance":"En proceso para licitación",
+					"Licitación Nº":"En proceso para licitación",
+					"Contrato N°":"En proceso para licitación",
 					"Origen del terreno":"Municipal",
-					"id":350
+					"id":346
                 }
         },
                  {   
@@ -7500,9 +7533,12 @@ var viviendas =      { "type" : "FeatureCollection",
 					"Empresa":"En proceso para licitación",
 					"SAT - Servicio de Asistencia Técnica":"No corresponde",
 					"EAT - Equipo de Asistencia Técnica":"No corresponde",
-					"Estado de Obra":"En proceso para licitación",
+					"Estado de Obra":"En licitación",
+					"Porcentaje de avance":"En proceso para licitación",
+					"Licitación Nº":"En proceso para licitación",
+					"Contrato N°":"En proceso para licitación",
 					"Origen del terreno":"Municipal",
-					"id":351
+					"id":347
                 }
         },
                  {   
@@ -7519,9 +7555,12 @@ var viviendas =      { "type" : "FeatureCollection",
 					"Empresa":"En proceso para licitación",
 					"SAT - Servicio de Asistencia Técnica":"No corresponde",
 					"EAT - Equipo de Asistencia Técnica":"No corresponde",
-					"Estado de Obra":"En proceso para licitación",
+					"Estado de Obra":"En licitación",
+					"Porcentaje de avance":"En proceso para licitación",
+					"Licitación Nº":"En proceso para licitación",
+					"Contrato N°":"En proceso para licitación",
 					"Origen del terreno":"Municipal",
-					"id":352
+					"id":348
                 }
         },
                  {   
@@ -7538,9 +7577,12 @@ var viviendas =      { "type" : "FeatureCollection",
 					"Empresa":"En proceso para licitación",
 					"SAT - Servicio de Asistencia Técnica":"No corresponde",
 					"EAT - Equipo de Asistencia Técnica":"No corresponde",
-					"Estado de Obra":"En proceso para licitación",
+					"Estado de Obra":"En licitación",
+					"Porcentaje de avance":"En proceso para licitación",
+					"Licitación Nº":"En proceso para licitación",
+					"Contrato N°":"En proceso para licitación",
 					"Origen del terreno":"Municipal",
-					"id":353
+					"id":349
                 }
         },
                  {   
@@ -7557,9 +7599,12 @@ var viviendas =      { "type" : "FeatureCollection",
 					"Empresa":"En proceso para licitación",
 					"SAT - Servicio de Asistencia Técnica":"No corresponde",
 					"EAT - Equipo de Asistencia Técnica":"No corresponde",
-					"Estado de Obra":"En proceso para licitación",
+					"Estado de Obra":"En licitación",
+					"Porcentaje de avance":"En proceso para licitación",
+					"Licitación Nº":"En proceso para licitación",
+					"Contrato N°":"En proceso para licitación",
 					"Origen del terreno":"Municipal",
-					"id":354
+					"id":350
                 }
         },
                  {   
@@ -7577,9 +7622,11 @@ var viviendas =      { "type" : "FeatureCollection",
 					"SAT - Servicio de Asistencia Técnica":"No corresponde",
 					"EAT - Equipo de Asistencia Técnica":"No corresponde",
 					"Estado de Obra":"En licitación",
+					"Porcentaje de avance":"En licitación",
 					"Licitación Nº":"LPN N° 595",
+					"Contrato N°":"En licitación",
 					"Origen del terreno":"Municipal",
-					"id":355
+					"id":351
                 }
         },
                  {   
@@ -7597,9 +7644,11 @@ var viviendas =      { "type" : "FeatureCollection",
 					"SAT - Servicio de Asistencia Técnica":"No corresponde",
 					"EAT - Equipo de Asistencia Técnica":"No corresponde",
 					"Estado de Obra":"En licitación",
+					"Porcentaje de avance":"En licitación",
 					"Licitación Nº":"LPN N° 595",
+					"Contrato N°":"En licitación",
 					"Origen del terreno":"Municipal",
-					"id":356
+					"id":352
                 }
         },
                  {   
@@ -7617,9 +7666,11 @@ var viviendas =      { "type" : "FeatureCollection",
 					"SAT - Servicio de Asistencia Técnica":"No corresponde",
 					"EAT - Equipo de Asistencia Técnica":"No corresponde",
 					"Estado de Obra":"En licitación",
+					"Porcentaje de avance":"En licitación",
 					"Licitación Nº":"LPN N° 595",
+					"Contrato N°":"En licitación",
 					"Origen del terreno":"Municipal",
-					"id":357
+					"id":353
                 }
         },
                  {   
@@ -7637,9 +7688,11 @@ var viviendas =      { "type" : "FeatureCollection",
 					"SAT - Servicio de Asistencia Técnica":"No corresponde",
 					"EAT - Equipo de Asistencia Técnica":"No corresponde",
 					"Estado de Obra":"En licitación",
+					"Porcentaje de avance":"En licitación",
 					"Licitación Nº":"LPN N° 595",
+					"Contrato N°":"En licitación",
 					"Origen del terreno":"Municipal",
-					"id":358
+					"id":354
                 }
         },
                  {   
@@ -7657,9 +7710,11 @@ var viviendas =      { "type" : "FeatureCollection",
 					"SAT - Servicio de Asistencia Técnica":"No corresponde",
 					"EAT - Equipo de Asistencia Técnica":"No corresponde",
 					"Estado de Obra":"En licitación",
+					"Porcentaje de avance":"En licitación",
 					"Licitación Nº":"LPN N° 595",
+					"Contrato N°":"En licitación",
 					"Origen del terreno":"Municipal",
-					"id":359
+					"id":355
                 }
         },
                  {   
@@ -7677,9 +7732,11 @@ var viviendas =      { "type" : "FeatureCollection",
 					"SAT - Servicio de Asistencia Técnica":"No corresponde",
 					"EAT - Equipo de Asistencia Técnica":"No corresponde",
 					"Estado de Obra":"En licitación",
+					"Porcentaje de avance":"En licitación",
 					"Licitación Nº":"LPN N° 595",
+					"Contrato N°":"En licitación",
 					"Origen del terreno":"Municipal",
-					"id":360
+					"id":356
                 }
         },
                  {   
@@ -7697,9 +7754,11 @@ var viviendas =      { "type" : "FeatureCollection",
 					"SAT - Servicio de Asistencia Técnica":"No corresponde",
 					"EAT - Equipo de Asistencia Técnica":"No corresponde",
 					"Estado de Obra":"En licitación",
+					"Porcentaje de avance":"En licitación",
 					"Licitación Nº":"LPN N° 595",
+					"Contrato N°":"En licitación",
 					"Origen del terreno":"Municipal",
-					"id":361
+					"id":357
                 }
         },
                  {   
@@ -7717,8 +7776,12 @@ var viviendas =      { "type" : "FeatureCollection",
 					"Empresa":"En proceso para licitación",
 					"SAT - Servicio de Asistencia Técnica":"No corresponde",
 					"EAT - Equipo de Asistencia Técnica":"No corresponde",
-					"Estado de Obra":"En proceso para licitación",
-					"id":362
+					"Estado de Obra":"En licitación",
+					"Porcentaje de avance":"En proceso para licitación",
+					"Licitación Nº":"En proceso para licitación",
+					"Contrato N°":"En proceso para licitación",
+					"Observaciones":"Coordenada corresponde al centro del distrito. La localización de las obras aún no se tienen definidas.",
+					"id":358
                 }
         },
                  {   
@@ -7736,8 +7799,12 @@ var viviendas =      { "type" : "FeatureCollection",
 					"Empresa":"En proceso para licitación",
 					"SAT - Servicio de Asistencia Técnica":"No corresponde",
 					"EAT - Equipo de Asistencia Técnica":"No corresponde",
-					"Estado de Obra":"En proceso para licitación",
-					"id":363
+					"Estado de Obra":"En licitación",
+					"Porcentaje de avance":"En proceso para licitación",
+					"Licitación Nº":"En proceso para licitación",
+					"Contrato N°":"En proceso para licitación",
+					"Observaciones":"Coordenada corresponde al centro del distrito. La localización de las obras aún no se tienen definidas.",
+					"id":359
                 }
         },
                  {   
@@ -7755,8 +7822,12 @@ var viviendas =      { "type" : "FeatureCollection",
 					"Empresa":"En proceso para licitación",
 					"SAT - Servicio de Asistencia Técnica":"No corresponde",
 					"EAT - Equipo de Asistencia Técnica":"No corresponde",
-					"Estado de Obra":"En proceso para licitación",
-					"id":364
+					"Estado de Obra":"En licitación",
+					"Porcentaje de avance":"En proceso para licitación",
+					"Licitación Nº":"En proceso para licitación",
+					"Contrato N°":"En proceso para licitación",
+					"Observaciones":"Coordenada corresponde al centro del distrito. La localización de las obras aún no se tienen definidas.",
+					"id":360
                 }
         },
                  {   
@@ -7774,8 +7845,12 @@ var viviendas =      { "type" : "FeatureCollection",
 					"Empresa":"En proceso para licitación",
 					"SAT - Servicio de Asistencia Técnica":"No corresponde",
 					"EAT - Equipo de Asistencia Técnica":"No corresponde",
-					"Estado de Obra":"En proceso para licitación",
-					"id":365
+					"Estado de Obra":"En licitación",
+					"Porcentaje de avance":"En proceso para licitación",
+					"Licitación Nº":"En proceso para licitación",
+					"Contrato N°":"En proceso para licitación",
+					"Observaciones":"Coordenada corresponde al centro del distrito. La localización de las obras aún no se tienen definidas.",
+					"id":361
                 }
         },
                  {   
@@ -7793,8 +7868,12 @@ var viviendas =      { "type" : "FeatureCollection",
 					"Empresa":"En proceso para licitación",
 					"SAT - Servicio de Asistencia Técnica":"No corresponde",
 					"EAT - Equipo de Asistencia Técnica":"No corresponde",
-					"Estado de Obra":"En proceso para licitación",
-					"id":366
+					"Estado de Obra":"En licitación",
+					"Porcentaje de avance":"En proceso para licitación",
+					"Licitación Nº":"En proceso para licitación",
+					"Contrato N°":"En proceso para licitación",
+					"Observaciones":"Coordenada corresponde al centro del distrito. La localización de las obras aún no se tienen definidas.",
+					"id":362
                 }
         },
                  {   
@@ -7812,8 +7891,12 @@ var viviendas =      { "type" : "FeatureCollection",
 					"Empresa":"En proceso para licitación",
 					"SAT - Servicio de Asistencia Técnica":"No corresponde",
 					"EAT - Equipo de Asistencia Técnica":"No corresponde",
-					"Estado de Obra":"En proceso para licitación",
-					"id":367
+					"Estado de Obra":"En licitación",
+					"Porcentaje de avance":"En proceso para licitación",
+					"Licitación Nº":"En proceso para licitación",
+					"Contrato N°":"En proceso para licitación",
+					"Observaciones":"Coordenada corresponde al centro del distrito. La localización de las obras aún no se tienen definidas.",
+					"id":363
                 }
         }         ]
     };

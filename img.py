@@ -34,7 +34,7 @@ def generate_image_index():
 
 def resize_image(file):
     im = Image.open(file)
-    ext = file.split('.')[-1].lower()
+    ext = file.split('.')[-1]
     name = '.' + ''.join(file.split('.')[:-1])
     w, h = im.size
     rw = float(373)
