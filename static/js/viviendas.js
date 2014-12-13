@@ -6011,28 +6011,6 @@ var viviendas =  { "type" : "FeatureCollection",
             "type" : "Feature",
             "geometry" : {
                 "type" : "Point",
-                "coordinates" : [-54.5867748922, -22.522649777]},
-                "properties" : {
-                    "Departamento":"Boquerón",
-					"Distrito":"Mariscal Estigarribia",
-					"Proyecto":"Paraíso (Nivacle)",
-					"Programa":"FONAVIS",
-					"Cantidad de Viviendas":40,
-					"SAT - Servicio de Asistencia Técnica":"HABITAT PARA LA HUMANIDAD - PARAGUAY",
-					"Dato de contacto - SAT":"Mary Lechenuk. 0981 491 993. mlisnichuk@habitat.org.py",
-					"EAT - Equipo de Asistencia Técnica":"No corresponde",
-					"Estado de Obra":"Culminada",
-					"Porcentaje de avance":"cd",
-					"Licitación Nº":"No corresponde",
-					"Origen del terreno":"Propiedad de los Beneficiarios",
-					"Calificación provisional":"###############################################################################################################################################################################################################################################################",
-					"id":275
-                }
-        },
-                 {   
-            "type" : "Feature",
-            "geometry" : {
-                "type" : "Point",
                 "coordinates" : [-59.9807860282, -22.8694227237]},
                 "properties" : {
                     "Departamento":"Boquerón",
