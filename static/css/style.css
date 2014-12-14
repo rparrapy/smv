@@ -61,6 +61,10 @@ body
   }  
 }
 
+#logo-right-wrapper, #logo-left-wrapper{
+    margin-top: 7px;
+}
+
 .navbar-default{
     margin-bottom: 0px;
 }

@@ -536,6 +536,7 @@ function draw_popup_tables(properties, attrs_by_tab){
       if(c === 0){
         d += sprintf('<div class="tab-pane active" id="%s">', id);
         //d += draw_popup_album(["img/casa1.jpg", "img/plano1.png", "img/casa2.jpg", "img/plano2.png"]);
+        console.log(properties.id.toString());
         var imgs = SMV.ROW_TO_IMGS[properties.id.toString()];
         if(imgs){
           d += draw_popup_album(imgs);
@@ -595,7 +596,10 @@ function draw_popup_table_row(key, value){
 function draw_popup_album(imgs){
   var a = "<div id=\'album-container\' class=\'flexslider\'><ul class=\'slides row\'>";
   for (var i = 0; i < imgs.length; i++) {
-    a += draw_popup_album_photo(imgs[i]);
+    var thumbArray = imgs[i].split('.');
+    var thumbName = thumbArray.slice(0, thumbArray.length - 1).join('.');
+    var thumbExtension = thumbArray[thumbArray.length - 1];
+    a += draw_popup_album_photo(thumbName + '.thumbnail.' + thumbExtension);
   }
   a += "</ul></div>"
   return a;
@@ -617,8 +621,8 @@ function setup_modal(){
     })
 
   $('li img').on('click',function(){
-    var src = $(this).attr('src');
-    console.log(src);
+    var src = get_image_path($(this).attr('src'));
+    //console.log(src);
     var img = '<img src="' + src + '" class="img-responsive"/>';
 
     var index = $(this).parent('li').index();
@@ -642,10 +646,16 @@ function setup_modal(){
   });  
 }
 
+function get_image_path(thumbnail){
+  var thumbArray = thumbnail.split('.');
+  return thumbArray.slice(0, thumbArray.length - 2).join('.') + '.' + thumbArray[thumbArray.length - 1];
+}
+
 function setup_modal_navigation() {
   $(document).on('click', 'a.controls', function(e){
     var index = $(this).attr('href');
     var src = $('ul.row li:nth-child('+ (index) +') img').attr('src');
+    src = get_image_path(src);
     $('.modal-body img').attr('src', src);
 
     var newPrevIndex = parseInt(index) - 1; 
@@ -973,8 +983,12 @@ function setup_contact_form(){
       },
       error: function(jqXHR, textStatus, errorThrown) 
       {
-       toastr.error('Ocurrió un error al enviar su mensaje, inténtelo de nuevo más tarde.');
-       $(form).data('bootstrapValidator').resetForm();
+       if(jqXHR.status === 400){
+          toastr.error('Por favor resuelva el captcha antes de enviar su mensaje');
+       }else{
+          toastr.error('Ocurrió un error al enviar su mensaje, inténtelo de nuevo más tarde.');
+          $(form).data('bootstrapValidator').resetForm();
+       }
       }          
     });
 

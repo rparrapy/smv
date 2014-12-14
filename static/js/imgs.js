@@ -10,6 +10,7 @@ SMV.ROW_TO_IMGS = {
         "./static/img/numerados/3/Imagen2.jpg", 
         "./static/img/numerados/3/Imagen3.jpg"
     ], 
+    "4": [], 
     "8": [
         "./static/img/numerados/8/Imagen (1).jpg", 
         "./static/img/numerados/8/Imagen (2).jpg", 
@@ -327,7 +328,7 @@ SMV.ROW_TO_IMGS = {
         "./static/img/numerados/43/VIVIENDA ER+2D Planta.jpg"
     ], 
     "44": [
-        "./static/img/numerados/44/NIÑO SALVADOR DEL MUNDO CONCEPCIÓN.jpg", 
+        "./static/img/numerados/44/NINO SALVADOR DEL MUNDO CONCEPCION.jpg", 
         "./static/img/numerados/44/P1040740.JPG", 
         "./static/img/numerados/44/P1040744.JPG", 
         "./static/img/numerados/44/P1040746.JPG", 
@@ -344,7 +345,7 @@ SMV.ROW_TO_IMGS = {
         "./static/img/numerados/45/DSCN5334.JPG", 
         "./static/img/numerados/45/DSCN5350.JPG", 
         "./static/img/numerados/45/DSCN5362.JPG", 
-        "./static/img/numerados/45/pl gnales TAVA JOAJÚ RENDA SAN J NEPOMUC.jpg", 
+        "./static/img/numerados/45/pl gnales TAVA JOAJU RENDA SAN J NEPOMUC.jpg", 
         "./static/img/numerados/45/PLANOS VIVIENDA PERGOLADO FACHADAS.jpg", 
         "./static/img/numerados/45/VIVIENDA ER+2D Fachadas 2.jpg", 
         "./static/img/numerados/45/VIVIENDA ER+2D Fachadas.jpg", 
@@ -358,7 +359,7 @@ SMV.ROW_TO_IMGS = {
         "./static/img/numerados/46/VIVIENDA ER+2D Planta.jpg"
     ], 
     "47": [
-        "./static/img/numerados/47/pl gnales CAMBYRETÁ.jpg", 
+        "./static/img/numerados/47/pl gnales CAMBYRETA.jpg", 
         "./static/img/numerados/47/PLANOS VIVIENDA PERGOLADO FACHADAS.jpg", 
         "./static/img/numerados/47/VIVIENDA ER+2D Fachadas 2.jpg", 
         "./static/img/numerados/47/VIVIENDA ER+2D Fachadas.jpg", 
@@ -370,7 +371,7 @@ SMV.ROW_TO_IMGS = {
         "./static/img/numerados/48/20141115_082015.jpg", 
         "./static/img/numerados/48/20141115_082536.jpg", 
         "./static/img/numerados/48/20141115_083217.jpg", 
-        "./static/img/numerados/48/pl gnales YBYTYMÍ.jpg", 
+        "./static/img/numerados/48/pl gnales YBYTYMI.jpg", 
         "./static/img/numerados/48/PLANOS VIVIENDA PERGOLADO FACHADAS.jpg", 
         "./static/img/numerados/48/VIVIENDA ER+2D Fachadas 2.jpg", 
         "./static/img/numerados/48/VIVIENDA ER+2D Fachadas.jpg", 
@@ -382,7 +383,7 @@ SMV.ROW_TO_IMGS = {
         "./static/img/numerados/49/Imagen (4).JPG", 
         "./static/img/numerados/49/Imagen (5).JPG", 
         "./static/img/numerados/49/Imagen (6).JPG", 
-        "./static/img/numerados/49/Planos gnales TACUARAS ÑEEMBUCÚ.jpg", 
+        "./static/img/numerados/49/Planos gnales TACUARAS NEEMBUCU.jpg", 
         "./static/img/numerados/49/PLANOS VIVIENDA PERGOLADO FACHADAS.jpg", 
         "./static/img/numerados/49/VIVIENDA ER+2D Fachadas 2.jpg", 
         "./static/img/numerados/49/VIVIENDA ER+2D Fachadas.jpg", 
@@ -541,7 +542,7 @@ SMV.ROW_TO_IMGS = {
         "./static/img/numerados/66/DSC08225 (2).JPG"
     ], 
     "67": [
-        "./static/img/numerados/67/Coop  Ña pua hagua (2).JPG", 
+        "./static/img/numerados/67/Coop  Na pua hagua (2).JPG", 
         "./static/img/numerados/67/DSC08298 (2).JPG", 
         "./static/img/numerados/67/DSC08299 (2).JPG"
     ], 
@@ -1371,5 +1372,69 @@ SMV.ROW_TO_IMGS = {
     ], 
     "352": [
         "./static/img/numerados/352/IMG_1511 fdo de la mora.JPG"
-    ]
+    ], 
+    "355": [
+        "./static/img/numerados/355/355.jpg"
+    ], 
+    "356": [
+        "./static/img/numerados/356/356.jpg"
+    ], 
+    "357": [
+        "./static/img/numerados/357/357.jpg"
+    ], 
+    "358": [
+        "./static/img/numerados/358/358.jpg"
+    ], 
+    "359": [
+        "./static/img/numerados/359/359.jpg"
+    ], 
+    "360": [
+        "./static/img/numerados/360/360.jpg"
+    ], 
+    "361": [
+        "./static/img/numerados/361/361.jpg"
+    ], 
+    "362": [
+        "./static/img/numerados/362/362.jpg"
+    ], 
+    "363": [
+        "./static/img/numerados/363/363.jpg"
+    ], 
+    "364": [
+        "./static/img/numerados/364/364.jpg"
+    ], 
+    "365": [
+        "./static/img/numerados/365/365.jpg"
+    ], 
+    "366": [
+        "./static/img/numerados/366/366.jpg"
+    ], 
+    "367": [
+        "./static/img/numerados/367/367.jpg"
+    ], 
+    "368": [
+        "./static/img/numerados/368/368.jpg"
+    ], 
+    "369": [
+        "./static/img/numerados/369/369.jpg"
+    ], 
+    "370": [
+        "./static/img/numerados/370/370.jpg"
+    ], 
+    "371": [
+        "./static/img/numerados/371/371.jpg"
+    ], 
+    "372": [
+        "./static/img/numerados/372/372.jpg"
+    ], 
+    "373": [
+        "./static/img/numerados/373/373.jpg"
+    ], 
+    "374": [
+        "./static/img/numerados/374/374.jpg"
+    ], 
+    "375": [
+        "./static/img/numerados/375/375.jpg"
+    ], 
+    "376": []
 };

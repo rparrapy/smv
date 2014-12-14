@@ -10,6 +10,7 @@ import os
 import json
 import imghdr
 import unicodedata
+from unidecode import unidecode
 from PIL import Image
 
 def generate_image_index():
@@ -37,12 +38,23 @@ def resize_image(file):
     ext = file.split('.')[-1]
     name = '.' + ''.join(file.split('.')[:-1])
     w, h = im.size
+
+    rw = float(800)
+    scale = rw/w
+    rh = int(h * scale)
+    im.thumbnail((rw, rh))
+    result = unidecode(name + '.' + ext)
+    im.save(result, im.format)
+
     rw = float(373)
     scale = rw/w
     rh = int(h * scale)
     im.thumbnail((rw, rh))
-    result = name + '.' + ext
-    im.save(result, im.format)
+    im.save(unidecode(name + '.thumbnail.' + ext), im.format)
+    
+    if not file == result:
+        os.remove(file)
+
     return result
 
 if __name__ == "__main__":

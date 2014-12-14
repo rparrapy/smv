@@ -31,6 +31,7 @@
     <script src="static/js/config.js"></script>
     <script src="static/js/imgs.js"></script>
     <script src="static/js/app.js"></script>
+    <script src='https://www.google.com/recaptcha/api.js'></script>
     <link rel="stylesheet" href="static/bower_components/bootstrap/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="static/bower_components/datatables/media/css/dataTables.bootstrap.css">
     <link rel="stylesheet" href="static/bower_components/select2/select2.css">
@@ -148,7 +149,7 @@
                 
                 <option value="Central">Central</option>
                 
-                <option value="Ñeembucu">Ñeembucú</option>
+                <option value="Neembucu">Ñeembucú</option>
                 
                 <option value="Amambay">Amambay</option>
                 
@@ -231,7 +232,7 @@
             <h2>¿Cómo puedo usar los datos?</h2>
             <p>Con los Datos Abiertos se pueden crear visualizaciones innovativas para comprender mejor datos complejos, fomentando la creación de nuevos conocimientos. También puede ser la base de oportunidades de negocios convirtiéndose en un importante motor económico.</p>
             <h2>¿Quiénes están involucrados en el proyecto?</h2>
-            <p>La visualización de viviendas a nivel país fue desarrollada para la Secretaría Nacional de la Vivienda, con el apoyo del equipo técnico de la institución.</p>
+            <p>La visualización de viviendas a nivel país fue desarrollada para la Secretaría Nacional de la Vivienda y el Hábitat, con el apoyo del equipo técnico de la institución.</p>
           </div>
           <div id="contacto" class="tab-pane fade">
             <div id="contacto-wrapper">
@@ -267,6 +268,13 @@
                   <div class="form-group">
                     <label>
                       <input class="filestyle" name="archivo" type="file" data-buttonText="Adjunta un archivo" data-buttonBefore="true">
+                    </label>
+                  </div>
+                </div>
+                <div class="col-lg-12">
+                  <div class="form-group">
+                    <label>
+                      <div class="g-recaptcha" data-sitekey="6LfhQP8SAAAAAIgrAsjLodPKu6A6yhUIMlJaksrN"></div>
                     </label>
                   </div>
                 </div>
