@@ -17,7 +17,6 @@ mail = Mail(app)
 
 @app.route("/")
 def index():
-    print __name__
     return send_file('static/index.html')
 
 @app.route('/contact', methods=['GET', 'POST'])
