@@ -12,6 +12,7 @@ import requests
 
 app = Flask(__name__)
 app.config.from_object('default_config')
+app.config.from_envvar('SMV_CONF')
 mail = Mail(app)
 
 @app.route("/")
