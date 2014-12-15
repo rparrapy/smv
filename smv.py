@@ -7,18 +7,16 @@
 from flask import Flask, send_file, request
 from flask.ext.mail import Mail
 from flask.ext.mail import Message
-from recaptcha.client import captcha 
 import json
+import requests
 
 app = Flask(__name__)
-app.config.from_object(__name__)
+app.config.from_object('default_config')
 mail = Mail(app)
-
-MAIL_DEBUG = True
-app.config['RECAPTCHA_PRIVATE_KEY'] = '6LfhQP8SAAAAAAh973y4pQUfzCMRkjwZ34R9BWl6'
 
 @app.route("/")
 def index():
+    print __name__
     return send_file('static/index.html')
 
 @app.route('/contact', methods=['GET', 'POST'])
@@ -34,18 +32,18 @@ def contact():
         if f.filename:
             msg.attach(f.filename, f.headers['Content-Type'], f.read())
 
-    recaptcha_challenge_field = request.form.get('recaptcha_challenge_field')
-    recaptcha_response_field = request.form.get('recaptcha_response_field')
+    recaptcha_field = request.form.get('g-recaptcha-response')
     remote_ip = request.environ.get('REMOTE_ADDR')
 
-    recaptcha_response = captcha.submit(recaptcha_challenge_field,
-        recaptcha_response_field, app.config['RECAPTCHA_PRIVATE_KEY'], remote_ip)
-    if recaptcha_response.is_valid:
+    qparams = {'secret': app.config['RECAPTCHA_PRIVATE_KEY'], 'response': recaptcha_field, 'remoteip': remote_ip}
+    response = requests.get('https://www.google.com/recaptcha/api/siteverify', params = qparams)
+
+    resolved = response.json()['success']
+    if resolved:
         mail.send(msg)
         return u'Mensaje enviado con éxito'
     else:
-        error_code = recaptcha_response.error_code
-        return error_code, 400
+        return u'Error al resolver el captcha', 400
 
 
 

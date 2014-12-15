@@ -6152,7 +6152,7 @@
             "type" : "Feature",
             "geometry" : {
                 "type" : "Point",
-                "coordinates" : [-54.5867748922, -22.522649777]},
+                "coordinates" : [-60.58693386027199, -22.513651]},
                 "properties" : {
                     "id":286,
 					"Departamento":"Boquerón",

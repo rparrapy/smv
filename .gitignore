@@ -4,6 +4,8 @@ bin/
 local/
 lib/
 include/
+conf/
+log/
 *.pyc
 *.orig
 .Python
