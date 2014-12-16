@@ -767,6 +767,12 @@ SMV.ROW_TO_IMGS = {
         "./static/img/numerados/129/DSCN2962.JPG", 
         "./static/img/numerados/129/DSCN2963.JPG"
     ], 
+    "130": [
+        "./static/img/numerados/130/P1030626.JPG", 
+        "./static/img/numerados/130/P1030628.JPG", 
+        "./static/img/numerados/130/P1030629.JPG", 
+        "./static/img/numerados/130/P1030630.JPG"
+    ], 
     "131": [
         "./static/img/numerados/131/20141114_084737.jpg", 
         "./static/img/numerados/131/20141114_084803.jpg", 
@@ -810,6 +816,11 @@ SMV.ROW_TO_IMGS = {
         "./static/img/numerados/143/IMG_9340.JPG", 
         "./static/img/numerados/143/IMG_9342.JPG", 
         "./static/img/numerados/143/IMG_9343.JPG"
+    ], 
+    "145": [
+        "./static/img/numerados/145/Fotitos 035.jpg", 
+        "./static/img/numerados/145/Fotitos 037.jpg", 
+        "./static/img/numerados/145/Mayo 7 112.jpg"
     ], 
     "146": [
         "./static/img/numerados/146/DSCN3129.JPG", 
@@ -1000,6 +1011,13 @@ SMV.ROW_TO_IMGS = {
         "./static/img/numerados/195/20141116_181506.jpg", 
         "./static/img/numerados/195/20141116_183237.jpg"
     ], 
+    "196": [
+        "./static/img/numerados/196/DSC02455.JPG", 
+        "./static/img/numerados/196/DSC02458.JPG", 
+        "./static/img/numerados/196/DSC02460.JPG", 
+        "./static/img/numerados/196/DSC02465.JPG", 
+        "./static/img/numerados/196/DSC02468.JPG"
+    ], 
     "197": [
         "./static/img/numerados/197/PB150353.JPG", 
         "./static/img/numerados/197/PB150354.JPG", 
@@ -1035,6 +1053,10 @@ SMV.ROW_TO_IMGS = {
         "./static/img/numerados/203/DSCN3079.JPG", 
         "./static/img/numerados/203/DSCN3081.JPG"
     ], 
+    "204": [
+        "./static/img/numerados/204/Imagen 2.jpg", 
+        "./static/img/numerados/204/Imagen.jpg"
+    ], 
     "205": [
         "./static/img/numerados/205/DSCN3083.JPG", 
         "./static/img/numerados/205/DSCN3084.JPG", 
@@ -1062,6 +1084,10 @@ SMV.ROW_TO_IMGS = {
         "./static/img/numerados/213/DSCN3024.JPG", 
         "./static/img/numerados/213/DSCN3026.JPG", 
         "./static/img/numerados/213/DSCN3030.JPG"
+    ], 
+    "216": [
+        "./static/img/numerados/216/SAM_1545.JPG", 
+        "./static/img/numerados/216/SAM_1576.JPG"
     ], 
     "217": [
         "./static/img/numerados/217/20141117_171228.jpg"
@@ -1143,6 +1169,18 @@ SMV.ROW_TO_IMGS = {
         "./static/img/numerados/233/DSCN0038.JPG", 
         "./static/img/numerados/233/DSCN0040.JPG", 
         "./static/img/numerados/233/DSCN0070.JPG"
+    ], 
+    "234": [
+        "./static/img/numerados/234/II-1 Y II-2.JPG", 
+        "./static/img/numerados/234/II-13.JPG", 
+        "./static/img/numerados/234/II-2 Y II-1.JPG", 
+        "./static/img/numerados/234/II-8.JPG"
+    ], 
+    "238": [
+        "./static/img/numerados/238/Francisco Lescano 29112014.jpg", 
+        "./static/img/numerados/238/Francisco Ortiz 29112014 03.jpg", 
+        "./static/img/numerados/238/Marcial Lezcano 29112014 02.jpg", 
+        "./static/img/numerados/238/Roque Martinez 29112014 02.jpg"
     ], 
     "240": [
         "./static/img/numerados/240/P1040606.JPG", 
@@ -1257,6 +1295,12 @@ SMV.ROW_TO_IMGS = {
         "./static/img/numerados/257/_MG_9741.JPG", 
         "./static/img/numerados/257/_MG_9746.JPG"
     ], 
+    "259": [
+        "./static/img/numerados/259/Valentin Aquino 29112014 01.jpg", 
+        "./static/img/numerados/259/Victoriano Quevedo 29112014 01.jpg", 
+        "./static/img/numerados/259/Victoriano Quevedo 29112014 02.jpg", 
+        "./static/img/numerados/259/Ysidro Romero 29112014 01.jpg"
+    ], 
     "261": [
         "./static/img/numerados/261/DSCN0143.JPG", 
         "./static/img/numerados/261/DSCN0146.JPG", 
@@ -1275,6 +1319,12 @@ SMV.ROW_TO_IMGS = {
         "./static/img/numerados/263/P1040630.JPG", 
         "./static/img/numerados/263/P1040631.JPG", 
         "./static/img/numerados/263/P1040636.JPG"
+    ], 
+    "264": [
+        "./static/img/numerados/264/Jaguary_1.jpg", 
+        "./static/img/numerados/264/Jaguary_2.jpg", 
+        "./static/img/numerados/264/Jaguary_3.jpg", 
+        "./static/img/numerados/264/Jaguary_4.jpg"
     ], 
     "265": [
         "./static/img/numerados/265/1.JPG", 
@@ -1301,6 +1351,11 @@ SMV.ROW_TO_IMGS = {
         "./static/img/numerados/271/DSCN3148.JPG", 
         "./static/img/numerados/271/DSCN3149.JPG"
     ], 
+    "274": [
+        "./static/img/numerados/274/Imagen 2.jpg", 
+        "./static/img/numerados/274/Imagen 3.jpg", 
+        "./static/img/numerados/274/Imagen.jpg"
+    ], 
     "275": [
         "./static/img/numerados/275/_MG_9798.JPG", 
         "./static/img/numerados/275/_MG_9807.JPG", 
@@ -1326,10 +1381,35 @@ SMV.ROW_TO_IMGS = {
         "./static/img/numerados/281/_MG_9540.JPG", 
         "./static/img/numerados/281/_MG_9541.JPG"
     ], 
+    "283": [
+        "./static/img/numerados/283/Remansito 1.jpg", 
+        "./static/img/numerados/283/Remansito 2.jpg", 
+        "./static/img/numerados/283/Remansito 3.jpg", 
+        "./static/img/numerados/283/Remansito 5.jpg"
+    ], 
+    "285": [
+        "./static/img/numerados/285/Imagen.jpg"
+    ], 
+    "286": [
+        "./static/img/numerados/286/P1410555.JPG", 
+        "./static/img/numerados/286/P1410679.JPG", 
+        "./static/img/numerados/286/P1410681.JPG"
+    ], 
+    "288": [
+        "./static/img/numerados/288/santa teresa SAM_1543.JPG", 
+        "./static/img/numerados/288/Santa teresa WP_20141014_012.jpg"
+    ], 
     "289": [
         "./static/img/numerados/289/DSCN0071.JPG", 
         "./static/img/numerados/289/DSCN0072.JPG", 
         "./static/img/numerados/289/DSCN0073.JPG"
+    ], 
+    "290": [
+        "./static/img/numerados/290/438.jpg", 
+        "./static/img/numerados/290/439.jpg", 
+        "./static/img/numerados/290/448.jpg", 
+        "./static/img/numerados/290/449.jpg", 
+        "./static/img/numerados/290/461.jpg"
     ], 
     "291": [
         "./static/img/numerados/291/DSCN0180.JPG", 
@@ -1356,6 +1436,17 @@ SMV.ROW_TO_IMGS = {
         "./static/img/numerados/295/20141114_191944.jpg", 
         "./static/img/numerados/295/20141114_192114.jpg"
     ], 
+    "299": [
+        "./static/img/numerados/299/Imagen 2.jpg", 
+        "./static/img/numerados/299/Imagen 3.jpg", 
+        "./static/img/numerados/299/Imagen.jpg"
+    ], 
+    "301": [
+        "./static/img/numerados/301/PA161182.JPG", 
+        "./static/img/numerados/301/PA161183.JPG", 
+        "./static/img/numerados/301/PA161186.JPG", 
+        "./static/img/numerados/301/PA161194.JPG"
+    ], 
     "303": [
         "./static/img/numerados/303/20141115_054535.jpg", 
         "./static/img/numerados/303/20141115_054707.jpg", 
@@ -1368,6 +1459,11 @@ SMV.ROW_TO_IMGS = {
         "./static/img/numerados/305/DSCN0137.JPG", 
         "./static/img/numerados/305/DSCN0138.JPG", 
         "./static/img/numerados/305/PB150383.JPG"
+    ], 
+    "307": [
+        "./static/img/numerados/307/Imagen 2.jpg", 
+        "./static/img/numerados/307/Imagen 3.jpg", 
+        "./static/img/numerados/307/Imagen.jpg"
     ], 
     "310": [
         "./static/img/numerados/310/20141114_191820.jpg", 
@@ -1393,10 +1489,26 @@ SMV.ROW_TO_IMGS = {
         "./static/img/numerados/314/IMG_9382.JPG", 
         "./static/img/numerados/314/IMG_9383.JPG"
     ], 
+    "330": [
+        "./static/img/numerados/330/Acosta Nu 1, 1ra Fase.JPG", 
+        "./static/img/numerados/330/Acosta Nu 2, 1ra Fase.JPG"
+    ], 
+    "331": [
+        "./static/img/numerados/331/La Amistad 1.JPG", 
+        "./static/img/numerados/331/La Amistad 2.JPG"
+    ], 
+    "332": [
+        "./static/img/numerados/332/Juan Pablo 1.JPG", 
+        "./static/img/numerados/332/Juan Pablo 2.JPG"
+    ], 
     "334": [
         "./static/img/numerados/334/1.JPG", 
         "./static/img/numerados/334/2.JPG", 
         "./static/img/numerados/334/3.JPG"
+    ], 
+    "335": [
+        "./static/img/numerados/335/Acosta Nu 1, 1ra Fase.JPG", 
+        "./static/img/numerados/335/Acosta Nu 2, 1ra Fase.JPG"
     ], 
     "336": [
         "./static/img/numerados/336/1.JPG", 
@@ -1421,10 +1533,31 @@ SMV.ROW_TO_IMGS = {
         "./static/img/numerados/341/DSCN3151.JPG", 
         "./static/img/numerados/341/DSCN3152.JPG"
     ], 
+    "342": [
+        "./static/img/numerados/342/la foto 1.JPG", 
+        "./static/img/numerados/342/la foto 2.JPG", 
+        "./static/img/numerados/342/la foto 3.JPG", 
+        "./static/img/numerados/342/la foto 4.JPG", 
+        "./static/img/numerados/342/la foto 5.JPG"
+    ], 
+    "343": [
+        "./static/img/numerados/343/la foto 1.JPG", 
+        "./static/img/numerados/343/la foto 2.JPG", 
+        "./static/img/numerados/343/la foto 3.JPG", 
+        "./static/img/numerados/343/la foto 4.JPG", 
+        "./static/img/numerados/343/la foto 5.JPG"
+    ], 
     "344": [
         "./static/img/numerados/344/IMG_9066.JPG", 
         "./static/img/numerados/344/IMG_9067.JPG", 
         "./static/img/numerados/344/IMG_9079.JPG"
+    ], 
+    "350": [
+        "./static/img/numerados/350/IMG-20140509-WA0021.jpg", 
+        "./static/img/numerados/350/IMG-20140509-WA0023.jpg", 
+        "./static/img/numerados/350/vaqueria4.JPG", 
+        "./static/img/numerados/350/vaqueria5.JPG", 
+        "./static/img/numerados/350/vaqueria6.JPG"
     ], 
     "351": [
         "./static/img/numerados/351/DSCN0106.JPG", 
@@ -1505,5 +1638,15 @@ SMV.ROW_TO_IMGS = {
     ], 
     "376": [
         "./static/img/numerados/376/376.jpg"
+    ], 
+    "377": [
+        "./static/img/numerados/377/376.jpg"
+    ], 
+    "378": [
+        "./static/img/numerados/378/Imagen 2.jpg", 
+        "./static/img/numerados/378/Imagen 3.jpg", 
+        "./static/img/numerados/378/Imagen 4.jpg", 
+        "./static/img/numerados/378/Imagen 5.jpg", 
+        "./static/img/numerados/378/Imagen.jpg"
     ]
 };

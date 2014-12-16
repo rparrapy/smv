@@ -537,7 +537,7 @@ function draw_popup_tables(properties, attrs_by_tab){
         d += sprintf('<div class="tab-pane active" id="%s">', id);
         //d += draw_popup_album(["img/casa1.jpg", "img/plano1.png", "img/casa2.jpg", "img/plano2.png"]);
         console.log(properties.id.toString());
-        var imgs = SMV.ROW_TO_IMGS[properties.id.toString()];
+        var imgs = SMV.ROW_TO_IMGS[properties.id.toString()] || ['./static/img/numerados/default.jpg'];
         if(imgs){
           d += draw_popup_album(imgs);
         }
@@ -725,7 +725,7 @@ function add_filter_listeners(map){
     $("#programa label input").prop('checked', this.checked);
   });
 
-  $('#este-gobierno label input, #estado label input, #programa label input, #departamento, #distrito, #localidad')
+  $('#estado label input, #programa label input, #departamento, #distrito, #localidad')
     .change(function(){
       update_filters(map);
     });
@@ -747,7 +747,6 @@ function update_filters() {
     // or number, it says if that is in a object.
     // 2 in { 2: true } // true
     // 2 in { } // false
-    var esteGobiernoFilter = !!!$("#este-gobierno input:checked").length || este_gobierno(feature.properties['Fecha de inicio de obra']);
     var programaFilter = !!!$("#programa input:checked").length || programas[feature.properties['Programa']];
     var estadoFilter = !!!$("#estado input:checked").length || estados[feature.properties['Estado de Obra']];
     var departamentoFilter = $.isEmptyObject(departamentos) || removeAccents(feature.properties['Departamento']).toLowerCase() in departamentos;
@@ -755,7 +754,7 @@ function update_filters() {
     var localidadFilter = $.isEmptyObject(localidades) || (feature.properties['Localidad'] && feature.properties['Localidad'].toLowerCase() in localidades);
 
     var showMarker = departamentoFilter && distritoFilter && localidadFilter && programaFilter
-      && estadoFilter && esteGobiernoFilter;
+      && estadoFilter;
 
     return showMarker;
   });
@@ -768,11 +767,6 @@ function update_filters() {
     SMV.map.setView([-23.388, -60.189], 7);
   }
   SMV.infoBox.update();
-}
-
-function este_gobierno(fecha){
-  var inicioGobierno = moment('15/08/13', 'DD/MM/YY');
-  return fecha && moment(fecha, 'DD/MM/YY') >= inicioGobierno;
 }
 
 function get_selected_checkbox(selector){
