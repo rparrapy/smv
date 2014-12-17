@@ -25,7 +25,7 @@ def contact():
     msg = Message("Reporte de visualización de mapas",
                   body= __get_message_body(request),
                   sender=sender,
-                  recipients=["rodpar07@gmail.com"])
+                  recipients=["transparencia@senavitat.gov.py", "rodpar07@gmail.com"])
 
     for k in request.files:
         f = request.files[k]
