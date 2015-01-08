@@ -20,7 +20,8 @@ SMV.ATTR_TO_LABEL = {
             'Dato de contacto - EAT':'Dato de contacto - EAT',
             'Origen del terreno':'Origen del terrenos',
             'Porcentaje de avance':'Porcentaje de avance',
-            'Calificación provisional':'Calificación provisional'
+            'Calificación provisional':'Calificación provisional',
+            'Observaciones': 'Observaciones'
         };
 
 
@@ -41,14 +42,14 @@ SMV.ESTADO_TO_ICON_CSS = {
 SMV.TABLE_COLUMNS = ["Departamento", "Distrito", "Proyecto", "Programa", "Estado de Obra", "Localidad", "Cantidad de Viviendas", "Licitación Nº",
               "Contrato N°", "Empresa", "Dato de contacto - Empresa", "SAT - Servicio de Asistencia Técnica", "Dato de contacto - SAT",
               "EAT - Equipo de Asistencia Técnica", "Dato de contacto - EAT", "Porcentaje de avance", "Origen del terreno",
-              "Fecha de inicio de obra", "Fecha de entrega de obra", "Calificación provisional"];
+              "Fecha de inicio de obra", "Fecha de entrega de obra", "Calificación provisional", "Observaciones"];
 
 SMV.POPUP_ROWS = {
             "General": ["Departamento", "Distrito", "Proyecto", "Programa", "Estado de Obra", "Cantidad de Viviendas"],
             "Detalles": ["Localidad", "Licitación Nº",
               "Contrato N°", "Empresa", "Dato de contacto - Empresa", "SAT - Servicio de Asistencia Técnica", "Dato de contacto - SAT",
               "EAT - Equipo de Asistencia Técnica", "Dato de contacto - EAT", "Porcentaje de avance", "Origen del terreno",
-              "Fecha de inicio de obra", "Fecha de entrega de obra", "Calificación provisional"]
+              "Fecha de inicio de obra", "Fecha de entrega de obra", "Calificación provisional", "Observaciones"]
 };
 
 SMV.DATA_COLUMNS = 5;

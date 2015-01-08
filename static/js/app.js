@@ -536,7 +536,6 @@ function draw_popup_tables(properties, attrs_by_tab){
       if(c === 0){
         d += sprintf('<div class="tab-pane active" id="%s">', id);
         //d += draw_popup_album(["img/casa1.jpg", "img/plano1.png", "img/casa2.jpg", "img/plano2.png"]);
-        console.log(properties.id.toString());
         var imgs = SMV.ROW_TO_IMGS[properties.id.toString()] || ['./static/img/numerados/default.jpg'];
         if(imgs){
           d += draw_popup_album(imgs);

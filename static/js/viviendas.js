@@ -1,4 +1,4 @@
-  var viviendas =    { "type" : "FeatureCollection",
+  var viviendas =  { "type" : "FeatureCollection",
       "features" : [
                  {   
             "type" : "Feature",
@@ -12,7 +12,7 @@
 					"Proyecto":"Asentamiento Oñondivepá",
 					"Programa":"FOCEM",
 					"Cantidad de Viviendas":98,
-					"Empresa":"CONSORCIO KRIMEA ",
+					"Empresa":"CONSORCIO KRIMEA",
 					"Dato de contacto - Empresa":"Ing. Daniel Umza",
 					"SAT - Servicio de Asistencia Técnica":"No corresponde",
 					"EAT - Equipo de Asistencia Técnica":"No corresponde",
@@ -21,7 +21,9 @@
 					"Licitación Nº":"001/11",
 					"Contrato N°":"001/12",
 					"Origen del terreno":"Municipal",
-					"Fecha de inicio de obra":"4/1/13"
+					"Fecha de inicio de obra":"4/1/13",
+					"Fotografías":"Listo",
+					"Proveído por":"Cristina Zárate"
                 }
         },
                  {   
@@ -47,7 +49,9 @@
 					"Contrato N°":"002/12",
 					"Origen del terreno":"Gobernación",
 					"Fecha de inicio de obra":"9/1/13",
-					"Fecha de entrega de obra":"25/11/2014(conforme última prórroga)"
+					"Fecha de entrega de obra":"25/11/2014(conforme última prórroga)",
+					"Fotografías":"Listo",
+					"Proveído por":"Cristina Zárate"
                 }
         },
                  {   
@@ -71,7 +75,9 @@
 					"Licitación Nº":"001/11",
 					"Contrato N°":"003/12",
 					"Origen del terreno":"SENAVITAT",
-					"Fecha de inicio de obra":"6/5/13"
+					"Fecha de inicio de obra":"6/5/13",
+					"Fotografías":"Listo",
+					"Proveído por":"Cristina Zárate"
                 }
         },
                  {   
@@ -93,7 +99,9 @@
 					"Estado de Obra":"En ejecución",
 					"Porcentaje de avance":"En ejecución",
 					"Fecha de inicio de obra":"A definir según contrato",
-					"Fecha de entrega de obra":"A definir según contrato"
+					"Fecha de entrega de obra":"A definir según contrato",
+					"Fotografías":"Listo",
+					"Proveído por":"Juan León Ramírez"
                 }
         },
                  {   
@@ -119,7 +127,9 @@
 					"Contrato N°":"026/14 y 027/14",
 					"Origen del terreno":"Municipal",
 					"Fecha de inicio de obra":"10/10/14",
-					"Fecha de entrega de obra":"A definir según contrato"
+					"Fecha de entrega de obra":"A definir según contrato",
+					"Fotografías":"Listo",
+					"Proveído por":"Juan León Ramírez"
                 }
         },
                  {   
@@ -140,11 +150,13 @@
 					"EAT - Equipo de Asistencia Técnica":"No corresponde",
 					"Estado de Obra":"En licitación",
 					"Porcentaje de avance":"En licitación",
-					"Licitación Nº":"07/14",
+					"Licitación Nº":41821,
 					"Contrato N°":"En licitación",
 					"Fecha de inicio de obra":"A definir según contrato",
 					"Fecha de entrega de obra":"A definir según contrato",
-					"Observaciones":"Obra paralizada a ser reactivada mediante esta licitación."
+					"Observaciones":"Obra paralizada a ser reactivada mediante esta licitación.",
+					"Fotografías":"Listo",
+					"Proveído por":"Juan León Ramírez"
                 }
         },
                  {   
@@ -165,11 +177,13 @@
 					"EAT - Equipo de Asistencia Técnica":"No corresponde",
 					"Estado de Obra":"En licitación",
 					"Porcentaje de avance":"En licitación",
-					"Licitación Nº":"03/14",
+					"Licitación Nº":41699,
 					"Contrato N°":"En licitación",
 					"Fecha de inicio de obra":"A definir según contrato",
 					"Fecha de entrega de obra":"A definir según contrato",
-					"Observaciones":"Obra paralizada a ser reactivada mediante esta licitación."
+					"Observaciones":"Obra paralizada a ser reactivada mediante esta licitación.",
+					"Fotografías":"Listo",
+					"Proveído por":"Juan León Ramírez"
                 }
         },
                  {   
@@ -193,7 +207,10 @@
 					"Contrato N°":"En licitación",
 					"Origen del terreno":"INDERT",
 					"Fecha de inicio de obra":"A definir según contrato",
-					"Fecha de entrega de obra":"A definir según contrato"
+					"Fecha de entrega de obra":"A definir según contrato",
+					"Fotografías":"Listo",
+					"Planos":"Listo",
+					"Proveído por":"Verónica Martínez y Blas Amarilla"
                 }
         },
                  {   
@@ -217,7 +234,10 @@
 					"Contrato N°":"En licitación",
 					"Origen del terreno":"INDERT",
 					"Fecha de inicio de obra":"A definir según contrato",
-					"Fecha de entrega de obra":"A definir según contrato"
+					"Fecha de entrega de obra":"A definir según contrato",
+					"Fotografías":"Listo",
+					"Planos":"Listo",
+					"Proveído por":"Verónica Martínez y Blas Amarilla"
                 }
         },
                  {   
@@ -241,7 +261,10 @@
 					"Contrato N°":"En licitación",
 					"Origen del terreno":"INDERT",
 					"Fecha de inicio de obra":"A definir según contrato",
-					"Fecha de entrega de obra":"A definir según contrato"
+					"Fecha de entrega de obra":"A definir según contrato",
+					"Fotografías":"Listo",
+					"Planos":"Listo",
+					"Proveído por":"Verónica Martínez y Blas Amarilla"
                 }
         },
                  {   
@@ -265,7 +288,10 @@
 					"Contrato N°":"En licitación",
 					"Origen del terreno":"INDERT",
 					"Fecha de inicio de obra":"A definir según contrato",
-					"Fecha de entrega de obra":"A definir según contrato"
+					"Fecha de entrega de obra":"A definir según contrato",
+					"Fotografías":"Listo",
+					"Planos":"Listo",
+					"Proveído por":"Verónica Martínez y Blas Amarilla"
                 }
         },
                  {   
@@ -289,7 +315,10 @@
 					"Contrato N°":"En licitación",
 					"Origen del terreno":"INDERT",
 					"Fecha de inicio de obra":"A definir según contrato",
-					"Fecha de entrega de obra":"A definir según contrato"
+					"Fecha de entrega de obra":"A definir según contrato",
+					"Fotografías":"Listo",
+					"Planos":"Listo",
+					"Proveído por":"Verónica Martínez y Blas Amarilla"
                 }
         },
                  {   
@@ -313,7 +342,10 @@
 					"Contrato N°":"En licitación",
 					"Origen del terreno":"INDERT",
 					"Fecha de inicio de obra":"A definir según contrato",
-					"Fecha de entrega de obra":"A definir según contrato"
+					"Fecha de entrega de obra":"A definir según contrato",
+					"Fotografías":"Listo",
+					"Planos":"Listo",
+					"Proveído por":"Verónica Martínez y Blas Amarilla"
                 }
         },
                  {   
@@ -337,7 +369,10 @@
 					"Contrato N°":"En licitación",
 					"Origen del terreno":"INDERT",
 					"Fecha de inicio de obra":"A definir según contrato",
-					"Fecha de entrega de obra":"A definir según contrato"
+					"Fecha de entrega de obra":"A definir según contrato",
+					"Fotografías":"Listo",
+					"Planos":"Listo",
+					"Proveído por":"Verónica Martínez y Blas Amarilla"
                 }
         },
                  {   
@@ -361,7 +396,10 @@
 					"Contrato N°":"En licitación",
 					"Origen del terreno":"INDERT",
 					"Fecha de inicio de obra":"A definir según contrato",
-					"Fecha de entrega de obra":"A definir según contrato"
+					"Fecha de entrega de obra":"A definir según contrato",
+					"Fotografías":"Listo",
+					"Planos":"Listo",
+					"Proveído por":"Verónica Martínez y Blas Amarilla"
                 }
         },
                  {   
@@ -385,7 +423,10 @@
 					"Contrato N°":"En licitación",
 					"Origen del terreno":"INDERT",
 					"Fecha de inicio de obra":"A definir según contrato",
-					"Fecha de entrega de obra":"A definir según contrato"
+					"Fecha de entrega de obra":"A definir según contrato",
+					"Fotografías":"Listo",
+					"Planos":"Listo",
+					"Proveído por":"Verónica Martínez y Blas Amarilla"
                 }
         },
                  {   
@@ -409,7 +450,10 @@
 					"Contrato N°":"En licitación",
 					"Origen del terreno":"INDERT",
 					"Fecha de inicio de obra":"A definir según contrato",
-					"Fecha de entrega de obra":"A definir según contrato"
+					"Fecha de entrega de obra":"A definir según contrato",
+					"Fotografías":"Listo",
+					"Planos":"Listo",
+					"Proveído por":"Verónica Martínez y Blas Amarilla"
                 }
         },
                  {   
@@ -433,7 +477,10 @@
 					"Contrato N°":"En licitación",
 					"Origen del terreno":"INDERT",
 					"Fecha de inicio de obra":"A definir según contrato",
-					"Fecha de entrega de obra":"A definir según contrato"
+					"Fecha de entrega de obra":"A definir según contrato",
+					"Fotografías":"Listo",
+					"Planos":"Listo",
+					"Proveído por":"Verónica Martínez y Blas Amarilla"
                 }
         },
                  {   
@@ -457,7 +504,10 @@
 					"Contrato N°":"En licitación",
 					"Origen del terreno":"INDERT",
 					"Fecha de inicio de obra":"A definir según contrato",
-					"Fecha de entrega de obra":"A definir según contrato"
+					"Fecha de entrega de obra":"A definir según contrato",
+					"Fotografías":"Listo",
+					"Planos":"Listo",
+					"Proveído por":"Verónica Martínez y Blas Amarilla"
                 }
         },
                  {   
@@ -469,7 +519,6 @@
                     "id":20,
 					"Departamento":"Caaguazú",
 					"Distrito":"Yhú",
-					"Localidad":" ",
 					"Proyecto":"Sidepar 7000 (Col. Nueva Esperanza)",
 					"Programa":"Sembrando Oportunidades",
 					"Cantidad de Viviendas":200,
@@ -482,7 +531,10 @@
 					"Contrato N°":"En licitación",
 					"Origen del terreno":"INDERT",
 					"Fecha de inicio de obra":"A definir según contrato",
-					"Fecha de entrega de obra":"A definir según contrato"
+					"Fecha de entrega de obra":"A definir según contrato",
+					"Fotografías":"Listo",
+					"Planos":"Listo",
+					"Proveído por":"Verónica Martínez y Blas Amarilla"
                 }
         },
                  {   
@@ -506,7 +558,10 @@
 					"Contrato N°":"En licitación",
 					"Origen del terreno":"INDERT",
 					"Fecha de inicio de obra":"A definir según contrato",
-					"Fecha de entrega de obra":"A definir según contrato"
+					"Fecha de entrega de obra":"A definir según contrato",
+					"Fotografías":"Listo",
+					"Planos":"Listo",
+					"Proveído por":"Verónica Martínez y Blas Amarilla"
                 }
         },
                  {   
@@ -530,7 +585,10 @@
 					"Contrato N°":"En licitación",
 					"Origen del terreno":"INDERT",
 					"Fecha de inicio de obra":"A definir según contrato",
-					"Fecha de entrega de obra":"A definir según contrato"
+					"Fecha de entrega de obra":"A definir según contrato",
+					"Fotografías":"Listo",
+					"Planos":"Listo",
+					"Proveído por":"Verónica Martínez y Blas Amarilla"
                 }
         },
                  {   
@@ -554,7 +612,10 @@
 					"Contrato N°":"En licitación",
 					"Origen del terreno":"INDERT",
 					"Fecha de inicio de obra":"A definir según contrato",
-					"Fecha de entrega de obra":"A definir según contrato"
+					"Fecha de entrega de obra":"A definir según contrato",
+					"Fotografías":"Listo",
+					"Planos":"Listo",
+					"Proveído por":"Verónica Martínez y Blas Amarilla"
                 }
         },
                  {   
@@ -578,7 +639,10 @@
 					"Contrato N°":"En licitación",
 					"Origen del terreno":"INDERT",
 					"Fecha de inicio de obra":"A definir según contrato",
-					"Fecha de entrega de obra":"A definir según contrato"
+					"Fecha de entrega de obra":"A definir según contrato",
+					"Fotografías":"Listo",
+					"Planos":"Listo",
+					"Proveído por":"Verónica Martínez y Blas Amarilla"
                 }
         },
                  {   
@@ -602,7 +666,10 @@
 					"Contrato N°":"En licitación",
 					"Origen del terreno":"INDERT",
 					"Fecha de inicio de obra":"A definir según contrato",
-					"Fecha de entrega de obra":"A definir según contrato"
+					"Fecha de entrega de obra":"A definir según contrato",
+					"Fotografías":"Listo",
+					"Planos":"Listo",
+					"Proveído por":"Verónica Martínez y Blas Amarilla"
                 }
         },
                  {   
@@ -626,7 +693,10 @@
 					"Contrato N°":"En licitación",
 					"Origen del terreno":"INDERT",
 					"Fecha de inicio de obra":"A definir según contrato",
-					"Fecha de entrega de obra":"A definir según contrato"
+					"Fecha de entrega de obra":"A definir según contrato",
+					"Fotografías":"Listo",
+					"Planos":"Listo",
+					"Proveído por":"Verónica Martínez y Blas Amarilla"
                 }
         },
                  {   
@@ -650,7 +720,10 @@
 					"Contrato N°":"En licitación",
 					"Origen del terreno":"INDERT",
 					"Fecha de inicio de obra":"A definir según contrato",
-					"Fecha de entrega de obra":"A definir según contrato"
+					"Fecha de entrega de obra":"A definir según contrato",
+					"Fotografías":"Listo",
+					"Planos":"Listo",
+					"Proveído por":"Verónica Martínez y Blas Amarilla"
                 }
         },
                  {   
@@ -674,7 +747,10 @@
 					"Contrato N°":"En licitación",
 					"Origen del terreno":"INDERT",
 					"Fecha de inicio de obra":"A definir según contrato",
-					"Fecha de entrega de obra":"A definir según contrato"
+					"Fecha de entrega de obra":"A definir según contrato",
+					"Fotografías":"Listo",
+					"Planos":"Listo",
+					"Proveído por":"Verónica Martínez y Blas Amarilla"
                 }
         },
                  {   
@@ -698,7 +774,10 @@
 					"Contrato N°":"En licitación",
 					"Origen del terreno":"INDERT",
 					"Fecha de inicio de obra":"A definir según contrato",
-					"Fecha de entrega de obra":"A definir según contrato"
+					"Fecha de entrega de obra":"A definir según contrato",
+					"Fotografías":"Listo",
+					"Planos":"Listo",
+					"Proveído por":"Verónica Martínez y Blas Amarilla"
                 }
         },
                  {   
@@ -722,7 +801,10 @@
 					"Contrato N°":"En licitación",
 					"Origen del terreno":"INDERT",
 					"Fecha de inicio de obra":"A definir según contrato",
-					"Fecha de entrega de obra":"A definir según contrato"
+					"Fecha de entrega de obra":"A definir según contrato",
+					"Fotografías":"Listo",
+					"Planos":"Listo",
+					"Proveído por":"Verónica Martínez y Blas Amarilla"
                 }
         },
                  {   
@@ -746,7 +828,10 @@
 					"Contrato N°":"En licitación",
 					"Origen del terreno":"INDERT",
 					"Fecha de inicio de obra":"A definir según contrato",
-					"Fecha de entrega de obra":"A definir según contrato"
+					"Fecha de entrega de obra":"A definir según contrato",
+					"Fotografías":"Listo",
+					"Planos":"Listo",
+					"Proveído por":"Verónica Martínez y Blas Amarilla"
                 }
         },
                  {   
@@ -770,7 +855,10 @@
 					"Contrato N°":"En licitación",
 					"Origen del terreno":"INDERT",
 					"Fecha de inicio de obra":"A definir según contrato",
-					"Fecha de entrega de obra":"A definir según contrato"
+					"Fecha de entrega de obra":"A definir según contrato",
+					"Fotografías":"Listo",
+					"Planos":"Listo",
+					"Proveído por":"Verónica Martínez y Blas Amarilla"
                 }
         },
                  {   
@@ -794,7 +882,10 @@
 					"Contrato N°":"En licitación",
 					"Origen del terreno":"INDERT",
 					"Fecha de inicio de obra":"A definir según contrato",
-					"Fecha de entrega de obra":"A definir según contrato"
+					"Fecha de entrega de obra":"A definir según contrato",
+					"Fotografías":"Listo",
+					"Planos":"Listo",
+					"Proveído por":"Verónica Martínez y Blas Amarilla"
                 }
         },
                  {   
@@ -818,7 +909,10 @@
 					"Contrato N°":"En licitación",
 					"Origen del terreno":"INDERT",
 					"Fecha de inicio de obra":"A definir según contrato",
-					"Fecha de entrega de obra":"A definir según contrato"
+					"Fecha de entrega de obra":"A definir según contrato",
+					"Fotografías":"Listo",
+					"Planos":"Listo",
+					"Proveído por":"Verónica Martínez y Blas Amarilla"
                 }
         },
                  {   
@@ -842,7 +936,10 @@
 					"Contrato N°":"En licitación",
 					"Origen del terreno":"INDERT",
 					"Fecha de inicio de obra":"A definir según contrato",
-					"Fecha de entrega de obra":"A definir según contrato"
+					"Fecha de entrega de obra":"A definir según contrato",
+					"Fotografías":"Listo",
+					"Planos":"Listo",
+					"Proveído por":"Verónica Martínez y Blas Amarilla"
                 }
         },
                  {   
@@ -866,7 +963,10 @@
 					"Contrato N°":"En licitación",
 					"Origen del terreno":"INDERT",
 					"Fecha de inicio de obra":"A definir según contrato",
-					"Fecha de entrega de obra":"A definir según contrato"
+					"Fecha de entrega de obra":"A definir según contrato",
+					"Fotografías":"Listo",
+					"Planos":"Listo",
+					"Proveído por":"Verónica Martínez y Blas Amarilla"
                 }
         },
                  {   
@@ -890,7 +990,10 @@
 					"Contrato N°":"En licitación",
 					"Origen del terreno":"INDERT",
 					"Fecha de inicio de obra":"A definir según contrato",
-					"Fecha de entrega de obra":"A definir según contrato"
+					"Fecha de entrega de obra":"A definir según contrato",
+					"Fotografías":"Listo",
+					"Planos":"Listo",
+					"Proveído por":"Verónica Martínez y Blas Amarilla"
                 }
         },
                  {   
@@ -914,7 +1017,10 @@
 					"Contrato N°":"En licitación",
 					"Origen del terreno":"INDERT",
 					"Fecha de inicio de obra":"A definir según contrato",
-					"Fecha de entrega de obra":"A definir según contrato"
+					"Fecha de entrega de obra":"A definir según contrato",
+					"Fotografías":"Listo",
+					"Planos":"Listo",
+					"Proveído por":"Verónica Martínez y Blas Amarilla"
                 }
         },
                  {   
@@ -938,7 +1044,10 @@
 					"Contrato N°":"En licitación",
 					"Origen del terreno":"INDERT",
 					"Fecha de inicio de obra":"A definir según contrato",
-					"Fecha de entrega de obra":"A definir según contrato"
+					"Fecha de entrega de obra":"A definir según contrato",
+					"Fotografías":"Listo",
+					"Planos":"Listo",
+					"Proveído por":"Verónica Martínez y Blas Amarilla"
                 }
         },
                  {   
@@ -962,7 +1071,10 @@
 					"Contrato N°":"En licitación",
 					"Origen del terreno":"INDERT",
 					"Fecha de inicio de obra":"A definir según contrato",
-					"Fecha de entrega de obra":"A definir según contrato"
+					"Fecha de entrega de obra":"A definir según contrato",
+					"Fotografías":"Listo",
+					"Planos":"Listo",
+					"Proveído por":"Verónica Martínez y Blas Amarilla"
                 }
         },
                  {   
@@ -986,7 +1098,10 @@
 					"Licitación Nº":"001/14",
 					"Contrato N°":"001/2014",
 					"Origen del terreno":"SAS",
-					"Fecha de inicio de obra":"30/7/14"
+					"Fecha de inicio de obra":"30/7/14",
+					"Fotografías":"Listo",
+					"Planos":"Listo",
+					"Proveído por":"Beatriz Bordón y Elisa Pampliega"
                 }
         },
                  {   
@@ -1010,7 +1125,10 @@
 					"Licitación Nº":"001/14",
 					"Contrato N°":"003/2014",
 					"Origen del terreno":"SAS",
-					"Fecha de inicio de obra":"30/7/14"
+					"Fecha de inicio de obra":"30/7/14",
+					"Fotografías":"Listo",
+					"Planos":"Listo",
+					"Proveído por":"Beatriz Bordón y Elisa Pampliega"
                 }
         },
                  {   
@@ -1034,7 +1152,10 @@
 					"Licitación Nº":"001/14",
 					"Contrato N°":"001/2014",
 					"Origen del terreno":"SAS",
-					"Fecha de inicio de obra":"29/7/14"
+					"Fecha de inicio de obra":"29/7/14",
+					"Fotografías":"Listo",
+					"Planos":"Listo",
+					"Proveído por":"Beatriz Bordón y Elisa Pampliega"
                 }
         },
                  {   
@@ -1058,7 +1179,10 @@
 					"Licitación Nº":"001/14",
 					"Contrato N°":"001/2014",
 					"Origen del terreno":"SAS",
-					"Fecha de inicio de obra":"30/7/14"
+					"Fecha de inicio de obra":"30/7/14",
+					"Fotografías":"Listo",
+					"Planos":"Listo",
+					"Proveído por":"Beatriz Bordón y Elisa Pampliega"
                 }
         },
                  {   
@@ -1082,7 +1206,10 @@
 					"Licitación Nº":"001/14",
 					"Contrato N°":"006/2014",
 					"Origen del terreno":"SAS",
-					"Fecha de inicio de obra":"29/7/14"
+					"Fecha de inicio de obra":"29/7/14",
+					"Fotografías":"Listo",
+					"Planos":"Listo",
+					"Proveído por":"Beatriz Bordón y Elisa Pampliega"
                 }
         },
                  {   
@@ -1106,7 +1233,10 @@
 					"Licitación Nº":"001/14",
 					"Contrato N°":"007/2014",
 					"Origen del terreno":"SAS",
-					"Fecha de inicio de obra":"29/7/14"
+					"Fecha de inicio de obra":"29/7/14",
+					"Fotografías":"Listo",
+					"Planos":"Listo",
+					"Proveído por":"Beatriz Bordón y Elisa Pampliega"
                 }
         },
                  {   
@@ -1126,7 +1256,9 @@
 					"EAT - Equipo de Asistencia Técnica":"No corresponde",
 					"Estado de Obra":"En ejecución",
 					"Porcentaje de avance":"0%",
-					"Licitación Nº":"001/14"
+					"Licitación Nº":"001/14",
+					"Planos":"Listo",
+					"Proveído por":"Beatriz Bordón y Elisa Pampliega"
                 }
         },
                  {   
@@ -1150,7 +1282,10 @@
 					"Licitación Nº":"001/14",
 					"Contrato N°":"009/2014",
 					"Origen del terreno":"Municipal",
-					"Fecha de inicio de obra":"29/7/14"
+					"Fecha de inicio de obra":"29/7/14",
+					"Fotografías":"Listo",
+					"Planos":"Listo",
+					"Proveído por":"Beatriz Bordón y Elisa Pampliega"
                 }
         },
                  {   
@@ -1174,7 +1309,10 @@
 					"Licitación Nº":"001/14",
 					"Contrato N°":"001/2014",
 					"Origen del terreno":"Municipal",
-					"Fecha de inicio de obra":"8/8/14"
+					"Fecha de inicio de obra":"8/8/14",
+					"Fotografías":"Listo",
+					"Planos":"Listo",
+					"Proveído por":"Beatriz Bordón y Elisa Pampliega"
                 }
         },
                  {   
@@ -1198,7 +1336,9 @@
 					"Licitación Nº":"001/14",
 					"Contrato N°":"011/2014",
 					"Origen del terreno":"INDERT",
-					"Fecha de inicio de obra":"30/7/14"
+					"Fecha de inicio de obra":"30/7/14",
+					"Fotografías":"Listo",
+					"Proveído por":"Beatriz Bordón y Elisa Pampliega"
                 }
         },
                  {   
@@ -1222,7 +1362,9 @@
 					"Licitación Nº":"001/14",
 					"Contrato N°":"001/2014",
 					"Origen del terreno":"INDERT",
-					"Fecha de inicio de obra":"29/7/14"
+					"Fecha de inicio de obra":"29/7/14",
+					"Fotografías":"Listo",
+					"Proveído por":"Beatriz Bordón y Elisa Pampliega"
                 }
         },
                  {   
@@ -1248,7 +1390,9 @@
 					"Origen del terreno":"Terreno ofertado por la empresa constructora",
 					"Fecha de inicio de obra":"A definir según contrato",
 					"Fecha de entrega de obra":"A definir según contrato",
-					"Observaciones":"Coordenada corresponde al centro del distrito. La localización de las obras aún no se tienen definidas."
+					"Observaciones":"Coordenada corresponde al centro del distrito. La localización de las obras aún no se tienen definidas.",
+					"Fotografías":"Listo",
+					"Planos":"Listo"
                 }
         },
                  {   
@@ -1259,8 +1403,8 @@
                 "properties" : {
                     "id":53,
 					"Departamento":"Central",
-					"Distrito":"Luque  ",
-					"Localidad":"Luque  ",
+					"Distrito":"Luque",
+					"Localidad":"Luque",
 					"Proyecto":"Construccion de 3 bloques de 8 Departamentos cada uno",
 					"Programa":"Viviendas Económicas",
 					"Cantidad de Viviendas":24,
@@ -1274,7 +1418,9 @@
 					"Origen del terreno":"Terreno ofertado por la empresa constructora",
 					"Fecha de inicio de obra":"A definir según contrato",
 					"Fecha de entrega de obra":"A definir según contrato",
-					"Observaciones":"Coordenada corresponde al centro del distrito. La localización de las obras aún no se tienen definidas."
+					"Observaciones":"Coordenada corresponde al centro del distrito. La localización de las obras aún no se tienen definidas.",
+					"Fotografías":"Listo",
+					"Planos":"Listo"
                 }
         },
                  {   
@@ -1300,7 +1446,9 @@
 					"Origen del terreno":"Terreno ofertado por la empresa constructora",
 					"Fecha de inicio de obra":"A definir según contrato",
 					"Fecha de entrega de obra":"A definir según contrato",
-					"Observaciones":"Coordenada corresponde al centro del distrito. La localización de las obras aún no se tienen definidas."
+					"Observaciones":"Coordenada corresponde al centro del distrito. La localización de las obras aún no se tienen definidas.",
+					"Fotografías":"Listo",
+					"Planos":"Listo"
                 }
         },
                  {   
@@ -1326,7 +1474,9 @@
 					"Origen del terreno":"Terreno ofertado por la empresa constructora",
 					"Fecha de inicio de obra":"A definir según contrato",
 					"Fecha de entrega de obra":"A definir según contrato",
-					"Observaciones":"Coordenada corresponde al centro del distrito. La localización de las obras aún no se tienen definidas."
+					"Observaciones":"Coordenada corresponde al centro del distrito. La localización de las obras aún no se tienen definidas.",
+					"Fotografías":"Listo",
+					"Planos":"Listo"
                 }
         },
                  {   
@@ -1352,7 +1502,9 @@
 					"Origen del terreno":"Terreno ofertado por la empresa constructora",
 					"Fecha de inicio de obra":"A definir según contrato",
 					"Fecha de entrega de obra":"A definir según contrato",
-					"Observaciones":"Coordenada corresponde al centro del distrito. La localización de las obras aún no se tienen definidas."
+					"Observaciones":"Coordenada corresponde al centro del distrito. La localización de las obras aún no se tienen definidas.",
+					"Fotografías":"Listo",
+					"Planos":"Listo"
                 }
         },
                  {   
@@ -1378,7 +1530,9 @@
 					"Origen del terreno":"Terreno ofertado por la empresa constructora",
 					"Fecha de inicio de obra":"A definir según contrato",
 					"Fecha de entrega de obra":"A definir según contrato",
-					"Observaciones":"Coordenada corresponde al centro del distrito. La localización de las obras aún no se tienen definidas."
+					"Observaciones":"Coordenada corresponde al centro del distrito. La localización de las obras aún no se tienen definidas.",
+					"Fotografías":"Listo",
+					"Planos":"Listo"
                 }
         },
                  {   
@@ -1404,7 +1558,9 @@
 					"Origen del terreno":"Terreno ofertado por la empresa constructora",
 					"Fecha de inicio de obra":"A definir según contrato",
 					"Fecha de entrega de obra":"A definir según contrato",
-					"Observaciones":"Coordenada corresponde al centro del distrito. La localización de las obras aún no se tienen definidas."
+					"Observaciones":"Coordenada corresponde al centro del distrito. La localización de las obras aún no se tienen definidas.",
+					"Fotografías":"Listo",
+					"Planos":"Listo"
                 }
         },
                  {   
@@ -1430,7 +1586,9 @@
 					"Origen del terreno":"Terreno ofertado por la empresa constructora",
 					"Fecha de inicio de obra":"A definir según contrato",
 					"Fecha de entrega de obra":"A definir según contrato",
-					"Observaciones":"Coordenada corresponde al centro del distrito. La localización de las obras aún no se tienen definidas."
+					"Observaciones":"Coordenada corresponde al centro del distrito. La localización de las obras aún no se tienen definidas.",
+					"Fotografías":"Listo",
+					"Planos":"Listo"
                 }
         },
                  {   
@@ -1456,7 +1614,9 @@
 					"Origen del terreno":"Terreno ofertado por la empresa constructora",
 					"Fecha de inicio de obra":"A definir según contrato",
 					"Fecha de entrega de obra":"A definir según contrato",
-					"Observaciones":"Coordenada corresponde al centro del distrito. La localización de las obras aún no se tienen definidas."
+					"Observaciones":"Coordenada corresponde al centro del distrito. La localización de las obras aún no se tienen definidas.",
+					"Fotografías":"Listo",
+					"Planos":"Listo"
                 }
         },
                  {   
@@ -1482,7 +1642,9 @@
 					"Origen del terreno":"Terreno ofertado por la empresa constructora",
 					"Fecha de inicio de obra":"A definir según contrato",
 					"Fecha de entrega de obra":"A definir según contrato",
-					"Observaciones":"Coordenada corresponde al centro del distrito. La localización de las obras aún no se tienen definidas."
+					"Observaciones":"Coordenada corresponde al centro del distrito. La localización de las obras aún no se tienen definidas.",
+					"Fotografías":"Listo",
+					"Planos":"Listo"
                 }
         },
                  {   
@@ -1528,7 +1690,8 @@
 					"Estado de Obra":"En ejecución",
 					"Porcentaje de avance":"85%",
 					"Licitación Nº":"No corresponde",
-					"Fecha de inicio de obra":"Mayo del 2011"
+					"Fecha de inicio de obra":"Mayo del 2011",
+					"Fotografías":"Listo"
                 }
         },
                  {   
@@ -1550,7 +1713,8 @@
 					"Estado de Obra":"Culminada",
 					"Porcentaje de avance":"100%",
 					"Licitación Nº":"No corresponde",
-					"Fecha de inicio de obra":"Marzo del 2011"
+					"Fecha de inicio de obra":"Marzo del 2011",
+					"Fotografías":"Listo"
                 }
         },
                  {   
@@ -1594,7 +1758,8 @@
 					"Estado de Obra":"Culminada",
 					"Porcentaje de avance":"90%",
 					"Licitación Nº":"No corresponde",
-					"Fecha de inicio de obra":"Marzo del 2012"
+					"Fecha de inicio de obra":"Marzo del 2012",
+					"Fotografías":"Listo"
                 }
         },
                  {   
@@ -1611,12 +1776,13 @@
 					"Cantidad de Viviendas":38,
 					"Empresa":"No corresponde",
 					"SAT - Servicio de Asistencia Técnica":"No corresponde",
-					"EAT - Equipo de Asistencia Técnica":"AREA ",
+					"EAT - Equipo de Asistencia Técnica":"AREA",
 					"Dato de contacto - EAT":"Arq. Hugo Acevedo",
 					"Estado de Obra":"Culminada",
 					"Porcentaje de avance":"100%",
 					"Licitación Nº":"No corresponde",
-					"Fecha de inicio de obra":"Agosto del 2012"
+					"Fecha de inicio de obra":"Agosto del 2012",
+					"Fotografías":"Listo"
                 }
         },
                  {   
@@ -1633,12 +1799,13 @@
 					"Cantidad de Viviendas":40,
 					"Empresa":"No corresponde",
 					"SAT - Servicio de Asistencia Técnica":"No corresponde",
-					"EAT - Equipo de Asistencia Técnica":"AREA ",
+					"EAT - Equipo de Asistencia Técnica":"AREA",
 					"Dato de contacto - EAT":"Arq. Hugo Acevedo",
 					"Estado de Obra":"Culminada",
 					"Porcentaje de avance":"100%",
 					"Licitación Nº":"No corresponde",
-					"Fecha de inicio de obra":"Setiembre del 2012"
+					"Fecha de inicio de obra":"Setiembre del 2012",
+					"Fotografías":"Listo"
                 }
         },
                  {   
@@ -1660,7 +1827,8 @@
 					"Estado de Obra":"En ejecución",
 					"Porcentaje de avance":"50%",
 					"Licitación Nº":"No corresponde",
-					"Fecha de inicio de obra":"Marzo del 2012"
+					"Fecha de inicio de obra":"Marzo del 2012",
+					"Fotografías":"Listo"
                 }
         },
                  {   
@@ -1703,7 +1871,8 @@
 					"Dato de contacto - EAT":"Lic. Eugenia Vergara",
 					"Estado de Obra":"En ejecución",
 					"Licitación Nº":"No corresponde",
-					"Fecha de inicio de obra":"Agosto del 2012"
+					"Fecha de inicio de obra":"Agosto del 2012",
+					"Fotografías":"Listo"
                 }
         },
                  {   
@@ -1725,7 +1894,8 @@
 					"Estado de Obra":"Culminada",
 					"Porcentaje de avance":"90%",
 					"Licitación Nº":"No corresponde",
-					"Fecha de inicio de obra":"Mayo del 2013"
+					"Fecha de inicio de obra":"Mayo del 2013",
+					"Fotografías":"Listo"
                 }
         },
                  {   
@@ -1747,7 +1917,8 @@
 					"Estado de Obra":"En ejecución",
 					"Porcentaje de avance":"35%",
 					"Licitación Nº":"No corresponde",
-					"Fecha de inicio de obra":"Abril del 2014"
+					"Fecha de inicio de obra":"Abril del 2014",
+					"Fotografías":"Listo"
                 }
         },
                  {   
@@ -1769,7 +1940,8 @@
 					"Estado de Obra":"En ejecución",
 					"Porcentaje de avance":"45%",
 					"Licitación Nº":"No corresponde",
-					"Fecha de inicio de obra":"Enero del 2014"
+					"Fecha de inicio de obra":"Enero del 2014",
+					"Fotografías":"Listo"
                 }
         },
                  {   
@@ -1791,7 +1963,8 @@
 					"Estado de Obra":"En ejecución",
 					"Porcentaje de avance":"35%",
 					"Licitación Nº":"No corresponde",
-					"Fecha de inicio de obra":"Marzo del 2014"
+					"Fecha de inicio de obra":"Marzo del 2014",
+					"Fotografías":"Listo"
                 }
         },
                  {   
@@ -1810,7 +1983,7 @@
 					"Empresa":"No corresponde",
 					"SAT - Servicio de Asistencia Técnica":"No corresponde",
 					"EAT - Equipo de Asistencia Técnica":"Óscar Barboza",
-					"Dato de contacto - EAT":"Óscar Barboza ",
+					"Dato de contacto - EAT":"Óscar Barboza",
 					"Estado de Obra":"En ejecución",
 					"Licitación Nº":"No corresponde",
 					"Fecha de inicio de obra":"no desembolsado hasta ahora"
@@ -1851,12 +2024,13 @@
 					"Programa":"Pueblos Originarios",
 					"Cantidad de Viviendas":20,
 					"Empresa":"J.R. Constructora",
-					"Dato de contacto - Empresa":"Representante: Arq. Juan Rodríguez Lezcano. Asunción, Paraguay, Pitiantuta entre Amistad y Concordia. ",
+					"Dato de contacto - Empresa":"Representante: Arq. Juan Rodríguez Lezcano. Asunción, Paraguay, Pitiantuta entre Amistad y Concordia.",
 					"SAT - Servicio de Asistencia Técnica":"No corresponde",
 					"EAT - Equipo de Asistencia Técnica":"No corresponde",
 					"Estado de Obra":"Paralizado",
 					"Porcentaje de avance":"10,00%",
-					"Licitación Nº":"003/11"
+					"Licitación Nº":"003/11",
+					"Fotografías":"Listo"
                 }
         },
                  {   
@@ -1873,7 +2047,7 @@
 					"Programa":"Pueblos Originarios",
 					"Cantidad de Viviendas":10,
 					"Empresa":"J.R. Constructora",
-					"Dato de contacto - Empresa":"Representante: Arq. Juan Rodríguez Lezcano. Asunción, Paraguay, Pitiantuta entre Amistad y Concordia. ",
+					"Dato de contacto - Empresa":"Representante: Arq. Juan Rodríguez Lezcano. Asunción, Paraguay, Pitiantuta entre Amistad y Concordia.",
 					"SAT - Servicio de Asistencia Técnica":"No corresponde",
 					"EAT - Equipo de Asistencia Técnica":"No corresponde",
 					"Estado de Obra":"Paralizado",
@@ -1895,7 +2069,7 @@
 					"Programa":"Pueblos Originarios",
 					"Cantidad de Viviendas":16,
 					"Empresa":"J.R. Constructora",
-					"Dato de contacto - Empresa":"Representante: Arq. Juan Rodríguez Lezcano. Asunción, Paraguay, Pitiantuta entre Amistad y Concordia. ",
+					"Dato de contacto - Empresa":"Representante: Arq. Juan Rodríguez Lezcano. Asunción, Paraguay, Pitiantuta entre Amistad y Concordia.",
 					"SAT - Servicio de Asistencia Técnica":"No corresponde",
 					"EAT - Equipo de Asistencia Técnica":"No corresponde",
 					"Estado de Obra":"Paralizado",
@@ -1917,12 +2091,13 @@
 					"Programa":"Pueblos Originarios",
 					"Cantidad de Viviendas":30,
 					"Empresa":"J.R. Constructora",
-					"Dato de contacto - Empresa":"Representante: Arq. Juan Rodríguez Lezcano. Asunción, Paraguay, Pitiantuta entre Amistad y Concordia. ",
+					"Dato de contacto - Empresa":"Representante: Arq. Juan Rodríguez Lezcano. Asunción, Paraguay, Pitiantuta entre Amistad y Concordia.",
 					"SAT - Servicio de Asistencia Técnica":"No corresponde",
 					"EAT - Equipo de Asistencia Técnica":"No corresponde",
 					"Estado de Obra":"Paralizado",
 					"Porcentaje de avance":"95,00%",
-					"Licitación Nº":"003/11"
+					"Licitación Nº":"003/11",
+					"Fotografías":"Listo"
                 }
         },
                  {   
@@ -1938,12 +2113,13 @@
 					"Programa":"Pueblos Originarios",
 					"Cantidad de Viviendas":20,
 					"Empresa":"J.R. Constructora",
-					"Dato de contacto - Empresa":"Representante: Arq. Juan Rodríguez Lezcano. Asunción, Paraguay, Pitiantuta entre Amistad y Concordia. ",
+					"Dato de contacto - Empresa":"Representante: Arq. Juan Rodríguez Lezcano. Asunción, Paraguay, Pitiantuta entre Amistad y Concordia.",
 					"SAT - Servicio de Asistencia Técnica":"No corresponde",
 					"EAT - Equipo de Asistencia Técnica":"No corresponde",
 					"Estado de Obra":"Paralizado",
 					"Porcentaje de avance":"95,00%",
-					"Licitación Nº":"003/11"
+					"Licitación Nº":"003/11",
+					"Fotografías":"Listo"
                 }
         },
                  {   
@@ -1964,7 +2140,8 @@
 					"EAT - Equipo de Asistencia Técnica":"No corresponde",
 					"Estado de Obra":"Paralizado",
 					"Porcentaje de avance":"18,00%",
-					"Licitación Nº":"002/13"
+					"Licitación Nº":"002/13",
+					"Fotografías":"Listo"
                 }
         },
                  {   
@@ -2110,7 +2287,8 @@
 					"EAT - Equipo de Asistencia Técnica":"No corresponde",
 					"Estado de Obra":"Paralizado",
 					"Porcentaje de avance":"82,61%",
-					"Licitación Nº":"003/11"
+					"Licitación Nº":"003/11",
+					"Fotografías":"Listo"
                 }
         },
                  {   
@@ -2131,7 +2309,8 @@
 					"EAT - Equipo de Asistencia Técnica":"No corresponde",
 					"Estado de Obra":"Paralizado",
 					"Porcentaje de avance":"73,00%",
-					"Licitación Nº":"011/11"
+					"Licitación Nº":"011/11",
+					"Fotografías":"Listo"
                 }
         },
                  {   
@@ -2152,7 +2331,8 @@
 					"EAT - Equipo de Asistencia Técnica":"No corresponde",
 					"Estado de Obra":"En ejecución",
 					"Porcentaje de avance":"47,00%",
-					"Licitación Nº":"015/12"
+					"Licitación Nº":"015/12",
+					"Fotografías":"Listo"
                 }
         },
                  {   
@@ -2173,7 +2353,8 @@
 					"EAT - Equipo de Asistencia Técnica":"No corresponde",
 					"Estado de Obra":"Paralizado",
 					"Porcentaje de avance":"82,61%",
-					"Licitación Nº":"003/11"
+					"Licitación Nº":"003/11",
+					"Fotografías":"Listo"
                 }
         },
                  {   
@@ -2194,7 +2375,8 @@
 					"EAT - Equipo de Asistencia Técnica":"No corresponde",
 					"Estado de Obra":"Paralizado",
 					"Porcentaje de avance":"40,00%",
-					"Licitación Nº":"011/11"
+					"Licitación Nº":"011/11",
+					"Fotografías":"Listo"
                 }
         },
                  {   
@@ -2215,7 +2397,8 @@
 					"EAT - Equipo de Asistencia Técnica":"No corresponde",
 					"Estado de Obra":"Paralizado",
 					"Porcentaje de avance":"45,00%",
-					"Licitación Nº":"011/11"
+					"Licitación Nº":"011/11",
+					"Fotografías":"Listo"
                 }
         },
                  {   
@@ -2236,7 +2419,8 @@
 					"EAT - Equipo de Asistencia Técnica":"No corresponde",
 					"Estado de Obra":"En ejecución",
 					"Porcentaje de avance":"40,00%",
-					"Licitación Nº":"015/12"
+					"Licitación Nº":"015/12",
+					"Fotografías":"Listo"
                 }
         },
                  {   
@@ -2278,7 +2462,8 @@
 					"EAT - Equipo de Asistencia Técnica":"No corresponde",
 					"Estado de Obra":"En ejecución",
 					"Porcentaje de avance":"45,00%",
-					"Licitación Nº":"015/12"
+					"Licitación Nº":"015/12",
+					"Fotografías":"Listo"
                 }
         },
                  {   
@@ -2299,7 +2484,8 @@
 					"EAT - Equipo de Asistencia Técnica":"No corresponde",
 					"Estado de Obra":"En ejecución",
 					"Porcentaje de avance":"45,00%",
-					"Licitación Nº":"015/12"
+					"Licitación Nº":"015/12",
+					"Fotografías":"Listo"
                 }
         },
                  {   
@@ -2320,7 +2506,9 @@
 					"EAT - Equipo de Asistencia Técnica":"No corresponde",
 					"Estado de Obra":"Paralizado",
 					"Porcentaje de avance":"45,00%",
-					"Licitación Nº":"003/11"
+					"Licitación Nº":"003/11",
+					"Observaciones":"En proceso de reactivación.",
+					"Fotografías":"Listo"
                 }
         },
                  {   
@@ -2341,7 +2529,9 @@
 					"EAT - Equipo de Asistencia Técnica":"No corresponde",
 					"Estado de Obra":"Paralizado",
 					"Porcentaje de avance":"45,00%",
-					"Licitación Nº":"003/11"
+					"Licitación Nº":"003/11",
+					"Observaciones":"En proceso de reactivación.",
+					"Fotografías":"Listo"
                 }
         },
                  {   
@@ -2362,7 +2552,9 @@
 					"EAT - Equipo de Asistencia Técnica":"No corresponde",
 					"Estado de Obra":"Paralizado",
 					"Porcentaje de avance":"45,00%",
-					"Licitación Nº":"003/11"
+					"Licitación Nº":"003/11",
+					"Observaciones":"En proceso de reactivación.",
+					"Fotografías":"Listo"
                 }
         },
                  {   
@@ -2383,7 +2575,9 @@
 					"EAT - Equipo de Asistencia Técnica":"No corresponde",
 					"Estado de Obra":"Paralizado",
 					"Porcentaje de avance":"45,00%",
-					"Licitación Nº":"003/11"
+					"Licitación Nº":"003/11",
+					"Observaciones":"En proceso de reactivación.",
+					"Fotografías":"Listo"
                 }
         },
                  {   
@@ -2399,12 +2593,13 @@
 					"Programa":"Pueblos Originarios",
 					"Cantidad de Viviendas":20,
 					"Empresa":"J.N. COMERCIAL E INDUSTRIA",
-					"Dato de contacto - Empresa":"Reppresentante: Sr. Cesar L. Valdez B. ",
+					"Dato de contacto - Empresa":"Reppresentante: Sr. Cesar L. Valdez B.",
 					"SAT - Servicio de Asistencia Técnica":"No corresponde",
 					"EAT - Equipo de Asistencia Técnica":"No corresponde",
 					"Estado de Obra":"Paralizado",
 					"Porcentaje de avance":"43,12%",
-					"Licitación Nº":"005/12"
+					"Licitación Nº":"005/12",
+					"Fotografías":"Listo"
                 }
         },
                  {   
@@ -2420,12 +2615,13 @@
 					"Programa":"Pueblos Originarios",
 					"Cantidad de Viviendas":32,
 					"Empresa":"J.N. COMERCIAL E INDUSTRIA",
-					"Dato de contacto - Empresa":"Reppresentante: Sr. Cesar L. Valdez B. ",
+					"Dato de contacto - Empresa":"Reppresentante: Sr. Cesar L. Valdez B.",
 					"SAT - Servicio de Asistencia Técnica":"No corresponde",
 					"EAT - Equipo de Asistencia Técnica":"No corresponde",
 					"Estado de Obra":"Paralizado",
 					"Porcentaje de avance":"53,97%",
-					"Licitación Nº":"005/12"
+					"Licitación Nº":"005/12",
+					"Fotografías":"Listo"
                 }
         },
                  {   
@@ -2441,12 +2637,13 @@
 					"Programa":"Pueblos Originarios",
 					"Cantidad de Viviendas":20,
 					"Empresa":"J.N. COMERCIAL E INDUSTRIA",
-					"Dato de contacto - Empresa":"Reppresentante: Sr. Cesar L. Valdez B. ",
+					"Dato de contacto - Empresa":"Reppresentante: Sr. Cesar L. Valdez B.",
 					"SAT - Servicio de Asistencia Técnica":"No corresponde",
 					"EAT - Equipo de Asistencia Técnica":"No corresponde",
 					"Estado de Obra":"Paralizado",
 					"Porcentaje de avance":"55,21%",
-					"Licitación Nº":"005/12"
+					"Licitación Nº":"005/12",
+					"Fotografías":"Listo"
                 }
         },
                  {   
@@ -2462,12 +2659,13 @@
 					"Programa":"Pueblos Originarios",
 					"Cantidad de Viviendas":22,
 					"Empresa":"J.N. COMERCIAL E INDUSTRIA",
-					"Dato de contacto - Empresa":"Reppresentante: Sr. Cesar L. Valdez B. ",
+					"Dato de contacto - Empresa":"Reppresentante: Sr. Cesar L. Valdez B.",
 					"SAT - Servicio de Asistencia Técnica":"No corresponde",
 					"EAT - Equipo de Asistencia Técnica":"No corresponde",
 					"Estado de Obra":"Paralizado",
 					"Porcentaje de avance":"23,16%",
-					"Licitación Nº":"005/12"
+					"Licitación Nº":"005/12",
+					"Fotografías":"Listo"
                 }
         },
                  {   
@@ -2488,7 +2686,8 @@
 					"EAT - Equipo de Asistencia Técnica":"No corresponde",
 					"Estado de Obra":"Paralizado",
 					"Porcentaje de avance":"45,00%",
-					"Licitación Nº":"015/12"
+					"Licitación Nº":"015/12",
+					"Fotografías":"Listo"
                 }
         },
                  {   
@@ -2509,7 +2708,8 @@
 					"EAT - Equipo de Asistencia Técnica":"No corresponde",
 					"Estado de Obra":"Paralizado",
 					"Porcentaje de avance":"21,00%",
-					"Licitación Nº":"005/12"
+					"Licitación Nº":"005/12",
+					"Fotografías":"Listo"
                 }
         },
                  {   
@@ -2551,7 +2751,8 @@
 					"EAT - Equipo de Asistencia Técnica":"No corresponde",
 					"Estado de Obra":"Paralizado",
 					"Porcentaje de avance":"55,00%",
-					"Licitación Nº":"015/12"
+					"Licitación Nº":"015/12",
+					"Fotografías":"Listo"
                 }
         },
                  {   
@@ -2573,7 +2774,8 @@
 					"EAT - Equipo de Asistencia Técnica":"No corresponde",
 					"Estado de Obra":"Paralizado",
 					"Porcentaje de avance":"66,89%",
-					"Licitación Nº":"003/11"
+					"Licitación Nº":"003/11",
+					"Fotografías":"Listo"
                 }
         },
                  {   
@@ -2595,7 +2797,8 @@
 					"EAT - Equipo de Asistencia Técnica":"No corresponde",
 					"Estado de Obra":"Paralizado",
 					"Porcentaje de avance":"66,89%",
-					"Licitación Nº":"003/11"
+					"Licitación Nº":"003/11",
+					"Fotografías":"Listo"
                 }
         },
                  {   
@@ -2639,7 +2842,8 @@
 					"EAT - Equipo de Asistencia Técnica":"No corresponde",
 					"Estado de Obra":"Paralizado",
 					"Porcentaje de avance":"66,89%",
-					"Licitación Nº":"003/11"
+					"Licitación Nº":"003/11",
+					"Fotografías":"Listo"
                 }
         },
                  {   
@@ -2683,7 +2887,8 @@
 					"EAT - Equipo de Asistencia Técnica":"No corresponde",
 					"Estado de Obra":"Paralizado",
 					"Porcentaje de avance":"66,89%",
-					"Licitación Nº":"003/11"
+					"Licitación Nº":"003/11",
+					"Fotografías":"Listo"
                 }
         },
                  {   
@@ -2792,7 +2997,8 @@
 					"EAT - Equipo de Asistencia Técnica":"No corresponde",
 					"Estado de Obra":"Paralizado",
 					"Porcentaje de avance":"40,00%",
-					"Licitación Nº":"005/12"
+					"Licitación Nº":"005/12",
+					"Fotografías":"Listo"
                 }
         },
                  {   
@@ -2809,12 +3015,13 @@
 					"Programa":"Pueblos Originarios",
 					"Cantidad de Viviendas":12,
 					"Empresa":"J.R. Constructora",
-					"Dato de contacto - Empresa":"Representante: Arq. Juan Rodríguez Lezcano. Asunción, Paraguay, Pitiantuta entre Amistad y Concordia. ",
+					"Dato de contacto - Empresa":"Representante: Arq. Juan Rodríguez Lezcano. Asunción, Paraguay, Pitiantuta entre Amistad y Concordia.",
 					"SAT - Servicio de Asistencia Técnica":"No corresponde",
 					"EAT - Equipo de Asistencia Técnica":"No corresponde",
 					"Estado de Obra":"Paralizado",
 					"Porcentaje de avance":"35,00%",
-					"Licitación Nº":"003/11"
+					"Licitación Nº":"003/11",
+					"Fotografías":"Listo"
                 }
         },
                  {   
@@ -2830,12 +3037,13 @@
 					"Programa":"Pueblos Originarios",
 					"Cantidad de Viviendas":22,
 					"Empresa":"J.N. COMERCIAL E INDUSTRIA",
-					"Dato de contacto - Empresa":"Reppresentante: Sr. Cesar L. Valdez B. ",
+					"Dato de contacto - Empresa":"Reppresentante: Sr. Cesar L. Valdez B.",
 					"SAT - Servicio de Asistencia Técnica":"No corresponde",
 					"EAT - Equipo de Asistencia Técnica":"No corresponde",
 					"Estado de Obra":"Paralizado",
 					"Porcentaje de avance":"40,78%",
-					"Licitación Nº":"005/12"
+					"Licitación Nº":"005/12",
+					"Fotografías":"Listo"
                 }
         },
                  {   
@@ -2878,7 +3086,8 @@
 					"EAT - Equipo de Asistencia Técnica":"No corresponde",
 					"Estado de Obra":"En ejecución",
 					"Porcentaje de avance":"90,67%",
-					"Licitación Nº":"015/12"
+					"Licitación Nº":"015/12",
+					"Fotografías":"Listo"
                 }
         },
                  {   
@@ -2899,7 +3108,8 @@
 					"EAT - Equipo de Asistencia Técnica":"No corresponde",
 					"Estado de Obra":"En ejecución",
 					"Porcentaje de avance":"90,00%",
-					"Licitación Nº":"015/12"
+					"Licitación Nº":"015/12",
+					"Fotografías":"Listo"
                 }
         },
                  {   
@@ -2921,7 +3131,8 @@
 					"EAT - Equipo de Asistencia Técnica":"No corresponde",
 					"Estado de Obra":"En ejecución",
 					"Porcentaje de avance":"70,00%",
-					"Licitación Nº":"015/12"
+					"Licitación Nº":"015/12",
+					"Fotografías":"Listo"
                 }
         },
                  {   
@@ -3000,7 +3211,7 @@
 					"Programa":"Viviendas Económicas",
 					"Cantidad de Viviendas":22,
 					"Empresa":"C3 INGENIERIA S.A.",
-					"Dato de contacto - Empresa":"Representante: Ing. Carlos Cañisa y Arq. Juan Segalas, Fernando de la Mora, Paraguay,San Blas N°2758 casi Herminio Gimenez ",
+					"Dato de contacto - Empresa":"Representante: Ing. Carlos Cañisa y Arq. Juan Segalas, Fernando de la Mora, Paraguay,San Blas N°2758 casi Herminio Gimenez",
 					"SAT - Servicio de Asistencia Técnica":"No corresponde",
 					"EAT - Equipo de Asistencia Técnica":"No corresponde",
 					"Estado de Obra":"Paralizado",
@@ -3026,7 +3237,8 @@
 					"EAT - Equipo de Asistencia Técnica":"No corresponde",
 					"Estado de Obra":"En ejecución",
 					"Porcentaje de avance":"86,91%",
-					"Licitación Nº":"019/11"
+					"Licitación Nº":"019/11",
+					"Fotografías":"Listo"
                 }
         },
                  {   
@@ -3047,7 +3259,8 @@
 					"EAT - Equipo de Asistencia Técnica":"No corresponde",
 					"Estado de Obra":"Paralizado",
 					"Porcentaje de avance":"70,00%",
-					"Licitación Nº":"019/11"
+					"Licitación Nº":"019/11",
+					"Fotografías":"Listo"
                 }
         },
                  {   
@@ -3068,7 +3281,8 @@
 					"EAT - Equipo de Asistencia Técnica":"No corresponde",
 					"Estado de Obra":"Paralizado",
 					"Porcentaje de avance":"93,27%",
-					"Licitación Nº":"014/11"
+					"Licitación Nº":"014/11",
+					"Fotografías":"Listo"
                 }
         },
                  {   
@@ -3089,7 +3303,8 @@
 					"EAT - Equipo de Asistencia Técnica":"No corresponde",
 					"Estado de Obra":"Paralizado",
 					"Porcentaje de avance":"17,13%",
-					"Licitación Nº":"019/11"
+					"Licitación Nº":"019/11",
+					"Fotografías":"Listo"
                 }
         },
                  {   
@@ -3131,7 +3346,8 @@
 					"EAT - Equipo de Asistencia Técnica":"No corresponde",
 					"Estado de Obra":"Paralizado",
 					"Porcentaje de avance":"37,54%",
-					"Licitación Nº":"014/11"
+					"Licitación Nº":"014/11",
+					"Fotografías":"Listo"
                 }
         },
                  {   
@@ -3152,7 +3368,8 @@
 					"EAT - Equipo de Asistencia Técnica":"No corresponde",
 					"Estado de Obra":"En ejecución",
 					"Porcentaje de avance":"59,50%",
-					"Licitación Nº":"006/10"
+					"Licitación Nº":"006/10",
+					"Fotografías":"Listo"
                 }
         },
                  {   
@@ -3173,7 +3390,8 @@
 					"EAT - Equipo de Asistencia Técnica":"No corresponde",
 					"Estado de Obra":"Paralizado",
 					"Porcentaje de avance":"49,00%",
-					"Licitación Nº":"013/12"
+					"Licitación Nº":"013/12",
+					"Fotografías":"Listo"
                 }
         },
                  {   
@@ -3194,7 +3412,8 @@
 					"EAT - Equipo de Asistencia Técnica":"No corresponde",
 					"Estado de Obra":"Paralizado",
 					"Porcentaje de avance":"0,00%",
-					"Licitación Nº":"014/12"
+					"Licitación Nº":"014/12",
+					"Observaciones":"En proceso de reactivación."
                 }
         },
                  {   
@@ -3215,7 +3434,8 @@
 					"EAT - Equipo de Asistencia Técnica":"No corresponde",
 					"Estado de Obra":"Paralizado",
 					"Porcentaje de avance":"88,81%",
-					"Licitación Nº":"003/11"
+					"Licitación Nº":"003/11",
+					"Fotografías":"Listo"
                 }
         },
                  {   
@@ -3236,7 +3456,8 @@
 					"EAT - Equipo de Asistencia Técnica":"No corresponde",
 					"Estado de Obra":"Paralizado",
 					"Porcentaje de avance":"20,00%",
-					"Licitación Nº":"003/11"
+					"Licitación Nº":"003/11",
+					"Fotografías":"Listo"
                 }
         },
                  {   
@@ -3257,7 +3478,8 @@
 					"EAT - Equipo de Asistencia Técnica":"No corresponde",
 					"Estado de Obra":"Paralizado",
 					"Porcentaje de avance":"26,90%",
-					"Licitación Nº":"003/11"
+					"Licitación Nº":"003/11",
+					"Fotografías":"Listo"
                 }
         },
                  {   
@@ -3273,12 +3495,13 @@
 					"Programa":"Viviendas Económicas",
 					"Cantidad de Viviendas":60,
 					"Empresa":"CIVIALPAR INGENIERIA",
-					"Dato de contacto - Empresa":"Representante: Ing. Felix Benitez ,Indio Francisco N°671 casi Bartolome de las Casas Telef:(021)550 308 ",
+					"Dato de contacto - Empresa":"Representante: Ing. Felix Benitez ,Indio Francisco N°671 casi Bartolome de las Casas Telef:(021)550 308",
 					"SAT - Servicio de Asistencia Técnica":"No corresponde",
 					"EAT - Equipo de Asistencia Técnica":"No corresponde",
 					"Estado de Obra":"Paralizado",
 					"Porcentaje de avance":"20,00%",
-					"Licitación Nº":"019/11"
+					"Licitación Nº":"019/11",
+					"Fotografías":"Listo"
                 }
         },
                  {   
@@ -3299,7 +3522,8 @@
 					"EAT - Equipo de Asistencia Técnica":"No corresponde",
 					"Estado de Obra":"Paralizado",
 					"Porcentaje de avance":"0,00%",
-					"Licitación Nº":"018/12"
+					"Licitación Nº":"018/12",
+					"Observaciones":"En proceso de reactivación."
                 }
         },
                  {   
@@ -3340,7 +3564,8 @@
 					"SAT - Servicio de Asistencia Técnica":"No corresponde",
 					"EAT - Equipo de Asistencia Técnica":"No corresponde",
 					"Estado de Obra":"Paralizado",
-					"Licitación Nº":"018/11"
+					"Licitación Nº":"018/11",
+					"Fotografías":"Listo"
                 }
         },
                  {   
@@ -3356,7 +3581,7 @@
 					"Programa":"Vy'a Renda",
 					"Cantidad de Viviendas":50,
 					"Empresa":"CONSORCIO GENERAL MORINIGO",
-					"Dato de contacto - Empresa":"Representante: Mario Balcazar, San Lorenzo, Paraguay, Manuel Ortiz Guerrero casi Silvana Godoy y Garibaldi N°767 ",
+					"Dato de contacto - Empresa":"Representante: Mario Balcazar, San Lorenzo, Paraguay, Manuel Ortiz Guerrero casi Silvana Godoy y Garibaldi N°767",
 					"SAT - Servicio de Asistencia Técnica":"No corresponde",
 					"EAT - Equipo de Asistencia Técnica":"No corresponde",
 					"Estado de Obra":"Paralizado",
@@ -3382,7 +3607,8 @@
 					"EAT - Equipo de Asistencia Técnica":"No corresponde",
 					"Estado de Obra":"Paralizado",
 					"Porcentaje de avance":"31,21%",
-					"Licitación Nº":"002/12"
+					"Licitación Nº":"002/12",
+					"Fotografías":"Listo"
                 }
         },
                  {   
@@ -3403,7 +3629,8 @@
 					"EAT - Equipo de Asistencia Técnica":"No corresponde",
 					"Estado de Obra":"Paralizado",
 					"Porcentaje de avance":"86,01%",
-					"Licitación Nº":"013/11"
+					"Licitación Nº":"013/11",
+					"Fotografías":"Listo"
                 }
         },
                  {   
@@ -3424,7 +3651,8 @@
 					"EAT - Equipo de Asistencia Técnica":"No corresponde",
 					"Estado de Obra":"Paralizado",
 					"Porcentaje de avance":"48,87%",
-					"Licitación Nº":"004/12"
+					"Licitación Nº":"004/12",
+					"Fotografías":"Listo"
                 }
         },
                  {   
@@ -3487,7 +3715,8 @@
 					"EAT - Equipo de Asistencia Técnica":"No corresponde",
 					"Estado de Obra":"Paralizado",
 					"Porcentaje de avance":"5,00%",
-					"Licitación Nº":"024/12"
+					"Licitación Nº":"024/12",
+					"Fotografías":"Listo"
                 }
         },
                  {   
@@ -3571,7 +3800,8 @@
 					"EAT - Equipo de Asistencia Técnica":"No corresponde",
 					"Estado de Obra":"En ejecución",
 					"Porcentaje de avance":"53,00%",
-					"Licitación Nº":"020/11"
+					"Licitación Nº":"020/11",
+					"Fotografías":"Listo"
                 }
         },
                  {   
@@ -3592,7 +3822,8 @@
 					"EAT - Equipo de Asistencia Técnica":"No corresponde",
 					"Estado de Obra":"En ejecución",
 					"Porcentaje de avance":"95,00%",
-					"Licitación Nº":"CD"
+					"Licitación Nº":"CD",
+					"Fotografías":"Listo"
                 }
         },
                  {   
@@ -3613,7 +3844,8 @@
 					"EAT - Equipo de Asistencia Técnica":"No corresponde",
 					"Estado de Obra":"En ejecución",
 					"Porcentaje de avance":"95,00%",
-					"Licitación Nº":"004/12"
+					"Licitación Nº":"004/12",
+					"Fotografías":"Listo"
                 }
         },
                  {   
@@ -3634,7 +3866,8 @@
 					"EAT - Equipo de Asistencia Técnica":"No corresponde",
 					"Estado de Obra":"En ejecución",
 					"Porcentaje de avance":"95,00%",
-					"Licitación Nº":"004/12"
+					"Licitación Nº":"004/12",
+					"Fotografías":"Listo"
                 }
         },
                  {   
@@ -3655,7 +3888,8 @@
 					"EAT - Equipo de Asistencia Técnica":"No corresponde",
 					"Estado de Obra":"Paralizado",
 					"Porcentaje de avance":"10,93%",
-					"Licitación Nº":"004/12"
+					"Licitación Nº":"004/12",
+					"Fotografías":"Listo"
                 }
         },
                  {   
@@ -3676,7 +3910,8 @@
 					"EAT - Equipo de Asistencia Técnica":"No corresponde",
 					"Estado de Obra":"Paralizado",
 					"Porcentaje de avance":"60,50%",
-					"Licitación Nº":"02/2012"
+					"Licitación Nº":"02/2012",
+					"Fotografías":"Listo"
                 }
         },
                  {   
@@ -3697,7 +3932,8 @@
 					"EAT - Equipo de Asistencia Técnica":"No corresponde",
 					"Estado de Obra":"Paralizado",
 					"Porcentaje de avance":"29,75%",
-					"Licitación Nº":"002/12"
+					"Licitación Nº":"002/12",
+					"Fotografías":"Listo"
                 }
         },
                  {   
@@ -3713,12 +3949,13 @@
 					"Programa":"Vy'a Renda",
 					"Cantidad de Viviendas":41,
 					"Empresa":"ELECTROMECANICA DOLDAN",
-					"Dato de contacto - Empresa":"Representante: Osvaldo Doldan, Pilar, Paraguay, Barrio San Vicente Taiwan Manzana 52 Lote 19 Telef:(0975)617 193 ",
+					"Dato de contacto - Empresa":"Representante: Osvaldo Doldan, Pilar, Paraguay, Barrio San Vicente Taiwan Manzana 52 Lote 19 Telef:(0975)617 193",
 					"SAT - Servicio de Asistencia Técnica":"No corresponde",
 					"EAT - Equipo de Asistencia Técnica":"No corresponde",
 					"Estado de Obra":"Paralizado",
 					"Porcentaje de avance":"20,94%",
-					"Licitación Nº":"011/12"
+					"Licitación Nº":"011/12",
+					"Fotografías":"Listo"
                 }
         },
                  {   
@@ -3739,7 +3976,8 @@
 					"EAT - Equipo de Asistencia Técnica":"No corresponde",
 					"Estado de Obra":"Paralizado",
 					"Porcentaje de avance":"52,00%",
-					"Licitación Nº":"024/12"
+					"Licitación Nº":"024/12",
+					"Fotografías":"Listo"
                 }
         },
                  {   
@@ -3755,12 +3993,13 @@
 					"Programa":"Vy'a Renda",
 					"Cantidad de Viviendas":25,
 					"Empresa":"CONSORCIO VEK",
-					"Dato de contacto - Empresa":"Representante: Sr. Luis Narciso Acosta Flores, Pilar,Paraguay, Barrio San Miguel, Tte Brizuela casi Saavedra y Yegros ",
+					"Dato de contacto - Empresa":"Representante: Sr. Luis Narciso Acosta Flores, Pilar,Paraguay, Barrio San Miguel, Tte Brizuela casi Saavedra y Yegros",
 					"SAT - Servicio de Asistencia Técnica":"No corresponde",
 					"EAT - Equipo de Asistencia Técnica":"No corresponde",
 					"Estado de Obra":"Paralizado",
 					"Porcentaje de avance":"48,00%",
-					"Licitación Nº":"013/11"
+					"Licitación Nº":"013/11",
+					"Fotografías":"Listo"
                 }
         },
                  {   
@@ -3781,7 +4020,8 @@
 					"EAT - Equipo de Asistencia Técnica":"No corresponde",
 					"Estado de Obra":"En ejecución",
 					"Porcentaje de avance":"95,00%",
-					"Licitación Nº":"018/11"
+					"Licitación Nº":"018/11",
+					"Fotografías":"Listo"
                 }
         },
                  {   
@@ -3802,7 +4042,8 @@
 					"EAT - Equipo de Asistencia Técnica":"No corresponde",
 					"Estado de Obra":"Paralizado",
 					"Porcentaje de avance":"89,00%",
-					"Licitación Nº":"007/11"
+					"Licitación Nº":"007/11",
+					"Fotografías":"Listo"
                 }
         },
                  {   
@@ -3839,7 +4080,7 @@
 					"Programa":"Vy'a Renda",
 					"Cantidad de Viviendas":50,
 					"Empresa":"ARQ. FATIMA SERVIN",
-					"Dato de contacto - Empresa":"Representante: Arq. Fatima Servin, Ayala Velazquez N°761 casi Siria Telef:(021)227 595 ",
+					"Dato de contacto - Empresa":"Representante: Arq. Fatima Servin, Ayala Velazquez N°761 casi Siria Telef:(021)227 595",
 					"SAT - Servicio de Asistencia Técnica":"No corresponde",
 					"EAT - Equipo de Asistencia Técnica":"No corresponde",
 					"Estado de Obra":"Paralizado",
@@ -3860,12 +4101,13 @@
 					"Programa":"Vy'a Renda",
 					"Cantidad de Viviendas":20,
 					"Empresa":"3 G CONSTRUCCIONES",
-					"Dato de contacto - Empresa":"Representante: Ing. Hugo Patiño, Caaguazu, Paraguay ",
+					"Dato de contacto - Empresa":"Representante: Ing. Hugo Patiño, Caaguazu, Paraguay",
 					"SAT - Servicio de Asistencia Técnica":"No corresponde",
 					"EAT - Equipo de Asistencia Técnica":"No corresponde",
 					"Estado de Obra":"Paralizado",
 					"Porcentaje de avance":"40,00%",
-					"Licitación Nº":"018/11"
+					"Licitación Nº":"018/11",
+					"Fotografías":"Listo"
                 }
         },
                  {   
@@ -3886,7 +4128,8 @@
 					"EAT - Equipo de Asistencia Técnica":"No corresponde",
 					"Estado de Obra":"Paralizado",
 					"Porcentaje de avance":"3.10%",
-					"Licitación Nº":"011/11"
+					"Licitación Nº":"011/11",
+					"Fotografías":"Listo"
                 }
         },
                  {   
@@ -3907,7 +4150,8 @@
 					"EAT - Equipo de Asistencia Técnica":"No corresponde",
 					"Estado de Obra":"Paralizado",
 					"Porcentaje de avance":"70,00%",
-					"Licitación Nº":"018/11"
+					"Licitación Nº":"018/11",
+					"Fotografías":"Listo"
                 }
         },
                  {   
@@ -3928,7 +4172,8 @@
 					"EAT - Equipo de Asistencia Técnica":"No corresponde",
 					"Estado de Obra":"En ejecución",
 					"Porcentaje de avance":"95,00%",
-					"Licitación Nº":"004/12"
+					"Licitación Nº":"004/12",
+					"Fotografías":"Listo"
                 }
         },
                  {   
@@ -3944,12 +4189,13 @@
 					"Programa":"Vy'a Renda",
 					"Cantidad de Viviendas":62,
 					"Empresa":"OSBEN S.R.L.",
-					"Dato de contacto - Empresa":"Representante: Sra. Miryam Estigarribia , Coronel Oviedo, Paraguay, Panchito Lopez N° 170 casi Padre Molas ",
+					"Dato de contacto - Empresa":"Representante: Sra. Miryam Estigarribia , Coronel Oviedo, Paraguay, Panchito Lopez N° 170 casi Padre Molas",
 					"SAT - Servicio de Asistencia Técnica":"No corresponde",
 					"EAT - Equipo de Asistencia Técnica":"No corresponde",
 					"Estado de Obra":"Paralizado",
 					"Porcentaje de avance":"35,00%",
-					"Licitación Nº":"020/12"
+					"Licitación Nº":"020/12",
+					"Fotografías":"Listo"
                 }
         },
                  {   
@@ -3971,7 +4217,8 @@
 					"Porcentaje de avance":"95%",
 					"Licitación Nº":"No corresponde",
 					"Origen del terreno":"Terreno comunitario",
-					"Calificación provisional":"17/8/12"
+					"Calificación provisional":"17/8/12",
+					"Fotografías":"Listo"
                 }
         },
                  {   
@@ -3992,7 +4239,8 @@
 					"Estado de Obra":"Culminada",
 					"Porcentaje de avance":"100%",
 					"Licitación Nº":"No corresponde",
-					"Origen del terreno":"Terreno comunitario"
+					"Origen del terreno":"Terreno comunitario",
+					"Fotografías":"Listo"
                 }
         },
                  {   
@@ -4030,7 +4278,7 @@
 					"Programa":"FONAVIS",
 					"Cantidad de Viviendas":6,
 					"SAT - Servicio de Asistencia Técnica":"ARQUIDEC S.R.L.",
-					"Dato de contacto - SAT":"Faustino Correa. arqudec_srl@yahoo.com ",
+					"Dato de contacto - SAT":"Faustino Correa. arqudec_srl@yahoo.com",
 					"EAT - Equipo de Asistencia Técnica":"No corresponde",
 					"Estado de Obra":"En ejecución",
 					"Porcentaje de avance":"100%",
@@ -4102,7 +4350,8 @@
 					"Porcentaje de avance":"100%",
 					"Licitación Nº":"No corresponde",
 					"Origen del terreno":"Propiedad privada (compra de terreno)",
-					"Calificación provisional":"8/8/12"
+					"Calificación provisional":"8/8/12",
+					"Fotografías":"Listo"
                 }
         },
                  {   
@@ -4124,7 +4373,8 @@
 					"Porcentaje de avance":"80%",
 					"Licitación Nº":"No corresponde",
 					"Origen del terreno":"Terreno comunitario",
-					"Calificación provisional":"13/2/13"
+					"Calificación provisional":"13/2/13",
+					"Fotografías":"Listo"
                 }
         },
                  {   
@@ -4146,7 +4396,8 @@
 					"Porcentaje de avance":"95%",
 					"Licitación Nº":"No corresponde",
 					"Origen del terreno":"Terreno comunitario",
-					"Calificación provisional":"6/2/13"
+					"Calificación provisional":"6/2/13",
+					"Fotografías":"Listo"
                 }
         },
                  {   
@@ -4190,7 +4441,8 @@
 					"Porcentaje de avance":"100%",
 					"Licitación Nº":"No corresponde",
 					"Origen del terreno":"Propiedad de la Municipalidad",
-					"Calificación provisional":"30/1/13"
+					"Calificación provisional":"30/1/13",
+					"Fotografías":"Listo"
                 }
         },
                  {   
@@ -4212,7 +4464,8 @@
 					"Porcentaje de avance":"100%",
 					"Licitación Nº":"No corresponde",
 					"Origen del terreno":"Propiedad de la SAS",
-					"Calificación provisional":"8/3/13"
+					"Calificación provisional":"8/3/13",
+					"Fotografías":"Listo"
                 }
         },
                  {   
@@ -4234,7 +4487,8 @@
 					"Porcentaje de avance":"100%",
 					"Licitación Nº":"No corresponde",
 					"Origen del terreno":"Propiedad de la SAS",
-					"Calificación provisional":"15/2/13"
+					"Calificación provisional":"15/2/13",
+					"Fotografías":"Listo"
                 }
         },
                  {   
@@ -4256,7 +4510,8 @@
 					"Porcentaje de avance":"S/D",
 					"Licitación Nº":"No corresponde",
 					"Origen del terreno":"Propiedad privada (compra de terreno)",
-					"Calificación provisional":"10/5/13"
+					"Calificación provisional":"10/5/13",
+					"Fotografías":"Listo"
                 }
         },
                  {   
@@ -4278,7 +4533,8 @@
 					"Porcentaje de avance":"90%",
 					"Licitación Nº":"No corresponde",
 					"Origen del terreno":"Propiedad de la SAS",
-					"Calificación provisional":"20/12/12"
+					"Calificación provisional":"20/12/12",
+					"Fotografías":"Listo"
                 }
         },
                  {   
@@ -4294,13 +4550,14 @@
 					"Programa":"FONAVIS",
 					"Cantidad de Viviendas":16,
 					"SAT - Servicio de Asistencia Técnica":"INGENIERIA Y PROYECTOS PARAGUAY - IPP",
-					"Dato de contacto - SAT":"Ing. Manuel Lombardo. ma-lombardo@hotmail.com ",
+					"Dato de contacto - SAT":"Ing. Manuel Lombardo. ma-lombardo@hotmail.com",
 					"EAT - Equipo de Asistencia Técnica":"No corresponde",
 					"Estado de Obra":"Culminada",
 					"Porcentaje de avance":"100%",
 					"Licitación Nº":"No corresponde",
 					"Origen del terreno":"Propiedad privada (compra de terreno)",
-					"Calificación provisional":"17/9/12"
+					"Calificación provisional":"17/9/12",
+					"Fotografías":"Listo"
                 }
         },
                  {   
@@ -4316,7 +4573,7 @@
 					"Programa":"FONAVIS",
 					"Cantidad de Viviendas":30,
 					"SAT - Servicio de Asistencia Técnica":"ARQ. REBECA ZELAYA GONZALEZ",
-					"Dato de contacto - SAT":"Arq. Rebeca Zelaya. rebe_zegon@hotmail.com ",
+					"Dato de contacto - SAT":"Arq. Rebeca Zelaya. rebe_zegon@hotmail.com",
 					"EAT - Equipo de Asistencia Técnica":"No corresponde",
 					"Estado de Obra":"Culminada",
 					"Porcentaje de avance":"100%",
@@ -4343,7 +4600,8 @@
 					"Estado de Obra":"Culminada",
 					"Porcentaje de avance":"100%",
 					"Licitación Nº":"No corresponde",
-					"Origen del terreno":"Propiedad de la Municipalidad"
+					"Origen del terreno":"Propiedad de la Municipalidad",
+					"Fotografías":"Listo"
                 }
         },
                  {   
@@ -4364,7 +4622,8 @@
 					"Estado de Obra":"En ejecución",
 					"Porcentaje de avance":"90%",
 					"Licitación Nº":"No corresponde",
-					"Origen del terreno":"Propiedad privada (compra de terreno)"
+					"Origen del terreno":"Propiedad privada (compra de terreno)",
+					"Fotografías":"Listo"
                 }
         },
                  {   
@@ -4380,13 +4639,14 @@
 					"Programa":"FONAVIS",
 					"Cantidad de Viviendas":40,
 					"SAT - Servicio de Asistencia Técnica":"CONTACONSULT",
-					"Dato de contacto - SAT":"Lic. Jorge Andriotti. jorgeandriotti@yahoo.com ",
+					"Dato de contacto - SAT":"Lic. Jorge Andriotti. jorgeandriotti@yahoo.com",
 					"EAT - Equipo de Asistencia Técnica":"No corresponde",
 					"Estado de Obra":"Culminada",
 					"Porcentaje de avance":"100%",
 					"Licitación Nº":"No corresponde",
 					"Origen del terreno":"Propiedad privada (compra de terreno)",
-					"Calificación provisional":"5/6/12"
+					"Calificación provisional":"5/6/12",
+					"Fotografías":"Listo"
                 }
         },
                  {   
@@ -4408,7 +4668,8 @@
 					"Porcentaje de avance":"50%",
 					"Licitación Nº":"No corresponde",
 					"Origen del terreno":"Propiedad privada (compra de terreno)",
-					"Calificación provisional":"27/9/11"
+					"Calificación provisional":"27/9/11",
+					"Fotografías":"Listo"
                 }
         },
                  {   
@@ -4424,7 +4685,7 @@
 					"Programa":"FONAVIS",
 					"Cantidad de Viviendas":74,
 					"SAT - Servicio de Asistencia Técnica":"INGENIERIA Y PROYECTOS PARAGUAY - IPP",
-					"Dato de contacto - SAT":"Ing. Manuel Lombardo. ma-lombardo@hotmail.com ",
+					"Dato de contacto - SAT":"Ing. Manuel Lombardo. ma-lombardo@hotmail.com",
 					"EAT - Equipo de Asistencia Técnica":"No corresponde",
 					"Estado de Obra":"Culminada",
 					"Porcentaje de avance":"100%",
@@ -4490,13 +4751,14 @@
 					"Programa":"FONAVIS",
 					"Cantidad de Viviendas":40,
 					"SAT - Servicio de Asistencia Técnica":"COTEP S.A.",
-					"Dato de contacto - SAT":"Julio Cesar Roman. tareascotepsa@gmail.com ",
+					"Dato de contacto - SAT":"Julio Cesar Roman. tareascotepsa@gmail.com",
 					"EAT - Equipo de Asistencia Técnica":"No corresponde",
 					"Estado de Obra":"Culminada",
 					"Porcentaje de avance":"100%",
 					"Licitación Nº":"No corresponde",
 					"Origen del terreno":"Propiedad privada (compra de terreno)",
-					"Calificación provisional":"31/8/12"
+					"Calificación provisional":"31/8/12",
+					"Fotografías":"Listo"
                 }
         },
                  {   
@@ -4517,7 +4779,8 @@
 					"Estado de Obra":"Culminada",
 					"Porcentaje de avance":"100%",
 					"Licitación Nº":"No corresponde",
-					"Origen del terreno":"Propiedad de la SAS"
+					"Origen del terreno":"Propiedad de la SAS",
+					"Fotografías":"Listo"
                 }
         },
                  {   
@@ -4538,7 +4801,8 @@
 					"Estado de Obra":"En ejecución",
 					"Porcentaje de avance":"50%",
 					"Licitación Nº":"No corresponde",
-					"Origen del terreno":"Terreno comunitario"
+					"Origen del terreno":"Terreno comunitario",
+					"Fotografías":"Listo"
                 }
         },
                  {   
@@ -4582,7 +4846,8 @@
 					"Porcentaje de avance":"100%",
 					"Licitación Nº":"No corresponde",
 					"Origen del terreno":"Terreno comunitario",
-					"Calificación provisional":"12/6/13"
+					"Calificación provisional":"12/6/13",
+					"Fotografías":"Listo"
                 }
         },
                  {   
@@ -4648,7 +4913,8 @@
 					"Porcentaje de avance":"S/D",
 					"Licitación Nº":"No corresponde",
 					"Origen del terreno":"Terreno comunitario",
-					"Calificación provisional":"5/6/13"
+					"Calificación provisional":"5/6/13",
+					"Fotografías":"Listo"
                 }
         },
                  {   
@@ -4670,7 +4936,8 @@
 					"Porcentaje de avance":"100%",
 					"Licitación Nº":"No corresponde",
 					"Origen del terreno":"Terreno comunitario",
-					"Calificación provisional":"18/6/13"
+					"Calificación provisional":"18/6/13",
+					"Fotografías":"Listo"
                 }
         },
                  {   
@@ -4734,7 +5001,8 @@
 					"Estado de Obra":"Culminada",
 					"Porcentaje de avance":"100%",
 					"Licitación Nº":"No corresponde",
-					"Origen del terreno":"Propiedad privada (compra de terreno)"
+					"Origen del terreno":"Propiedad privada (compra de terreno)",
+					"Fotografías":"Listo"
                 }
         },
                  {   
@@ -4756,7 +5024,8 @@
 					"Porcentaje de avance":"100%",
 					"Licitación Nº":"No corresponde",
 					"Origen del terreno":"Propiedad de la SAS",
-					"Calificación provisional":"17/7/14"
+					"Calificación provisional":"17/7/14",
+					"Fotografías":"Listo"
                 }
         },
                  {   
@@ -4778,7 +5047,8 @@
 					"Porcentaje de avance":"60%",
 					"Licitación Nº":"No corresponde",
 					"Origen del terreno":"Propiedad privada (compra de terreno)",
-					"Calificación provisional":"8/8/12"
+					"Calificación provisional":"8/8/12",
+					"Fotografías":"Listo"
                 }
         },
                  {   
@@ -4800,7 +5070,8 @@
 					"Porcentaje de avance":"100%",
 					"Licitación Nº":"No corresponde",
 					"Origen del terreno":"Propiedad de los Beneficiarios",
-					"Calificación provisional":"17/6/13"
+					"Calificación provisional":"17/6/13",
+					"Fotografías":"Listo"
                 }
         },
                  {   
@@ -4822,7 +5093,8 @@
 					"Porcentaje de avance":"60%",
 					"Licitación Nº":"No corresponde",
 					"Origen del terreno":"Propiedad de la Municipalidad",
-					"Calificación provisional":"12/12/12"
+					"Calificación provisional":"12/12/12",
+					"Fotografías":"Listo"
                 }
         },
                  {   
@@ -4844,7 +5116,8 @@
 					"Porcentaje de avance":"60%",
 					"Licitación Nº":"No corresponde",
 					"Origen del terreno":"Terreno comunitario",
-					"Calificación provisional":"20/6/13"
+					"Calificación provisional":"20/6/13",
+					"Fotografías":"Listo"
                 }
         },
                  {   
@@ -4866,7 +5139,8 @@
 					"Porcentaje de avance":"50%",
 					"Licitación Nº":"No corresponde",
 					"Origen del terreno":"Propiedad de la Municipalidad",
-					"Calificación provisional":"15/7/13"
+					"Calificación provisional":"15/7/13",
+					"Fotografías":"Listo"
                 }
         },
                  {   
@@ -4888,7 +5162,8 @@
 					"Porcentaje de avance":"10%",
 					"Licitación Nº":"No corresponde",
 					"Origen del terreno":"Propiedad privada (compra de terreno)",
-					"Calificación provisional":"31/7/13"
+					"Calificación provisional":"31/7/13",
+					"Fotografías":"Listo"
                 }
         },
                  {   
@@ -4932,7 +5207,8 @@
 					"Porcentaje de avance":"80%",
 					"Licitación Nº":"No corresponde",
 					"Origen del terreno":"Propiedad de la SAS",
-					"Calificación provisional":"19/12/13"
+					"Calificación provisional":"19/12/13",
+					"Fotografías":"Listo"
                 }
         },
                  {   
@@ -4954,7 +5230,8 @@
 					"Porcentaje de avance":"60%",
 					"Licitación Nº":"No corresponde",
 					"Origen del terreno":"Propiedad de la SAS",
-					"Calificación provisional":"16/1/14"
+					"Calificación provisional":"16/1/14",
+					"Fotografías":"Listo"
                 }
         },
                  {   
@@ -4976,7 +5253,8 @@
 					"Porcentaje de avance":"50%",
 					"Licitación Nº":"No corresponde",
 					"Origen del terreno":"Propiedad de la SAS",
-					"Calificación provisional":"11/10/13"
+					"Calificación provisional":"11/10/13",
+					"Fotografías":"Listo"
                 }
         },
                  {   
@@ -4998,7 +5276,8 @@
 					"Porcentaje de avance":"25%",
 					"Licitación Nº":"No corresponde",
 					"Origen del terreno":"Propiedad de la SAS",
-					"Calificación provisional":"26/7/13"
+					"Calificación provisional":"26/7/13",
+					"Fotografías":"Listo"
                 }
         },
                  {   
@@ -5020,7 +5299,8 @@
 					"Porcentaje de avance":"60%",
 					"Licitación Nº":"No corresponde",
 					"Origen del terreno":"Propiedad de la SAS",
-					"Calificación provisional":"16/12/13"
+					"Calificación provisional":"16/12/13",
+					"Fotografías":"Listo"
                 }
         },
                  {   
@@ -5042,7 +5322,8 @@
 					"Porcentaje de avance":"80%",
 					"Licitación Nº":"No corresponde",
 					"Origen del terreno":"Propiedad de la SAS",
-					"Calificación provisional":"13/12/13"
+					"Calificación provisional":"13/12/13",
+					"Fotografías":"Listo"
                 }
         },
                  {   
@@ -5128,7 +5409,8 @@
 					"Porcentaje de avance":"S/D",
 					"Licitación Nº":"No corresponde",
 					"Origen del terreno":"INDERT",
-					"Calificación provisional":"6/5/14"
+					"Calificación provisional":"6/5/14",
+					"Fotografías":"Listo"
                 }
         },
                  {   
@@ -5172,7 +5454,8 @@
 					"Porcentaje de avance":"35%",
 					"Licitación Nº":"No corresponde",
 					"Origen del terreno":"Terreno comunitario",
-					"Calificación provisional":"12/3/14"
+					"Calificación provisional":"12/3/14",
+					"Fotografías":"Listo"
                 }
         },
                  {   
@@ -5217,7 +5500,8 @@
 					"Porcentaje de avance":"90%",
 					"Licitación Nº":"No corresponde",
 					"Origen del terreno":"INDERT",
-					"Calificación provisional":"1/4/14"
+					"Calificación provisional":"1/4/14",
+					"Fotografías":"Listo"
                 }
         },
                  {   
@@ -5239,7 +5523,8 @@
 					"Porcentaje de avance":"45%",
 					"Licitación Nº":"No corresponde",
 					"Origen del terreno":"Propiedad de la SAS",
-					"Calificación provisional":"31/7/13"
+					"Calificación provisional":"31/7/13",
+					"Fotografías":"Listo"
                 }
         },
                  {   
@@ -5261,7 +5546,8 @@
 					"Porcentaje de avance":"45%",
 					"Licitación Nº":"No corresponde",
 					"Origen del terreno":"Propiedad de la SAS",
-					"Calificación provisional":"31/7/13"
+					"Calificación provisional":"31/7/13",
+					"Fotografías":"Listo"
                 }
         },
                  {   
@@ -5277,13 +5563,14 @@
 					"Programa":"FONAVIS",
 					"Cantidad de Viviendas":40,
 					"SAT - Servicio de Asistencia Técnica":"CONTACONSULT",
-					"Dato de contacto - SAT":"Lic. Jorge Andriotti. jorgeandriotti@yahoo.com ",
+					"Dato de contacto - SAT":"Lic. Jorge Andriotti. jorgeandriotti@yahoo.com",
 					"EAT - Equipo de Asistencia Técnica":"No corresponde",
 					"Estado de Obra":"En ejecución",
 					"Porcentaje de avance":"45%",
 					"Licitación Nº":"No corresponde",
 					"Origen del terreno":"Propiedad privada (compra de terreno)",
-					"Calificación provisional":"15/7/13"
+					"Calificación provisional":"15/7/13",
+					"Fotografías":"Listo"
                 }
         },
                  {   
@@ -5305,7 +5592,8 @@
 					"Porcentaje de avance":"100%",
 					"Licitación Nº":"No corresponde",
 					"Origen del terreno":"Propiedad privada (compra de terreno)",
-					"Calificación provisional":"19/7/13"
+					"Calificación provisional":"19/7/13",
+					"Fotografías":"Listo"
                 }
         },
                  {   
@@ -5327,7 +5615,8 @@
 					"Porcentaje de avance":"40%",
 					"Licitación Nº":"No corresponde",
 					"Origen del terreno":"Propiedad privada (compra de terreno)",
-					"Calificación provisional":"19/7/13"
+					"Calificación provisional":"19/7/13",
+					"Fotografías":"Listo"
                 }
         },
                  {   
@@ -5348,7 +5637,8 @@
 					"Estado de Obra":"En ejecución",
 					"Porcentaje de avance":"S/D",
 					"Licitación Nº":"No corresponde",
-					"Origen del terreno":"Propiedad privada (compra de terreno)"
+					"Origen del terreno":"Propiedad privada (compra de terreno)",
+					"Fotografías":"Listo"
                 }
         },
                  {   
@@ -5369,7 +5659,8 @@
 					"Estado de Obra":"En ejecución",
 					"Porcentaje de avance":"20%",
 					"Licitación Nº":"No corresponde",
-					"Origen del terreno":"Propiedad privada (compra de terreno)"
+					"Origen del terreno":"Propiedad privada (compra de terreno)",
+					"Fotografías":"Listo"
                 }
         },
                  {   
@@ -5390,7 +5681,8 @@
 					"Estado de Obra":"Culminada",
 					"Porcentaje de avance":"100%",
 					"Licitación Nº":"No corresponde",
-					"Origen del terreno":"Propiedad de la SAS"
+					"Origen del terreno":"Propiedad de la SAS",
+					"Fotografías":"Listo"
                 }
         },
                  {   
@@ -5411,7 +5703,8 @@
 					"Estado de Obra":"En ejecución",
 					"Porcentaje de avance":"S/D",
 					"Licitación Nº":"No corresponde",
-					"Origen del terreno":"Propiedad privada (compra de terreno)"
+					"Origen del terreno":"Propiedad privada (compra de terreno)",
+					"Fotografías":"Listo"
                 }
         },
                  {   
@@ -5427,7 +5720,7 @@
 					"Programa":"FONAVIS",
 					"Cantidad de Viviendas":45,
 					"SAT - Servicio de Asistencia Técnica":"COTEP S.A.",
-					"Dato de contacto - SAT":"Julio Cesar Roman. tareascotepsa@gmail.com ",
+					"Dato de contacto - SAT":"Julio Cesar Roman. tareascotepsa@gmail.com",
 					"EAT - Equipo de Asistencia Técnica":"No corresponde",
 					"Estado de Obra":"En ejecución",
 					"Porcentaje de avance":"70%",
@@ -5449,13 +5742,14 @@
 					"Programa":"FONAVIS",
 					"Cantidad de Viviendas":30,
 					"SAT - Servicio de Asistencia Técnica":"COTEP S.A.",
-					"Dato de contacto - SAT":"Julio Cesar Roman. tareascotepsa@gmail.com ",
+					"Dato de contacto - SAT":"Julio Cesar Roman. tareascotepsa@gmail.com",
 					"EAT - Equipo de Asistencia Técnica":"No corresponde",
 					"Estado de Obra":"Culminada",
 					"Porcentaje de avance":"100%",
 					"Licitación Nº":"No corresponde",
 					"Origen del terreno":"Propiedad privada (compra de terreno)",
-					"Calificación provisional":"31/1/13"
+					"Calificación provisional":"31/1/13",
+					"Fotografías":"Listo"
                 }
         },
                  {   
@@ -5477,7 +5771,8 @@
 					"Porcentaje de avance":"100%",
 					"Licitación Nº":"No corresponde",
 					"Origen del terreno":"Propiedad de la Municipalidad",
-					"Calificación provisional":"26/7/13"
+					"Calificación provisional":"26/7/13",
+					"Fotografías":"Listo"
                 }
         },
                  {   
@@ -5499,7 +5794,8 @@
 					"Porcentaje de avance":"20%",
 					"Licitación Nº":"No corresponde",
 					"Origen del terreno":"Terreno comunitario",
-					"Calificación provisional":"12/5/14"
+					"Calificación provisional":"12/5/14",
+					"Fotografías":"Listo"
                 }
         },
                  {   
@@ -5519,7 +5815,8 @@
 					"EAT - Equipo de Asistencia Técnica":"No corresponde",
 					"Estado de Obra":"Culminada",
 					"Porcentaje de avance":"100%",
-					"Licitación Nº":"No corresponde"
+					"Licitación Nº":"No corresponde",
+					"Fotografías":"Listo"
                 }
         },
                  {   
@@ -5541,7 +5838,8 @@
 					"Porcentaje de avance":"100%",
 					"Licitación Nº":"No corresponde",
 					"Origen del terreno":"INDERT",
-					"Calificación provisional":"9/7/14"
+					"Calificación provisional":"9/7/14",
+					"Fotografías":"Listo"
                 }
         },
                  {   
@@ -5585,7 +5883,8 @@
 					"Porcentaje de avance":"S/D",
 					"Licitación Nº":"No corresponde",
 					"Origen del terreno":"INDERT",
-					"Calificación provisional":"6/5/14"
+					"Calificación provisional":"6/5/14",
+					"Fotografías":"Listo"
                 }
         },
                  {   
@@ -5629,7 +5928,8 @@
 					"Porcentaje de avance":"20%",
 					"Licitación Nº":"No corresponde",
 					"Origen del terreno":"Propiedad privada (compra de terreno)",
-					"Calificación provisional":"28/11/13"
+					"Calificación provisional":"28/11/13",
+					"Fotografías":"Listo"
                 }
         },
                  {   
@@ -5651,7 +5951,8 @@
 					"Porcentaje de avance":"70%",
 					"Licitación Nº":"No corresponde",
 					"Origen del terreno":"INDERT",
-					"Calificación provisional":"1/4/14"
+					"Calificación provisional":"1/4/14",
+					"Fotografías":"Listo"
                 }
         },
                  {   
@@ -5673,7 +5974,8 @@
 					"Porcentaje de avance":"60%",
 					"Licitación Nº":"No corresponde",
 					"Origen del terreno":"INDERT",
-					"Calificación provisional":"1/4/14"
+					"Calificación provisional":"1/4/14",
+					"Fotografías":"Listo"
                 }
         },
                  {   
@@ -5694,7 +5996,8 @@
 					"Estado de Obra":"En ejecución",
 					"Porcentaje de avance":"S/D",
 					"Licitación Nº":"No corresponde",
-					"Origen del terreno":"Terreno comunitario"
+					"Origen del terreno":"Terreno comunitario",
+					"Fotografías":"Listo"
                 }
         },
                  {   
@@ -5710,13 +6013,14 @@
 					"Programa":"FONAVIS",
 					"Cantidad de Viviendas":8,
 					"SAT - Servicio de Asistencia Técnica":"INGENIERIA Y PROYECTOS PARAGUAY - IPP",
-					"Dato de contacto - SAT":"Ing. Manuel Lombardo. ma-lombardo@hotmail.com ",
+					"Dato de contacto - SAT":"Ing. Manuel Lombardo. ma-lombardo@hotmail.com",
 					"EAT - Equipo de Asistencia Técnica":"No corresponde",
 					"Estado de Obra":"En ejecución",
 					"Porcentaje de avance":"72%",
 					"Licitación Nº":"No corresponde",
 					"Origen del terreno":"Propiedad privada (compra de terreno)",
-					"Calificación provisional":"28/7/11"
+					"Calificación provisional":"28/7/11",
+					"Fotografías":"Listo"
                 }
         },
                  {   
@@ -5732,7 +6036,7 @@
 					"Programa":"FONAVIS",
 					"Cantidad de Viviendas":10,
 					"SAT - Servicio de Asistencia Técnica":"ARQUIDEC S.R.L.",
-					"Dato de contacto - SAT":"Faustino Correa. arqudec_srl@yahoo.com ",
+					"Dato de contacto - SAT":"Faustino Correa. arqudec_srl@yahoo.com",
 					"EAT - Equipo de Asistencia Técnica":"No corresponde",
 					"Estado de Obra":"En ejecución",
 					"Porcentaje de avance":"10%",
@@ -5754,7 +6058,7 @@
 					"Programa":"FONAVIS",
 					"Cantidad de Viviendas":5,
 					"SAT - Servicio de Asistencia Técnica":"ARQUIDEC S.R.L.",
-					"Dato de contacto - SAT":"Faustino Correa. arqudec_srl@yahoo.com ",
+					"Dato de contacto - SAT":"Faustino Correa. arqudec_srl@yahoo.com",
 					"EAT - Equipo de Asistencia Técnica":"No corresponde",
 					"Estado de Obra":"En ejecución",
 					"Porcentaje de avance":"45%",
@@ -5782,7 +6086,8 @@
 					"Porcentaje de avance":"80%",
 					"Licitación Nº":"No corresponde",
 					"Origen del terreno":"SENAVITAT",
-					"Calificación provisional":"13/2/14"
+					"Calificación provisional":"13/2/14",
+					"Fotografías":"Listo"
                 }
         },
                  {   
@@ -5803,7 +6108,8 @@
 					"Estado de Obra":"En ejecución",
 					"Porcentaje de avance":"40%",
 					"Licitación Nº":"No corresponde",
-					"Origen del terreno":"Propiedad privada (compra de terreno)"
+					"Origen del terreno":"Propiedad privada (compra de terreno)",
+					"Fotografías":"Listo"
                 }
         },
                  {   
@@ -5844,7 +6150,8 @@
 					"Porcentaje de avance":"40%",
 					"Licitación Nº":"No corresponde",
 					"Origen del terreno":"Propiedad privada (compra de terreno)",
-					"Calificación provisional":"26/7/14"
+					"Calificación provisional":"26/7/14",
+					"Fotografías":"Listo"
                 }
         },
                  {   
@@ -5910,7 +6217,8 @@
 					"Porcentaje de avance":"45%",
 					"Licitación Nº":"No corresponde",
 					"Origen del terreno":"Propiedad de la SAS",
-					"Calificación provisional":"2/8/13"
+					"Calificación provisional":"2/8/13",
+					"Fotografías":"Listo"
                 }
         },
                  {   
@@ -5931,7 +6239,8 @@
 					"Estado de Obra":"En ejecución",
 					"Porcentaje de avance":"S/D",
 					"Licitación Nº":"No corresponde",
-					"Origen del terreno":"Terreno comunitario"
+					"Origen del terreno":"Terreno comunitario",
+					"Fotografías":"Listo"
                 }
         },
                  {   
@@ -5947,13 +6256,14 @@
 					"Programa":"FONAVIS",
 					"Cantidad de Viviendas":40,
 					"SAT - Servicio de Asistencia Técnica":"ARQ. REBECA ZELAYA GONZALEZ",
-					"Dato de contacto - SAT":"Arq. Rebeca Zelaya. rebe_zegon@hotmail.com ",
+					"Dato de contacto - SAT":"Arq. Rebeca Zelaya. rebe_zegon@hotmail.com",
 					"EAT - Equipo de Asistencia Técnica":"No corresponde",
 					"Estado de Obra":"En ejecución",
 					"Porcentaje de avance":"50%",
 					"Licitación Nº":"No corresponde",
 					"Origen del terreno":"Propiedad de la SAS",
-					"Calificación provisional":"30/5/14"
+					"Calificación provisional":"30/5/14",
+					"Fotografías":"Listo"
                 }
         },
                  {   
@@ -5969,13 +6279,14 @@
 					"Programa":"FONAVIS",
 					"Cantidad de Viviendas":24,
 					"SAT - Servicio de Asistencia Técnica":"ARQ. REBECA ZELAYA GONZALEZ",
-					"Dato de contacto - SAT":"Arq. Rebeca Zelaya. rebe_zegon@hotmail.com ",
+					"Dato de contacto - SAT":"Arq. Rebeca Zelaya. rebe_zegon@hotmail.com",
 					"EAT - Equipo de Asistencia Técnica":"No corresponde",
 					"Estado de Obra":"En ejecución",
 					"Porcentaje de avance":"35%",
 					"Licitación Nº":"No corresponde",
 					"Origen del terreno":"Propiedad de la SAS",
-					"Calificación provisional":"21/4/14"
+					"Calificación provisional":"21/4/14",
+					"Fotografías":"Listo"
                 }
         },
                  {   
@@ -6012,7 +6323,7 @@
 					"Programa":"FONAVIS",
 					"Cantidad de Viviendas":5,
 					"SAT - Servicio de Asistencia Técnica":"ARQUIDEC S.R.L.",
-					"Dato de contacto - SAT":"Faustino Correa. arqudec_srl@yahoo.com ",
+					"Dato de contacto - SAT":"Faustino Correa. arqudec_srl@yahoo.com",
 					"EAT - Equipo de Asistencia Técnica":"No corresponde",
 					"Estado de Obra":"En ejecución",
 					"Porcentaje de avance":"45%",
@@ -6039,7 +6350,8 @@
 					"Estado de Obra":"Culminada",
 					"Porcentaje de avance":"100%",
 					"Licitación Nº":"No corresponde",
-					"Origen del terreno":"Propiedad de la SAS"
+					"Origen del terreno":"Propiedad de la SAS",
+					"Fotografías":"Listo"
                 }
         },
                  {   
@@ -6060,7 +6372,8 @@
 					"Estado de Obra":"En ejecución",
 					"Porcentaje de avance":"40%",
 					"Licitación Nº":"No corresponde",
-					"Origen del terreno":"Propiedad de la SAS"
+					"Origen del terreno":"Propiedad de la SAS",
+					"Fotografías":"Listo"
                 }
         },
                  {   
@@ -6076,7 +6389,7 @@
 					"Programa":"FONAVIS",
 					"Cantidad de Viviendas":19,
 					"SAT - Servicio de Asistencia Técnica":"CONTACONSULT",
-					"Dato de contacto - SAT":"Lic. Jorge Andriotti. jorgeandriotti@yahoo.com ",
+					"Dato de contacto - SAT":"Lic. Jorge Andriotti. jorgeandriotti@yahoo.com",
 					"EAT - Equipo de Asistencia Técnica":"No corresponde",
 					"Estado de Obra":"En ejecución",
 					"Porcentaje de avance":"60%",
@@ -6104,7 +6417,8 @@
 					"Porcentaje de avance":"10%",
 					"Licitación Nº":"No corresponde",
 					"Origen del terreno":"Propiedad de la SAS",
-					"Calificación provisional":"2/7/14"
+					"Calificación provisional":"2/7/14",
+					"Fotografías":"Listo"
                 }
         },
                  {   
@@ -6148,7 +6462,8 @@
 					"Porcentaje de avance":"100%",
 					"Licitación Nº":"No corresponde",
 					"Origen del terreno":"Propiedad Privada",
-					"Calificación provisional":"9/7/12"
+					"Calificación provisional":"9/7/12",
+					"Fotografías":"Listo"
                 }
         },
                  {   
@@ -6169,7 +6484,8 @@
 					"Estado de Obra":"Culminada",
 					"Porcentaje de avance":"100%",
 					"Licitación Nº":"No corresponde",
-					"Origen del terreno":"Propiedad de los Beneficiarios"
+					"Origen del terreno":"Propiedad de los Beneficiarios",
+					"Fotografías":"Listo"
                 }
         },
                  {   
@@ -6212,7 +6528,8 @@
 					"Porcentaje de avance":"100%",
 					"Licitación Nº":"No corresponde",
 					"Origen del terreno":"Terreno Comunitario",
-					"Calificación provisional":"19/11/12"
+					"Calificación provisional":"19/11/12",
+					"Fotografías":"Listo"
                 }
         },
                  {   
@@ -6233,7 +6550,8 @@
 					"Estado de Obra":"Culminada",
 					"Porcentaje de avance":"100%",
 					"Licitación Nº":"No corresponde",
-					"Origen del terreno":"Propiedad de la SAS"
+					"Origen del terreno":"Propiedad de la SAS",
+					"Fotografías":"Listo"
                 }
         },
                  {   
@@ -6255,7 +6573,8 @@
 					"Porcentaje de avance":"100%",
 					"Licitación Nº":"No corresponde",
 					"Origen del terreno":"Propiedad de la SAS",
-					"Calificación provisional":"4/2/13"
+					"Calificación provisional":"4/2/13",
+					"Fotografías":"Listo"
                 }
         },
                  {   
@@ -6277,7 +6596,8 @@
 					"Porcentaje de avance":"100%",
 					"Licitación Nº":"No corresponde",
 					"Origen del terreno":"Propiedad de la SAS",
-					"Calificación provisional":"9/1/13"
+					"Calificación provisional":"9/1/13",
+					"Fotografías":"Listo"
                 }
         },
                  {   
@@ -6299,7 +6619,8 @@
 					"Porcentaje de avance":"100%",
 					"Licitación Nº":"No corresponde",
 					"Origen del terreno":"Propiedad de la SAS",
-					"Calificación provisional":"20/11/12"
+					"Calificación provisional":"20/11/12",
+					"Fotografías":"Listo"
                 }
         },
                  {   
@@ -6320,7 +6641,8 @@
 					"Estado de Obra":"Culminada",
 					"Porcentaje de avance":"100%",
 					"Licitación Nº":"No corresponde",
-					"Origen del terreno":"Propiedad de la SAS"
+					"Origen del terreno":"Propiedad de la SAS",
+					"Fotografías":"Listo"
                 }
         },
                  {   
@@ -6363,7 +6685,8 @@
 					"Estado de Obra":"Culminada",
 					"Porcentaje de avance":"100%",
 					"Licitación Nº":"No corresponde",
-					"Origen del terreno":"Propiedad de la Municipalidad"
+					"Origen del terreno":"Propiedad de la Municipalidad",
+					"Fotografías":"Listo"
                 }
         },
                  {   
@@ -6379,7 +6702,7 @@
 					"Programa":"FONAVIS",
 					"Cantidad de Viviendas":18,
 					"SAT - Servicio de Asistencia Técnica":"LINA M. CORONEL",
-					"Dato de contacto - SAT":"Lina Mercedes Coronel ",
+					"Dato de contacto - SAT":"Lina Mercedes Coronel",
 					"EAT - Equipo de Asistencia Técnica":"No corresponde",
 					"Estado de Obra":"En ejecución",
 					"Porcentaje de avance":"S/D",
@@ -6449,7 +6772,8 @@
 					"Estado de Obra":"Culminada",
 					"Porcentaje de avance":"100%",
 					"Licitación Nº":"No corresponde",
-					"Origen del terreno":"Propiedad de la SAS"
+					"Origen del terreno":"Propiedad de la SAS",
+					"Fotografías":"Listo"
                 }
         },
                  {   
@@ -6493,7 +6817,8 @@
 					"Porcentaje de avance":"100%",
 					"Licitación Nº":"No corresponde",
 					"Origen del terreno":"Propiedad Privada",
-					"Calificación provisional":"25/10/12"
+					"Calificación provisional":"25/10/12",
+					"Fotografías":"Listo"
                 }
         },
                  {   
@@ -6536,7 +6861,8 @@
 					"Porcentaje de avance":"100%",
 					"Licitación Nº":"No corresponde",
 					"Origen del terreno":"Propiedad Privada",
-					"Calificación provisional":"16/8/14"
+					"Calificación provisional":"16/8/14",
+					"Fotografías":"Listo"
                 }
         },
                  {   
@@ -6579,7 +6905,8 @@
 					"Porcentaje de avance":"90%",
 					"Licitación Nº":"No corresponde",
 					"Origen del terreno":"Propiedad Privada",
-					"Calificación provisional":"1/8/13"
+					"Calificación provisional":"1/8/13",
+					"Fotografías":"Listo"
                 }
         },
                  {   
@@ -6623,7 +6950,8 @@
 					"Porcentaje de avance":"45%",
 					"Licitación Nº":"No corresponde",
 					"Origen del terreno":"Propiedad de la SAS",
-					"Calificación provisional":"2/8/13"
+					"Calificación provisional":"2/8/13",
+					"Fotografías":"Listo"
                 }
         },
                  {   
@@ -6660,7 +6988,7 @@
 					"Programa":"FONAVIS",
 					"Cantidad de Viviendas":38,
 					"SAT - Servicio de Asistencia Técnica":"SRA. DIANA RAQUEL ARECO VERA",
-					"Dato de contacto - SAT":"Diana Raquel Areco. ",
+					"Dato de contacto - SAT":"Diana Raquel Areco.",
 					"EAT - Equipo de Asistencia Técnica":"No corresponde",
 					"Estado de Obra":"En ejecución",
 					"Porcentaje de avance":"S/D",
@@ -6687,7 +7015,8 @@
 					"Estado de Obra":"Culminada",
 					"Porcentaje de avance":"100%",
 					"Licitación Nº":"No corresponde",
-					"Origen del terreno":"Propiedad de la Municipalidad"
+					"Origen del terreno":"Propiedad de la Municipalidad",
+					"Fotografías":"Listo"
                 }
         },
                  {   
@@ -6708,7 +7037,8 @@
 					"Estado de Obra":"En ejecución",
 					"Porcentaje de avance":"S/D",
 					"Licitación Nº":"No corresponde",
-					"Origen del terreno":"Propiedad Privada"
+					"Origen del terreno":"Propiedad Privada",
+					"Fotografías":"Listo"
                 }
         },
                  {   
@@ -6730,7 +7060,8 @@
 					"Porcentaje de avance":"90%",
 					"Licitación Nº":"No corresponde",
 					"Origen del terreno":"Propiedad de la SAS",
-					"Calificación provisional":"4/12/12"
+					"Calificación provisional":"4/12/12",
+					"Fotografías":"Listo"
                 }
         },
                  {   
@@ -6747,13 +7078,14 @@
 					"Programa":"FONAVIS",
 					"Cantidad de Viviendas":22,
 					"SAT - Servicio de Asistencia Técnica":"INGENIERIA Y PROYECTOS PARAGUAY - IPP",
-					"Dato de contacto - SAT":"Ing. Manuel Lombardo. ma-lombardo@hotmail.com ",
+					"Dato de contacto - SAT":"Ing. Manuel Lombardo. ma-lombardo@hotmail.com",
 					"EAT - Equipo de Asistencia Técnica":"No corresponde",
 					"Estado de Obra":"Paralizado",
 					"Porcentaje de avance":"45%",
 					"Licitación Nº":"No corresponde",
 					"Origen del terreno":"Propiedad privada (compra de terreno)",
-					"Calificación provisional":"5/8/11"
+					"Calificación provisional":"5/8/11",
+					"Fotografías":"Listo"
                 }
         },
                  {   
@@ -6769,13 +7101,14 @@
 					"Programa":"FONAVIS",
 					"Cantidad de Viviendas":10,
 					"SAT - Servicio de Asistencia Técnica":"LIC. CAMILO RECALDE",
-					"Dato de contacto - SAT":"Lic. Camilo Recalde. ",
+					"Dato de contacto - SAT":"Lic. Camilo Recalde.",
 					"EAT - Equipo de Asistencia Técnica":"No corresponde",
 					"Estado de Obra":"Paralizado",
 					"Porcentaje de avance":"80%",
 					"Licitación Nº":"No corresponde",
 					"Origen del terreno":"Propiedad de la SAS",
-					"Calificación provisional":"16/1/13"
+					"Calificación provisional":"16/1/13",
+					"Fotografías":"Listo"
                 }
         },
                  {   
@@ -6791,7 +7124,7 @@
 					"Programa":"FONAVIS",
 					"Cantidad de Viviendas":29,
 					"SAT - Servicio de Asistencia Técnica":"LIC. CAMILO RECALDE",
-					"Dato de contacto - SAT":"Lic. Camilo Recalde. ",
+					"Dato de contacto - SAT":"Lic. Camilo Recalde.",
 					"EAT - Equipo de Asistencia Técnica":"No corresponde",
 					"Estado de Obra":"Paralizado",
 					"Porcentaje de avance":"95%",
@@ -6813,7 +7146,7 @@
 					"Programa":"FONAVIS",
 					"Cantidad de Viviendas":28,
 					"SAT - Servicio de Asistencia Técnica":"LIC. CAMILO RECALDE",
-					"Dato de contacto - SAT":"Lic. Camilo Recalde. ",
+					"Dato de contacto - SAT":"Lic. Camilo Recalde.",
 					"EAT - Equipo de Asistencia Técnica":"No corresponde",
 					"Estado de Obra":"Paralizado",
 					"Porcentaje de avance":"95%",
@@ -6835,7 +7168,7 @@
 					"Programa":"FONAVIS",
 					"Cantidad de Viviendas":25,
 					"SAT - Servicio de Asistencia Técnica":"LIC. CAMILO RECALDE",
-					"Dato de contacto - SAT":"Lic. Camilo Recalde. ",
+					"Dato de contacto - SAT":"Lic. Camilo Recalde.",
 					"EAT - Equipo de Asistencia Técnica":"No corresponde",
 					"Estado de Obra":"Paralizado",
 					"Porcentaje de avance":"80%",
@@ -6857,7 +7190,7 @@
 					"Programa":"FONAVIS",
 					"Cantidad de Viviendas":15,
 					"SAT - Servicio de Asistencia Técnica":"LIC. CAMILO RECALDE",
-					"Dato de contacto - SAT":"Lic. Camilo Recalde. ",
+					"Dato de contacto - SAT":"Lic. Camilo Recalde.",
 					"EAT - Equipo de Asistencia Técnica":"No corresponde",
 					"Estado de Obra":"Paralizado",
 					"Porcentaje de avance":"90%",
@@ -6879,7 +7212,7 @@
 					"Programa":"FONAVIS",
 					"Cantidad de Viviendas":35,
 					"SAT - Servicio de Asistencia Técnica":"LIC. CAMILO RECALDE",
-					"Dato de contacto - SAT":"Lic. Camilo Recalde. ",
+					"Dato de contacto - SAT":"Lic. Camilo Recalde.",
 					"EAT - Equipo de Asistencia Técnica":"No corresponde",
 					"Estado de Obra":"Paralizado",
 					"Porcentaje de avance":"5%",
@@ -6901,7 +7234,7 @@
 					"Programa":"FONAVIS",
 					"Cantidad de Viviendas":35,
 					"SAT - Servicio de Asistencia Técnica":"LIC. CAMILO RECALDE",
-					"Dato de contacto - SAT":"Lic. Camilo Recalde. ",
+					"Dato de contacto - SAT":"Lic. Camilo Recalde.",
 					"EAT - Equipo de Asistencia Técnica":"No corresponde",
 					"Estado de Obra":"Paralizado",
 					"Porcentaje de avance":"5%",
@@ -6923,7 +7256,7 @@
 					"Programa":"FONAVIS",
 					"Cantidad de Viviendas":30,
 					"SAT - Servicio de Asistencia Técnica":"LIC. CAMILO RECALDE",
-					"Dato de contacto - SAT":"Lic. Camilo Recalde. ",
+					"Dato de contacto - SAT":"Lic. Camilo Recalde.",
 					"EAT - Equipo de Asistencia Técnica":"No corresponde",
 					"Estado de Obra":"Paralizado",
 					"Porcentaje de avance":"S/D",
@@ -6945,7 +7278,7 @@
 					"Programa":"FONAVIS",
 					"Cantidad de Viviendas":30,
 					"SAT - Servicio de Asistencia Técnica":"LIC. CAMILO RECALDE",
-					"Dato de contacto - SAT":"Lic. Camilo Recalde. ",
+					"Dato de contacto - SAT":"Lic. Camilo Recalde.",
 					"EAT - Equipo de Asistencia Técnica":"No corresponde",
 					"Estado de Obra":"Paralizado",
 					"Porcentaje de avance":"S/D",
@@ -6967,7 +7300,7 @@
 					"Programa":"FONAVIS",
 					"Cantidad de Viviendas":20,
 					"SAT - Servicio de Asistencia Técnica":"LIC. CAMILO RECALDE",
-					"Dato de contacto - SAT":"Lic. Camilo Recalde. ",
+					"Dato de contacto - SAT":"Lic. Camilo Recalde.",
 					"EAT - Equipo de Asistencia Técnica":"No corresponde",
 					"Estado de Obra":"Paralizado",
 					"Porcentaje de avance":"10%",
@@ -7032,7 +7365,7 @@
 					"Programa":"FONAVIS",
 					"Cantidad de Viviendas":15,
 					"SAT - Servicio de Asistencia Técnica":"ARQUIDEC S.R.L.",
-					"Dato de contacto - SAT":"Faustino Correa. 0982 279 400. arqudec_srl@yahoo.com ",
+					"Dato de contacto - SAT":"Faustino Correa. 0982 279 400. arqudec_srl@yahoo.com",
 					"EAT - Equipo de Asistencia Técnica":"No corresponde",
 					"Estado de Obra":"En ejecución",
 					"Porcentaje de avance":"S/D",
@@ -7053,7 +7386,7 @@
 					"Programa":"FONAVIS",
 					"Cantidad de Viviendas":32,
 					"SAT - Servicio de Asistencia Técnica":"LIC. CAMILO RECALDE",
-					"Dato de contacto - SAT":"Lic. Camilo Recalde. ",
+					"Dato de contacto - SAT":"Lic. Camilo Recalde.",
 					"EAT - Equipo de Asistencia Técnica":"No corresponde",
 					"Estado de Obra":"Paralizado",
 					"Porcentaje de avance":"5%",
@@ -7075,7 +7408,7 @@
 					"Programa":"FONAVIS",
 					"Cantidad de Viviendas":32,
 					"SAT - Servicio de Asistencia Técnica":"LIC. CAMILO RECALDE",
-					"Dato de contacto - SAT":"Lic. Camilo Recalde. ",
+					"Dato de contacto - SAT":"Lic. Camilo Recalde.",
 					"EAT - Equipo de Asistencia Técnica":"No corresponde",
 					"Estado de Obra":"Paralizado",
 					"Porcentaje de avance":"5%",
@@ -7124,7 +7457,8 @@
 					"Estado de Obra":"En ejecución",
 					"Porcentaje de avance":"95%",
 					"Licitación Nº":"No corresponde",
-					"Origen del terreno":"Propiedad de la Municipalidad"
+					"Origen del terreno":"Propiedad de la Municipalidad",
+					"Fotografías":"Listo"
                 }
         },
                  {   
@@ -7145,7 +7479,8 @@
 					"Estado de Obra":"En ejecución",
 					"Porcentaje de avance":"100%",
 					"Licitación Nº":"No corresponde",
-					"Origen del terreno":"Propiedad de la Municipalidad"
+					"Origen del terreno":"Propiedad de la Municipalidad",
+					"Fotografías":"Listo"
                 }
         },
                  {   
@@ -7182,7 +7517,7 @@
 					"Programa":"FONAVIS",
 					"Cantidad de Viviendas":15,
 					"SAT - Servicio de Asistencia Técnica":"ARQUIDEC S.R.L.",
-					"Dato de contacto - SAT":"Faustino Correa. arqudec_srl@yahoo.com ",
+					"Dato de contacto - SAT":"Faustino Correa. arqudec_srl@yahoo.com",
 					"EAT - Equipo de Asistencia Técnica":"No corresponde",
 					"Estado de Obra":"En ejecución",
 					"Porcentaje de avance":"60%",
@@ -7204,12 +7539,13 @@
 					"Programa":"FONAVIS",
 					"Cantidad de Viviendas":8,
 					"SAT - Servicio de Asistencia Técnica":"INGENIERIA Y PROYECTOS PARAGUAY - IPP",
-					"Dato de contacto - SAT":"Ing. Manuel Lombardo. ma-lombardo@hotmail.com ",
+					"Dato de contacto - SAT":"Ing. Manuel Lombardo. ma-lombardo@hotmail.com",
 					"EAT - Equipo de Asistencia Técnica":"No corresponde",
 					"Estado de Obra":"En ejecución",
 					"Porcentaje de avance":"100%",
 					"Licitación Nº":"No corresponde",
-					"Origen del terreno":"Propiedad privada (compra de terreno)"
+					"Origen del terreno":"Propiedad privada (compra de terreno)",
+					"Fotografías":"Listo"
                 }
         },
                  {   
@@ -7231,7 +7567,8 @@
 					"Porcentaje de avance":"95%",
 					"Licitación Nº":"No corresponde",
 					"Origen del terreno":"Propiedad de la Municipalidad",
-					"Calificación provisional":"20.712.397"
+					"Calificación provisional":"20.712.397",
+					"Fotografías":"Listo"
                 }
         },
                  {   
@@ -7253,7 +7590,8 @@
 					"Porcentaje de avance":"100%",
 					"Licitación Nº":"No corresponde",
 					"Origen del terreno":"Propiedad privada (compra de terreno)",
-					"Calificación provisional":"21/12/11"
+					"Calificación provisional":"21/12/11",
+					"Fotografías":"Listo"
                 }
         },
                  {   
@@ -7274,7 +7612,8 @@
 					"Estado de Obra":"Culminada",
 					"Porcentaje de avance":"100%",
 					"Licitación Nº":"No corresponde",
-					"Origen del terreno":"Propiedad de la Municipalidad"
+					"Origen del terreno":"Propiedad de la Municipalidad",
+					"Fotografías":"Listo"
                 }
         },
                  {   
@@ -7290,13 +7629,14 @@
 					"Programa":"FONAVIS",
 					"Cantidad de Viviendas":30,
 					"SAT - Servicio de Asistencia Técnica":"ARQ. REBECA ZELAYA GONZALEZ",
-					"Dato de contacto - SAT":"Arq. Rebeca Zelaya. rebe_zegon@hotmail.com ",
+					"Dato de contacto - SAT":"Arq. Rebeca Zelaya. rebe_zegon@hotmail.com",
 					"EAT - Equipo de Asistencia Técnica":"No corresponde",
 					"Estado de Obra":"Culminada",
 					"Porcentaje de avance":"100%",
 					"Licitación Nº":"No corresponde",
 					"Origen del terreno":"Propiedad de la SAS",
-					"Calificación provisional":"24/6/13"
+					"Calificación provisional":"24/6/13",
+					"Fotografías":"Listo"
                 }
         },
                  {   
@@ -7312,7 +7652,7 @@
 					"Programa":"FONAVIS",
 					"Cantidad de Viviendas":20,
 					"SAT - Servicio de Asistencia Técnica":"ARQUIDEC S.R.L.",
-					"Dato de contacto - SAT":"Faustino Correa. arqudec_srl@yahoo.com ",
+					"Dato de contacto - SAT":"Faustino Correa. arqudec_srl@yahoo.com",
 					"EAT - Equipo de Asistencia Técnica":"No corresponde",
 					"Estado de Obra":"En ejecución",
 					"Porcentaje de avance":"90%",
@@ -7338,7 +7678,8 @@
 					"EAT - Equipo de Asistencia Técnica":"No corresponde",
 					"Estado de Obra":"Culminada",
 					"Porcentaje de avance":"100%",
-					"Licitación Nº":"No corresponde"
+					"Licitación Nº":"No corresponde",
+					"Fotografías":"Listo"
                 }
         },
                  {   
@@ -7360,7 +7701,8 @@
 					"Porcentaje de avance":"100%",
 					"Licitación Nº":"No corresponde",
 					"Origen del terreno":"Propiedad de la SAS",
-					"Calificación provisional":"10/12/13"
+					"Calificación provisional":"10/12/13",
+					"Fotografías":"Listo"
                 }
         },
                  {   
@@ -7382,7 +7724,8 @@
 					"Porcentaje de avance":"85%",
 					"Licitación Nº":"No corresponde",
 					"Origen del terreno":"Propiedad de la SAS",
-					"Calificación provisional":"31/7/13"
+					"Calificación provisional":"31/7/13",
+					"Fotografías":"Listo"
                 }
         },
                  {   
@@ -7404,7 +7747,8 @@
 					"Porcentaje de avance":"85%",
 					"Licitación Nº":"No corresponde",
 					"Origen del terreno":"Propiedad de la SAS",
-					"Calificación provisional":"31/7/13"
+					"Calificación provisional":"31/7/13",
+					"Fotografías":"Listo"
                 }
         },
                  {   
@@ -7420,13 +7764,14 @@
 					"Programa":"FONAVIS",
 					"Cantidad de Viviendas":20,
 					"SAT - Servicio de Asistencia Técnica":"ARQ. REBECA ZELAYA GONZALEZ",
-					"Dato de contacto - SAT":"Arq. Rebeca Zelaya. rebe_zegon@hotmail.com ",
+					"Dato de contacto - SAT":"Arq. Rebeca Zelaya. rebe_zegon@hotmail.com",
 					"EAT - Equipo de Asistencia Técnica":"No corresponde",
 					"Estado de Obra":"Culminada",
 					"Porcentaje de avance":"100%",
 					"Licitación Nº":"No corresponde",
 					"Origen del terreno":"Propiedad de la SAS",
-					"Calificación provisional":"6/5/14"
+					"Calificación provisional":"6/5/14",
+					"Fotografías":"Listo"
                 }
         },
                  {   
@@ -7442,7 +7787,7 @@
 					"Programa":"FONAVIS",
 					"Cantidad de Viviendas":20,
 					"SAT - Servicio de Asistencia Técnica":"ARQUIDEC S.R.L.",
-					"Dato de contacto - SAT":"Faustino Correa. arqudec_srl@yahoo.com ",
+					"Dato de contacto - SAT":"Faustino Correa. arqudec_srl@yahoo.com",
 					"EAT - Equipo de Asistencia Técnica":"No corresponde",
 					"Estado de Obra":"Culminada",
 					"Porcentaje de avance":"100%",
@@ -7555,7 +7900,8 @@
 					"Porcentaje de avance":"100%",
 					"Licitación Nº":"No corresponde",
 					"Origen del terreno":"INDERT",
-					"Calificación provisional":"23/8/11"
+					"Calificación provisional":"23/8/11",
+					"Fotografías":"Listo"
                 }
         },
                  {   
@@ -7577,7 +7923,8 @@
 					"Porcentaje de avance":"100%",
 					"Licitación Nº":"No corresponde",
 					"Origen del terreno":"Propiedad de la SAS",
-					"Calificación provisional":"6/2/13"
+					"Calificación provisional":"6/2/13",
+					"Fotografías":"Listo"
                 }
         },
                  {   
@@ -7598,7 +7945,8 @@
 					"Estado de Obra":"Culminada",
 					"Porcentaje de avance":"100%",
 					"Licitación Nº":"No corresponde",
-					"Origen del terreno":"Propiedad de la Municipalidad"
+					"Origen del terreno":"Propiedad de la Municipalidad",
+					"Fotografías":"Listo"
                 }
         },
                  {   
@@ -7614,12 +7962,13 @@
 					"Programa":"FONAVIS",
 					"Cantidad de Viviendas":28,
 					"SAT - Servicio de Asistencia Técnica":"COTEP S.A.",
-					"Dato de contacto - SAT":"Julio Cesar Roman. tareascotepsa@gmail.com ",
+					"Dato de contacto - SAT":"Julio Cesar Roman. tareascotepsa@gmail.com",
 					"EAT - Equipo de Asistencia Técnica":"No corresponde",
 					"Estado de Obra":"Culminada",
 					"Porcentaje de avance":"100%",
 					"Licitación Nº":"No corresponde",
-					"Origen del terreno":"Propiedad de la Municipalidad"
+					"Origen del terreno":"Propiedad de la Municipalidad",
+					"Fotografías":"Listo"
                 }
         },
                  {   
@@ -7641,7 +7990,8 @@
 					"Porcentaje de avance":"En proceso para licitación",
 					"Licitación Nº":"En proceso para licitación",
 					"Contrato N°":"En proceso para licitación",
-					"Origen del terreno":"Municipal"
+					"Origen del terreno":"Municipal",
+					"Fotografías":"Listo"
                 }
         },
                  {   
@@ -7663,7 +8013,8 @@
 					"Porcentaje de avance":"En proceso para licitación",
 					"Licitación Nº":"En proceso para licitación",
 					"Contrato N°":"En proceso para licitación",
-					"Origen del terreno":"Municipal"
+					"Origen del terreno":"Municipal",
+					"Fotografías":"Listo"
                 }
         },
                  {   
@@ -7685,7 +8036,8 @@
 					"Porcentaje de avance":"En proceso para licitación",
 					"Licitación Nº":"En proceso para licitación",
 					"Contrato N°":"En proceso para licitación",
-					"Origen del terreno":"Municipal"
+					"Origen del terreno":"Municipal",
+					"Fotografías":"Listo"
                 }
         },
                  {   
@@ -7707,7 +8059,8 @@
 					"Porcentaje de avance":"En proceso para licitación",
 					"Licitación Nº":"En proceso para licitación",
 					"Contrato N°":"En proceso para licitación",
-					"Origen del terreno":"Municipal"
+					"Origen del terreno":"Municipal",
+					"Fotografías":"Listo"
                 }
         },
                  {   
@@ -7729,7 +8082,8 @@
 					"Porcentaje de avance":"En proceso para licitación",
 					"Licitación Nº":"En proceso para licitación",
 					"Contrato N°":"En proceso para licitación",
-					"Origen del terreno":"Municipal"
+					"Origen del terreno":"Municipal",
+					"Fotografías":"Listo"
                 }
         },
                  {   
@@ -7751,7 +8105,8 @@
 					"Porcentaje de avance":"En proceso para licitación",
 					"Licitación Nº":"En proceso para licitación",
 					"Contrato N°":"En proceso para licitación",
-					"Origen del terreno":"Municipal"
+					"Origen del terreno":"Municipal",
+					"Fotografías":"Listo"
                 }
         },
                  {   
@@ -7773,7 +8128,8 @@
 					"Porcentaje de avance":"En proceso para licitación",
 					"Licitación Nº":"En proceso para licitación",
 					"Contrato N°":"En proceso para licitación",
-					"Origen del terreno":"Municipal"
+					"Origen del terreno":"Municipal",
+					"Fotografías":"Listo"
                 }
         },
                  {   
@@ -7796,7 +8152,8 @@
 					"Licitación Nº":"En proceso para licitación",
 					"Contrato N°":"En proceso para licitación",
 					"Origen del terreno":"Municipal",
-					"Observaciones":"Coordenada corresponde al centro del distrito. La localización de las obras aún no se tienen definidas."
+					"Observaciones":"Coordenada corresponde al centro del distrito. La localización de las obras aún no se tienen definidas.",
+					"Fotografías":"Listo"
                 }
         },
                  {   
@@ -7819,7 +8176,8 @@
 					"Licitación Nº":"En proceso para licitación",
 					"Contrato N°":"En proceso para licitación",
 					"Origen del terreno":"Municipal",
-					"Observaciones":"Coordenada corresponde al centro del distrito. La localización de las obras aún no se tienen definidas."
+					"Observaciones":"Coordenada corresponde al centro del distrito. La localización de las obras aún no se tienen definidas.",
+					"Fotografías":"Listo"
                 }
         },
                  {   
@@ -7841,7 +8199,8 @@
 					"Porcentaje de avance":"En licitación",
 					"Licitación Nº":"LPN N° 595",
 					"Contrato N°":"En licitación",
-					"Origen del terreno":"Municipal"
+					"Origen del terreno":"Municipal",
+					"Fotografías":"Listo"
                 }
         },
                  {   
@@ -7863,7 +8222,8 @@
 					"Porcentaje de avance":"En licitación",
 					"Licitación Nº":"LPN N° 595",
 					"Contrato N°":"En licitación",
-					"Origen del terreno":"Municipal"
+					"Origen del terreno":"Municipal",
+					"Fotografías":"Listo"
                 }
         },
                  {   
@@ -7885,7 +8245,8 @@
 					"Porcentaje de avance":"En licitación",
 					"Licitación Nº":"LPN N° 595",
 					"Contrato N°":"En licitación",
-					"Origen del terreno":"Municipal"
+					"Origen del terreno":"Municipal",
+					"Fotografías":"Listo"
                 }
         },
                  {   
@@ -7907,7 +8268,8 @@
 					"Porcentaje de avance":"En licitación",
 					"Licitación Nº":"LPN N° 595",
 					"Contrato N°":"En licitación",
-					"Origen del terreno":"Municipal"
+					"Origen del terreno":"Municipal",
+					"Fotografías":"Listo"
                 }
         },
                  {   
@@ -7929,7 +8291,8 @@
 					"Porcentaje de avance":"En licitación",
 					"Licitación Nº":"LPN N° 595",
 					"Contrato N°":"En licitación",
-					"Origen del terreno":"Municipal"
+					"Origen del terreno":"Municipal",
+					"Fotografías":"Listo"
                 }
         },
                  {   
@@ -7951,7 +8314,8 @@
 					"Porcentaje de avance":"En licitación",
 					"Licitación Nº":"LPN N° 595",
 					"Contrato N°":"En licitación",
-					"Origen del terreno":"Municipal"
+					"Origen del terreno":"Municipal",
+					"Fotografías":"Listo"
                 }
         },
                  {   
@@ -7974,7 +8338,8 @@
 					"Licitación Nº":"LPN N° 595",
 					"Contrato N°":"En licitación",
 					"Origen del terreno":"Municipal",
-					"Observaciones":"Coordenada corresponde al centro del distrito. La localización de las obras aún no se tienen definidas."
+					"Observaciones":"Coordenada corresponde al centro del distrito. La localización de las obras aún no se tienen definidas.",
+					"Fotografías":"Listo"
                 }
         },
                  {   
@@ -7996,7 +8361,8 @@
 					"Porcentaje de avance":"En licitación",
 					"Licitación Nº":"LPN N° 595",
 					"Contrato N°":"En licitación",
-					"Origen del terreno":"Municipal"
+					"Origen del terreno":"Municipal",
+					"Fotografías":"Listo"
                 }
         },
                  {   
@@ -8018,7 +8384,8 @@
 					"Estado de Obra":"En licitación",
 					"Porcentaje de avance":"En proceso para licitación",
 					"Licitación Nº":"En proceso para licitación",
-					"Contrato N°":"En proceso para licitación"
+					"Contrato N°":"En proceso para licitación",
+					"Fotografías":"Listo"
                 }
         },
                  {   
@@ -8041,7 +8408,8 @@
 					"Porcentaje de avance":"En proceso para licitación",
 					"Licitación Nº":"En proceso para licitación",
 					"Contrato N°":"En proceso para licitación",
-					"Observaciones":"Coordenada corresponde al centro del distrito. La localización de las obras aún no se tienen definidas."
+					"Observaciones":"Coordenada corresponde al centro del distrito. La localización de las obras aún no se tienen definidas.",
+					"Fotografías":"Listo"
                 }
         },
                  {   
@@ -8063,7 +8431,8 @@
 					"Estado de Obra":"En licitación",
 					"Porcentaje de avance":"En proceso para licitación",
 					"Licitación Nº":"En proceso para licitación",
-					"Contrato N°":"En proceso para licitación"
+					"Contrato N°":"En proceso para licitación",
+					"Fotografías":"Listo"
                 }
         },
                  {   
@@ -8085,7 +8454,8 @@
 					"Estado de Obra":"En licitación",
 					"Porcentaje de avance":"En proceso para licitación",
 					"Licitación Nº":"En proceso para licitación",
-					"Contrato N°":"En proceso para licitación"
+					"Contrato N°":"En proceso para licitación",
+					"Fotografías":"Listo"
                 }
         },
                  {   
@@ -8108,7 +8478,8 @@
 					"Porcentaje de avance":"En proceso para licitación",
 					"Licitación Nº":"En proceso para licitación",
 					"Contrato N°":"En proceso para licitación",
-					"Observaciones":"Coordenada corresponde al centro del distrito. La localización de las obras aún no se tienen definidas."
+					"Observaciones":"Coordenada corresponde al centro del distrito. La localización de las obras aún no se tienen definidas.",
+					"Fotografías":"Listo"
                 }
         },
                  {   
@@ -8131,7 +8502,8 @@
 					"Porcentaje de avance":"En proceso para licitación",
 					"Licitación Nº":"En proceso para licitación",
 					"Contrato N°":"En proceso para licitación",
-					"Observaciones":"Coordenada corresponde al centro del distrito. La localización de las obras aún no se tienen definidas."
+					"Observaciones":"Coordenada corresponde al centro del distrito. La localización de las obras aún no se tienen definidas.",
+					"Fotografías":"Listo"
                 }
         },
                  {   
@@ -8171,7 +8543,8 @@
 					"Cantidad de Viviendas":222,
 					"Estado de Obra":"En ejecución",
 					"Origen del terreno":"Propiedad de la SAS",
-					"Observaciones":"Coordenada corresponde al centro del distrito."
+					"Observaciones":"Coordenada corresponde al centro del distrito.",
+					"Fotografías":"Listo"
                 }
         },
                  {   
