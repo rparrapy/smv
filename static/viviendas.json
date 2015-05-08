@@ -1,4 +1,4 @@
-{ "type" : "FeatureCollection",
+     { "type" : "FeatureCollection",
       "features" : [
                  {   
             "type" : "Feature",
@@ -17,7 +17,7 @@
 					"SAT - Servicio de Asistencia Técnica":"No corresponde",
 					"EAT - Equipo de Asistencia Técnica":"No corresponde",
 					"Estado de Obra":"Culminada",
-					"Porcentaje de avance":"100,00%",
+					"Porcentaje de avance":"100%",
 					"Licitación Nº":"001/14",
 					"Contrato N°":"001/2014",
 					"Origen del terreno":"Municipal",
@@ -41,7 +41,7 @@
 					"SAT - Servicio de Asistencia Técnica":"No corresponde",
 					"EAT - Equipo de Asistencia Técnica":"No corresponde",
 					"Estado de Obra":"Culminada",
-					"Porcentaje de avance":"100,00%",
+					"Porcentaje de avance":"100%",
 					"Licitación Nº":"001/14",
 					"Contrato N°":"009/2014",
 					"Origen del terreno":"Municipal",
@@ -65,7 +65,7 @@
 					"SAT - Servicio de Asistencia Técnica":"No corresponde",
 					"EAT - Equipo de Asistencia Técnica":"No corresponde",
 					"Estado de Obra":"Culminada",
-					"Porcentaje de avance":"100,00%",
+					"Porcentaje de avance":"100%",
 					"Licitación Nº":"001/14",
 					"Contrato N°":"011/2014",
 					"Origen del terreno":"INDERT",
@@ -359,7 +359,7 @@
 					"SAT - Servicio de Asistencia Técnica":"No corresponde",
 					"EAT - Equipo de Asistencia Técnica":"No corresponde",
 					"Estado de Obra":"Culminada",
-					"Porcentaje de avance":"100,00%",
+					"Porcentaje de avance":"100%",
 					"Licitación Nº":"001/14",
 					"Contrato N°":"001/2014",
 					"Origen del terreno":"SAS",
@@ -383,7 +383,7 @@
 					"SAT - Servicio de Asistencia Técnica":"No corresponde",
 					"EAT - Equipo de Asistencia Técnica":"No corresponde",
 					"Estado de Obra":"Culminada",
-					"Porcentaje de avance":"100,00%",
+					"Porcentaje de avance":"100%",
 					"Licitación Nº":"001/14",
 					"Contrato N°":"006/2014",
 					"Origen del terreno":"SAS",
@@ -407,7 +407,7 @@
 					"SAT - Servicio de Asistencia Técnica":"No corresponde",
 					"EAT - Equipo de Asistencia Técnica":"No corresponde",
 					"Estado de Obra":"Culminada",
-					"Porcentaje de avance":"100,00%",
+					"Porcentaje de avance":"100%",
 					"Licitación Nº":"001/14",
 					"Contrato N°":"001/2014",
 					"Origen del terreno":"INDERT",
@@ -431,7 +431,7 @@
 					"SAT - Servicio de Asistencia Técnica":"No corresponde",
 					"EAT - Equipo de Asistencia Técnica":"No corresponde",
 					"Estado de Obra":"Culminada",
-					"Porcentaje de avance":"100,00%",
+					"Porcentaje de avance":"100%",
 					"Licitación Nº":"001/14",
 					"Contrato N°":"007/2014",
 					"Origen del terreno":"SAS",
@@ -455,7 +455,7 @@
 					"SAT - Servicio de Asistencia Técnica":"No corresponde",
 					"EAT - Equipo de Asistencia Técnica":"No corresponde",
 					"Estado de Obra":"Culminada",
-					"Porcentaje de avance":"100,00%",
+					"Porcentaje de avance":"100%",
 					"Licitación Nº":"001/14",
 					"Contrato N°":"001/2014",
 					"Origen del terreno":"SAS",
@@ -479,7 +479,7 @@
 					"SAT - Servicio de Asistencia Técnica":"No corresponde",
 					"EAT - Equipo de Asistencia Técnica":"No corresponde",
 					"Estado de Obra":"Culminada",
-					"Porcentaje de avance":"100,00%",
+					"Porcentaje de avance":"100%",
 					"Licitación Nº":"001/14",
 					"Contrato N°":"003/2014",
 					"Origen del terreno":"SAS",
@@ -503,7 +503,7 @@
 					"SAT - Servicio de Asistencia Técnica":"No corresponde",
 					"EAT - Equipo de Asistencia Técnica":"No corresponde",
 					"Estado de Obra":"Culminada",
-					"Porcentaje de avance":"100,00%",
+					"Porcentaje de avance":"100%",
 					"Licitación Nº":"001/14",
 					"Contrato N°":"001/2014",
 					"Origen del terreno":"SAS",
@@ -527,7 +527,7 @@
 					"SAT - Servicio de Asistencia Técnica":"No corresponde",
 					"EAT - Equipo de Asistencia Técnica":"No corresponde",
 					"Estado de Obra":"En ejecución",
-					"Porcentaje de avance":"95,00%",
+					"Porcentaje de avance":"95%",
 					"Licitación Nº":"001/11",
 					"Contrato N°":"001/12",
 					"Origen del terreno":"Municipal",
@@ -551,7 +551,7 @@
 					"SAT - Servicio de Asistencia Técnica":"No corresponde",
 					"EAT - Equipo de Asistencia Técnica":"No corresponde",
 					"Estado de Obra":"Paralizado",
-					"Porcentaje de avance":"0,05%",
+					"Porcentaje de avance":"0%",
 					"Licitación Nº":"001/11",
 					"Contrato N°":"003/12",
 					"Origen del terreno":"SENAVITAT",
@@ -576,7 +576,7 @@
 					"SAT - Servicio de Asistencia Técnica":"No corresponde",
 					"EAT - Equipo de Asistencia Técnica":"No corresponde",
 					"Estado de Obra":"En ejecución",
-					"Porcentaje de avance":"95,00%",
+					"Porcentaje de avance":"95%",
 					"Licitación Nº":"001/11",
 					"Contrato N°":"002/12",
 					"Origen del terreno":"Gobernación",
@@ -815,6 +815,7 @@
 					"Empresa":"No corresponde",
 					"SAT - Servicio de Asistencia Técnica":"ACG Consultora Integral",
 					"Dato de contacto - SAT":"Abog. Federico Cabral. (021) 528 973",
+					"EAT - Equipo de Asistencia Técnica":"No corresponde",
 					"Estado de Obra":"En ejecución",
 					"Porcentaje de avance":"20%",
 					"Origen del terreno":"Propiedad privada (compra de terreno)",
@@ -836,6 +837,7 @@
 					"Empresa":"No corresponde",
 					"SAT - Servicio de Asistencia Técnica":"ACG Consultora Integral",
 					"Dato de contacto - SAT":"Abog. Federico Cabral. (021) 528 973",
+					"EAT - Equipo de Asistencia Técnica":"No corresponde",
 					"Estado de Obra":"En ejecución",
 					"Porcentaje de avance":"13%",
 					"Origen del terreno":"Propiedad privada (compra de terreno)",
@@ -880,6 +882,7 @@
 					"Empresa":"No corresponde",
 					"SAT - Servicio de Asistencia Técnica":"Alto Forrest Paraguay",
 					"Dato de contacto - SAT":"Verónica Elvira Coronel. veliferme@hotmail.com",
+					"EAT - Equipo de Asistencia Técnica":"No corresponde",
 					"Estado de Obra":"En ejecución",
 					"Porcentaje de avance":"Inicio de obra"
                 }
@@ -954,12 +957,12 @@
             "type" : "Feature",
             "geometry" : {
                 "type" : "Point",
-                "coordinates" : [-57.1488012347, -25.4123383879]},
+                "coordinates" : [-57.4329759641, -25.4117760916]},
                 "properties" : {
                     "id":300,
 					"Departamento":"Central",
 					"Distrito":"J. A. Saldívar",
-					"Proyecto":"Sind. De Empleados Y Trab. Del Mercado 4",
+					"Proyecto":"Sindicato de empleados y trabajadores del Mercado 4",
 					"Programa":"FONAVIS",
 					"Cantidad de Viviendas":38,
 					"Empresa":"No corresponde",
@@ -987,6 +990,7 @@
 					"Cantidad de Viviendas":50,
 					"Empresa":"No corresponde",
 					"SAT - Servicio de Asistencia Técnica":"Arq. Mirtha Poison de O'Durnin",
+					"EAT - Equipo de Asistencia Técnica":"No corresponde",
 					"Estado de Obra":"Culminada",
 					"Porcentaje de avance":"100%",
 					"Origen del terreno":"Propiedad privada (compra de terreno)",
@@ -1284,6 +1288,7 @@
 					"Empresa":"No corresponde",
 					"SAT - Servicio de Asistencia Técnica":"ARQUIDEC S.R.L.",
 					"Dato de contacto - SAT":"Faustino Correa. arqudec_srl@yahoo.com ",
+					"EAT - Equipo de Asistencia Técnica":"No corresponde",
 					"Estado de Obra":"En ejecución",
 					"Porcentaje de avance":"28%",
 					"Origen del terreno":"Propiedad de la SAS",
@@ -1350,6 +1355,7 @@
 					"Empresa":"No corresponde",
 					"SAT - Servicio de Asistencia Técnica":"Asociación Tekovera",
 					"Dato de contacto - SAT":"Arq. Ilse Coronel. adricoronel@gmail.com",
+					"EAT - Equipo de Asistencia Técnica":"No corresponde",
 					"Estado de Obra":"En ejecución",
 					"Porcentaje de avance":"52%",
 					"Origen del terreno":"Propiedad de la SAS",
@@ -1387,13 +1393,14 @@
                 "properties" : {
                     "id":400,
 					"Departamento":"Central",
-					"Distrito":"J.A. Saldivar",
+					"Distrito":"J. A. Saldivar",
 					"Proyecto":"Comision Vecinal El Portal Toledo Cañada (2° Fase)",
 					"Programa":"FONAVIS",
 					"Cantidad de Viviendas":61,
 					"Empresa":"No corresponde",
 					"SAT - Servicio de Asistencia Técnica":"Asociación Tekovera",
 					"Dato de contacto - SAT":"Arq. Ilse Coronel. adricoronel@gmail.com",
+					"EAT - Equipo de Asistencia Técnica":"No corresponde",
 					"Estado de Obra":"En ejecución",
 					"Porcentaje de avance":"45% (pendiente de fiscalización)",
 					"Calificación provisional":"23/05/2014"
@@ -1414,6 +1421,7 @@
 					"Empresa":"No corresponde",
 					"SAT - Servicio de Asistencia Técnica":"Asociación Tekovera",
 					"Dato de contacto - SAT":"Arq. Ilse Coronel. adricoronel@gmail.com",
+					"EAT - Equipo de Asistencia Técnica":"No corresponde",
 					"Estado de Obra":"En ejecución",
 					"Porcentaje de avance":"Inicio de obra",
 					"Calificación provisional":"12/12/2014"
@@ -1434,6 +1442,7 @@
 					"Empresa":"No corresponde",
 					"SAT - Servicio de Asistencia Técnica":"Asociación Tekovera",
 					"Dato de contacto - SAT":"Arq. Ilse Coronel. adricoronel@gmail.com",
+					"EAT - Equipo de Asistencia Técnica":"No corresponde",
 					"Estado de Obra":"En ejecución",
 					"Porcentaje de avance":"60%",
 					"Origen del terreno":"Propiedad privada (compra de terreno)",
@@ -1569,6 +1578,7 @@
 					"Empresa":"No corresponde",
 					"SAT - Servicio de Asistencia Técnica":"Asociación Tekovera",
 					"Dato de contacto - SAT":"Arq. Ilse Coronel. adricoronel@gmail.com",
+					"EAT - Equipo de Asistencia Técnica":"No corresponde",
 					"Estado de Obra":"En ejecución",
 					"Porcentaje de avance":"Inicio de obra",
 					"Origen del terreno":"Propiedad de la SAS",
@@ -1609,6 +1619,7 @@
 					"Cantidad de Viviendas":85,
 					"Empresa":"No corresponde",
 					"SAT - Servicio de Asistencia Técnica":"BIVES",
+					"EAT - Equipo de Asistencia Técnica":"No corresponde",
 					"Estado de Obra":"En ejecución",
 					"Porcentaje de avance":"15%",
 					"Origen del terreno":"Propiedad de la SAS",
@@ -1877,6 +1888,7 @@
 					"Empresa":"No corresponde",
 					"SAT - Servicio de Asistencia Técnica":"CEDES/HABITAT",
 					"Dato de contacto - SAT":"Arq. Emma Gill. cedeshab@gmail.com",
+					"EAT - Equipo de Asistencia Técnica":"No corresponde",
 					"Estado de Obra":"En ejecución",
 					"Porcentaje de avance":"Inicio de obra",
 					"Calificación provisional":"17/12/2014"
@@ -1897,6 +1909,7 @@
 					"Empresa":"No corresponde",
 					"SAT - Servicio de Asistencia Técnica":"CEDES/HABITAT",
 					"Dato de contacto - SAT":"Arq. Emma Gill. cedeshab@gmail.com",
+					"EAT - Equipo de Asistencia Técnica":"No corresponde",
 					"Estado de Obra":"En ejecución",
 					"Porcentaje de avance":"Inicio de obra",
 					"Calificación provisional":"17/12/2014"
@@ -1917,6 +1930,7 @@
 					"Empresa":"No corresponde",
 					"SAT - Servicio de Asistencia Técnica":"CEDES/HABITAT",
 					"Dato de contacto - SAT":"Arq. Emma Gill. cedeshab@gmail.com",
+					"EAT - Equipo de Asistencia Técnica":"No corresponde",
 					"Estado de Obra":"En ejecución",
 					"Porcentaje de avance":"Inicio de obra",
 					"Calificación provisional":"17/12/2014"
@@ -1937,6 +1951,7 @@
 					"Empresa":"No corresponde",
 					"SAT - Servicio de Asistencia Técnica":"CEDES/HABITAT",
 					"Dato de contacto - SAT":"Arq. Emma Gill. cedeshab@gmail.com",
+					"EAT - Equipo de Asistencia Técnica":"No corresponde",
 					"Estado de Obra":"En ejecución",
 					"Porcentaje de avance":"Inicio de obra"
                 }
@@ -2301,6 +2316,7 @@
 					"Empresa":"No corresponde",
 					"SAT - Servicio de Asistencia Técnica":"Cesarina Barreto de Enciso",
 					"Dato de contacto - SAT":"Cesarina Barreto De Enciso. cesarinaenciso@hotmail.com",
+					"EAT - Equipo de Asistencia Técnica":"No corresponde",
 					"Estado de Obra":"En ejecución",
 					"Porcentaje de avance":"Inicio de obra",
 					"Calificación provisional":"18/02/2014"
@@ -2572,6 +2588,7 @@
 					"Empresa":"No corresponde",
 					"SAT - Servicio de Asistencia Técnica":"CODES",
 					"Dato de contacto - SAT":"Arq. Alfonso Olmedo. (021) 301-015.",
+					"EAT - Equipo de Asistencia Técnica":"No corresponde",
 					"Estado de Obra":"En ejecución",
 					"Porcentaje de avance":"Inicio de obra",
 					"Calificación provisional":"28/03/2014"
@@ -2591,6 +2608,7 @@
 					"Cantidad de Viviendas":30,
 					"Empresa":"No corresponde",
 					"SAT - Servicio de Asistencia Técnica":"CONSULPAR S.A.",
+					"EAT - Equipo de Asistencia Técnica":"No corresponde",
 					"Estado de Obra":"En ejecución",
 					"Porcentaje de avance":"25%",
 					"Origen del terreno":"Propiedad de la SAS",
@@ -2635,6 +2653,7 @@
 					"Cantidad de Viviendas":45,
 					"Empresa":"No corresponde",
 					"SAT - Servicio de Asistencia Técnica":"Consultora AyS",
+					"EAT - Equipo de Asistencia Técnica":"No corresponde",
 					"Estado de Obra":"En ejecución",
 					"Porcentaje de avance":"12%",
 					"Calificación provisional":"12/12/2014"
@@ -2747,6 +2766,7 @@
 					"Empresa":"No corresponde",
 					"SAT - Servicio de Asistencia Técnica":"Consultora NOESIS",
 					"Dato de contacto - SAT":"Fernando Javier Diaz. javier@sgpsa.com",
+					"EAT - Equipo de Asistencia Técnica":"No corresponde",
 					"Estado de Obra":"En ejecución",
 					"Porcentaje de avance":"Inicio de obra"
                 }
@@ -2766,6 +2786,7 @@
 					"Empresa":"No corresponde",
 					"SAT - Servicio de Asistencia Técnica":"Consultora NOESIS",
 					"Dato de contacto - SAT":"Fernando Javier Diaz. javier@sgpsa.com",
+					"EAT - Equipo de Asistencia Técnica":"No corresponde",
 					"Estado de Obra":"En ejecución",
 					"Porcentaje de avance":"24%",
 					"Calificación provisional":"29/10/2014"
@@ -2786,6 +2807,7 @@
 					"Empresa":"No corresponde",
 					"SAT - Servicio de Asistencia Técnica":"Consultora NOESIS",
 					"Dato de contacto - SAT":"Fernando Javier Diaz. javier@sgpsa.com",
+					"EAT - Equipo de Asistencia Técnica":"No corresponde",
 					"Estado de Obra":"En ejecución",
 					"Porcentaje de avance":"Inicio de obra",
 					"Calificación provisional":"29/10/2014"
@@ -2806,6 +2828,7 @@
 					"Empresa":"No corresponde",
 					"SAT - Servicio de Asistencia Técnica":"Consultora NOESIS",
 					"Dato de contacto - SAT":"Fernando Javier Diaz. javier@sgpsa.com",
+					"EAT - Equipo de Asistencia Técnica":"No corresponde",
 					"Estado de Obra":"En ejecución",
 					"Porcentaje de avance":"46%",
 					"Origen del terreno":"29/10/14"
@@ -2826,6 +2849,7 @@
 					"Empresa":"No corresponde",
 					"SAT - Servicio de Asistencia Técnica":"Consultora NOESIS",
 					"Dato de contacto - SAT":"Fernando Javier Diaz. javier@sgpsa.com",
+					"EAT - Equipo de Asistencia Técnica":"No corresponde",
 					"Estado de Obra":"En ejecución",
 					"Porcentaje de avance":"46%",
 					"Origen del terreno":"29/10/14"
@@ -2936,6 +2960,7 @@
 					"Empresa":"No corresponde",
 					"SAT - Servicio de Asistencia Técnica":"CONTACONSULT",
 					"Dato de contacto - SAT":"Lic. Jorge Andriotti. jorgeandriotti@yahoo.com ",
+					"EAT - Equipo de Asistencia Técnica":"No corresponde",
 					"Estado de Obra":"En ejecución",
 					"Porcentaje de avance":"30%"
                 }
@@ -2955,6 +2980,7 @@
 					"Empresa":"No corresponde",
 					"SAT - Servicio de Asistencia Técnica":"COTEP S.A.",
 					"Dato de contacto - SAT":"Julio Cesar Roman. tareascotepsa@gmail.com ",
+					"EAT - Equipo de Asistencia Técnica":"No corresponde",
 					"Estado de Obra":"En ejecución",
 					"Porcentaje de avance":"Inicio de obra",
 					"Origen del terreno":"Propiedad de la SAS",
@@ -3022,6 +3048,7 @@
 					"Empresa":"No corresponde",
 					"SAT - Servicio de Asistencia Técnica":"COTEP S.A.",
 					"Dato de contacto - SAT":"Julio Cesar Roman. tareascotepsa@gmail.com ",
+					"EAT - Equipo de Asistencia Técnica":"No corresponde",
 					"Estado de Obra":"En ejecución",
 					"Porcentaje de avance":"Inicio de obra",
 					"Calificación provisional":"27/11/2014"
@@ -3111,6 +3138,7 @@
 					"Empresa":"No corresponde",
 					"SAT - Servicio de Asistencia Técnica":"Emprendimientos Inmobiliarios",
 					"Dato de contacto - SAT":"Cristhian Manuel Araujo. info@geo.com.py",
+					"EAT - Equipo de Asistencia Técnica":"No corresponde",
 					"Estado de Obra":"En ejecución",
 					"Porcentaje de avance":"42%",
 					"Origen del terreno":"Propiedad de la SAS",
@@ -3132,6 +3160,7 @@
 					"Empresa":"No corresponde",
 					"SAT - Servicio de Asistencia Técnica":"Emprendimientos Inmobiliarios",
 					"Dato de contacto - SAT":"Cristhian Manuel Araujo. info@geo.com.py",
+					"EAT - Equipo de Asistencia Técnica":"No corresponde",
 					"Estado de Obra":"Culminada",
 					"Porcentaje de avance":"100%",
 					"Origen del terreno":"Propiedad de la SAS",
@@ -3243,6 +3272,7 @@
 					"Empresa":"No corresponde",
 					"SAT - Servicio de Asistencia Técnica":"Freddy Diosnel Rolón",
 					"Dato de contacto - SAT":"Freddy Diosnel Rolon. fredydiosnelrolon@hotmail.com",
+					"EAT - Equipo de Asistencia Técnica":"No corresponde",
 					"Estado de Obra":"En ejecución",
 					"Porcentaje de avance":"50%",
 					"Origen del terreno":"Propiedad de la SAS",
@@ -3310,6 +3340,7 @@
 					"Empresa":"No corresponde",
 					"SAT - Servicio de Asistencia Técnica":"Freddy Diosnel Rolón",
 					"Dato de contacto - SAT":"Freddy Diosnel Rolon. fredydiosnelrolon@hotmail.com",
+					"EAT - Equipo de Asistencia Técnica":"No corresponde",
 					"Estado de Obra":"En ejecución",
 					"Porcentaje de avance":"51%",
 					"Origen del terreno":"Propiedad de la SAS",
@@ -3351,6 +3382,7 @@
 					"Empresa":"No corresponde",
 					"SAT - Servicio de Asistencia Técnica":"Fundación Ojetypeka",
 					"Dato de contacto - SAT":"Maria Lourdes Meaurio. fundacionjetypeka@hotmail.com",
+					"EAT - Equipo de Asistencia Técnica":"No corresponde",
 					"Estado de Obra":"En ejecución",
 					"Porcentaje de avance":"Inicio de obra",
 					"Calificación provisional":"17/12/2014"
@@ -3394,6 +3426,7 @@
 					"Empresa":"No corresponde",
 					"SAT - Servicio de Asistencia Técnica":"Fundación Ojetypeka",
 					"Dato de contacto - SAT":"Maria Lourdes Meaurio. fundacionjetypeka@hotmail.com",
+					"EAT - Equipo de Asistencia Técnica":"No corresponde",
 					"Estado de Obra":"En ejecución",
 					"Porcentaje de avance":"Inicio de obra",
 					"Origen del terreno":"Propiedad privada",
@@ -3524,6 +3557,7 @@
 					"Empresa":"No corresponde",
 					"SAT - Servicio de Asistencia Técnica":"Hábitat para la Humanidad - Paraguay",
 					"Dato de contacto - SAT":"Mary Lechenuk. mlisnichuk@habitat.org.py",
+					"EAT - Equipo de Asistencia Técnica":"No corresponde",
 					"Estado de Obra":"En ejecución",
 					"Porcentaje de avance":"Inicio de obra"
                 }
@@ -3592,7 +3626,8 @@
 					"Porcentaje de avance":"90%",
 					"Licitación Nº":"No corresponde",
 					"Origen del terreno":"Propiedad de la SAS",
-					"Calificación provisional":"04/12/2012"
+					"Calificación provisional":"04/12/2012",
+					"Observaciones":"El SAT se encuentra con una denuncia en el Ministerio Público."
                 }
         },
                  {   
@@ -3774,7 +3809,8 @@
 					"Porcentaje de avance":"90%",
 					"Licitación Nº":"No corresponde",
 					"Origen del terreno":"Propiedad de la SAS",
-					"Calificación provisional":"15/01/2013"
+					"Calificación provisional":"15/01/2013",
+					"Observaciones":"El SAT se encuentra con una suspensión temporal y con una denuncia en el Ministerio Público."
                 }
         },
                  {   
@@ -3797,7 +3833,8 @@
 					"Porcentaje de avance":"5%",
 					"Licitación Nº":"No corresponde",
 					"Origen del terreno":"Propiedad de la SAS",
-					"Calificación provisional":"25/02/2013"
+					"Calificación provisional":"25/02/2013",
+					"Observaciones":"El SAT se encuentra con una suspensión temporal y con una denuncia en el Ministerio Público."
                 }
         },
                  {   
@@ -3820,7 +3857,8 @@
 					"Porcentaje de avance":"5%",
 					"Licitación Nº":"No corresponde",
 					"Origen del terreno":"Propiedad de la SAS",
-					"Calificación provisional":"25/02/2013"
+					"Calificación provisional":"25/02/2013",
+					"Observaciones":"El SAT se encuentra con una suspensión temporal y con una denuncia en el Ministerio Público."
                 }
         },
                  {   
@@ -3843,7 +3881,8 @@
 					"Porcentaje de avance":"34%",
 					"Licitación Nº":"No corresponde",
 					"Origen del terreno":"Propiedad de la SAS",
-					"Calificación provisional":"15/01/2013"
+					"Calificación provisional":"15/01/2013",
+					"Observaciones":"El SAT se encuentra con una suspensión temporal y con una denuncia en el Ministerio Público."
                 }
         },
                  {   
@@ -3866,7 +3905,8 @@
 					"Porcentaje de avance":"28%",
 					"Licitación Nº":"No corresponde",
 					"Origen del terreno":"Propiedad de la SAS",
-					"Calificación provisional":"15/01/2013"
+					"Calificación provisional":"15/01/2013",
+					"Observaciones":"El SAT se encuentra con una suspensión temporal y con una denuncia en el Ministerio Público."
                 }
         },
                  {   
@@ -3889,7 +3929,8 @@
 					"Porcentaje de avance":"80%",
 					"Licitación Nº":"No corresponde",
 					"Origen del terreno":"Propiedad de la SAS",
-					"Calificación provisional":"16/01/2013"
+					"Calificación provisional":"16/01/2013",
+					"Observaciones":"El SAT se encuentra con una suspensión temporal y con una denuncia en el Ministerio Público."
                 }
         },
                  {   
@@ -3912,7 +3953,8 @@
 					"Porcentaje de avance":"5%",
 					"Licitación Nº":"No corresponde",
 					"Origen del terreno":"Propiedad privada (compra de terreno)",
-					"Calificación provisional":"27/02/2013"
+					"Calificación provisional":"27/02/2013",
+					"Observaciones":"El SAT se encuentra con una suspensión temporal y con una denuncia en el Ministerio Público."
                 }
         },
                  {   
@@ -3935,7 +3977,8 @@
 					"Porcentaje de avance":"5%",
 					"Licitación Nº":"No corresponde",
 					"Origen del terreno":"Propiedad privada (compra de terreno)",
-					"Calificación provisional":"27/02/2013"
+					"Calificación provisional":"27/02/2013",
+					"Observaciones":"El SAT se encuentra con una suspensión temporal y con una denuncia en el Ministerio Público."
                 }
         },
                  {   
@@ -3958,7 +4001,8 @@
 					"Porcentaje de avance":"80%",
 					"Licitación Nº":"No corresponde",
 					"Origen del terreno":"Propiedad de la SAS",
-					"Calificación provisional":"16/01/2013"
+					"Calificación provisional":"16/01/2013",
+					"Observaciones":"El SAT se encuentra con una suspensión temporal y con una denuncia en el Ministerio Público."
                 }
         },
                  {   
@@ -3981,7 +4025,8 @@
 					"Porcentaje de avance":"10%",
 					"Licitación Nº":"No corresponde",
 					"Origen del terreno":"Propiedad de la SAS",
-					"Calificación provisional":"16/01/2013"
+					"Calificación provisional":"16/01/2013",
+					"Observaciones":"El SAT se encuentra con una suspensión temporal y con una denuncia en el Ministerio Público."
                 }
         },
                  {   
@@ -4004,7 +4049,8 @@
 					"Porcentaje de avance":"95%",
 					"Licitación Nº":"No corresponde",
 					"Origen del terreno":"Propiedad de la SAS",
-					"Calificación provisional":"25/02/2013"
+					"Calificación provisional":"25/02/2013",
+					"Observaciones":"El SAT se encuentra con una suspensión temporal y con una denuncia en el Ministerio Público."
                 }
         },
                  {   
@@ -4027,7 +4073,8 @@
 					"Porcentaje de avance":"95%",
 					"Licitación Nº":"No corresponde",
 					"Origen del terreno":"Propiedad de la SAS",
-					"Calificación provisional":"25/02/2013"
+					"Calificación provisional":"25/02/2013",
+					"Observaciones":"El SAT se encuentra con una suspensión temporal y con una denuncia en el Ministerio Público."
                 }
         },
                  {   
@@ -4615,6 +4662,7 @@
 					"Empresa":"No corresponde",
 					"SAT - Servicio de Asistencia Técnica":"Lic. Nilsa Torres",
 					"Dato de contacto - SAT":"Lic. Nilsa Magdalena Torres. Nilsacolman@hotmail.com",
+					"EAT - Equipo de Asistencia Técnica":"No corresponde",
 					"Estado de Obra":"En ejecución",
 					"Porcentaje de avance":"Inicio de obra",
 					"Calificación provisional":"09/12/2014",
@@ -4636,6 +4684,7 @@
 					"Empresa":"No corresponde",
 					"SAT - Servicio de Asistencia Técnica":"Lic. Nilsa Torres",
 					"Dato de contacto - SAT":"Lic. Nilsa Magdalena Torres. Nilsacolman@hotmail.com",
+					"EAT - Equipo de Asistencia Técnica":"No corresponde",
 					"Estado de Obra":"En ejecución",
 					"Porcentaje de avance":"Inicio de obra",
 					"Origen del terreno":"INDERT",
@@ -4779,7 +4828,7 @@
 					"Licitación Nº":"No corresponde",
 					"Origen del terreno":"Propiedad privada (compra de terreno)",
 					"Calificación provisional":"31/10/2011",
-					"Observaciones":"El SAT Mercedes González Alfonso fue suspendida definitivamente y el caso se encuentra en proceso de cambio de SAT y con una demanda en el Ministerio Público."
+					"Observaciones":"El SAT Mercedes González Alfonso cuenta con una suspensión indefinida y el caso se encuentra en proceso de cambio de SAT y con un proceso contencioso administrativo."
                 }
         },
                  {   
@@ -4842,6 +4891,7 @@
 					"Cantidad de Viviendas":28,
 					"Empresa":"No corresponde",
 					"SAT - Servicio de Asistencia Técnica":"Paragua'y Joaju",
+					"EAT - Equipo de Asistencia Técnica":"No corresponde",
 					"Estado de Obra":"En ejecución",
 					"Porcentaje de avance":"15%",
 					"Origen del terreno":"Propiedad de la SAS",
@@ -4889,29 +4939,6 @@
 					"Licitación Nº":"No corresponde",
 					"Origen del terreno":"Propiedad de la SAS",
 					"Calificación provisional":"15/02/2013"
-                }
-        },
-                 {   
-            "type" : "Feature",
-            "geometry" : {
-                "type" : "Point",
-                "coordinates" : [-56.4711650915, -25.4546635585]},
-                "properties" : {
-                    "id":198,
-					"Departamento":"Caaguazú",
-					"Distrito":"Coronel Oviedo",
-					"Proyecto":"24 De Julio",
-					"Programa":"FONAVIS",
-					"Cantidad de Viviendas":80,
-					"Empresa":"No corresponde",
-					"SAT - Servicio de Asistencia Técnica":"Rigoberto González Giménez",
-					"Dato de contacto - SAT":"Rigoberto Gonzalez Gimenez. Rigoberto.consul@gmail.com",
-					"EAT - Equipo de Asistencia Técnica":"No corresponde",
-					"Estado de Obra":"En ejecución",
-					"Porcentaje de avance":"Planilla FONAVIS dice 7%",
-					"Licitación Nº":"No corresponde",
-					"Origen del terreno":"Propiedad privada (compra de terreno)",
-					"Calificación provisional":"10/05/2013"
                 }
         },
                  {   
@@ -5089,7 +5116,6 @@
 					"Cantidad de Viviendas":38,
 					"Empresa":"No corresponde",
 					"SAT - Servicio de Asistencia Técnica":"Sra. Diana Raquel Areco Vera",
-					"Dato de contacto - SAT":"Diana Raquel Areco. ",
 					"EAT - Equipo de Asistencia Técnica":"No corresponde",
 					"Estado de Obra":"En ejecución",
 					"Porcentaje de avance":"46%",
@@ -5113,6 +5139,7 @@
 					"Empresa":"No corresponde",
 					"SAT - Servicio de Asistencia Técnica":"Verónica Ojeda Castelli",
 					"Dato de contacto - SAT":"Abog. Veronica Ojeda. vojedacastelli@gmail.com",
+					"EAT - Equipo de Asistencia Técnica":"No corresponde",
 					"Estado de Obra":"En ejecución",
 					"Porcentaje de avance":"Inicio de obra"
                 }
@@ -5294,6 +5321,7 @@
 					"EAT - Equipo de Asistencia Técnica":"Área",
 					"Dato de contacto - EAT":"Arq. Hugo Acevedo",
 					"Estado de Obra":"Culminada",
+					"Porcentaje de avance":"100%",
 					"Licitación Nº":"No corresponde",
 					"Fecha de inicio de obra":"Agosto del 2012"
                 }
@@ -5315,6 +5343,7 @@
 					"EAT - Equipo de Asistencia Técnica":"J. L. Construcciones",
 					"Dato de contacto - EAT":"Ing. Lahe",
 					"Estado de Obra":"Culminada",
+					"Porcentaje de avance":"100%",
 					"Licitación Nº":"No corresponde",
 					"Fecha de inicio de obra":"Marzo del 2012"
                 }
@@ -5336,6 +5365,7 @@
 					"EAT - Equipo de Asistencia Técnica":"J. L. Construcciones",
 					"Dato de contacto - EAT":"Ing. Lahe",
 					"Estado de Obra":"Culminada",
+					"Porcentaje de avance":"100%",
 					"Licitación Nº":"No corresponde",
 					"Fecha de inicio de obra":"Diciembre del 2012"
                 }
@@ -5357,6 +5387,7 @@
 					"EAT - Equipo de Asistencia Técnica":"Cotas",
 					"Dato de contacto - EAT":"Lic. Eugenia Vergara",
 					"Estado de Obra":"Culminada",
+					"Porcentaje de avance":"100%",
 					"Licitación Nº":"No corresponde",
 					"Fecha de inicio de obra":"Marzo del 2011"
                 }
@@ -5378,6 +5409,7 @@
 					"EAT - Equipo de Asistencia Técnica":"Ilse Coronel",
 					"Dato de contacto - EAT":"Arq. Ilse Cronel",
 					"Estado de Obra":"Culminada",
+					"Porcentaje de avance":"100%",
 					"Licitación Nº":"No corresponde",
 					"Fecha de inicio de obra":"Mayo del 2013"
                 }
@@ -5399,6 +5431,7 @@
 					"EAT - Equipo de Asistencia Técnica":"Cotas",
 					"Dato de contacto - EAT":"Lic. Eugenia Vergara",
 					"Estado de Obra":"En ejecución",
+					"Porcentaje de avance":"45%",
 					"Licitación Nº":"No corresponde",
 					"Fecha de inicio de obra":"Enero del 2014"
                 }
@@ -5421,6 +5454,7 @@
 					"EAT - Equipo de Asistencia Técnica":"Cotas",
 					"Dato de contacto - EAT":"Lic. Eugenia Vergara",
 					"Estado de Obra":"En ejecución",
+					"Porcentaje de avance":"85%",
 					"Licitación Nº":"No corresponde",
 					"Fecha de inicio de obra":"Mayo del 2011"
                 }
@@ -5442,6 +5476,7 @@
 					"EAT - Equipo de Asistencia Técnica":"COOPERATES",
 					"Dato de contacto - EAT":"Sonia  Gutierrez",
 					"Estado de Obra":"Culminada",
+					"Porcentaje de avance":"100%",
 					"Licitación Nº":"No corresponde",
 					"Fecha de inicio de obra":"Marzo del 2012"
                 }
@@ -5464,6 +5499,7 @@
 					"EAT - Equipo de Asistencia Técnica":"Óscar Barboza",
 					"Dato de contacto - EAT":"Óscar Barboza ",
 					"Estado de Obra":"En ejecución",
+					"Porcentaje de avance":"30%",
 					"Licitación Nº":"No corresponde"
                 }
         },
@@ -5484,6 +5520,7 @@
 					"EAT - Equipo de Asistencia Técnica":"Cotas",
 					"Dato de contacto - EAT":"Lic. Eugenia Vergara",
 					"Estado de Obra":"En ejecución",
+					"Porcentaje de avance":"75%",
 					"Licitación Nº":"No corresponde",
 					"Fecha de inicio de obra":"Agosto del 2012"
                 }
@@ -5505,6 +5542,7 @@
 					"EAT - Equipo de Asistencia Técnica":"Área",
 					"Dato de contacto - EAT":"Arq. Hugo Acevedo",
 					"Estado de Obra":"Culminada",
+					"Porcentaje de avance":"100%",
 					"Licitación Nº":"No corresponde",
 					"Fecha de inicio de obra":"Setiembre del 2012"
                 }
@@ -5526,6 +5564,7 @@
 					"EAT - Equipo de Asistencia Técnica":"Cotas",
 					"Dato de contacto - EAT":"Lic. Eugenia Vergara",
 					"Estado de Obra":"En ejecución",
+					"Porcentaje de avance":"35%",
 					"Licitación Nº":"No corresponde",
 					"Fecha de inicio de obra":"Abril del 2014"
                 }
@@ -5548,6 +5587,7 @@
 					"EAT - Equipo de Asistencia Técnica":"Cotas",
 					"Dato de contacto - EAT":"Lic. Eugenia Vergara",
 					"Estado de Obra":"Culminada",
+					"Porcentaje de avance":"100%",
 					"Licitación Nº":"No corresponde",
 					"Fecha de inicio de obra":"Mayo del 2011"
                 }
@@ -5569,6 +5609,7 @@
 					"EAT - Equipo de Asistencia Técnica":"COOPERATES",
 					"Dato de contacto - EAT":"Sonia  Gutierrez",
 					"Estado de Obra":"En ejecución",
+					"Porcentaje de avance":"50%",
 					"Licitación Nº":"No corresponde",
 					"Fecha de inicio de obra":"Marzo del 2012"
                 }
@@ -5590,6 +5631,7 @@
 					"EAT - Equipo de Asistencia Técnica":"Arq. Osvaldo Granada",
 					"Dato de contacto - EAT":"Arq. Osvaldo Granada",
 					"Estado de Obra":"En ejecución",
+					"Porcentaje de avance":"35%",
 					"Licitación Nº":"No corresponde",
 					"Fecha de inicio de obra":"Marzo del 2014"
                 }
@@ -5791,8 +5833,9 @@
 					"SAT - Servicio de Asistencia Técnica":"No corresponde",
 					"EAT - Equipo de Asistencia Técnica":"No corresponde",
 					"Estado de Obra":"Paralizado",
-					"Porcentaje de avance":"45,00%",
-					"Licitación Nº":"015/12"
+					"Porcentaje de avance":"45%",
+					"Licitación Nº":"015/12",
+					"Observaciones":"En proceso de rescisión de contrato, se reactivará la obra con una nueva licitación"
                 }
         },
                  {   
@@ -5812,8 +5855,9 @@
 					"SAT - Servicio de Asistencia Técnica":"No corresponde",
 					"EAT - Equipo de Asistencia Técnica":"No corresponde",
 					"Estado de Obra":"Paralizado",
-					"Porcentaje de avance":"55,00%",
-					"Licitación Nº":"015/12"
+					"Porcentaje de avance":"55%",
+					"Licitación Nº":"015/12",
+					"Observaciones":"En proceso de rescisión de contrato, se reactivará la obra con una nueva licitación"
                 }
         },
                  {   
@@ -5833,8 +5877,9 @@
 					"SAT - Servicio de Asistencia Técnica":"No corresponde",
 					"EAT - Equipo de Asistencia Técnica":"No corresponde",
 					"Estado de Obra":"Paralizado",
-					"Porcentaje de avance":"76,71%",
-					"Licitación Nº":"003/11"
+					"Porcentaje de avance":"77%",
+					"Licitación Nº":"003/11",
+					"Observaciones":"En proceso de rescisión de contrato, se reactivará la obra con una nueva licitación"
                 }
         },
                  {   
@@ -5845,7 +5890,7 @@
                 "properties" : {
                     "id":94,
 					"Departamento":"Caaguazú",
-					"Distrito":"Caaguazú",
+					"Distrito":"Caaguazu",
 					"Proyecto":"Tekojoja Pora - Campito",
 					"Programa":"Pueblos Originarios",
 					"Cantidad de Viviendas":18,
@@ -5854,8 +5899,9 @@
 					"SAT - Servicio de Asistencia Técnica":"No corresponde",
 					"EAT - Equipo de Asistencia Técnica":"No corresponde",
 					"Estado de Obra":"Paralizado",
-					"Porcentaje de avance":"76,71%",
-					"Licitación Nº":"003/11"
+					"Porcentaje de avance":"77%",
+					"Licitación Nº":"003/11",
+					"Observaciones":"En proceso de rescisión de contrato, se reactivará la obra con una nueva licitación"
                 }
         },
                  {   
@@ -5875,8 +5921,9 @@
 					"SAT - Servicio de Asistencia Técnica":"No corresponde",
 					"EAT - Equipo de Asistencia Técnica":"No corresponde",
 					"Estado de Obra":"Paralizado",
-					"Porcentaje de avance":"76,71%",
-					"Licitación Nº":"003/11"
+					"Porcentaje de avance":"77%",
+					"Licitación Nº":"003/11",
+					"Observaciones":"En proceso de rescisión de contrato, se reactivará la obra con una nueva licitación"
                 }
         },
                  {   
@@ -5896,8 +5943,9 @@
 					"SAT - Servicio de Asistencia Técnica":"No corresponde",
 					"EAT - Equipo de Asistencia Técnica":"No corresponde",
 					"Estado de Obra":"Paralizado",
-					"Porcentaje de avance":"18,00%",
-					"Licitación Nº":"002/13"
+					"Porcentaje de avance":"18%",
+					"Licitación Nº":"002/13",
+					"Observaciones":"En proceso de rescisión de contrato, se reactivará la obra con una nueva licitación"
                 }
         },
                  {   
@@ -5917,8 +5965,9 @@
 					"SAT - Servicio de Asistencia Técnica":"No corresponde",
 					"EAT - Equipo de Asistencia Técnica":"No corresponde",
 					"Estado de Obra":"Paralizado",
-					"Porcentaje de avance":"76,71%",
-					"Licitación Nº":"003/11"
+					"Porcentaje de avance":"77%",
+					"Licitación Nº":"003/11",
+					"Observaciones":"En proceso de rescisión de contrato, se reactivará la obra con una nueva licitación"
                 }
         },
                  {   
@@ -5938,8 +5987,9 @@
 					"SAT - Servicio de Asistencia Técnica":"No corresponde",
 					"EAT - Equipo de Asistencia Técnica":"No corresponde",
 					"Estado de Obra":"Paralizado",
-					"Porcentaje de avance":"82,61%",
-					"Licitación Nº":"003/11"
+					"Porcentaje de avance":"83%",
+					"Licitación Nº":"003/11",
+					"Observaciones":"En proceso de rescisión de contrato, se reactivará la obra con una nueva licitación"
                 }
         },
                  {   
@@ -5959,8 +6009,9 @@
 					"SAT - Servicio de Asistencia Técnica":"No corresponde",
 					"EAT - Equipo de Asistencia Técnica":"No corresponde",
 					"Estado de Obra":"Paralizado",
-					"Porcentaje de avance":"82,61%",
-					"Licitación Nº":"003/11"
+					"Porcentaje de avance":"83%",
+					"Licitación Nº":"003/11",
+					"Observaciones":"En proceso de rescisión de contrato, se reactivará la obra con una nueva licitación"
                 }
         },
                  {   
@@ -5981,8 +6032,9 @@
 					"SAT - Servicio de Asistencia Técnica":"No corresponde",
 					"EAT - Equipo de Asistencia Técnica":"No corresponde",
 					"Estado de Obra":"Paralizado",
-					"Porcentaje de avance":"66,89%",
-					"Licitación Nº":"003/11"
+					"Porcentaje de avance":"67%",
+					"Licitación Nº":"003/11",
+					"Observaciones":"En proceso de rescisión de contrato, se reactivará la obra con una nueva licitación"
                 }
         },
                  {   
@@ -6003,8 +6055,9 @@
 					"SAT - Servicio de Asistencia Técnica":"No corresponde",
 					"EAT - Equipo de Asistencia Técnica":"No corresponde",
 					"Estado de Obra":"Paralizado",
-					"Porcentaje de avance":"66,89%",
-					"Licitación Nº":"003/11"
+					"Porcentaje de avance":"67%",
+					"Licitación Nº":"003/11",
+					"Observaciones":"En proceso de rescisión de contrato, se reactivará la obra con una nueva licitación"
                 }
         },
                  {   
@@ -6025,8 +6078,9 @@
 					"SAT - Servicio de Asistencia Técnica":"No corresponde",
 					"EAT - Equipo de Asistencia Técnica":"No corresponde",
 					"Estado de Obra":"Paralizado",
-					"Porcentaje de avance":"66,89%",
-					"Licitación Nº":"003/11"
+					"Porcentaje de avance":"67%",
+					"Licitación Nº":"003/11",
+					"Observaciones":"En proceso de rescisión de contrato, se reactivará la obra con una nueva licitación"
                 }
         },
                  {   
@@ -6047,8 +6101,9 @@
 					"SAT - Servicio de Asistencia Técnica":"No corresponde",
 					"EAT - Equipo de Asistencia Técnica":"No corresponde",
 					"Estado de Obra":"Paralizado",
-					"Porcentaje de avance":"66,89%",
-					"Licitación Nº":"003/11"
+					"Porcentaje de avance":"67%",
+					"Licitación Nº":"003/11",
+					"Observaciones":"En proceso de rescisión de contrato, se reactivará la obra con una nueva licitación"
                 }
         },
                  {   
@@ -6069,8 +6124,9 @@
 					"SAT - Servicio de Asistencia Técnica":"No corresponde",
 					"EAT - Equipo de Asistencia Técnica":"No corresponde",
 					"Estado de Obra":"Paralizado",
-					"Porcentaje de avance":"66,89%",
-					"Licitación Nº":"003/11"
+					"Porcentaje de avance":"67%",
+					"Licitación Nº":"003/11",
+					"Observaciones":"En proceso de rescisión de contrato, se reactivará la obra con una nueva licitación"
                 }
         },
                  {   
@@ -6091,8 +6147,9 @@
 					"SAT - Servicio de Asistencia Técnica":"No corresponde",
 					"EAT - Equipo de Asistencia Técnica":"No corresponde",
 					"Estado de Obra":"Paralizado",
-					"Porcentaje de avance":"66,89%",
-					"Licitación Nº":"003/11"
+					"Porcentaje de avance":"67%",
+					"Licitación Nº":"003/11",
+					"Observaciones":"En proceso de rescisión de contrato, se reactivará la obra con una nueva licitación"
                 }
         },
                  {   
@@ -6113,8 +6170,9 @@
 					"SAT - Servicio de Asistencia Técnica":"No corresponde",
 					"EAT - Equipo de Asistencia Técnica":"No corresponde",
 					"Estado de Obra":"Paralizado",
-					"Porcentaje de avance":"66,89%",
-					"Licitación Nº":"003/11"
+					"Porcentaje de avance":"67%",
+					"Licitación Nº":"003/11",
+					"Observaciones":"En proceso de rescisión de contrato, se reactivará la obra con una nueva licitación"
                 }
         },
                  {   
@@ -6135,8 +6193,9 @@
 					"SAT - Servicio de Asistencia Técnica":"No corresponde",
 					"EAT - Equipo de Asistencia Técnica":"No corresponde",
 					"Estado de Obra":"Paralizado",
-					"Porcentaje de avance":"66,89%",
-					"Licitación Nº":"003/11"
+					"Porcentaje de avance":"67%",
+					"Licitación Nº":"003/11",
+					"Observaciones":"En proceso de rescisión de contrato, se reactivará la obra con una nueva licitación"
                 }
         },
                  {   
@@ -6157,8 +6216,9 @@
 					"SAT - Servicio de Asistencia Técnica":"No corresponde",
 					"EAT - Equipo de Asistencia Técnica":"No corresponde",
 					"Estado de Obra":"Paralizado",
-					"Porcentaje de avance":"66,89%",
-					"Licitación Nº":"003/11"
+					"Porcentaje de avance":"67%",
+					"Licitación Nº":"003/11",
+					"Observaciones":"En proceso de rescisión de contrato, se reactivará la obra con una nueva licitación"
                 }
         },
                  {   
@@ -6179,8 +6239,9 @@
 					"SAT - Servicio de Asistencia Técnica":"No corresponde",
 					"EAT - Equipo de Asistencia Técnica":"No corresponde",
 					"Estado de Obra":"Paralizado",
-					"Porcentaje de avance":"66,89%",
-					"Licitación Nº":"003/11"
+					"Porcentaje de avance":"67%",
+					"Licitación Nº":"003/11",
+					"Observaciones":"En proceso de rescisión de contrato, se reactivará la obra con una nueva licitación"
                 }
         },
                  {   
@@ -6200,8 +6261,9 @@
 					"SAT - Servicio de Asistencia Técnica":"No corresponde",
 					"EAT - Equipo de Asistencia Técnica":"No corresponde",
 					"Estado de Obra":"Paralizado",
-					"Porcentaje de avance":"21,00%",
-					"Licitación Nº":"005/12"
+					"Porcentaje de avance":"21%",
+					"Licitación Nº":"005/12",
+					"Observaciones":"En proceso de rescisión de contrato, se reactivará la obra con una nueva licitación"
                 }
         },
                  {   
@@ -6221,8 +6283,9 @@
 					"SAT - Servicio de Asistencia Técnica":"No corresponde",
 					"EAT - Equipo de Asistencia Técnica":"No corresponde",
 					"Estado de Obra":"Paralizado",
-					"Porcentaje de avance":"40,00%",
-					"Licitación Nº":"005/12"
+					"Porcentaje de avance":"40%",
+					"Licitación Nº":"005/12",
+					"Observaciones":"En proceso de rescisión de contrato, se reactivará la obra con una nueva licitación"
                 }
         },
                  {   
@@ -6242,8 +6305,9 @@
 					"SAT - Servicio de Asistencia Técnica":"No corresponde",
 					"EAT - Equipo de Asistencia Técnica":"No corresponde",
 					"Estado de Obra":"Paralizado",
-					"Porcentaje de avance":"55,00%",
-					"Licitación Nº":"011/11"
+					"Porcentaje de avance":"55%",
+					"Licitación Nº":"011/11",
+					"Observaciones":"En proceso de rescisión de contrato, se reactivará la obra con una nueva licitación"
                 }
         },
                  {   
@@ -6263,8 +6327,9 @@
 					"SAT - Servicio de Asistencia Técnica":"No corresponde",
 					"EAT - Equipo de Asistencia Técnica":"No corresponde",
 					"Estado de Obra":"Paralizado",
-					"Porcentaje de avance":"73,00%",
-					"Licitación Nº":"011/11"
+					"Porcentaje de avance":"73%",
+					"Licitación Nº":"011/11",
+					"Observaciones":"En proceso de rescisión de contrato, se reactivará la obra con una nueva licitación"
                 }
         },
                  {   
@@ -6284,8 +6349,9 @@
 					"SAT - Servicio de Asistencia Técnica":"No corresponde",
 					"EAT - Equipo de Asistencia Técnica":"No corresponde",
 					"Estado de Obra":"Paralizado",
-					"Porcentaje de avance":"40,00%",
-					"Licitación Nº":"011/11"
+					"Porcentaje de avance":"40%",
+					"Licitación Nº":"011/11",
+					"Observaciones":"En proceso de rescisión de contrato, se reactivará la obra con una nueva licitación"
                 }
         },
                  {   
@@ -6305,8 +6371,9 @@
 					"SAT - Servicio de Asistencia Técnica":"No corresponde",
 					"EAT - Equipo de Asistencia Técnica":"No corresponde",
 					"Estado de Obra":"Paralizado",
-					"Porcentaje de avance":"41,00%",
-					"Licitación Nº":"011/11"
+					"Porcentaje de avance":"41%",
+					"Licitación Nº":"011/11",
+					"Observaciones":"En proceso de rescisión de contrato, se reactivará la obra con una nueva licitación"
                 }
         },
                  {   
@@ -6452,9 +6519,9 @@
 					"SAT - Servicio de Asistencia Técnica":"No corresponde",
 					"EAT - Equipo de Asistencia Técnica":"No corresponde",
 					"Estado de Obra":"Paralizado",
-					"Porcentaje de avance":"45,00%",
+					"Porcentaje de avance":"45%",
 					"Licitación Nº":"003/11",
-					"Observaciones":"En proceso de reactivación."
+					"Observaciones":"En proceso de rescisión de contrato, se reactivará la obra con una nueva licitación"
                 }
         },
                  {   
@@ -6474,9 +6541,9 @@
 					"SAT - Servicio de Asistencia Técnica":"No corresponde",
 					"EAT - Equipo de Asistencia Técnica":"No corresponde",
 					"Estado de Obra":"Paralizado",
-					"Porcentaje de avance":"45,00%",
+					"Porcentaje de avance":"45%",
 					"Licitación Nº":"003/11",
-					"Observaciones":"En proceso de reactivación."
+					"Observaciones":"En proceso de rescisión de contrato, se reactivará la obra con una nueva licitación"
                 }
         },
                  {   
@@ -6496,9 +6563,9 @@
 					"SAT - Servicio de Asistencia Técnica":"No corresponde",
 					"EAT - Equipo de Asistencia Técnica":"No corresponde",
 					"Estado de Obra":"Paralizado",
-					"Porcentaje de avance":"45,00%",
+					"Porcentaje de avance":"45%",
 					"Licitación Nº":"003/11",
-					"Observaciones":"En proceso de reactivación."
+					"Observaciones":"En proceso de rescisión de contrato, se reactivará la obra con una nueva licitación"
                 }
         },
                  {   
@@ -6518,9 +6585,9 @@
 					"SAT - Servicio de Asistencia Técnica":"No corresponde",
 					"EAT - Equipo de Asistencia Técnica":"No corresponde",
 					"Estado de Obra":"Paralizado",
-					"Porcentaje de avance":"45,00%",
+					"Porcentaje de avance":"45%",
 					"Licitación Nº":"003/11",
-					"Observaciones":"En proceso de reactivación."
+					"Observaciones":"En proceso de rescisión de contrato, se reactivará la obra con una nueva licitación"
                 }
         },
                  {   
@@ -6540,8 +6607,9 @@
 					"SAT - Servicio de Asistencia Técnica":"No corresponde",
 					"EAT - Equipo de Asistencia Técnica":"No corresponde",
 					"Estado de Obra":"Paralizado",
-					"Porcentaje de avance":"0,00%",
-					"Licitación Nº":"011/11"
+					"Porcentaje de avance":"0%",
+					"Licitación Nº":"011/11",
+					"Observaciones":"En proceso de rescisión de contrato, se reactivará la obra con una nueva licitación"
                 }
         },
                  {   
@@ -6561,8 +6629,9 @@
 					"SAT - Servicio de Asistencia Técnica":"No corresponde",
 					"EAT - Equipo de Asistencia Técnica":"No corresponde",
 					"Estado de Obra":"Paralizado",
-					"Porcentaje de avance":"55,21%",
-					"Licitación Nº":"005/12"
+					"Porcentaje de avance":"55%",
+					"Licitación Nº":"005/12",
+					"Observaciones":"El 9/02/15 se firmó el Convenio Modificatorio para la reactivación de la obra, pero la empresa no cumplió con la presentación de pólizas necesarias para el inicio efectivo. Actualmente en proceso de rescisión de contrato, se reactivará la obra con una nueva licitación."
                 }
         },
                  {   
@@ -6582,8 +6651,9 @@
 					"SAT - Servicio de Asistencia Técnica":"No corresponde",
 					"EAT - Equipo de Asistencia Técnica":"No corresponde",
 					"Estado de Obra":"Paralizado",
-					"Porcentaje de avance":"53,97%",
-					"Licitación Nº":"005/12"
+					"Porcentaje de avance":"54%",
+					"Licitación Nº":"005/12",
+					"Observaciones":"El 9/02/15 se firmó el Convenio Modificatorio para la reactivación de la obra, pero la empresa no cumplió con la presentación de pólizas necesarias para el inicio efectivo. Actualmente en proceso de rescisión de contrato, se reactivará la obra con una nueva licitación."
                 }
         },
                  {   
@@ -6603,8 +6673,9 @@
 					"SAT - Servicio de Asistencia Técnica":"No corresponde",
 					"EAT - Equipo de Asistencia Técnica":"No corresponde",
 					"Estado de Obra":"Paralizado",
-					"Porcentaje de avance":"43,12%",
-					"Licitación Nº":"005/12"
+					"Porcentaje de avance":"43%",
+					"Licitación Nº":"005/12",
+					"Observaciones":"El 9/02/15 se firmó el Convenio Modificatorio para la reactivación de la obra, pero la empresa no cumplió con la presentación de pólizas necesarias para el inicio efectivo. Actualmente en proceso de rescisión de contrato, se reactivará la obra con una nueva licitación."
                 }
         },
                  {   
@@ -6624,8 +6695,9 @@
 					"SAT - Servicio de Asistencia Técnica":"No corresponde",
 					"EAT - Equipo de Asistencia Técnica":"No corresponde",
 					"Estado de Obra":"Paralizado",
-					"Porcentaje de avance":"23,16%",
-					"Licitación Nº":"005/12"
+					"Porcentaje de avance":"23%",
+					"Licitación Nº":"005/12",
+					"Observaciones":"El 9/02/15 se firmó el Convenio Modificatorio para la reactivación de la obra, pero la empresa no cumplió con la presentación de pólizas necesarias para el inicio efectivo. Actualmente en proceso de rescisión de contrato, se reactivará la obra con una nueva licitación."
                 }
         },
                  {   
@@ -6645,8 +6717,9 @@
 					"SAT - Servicio de Asistencia Técnica":"No corresponde",
 					"EAT - Equipo de Asistencia Técnica":"No corresponde",
 					"Estado de Obra":"Paralizado",
-					"Porcentaje de avance":"40,78%",
-					"Licitación Nº":"005/12"
+					"Porcentaje de avance":"41%",
+					"Licitación Nº":"005/12",
+					"Observaciones":"El 9/02/15 se firmó el Convenio Modificatorio para la reactivación de la obra, pero la empresa no cumplió con la presentación de pólizas necesarias para el inicio efectivo. Actualmente en proceso de rescisión de contrato, se reactivará la obra con una nueva licitación."
                 }
         },
                  {   
@@ -6667,8 +6740,9 @@
 					"SAT - Servicio de Asistencia Técnica":"No corresponde",
 					"EAT - Equipo de Asistencia Técnica":"No corresponde",
 					"Estado de Obra":"Paralizado",
-					"Porcentaje de avance":"10,00%",
-					"Licitación Nº":"003/11"
+					"Porcentaje de avance":"10%",
+					"Licitación Nº":"003/11",
+					"Observaciones":"En proceso de rescisión de contrato, se reactivará la obra con una nueva licitación"
                 }
         },
                  {   
@@ -6689,8 +6763,9 @@
 					"SAT - Servicio de Asistencia Técnica":"No corresponde",
 					"EAT - Equipo de Asistencia Técnica":"No corresponde",
 					"Estado de Obra":"Paralizado",
-					"Porcentaje de avance":"10,00%",
-					"Licitación Nº":"003/11"
+					"Porcentaje de avance":"10%",
+					"Licitación Nº":"003/11",
+					"Observaciones":"En proceso de rescisión de contrato, se reactivará la obra con una nueva licitación"
                 }
         },
                  {   
@@ -6711,8 +6786,9 @@
 					"SAT - Servicio de Asistencia Técnica":"No corresponde",
 					"EAT - Equipo de Asistencia Técnica":"No corresponde",
 					"Estado de Obra":"Paralizado",
-					"Porcentaje de avance":"0,00%",
-					"Licitación Nº":"003/11"
+					"Porcentaje de avance":"0%",
+					"Licitación Nº":"003/11",
+					"Observaciones":"En proceso de rescisión de contrato, se reactivará la obra con una nueva licitación"
                 }
         },
                  {   
@@ -6732,8 +6808,9 @@
 					"SAT - Servicio de Asistencia Técnica":"No corresponde",
 					"EAT - Equipo de Asistencia Técnica":"No corresponde",
 					"Estado de Obra":"Paralizado",
-					"Porcentaje de avance":"95,00%",
-					"Licitación Nº":"003/11"
+					"Porcentaje de avance":"95%",
+					"Licitación Nº":"003/11",
+					"Observaciones":"En proceso de rescisión de contrato, se reactivará la obra con una nueva licitación"
                 }
         },
                  {   
@@ -6754,8 +6831,9 @@
 					"SAT - Servicio de Asistencia Técnica":"No corresponde",
 					"EAT - Equipo de Asistencia Técnica":"No corresponde",
 					"Estado de Obra":"Paralizado",
-					"Porcentaje de avance":"95,00%",
-					"Licitación Nº":"003/11"
+					"Porcentaje de avance":"95%",
+					"Licitación Nº":"003/11",
+					"Observaciones":"En proceso de rescisión de contrato, se reactivará la obra con una nueva licitación"
                 }
         },
                  {   
@@ -6776,8 +6854,9 @@
 					"SAT - Servicio de Asistencia Técnica":"No corresponde",
 					"EAT - Equipo de Asistencia Técnica":"No corresponde",
 					"Estado de Obra":"Paralizado",
-					"Porcentaje de avance":"35,00%",
-					"Licitación Nº":"003/11"
+					"Porcentaje de avance":"35%",
+					"Licitación Nº":"003/11",
+					"Observaciones":"En proceso de rescisión de contrato, se reactivará la obra con una nueva licitación"
                 }
         },
                  {   
@@ -6797,9 +6876,9 @@
 					"SAT - Servicio de Asistencia Técnica":"No corresponde",
 					"EAT - Equipo de Asistencia Técnica":"No corresponde",
 					"Estado de Obra":"Paralizado",
-					"Porcentaje de avance":"90,00%",
+					"Porcentaje de avance":"90%",
 					"Licitación Nº":"003/11",
-					"Observaciones":"Esta ubicación geográfica es del distrito de San Pedro del Ycuamandyju, no de la obra en particular."
+					"Observaciones":"En proceso de rescisión de contrato, se reactivará la obra con una nueva licitación. Esta ubicación geográfica es del distrito de San Pedro del Ycuamandyju, no de la obra en particular."
                 }
         },
                  {   
@@ -6810,16 +6889,17 @@
                 "properties" : {
                     "id":96,
 					"Departamento":"Caaguazú",
-					"Distrito":"Caaguazú",
-					"Proyecto":"Joyvi-Caaguazú",
+					"Distrito":"Caaguazu",
+					"Proyecto":"Joyvi-Caaguazu",
 					"Programa":"Pueblos Originarios",
 					"Cantidad de Viviendas":25,
 					"Empresa":"VIGA Construcciones",
 					"SAT - Servicio de Asistencia Técnica":"No corresponde",
 					"EAT - Equipo de Asistencia Técnica":"No corresponde",
 					"Estado de Obra":"Paralizado",
-					"Porcentaje de avance":"15,00%",
-					"Licitación Nº":"009/12"
+					"Porcentaje de avance":"15%",
+					"Licitación Nº":"009/12",
+					"Observaciones":"En proceso de rescisión de contrato, se reactivará la obra con una nueva licitación"
                 }
         },
                  {   
@@ -6898,7 +6978,7 @@
 					"Localidad":" ",
 					"Proyecto":"Sidepar 7000 (Col. Nueva Esperanza)",
 					"Programa":"Sembrando Oportunidades",
-					"Cantidad de Viviendas":200,
+					"Cantidad de Viviendas":140,
 					"Empresa":"CARAGUATAY S.A.",
 					"SAT - Servicio de Asistencia Técnica":"No corresponde",
 					"EAT - Equipo de Asistencia Técnica":"No corresponde",
@@ -6994,14 +7074,14 @@
 					"Distrito":"San Cristóbal",
 					"Proyecto":"1º de Mayo del Guembety",
 					"Programa":"Sembrando Oportunidades",
-					"Cantidad de Viviendas":160,
-					"Empresa":"En proceso licitatorio",
+					"Cantidad de Viviendas":80,
+					"Empresa":"Grupo V.P. S.A.",
 					"SAT - Servicio de Asistencia Técnica":"No corresponde",
 					"EAT - Equipo de Asistencia Técnica":"No corresponde",
-					"Estado de Obra":"En licitación",
-					"Porcentaje de avance":"En licitación",
+					"Estado de Obra":"En ejecución",
+					"Porcentaje de avance":"Inicio de obra",
 					"Licitación Nº":"08/2014",
-					"Contrato N°":"En licitación",
+					"Contrato N°":"108-14",
 					"Origen del terreno":"INDERT",
 					"Fecha de inicio de obra":"A definir según contrato",
 					"Fecha de entrega de obra":"A definir según contrato"
@@ -7378,14 +7458,14 @@
 					"Distrito":"Santa Rosa",
 					"Proyecto":"Ka'atygue",
 					"Programa":"Sembrando Oportunidades",
-					"Cantidad de Viviendas":63,
-					"Empresa":"En proceso licitatorio",
+					"Cantidad de Viviendas":40,
+					"Empresa":"Pilar Constructora",
 					"SAT - Servicio de Asistencia Técnica":"No corresponde",
 					"EAT - Equipo de Asistencia Técnica":"No corresponde",
-					"Estado de Obra":"En licitación",
-					"Porcentaje de avance":"En licitación",
+					"Estado de Obra":"En ejecución",
+					"Porcentaje de avance":"Inicio de obra",
 					"Licitación Nº":"08/2014",
-					"Contrato N°":"En licitación",
+					"Contrato N°":"107-14",
 					"Origen del terreno":"INDERT",
 					"Fecha de inicio de obra":"A definir según contrato",
 					"Fecha de entrega de obra":"A definir según contrato"
@@ -7522,14 +7602,14 @@
 					"Distrito":"Tacuatí",
 					"Proyecto":"Tacuati Poty",
 					"Programa":"Sembrando Oportunidades",
-					"Cantidad de Viviendas":160,
-					"Empresa":"En proceso licitatorio",
+					"Cantidad de Viviendas":120,
+					"Empresa":"Ing. Antonio Cabrera Burgos",
 					"SAT - Servicio de Asistencia Técnica":"No corresponde",
 					"EAT - Equipo de Asistencia Técnica":"No corresponde",
-					"Estado de Obra":"En licitación",
-					"Porcentaje de avance":"En licitación",
+					"Estado de Obra":"En ejecución",
+					"Porcentaje de avance":"Inicio de obra",
 					"Licitación Nº":"08/2014",
-					"Contrato N°":"En licitación",
+					"Contrato N°":"105-14",
 					"Origen del terreno":"INDERT",
 					"Fecha de inicio de obra":"A definir según contrato",
 					"Fecha de entrega de obra":"A definir según contrato"
@@ -7594,7 +7674,7 @@
 					"Distrito":"Horqueta",
 					"Proyecto":"Arroyito",
 					"Programa":"Sembrando Oportunidades",
-					"Cantidad de Viviendas":300,
+					"Cantidad de Viviendas":200,
 					"Empresa":"EQUIPAC S.R.L.",
 					"SAT - Servicio de Asistencia Técnica":"No corresponde",
 					"EAT - Equipo de Asistencia Técnica":"No corresponde",
@@ -7618,7 +7698,7 @@
 					"Distrito":"Paso Yobai",
 					"Proyecto":"Silvera Cué",
 					"Programa":"Sembrando Oportunidades",
-					"Cantidad de Viviendas":80,
+					"Cantidad de Viviendas":60,
 					"Empresa":"Grupo V.P. S.A.",
 					"SAT - Servicio de Asistencia Técnica":"No corresponde",
 					"EAT - Equipo de Asistencia Técnica":"No corresponde",
@@ -7643,7 +7723,7 @@
 					"Proyecto":"Alemán Cué (Oro Verde)",
 					"Programa":"Sembrando Oportunidades",
 					"Cantidad de Viviendas":80,
-					"Empresa":"ING. Antonio Cabrera Burgos",
+					"Empresa":"Ing. Antonio Cabrera Burgos",
 					"SAT - Servicio de Asistencia Técnica":"No corresponde",
 					"EAT - Equipo de Asistencia Técnica":"No corresponde",
 					"Estado de Obra":"En ejecución",
@@ -7666,7 +7746,7 @@
 					"Distrito":"Bertoni",
 					"Proyecto":"Maria Auxiliadora",
 					"Programa":"Sembrando Oportunidades",
-					"Cantidad de Viviendas":117,
+					"Cantidad de Viviendas":80,
 					"Empresa":"Pilar Constructora",
 					"SAT - Servicio de Asistencia Técnica":"No corresponde",
 					"EAT - Equipo de Asistencia Técnica":"No corresponde",
@@ -7696,8 +7776,9 @@
 					"SAT - Servicio de Asistencia Técnica":"No corresponde",
 					"EAT - Equipo de Asistencia Técnica":"No corresponde",
 					"Estado de Obra":"Paralizado",
-					"Porcentaje de avance":"88,81%",
-					"Licitación Nº":"003/11"
+					"Porcentaje de avance":"89%",
+					"Licitación Nº":"003/11",
+					"Observaciones":"En proceso la elaboración del convenio modificatorio para la reactivación de la obra."
                 }
         },
                  {   
@@ -7717,8 +7798,9 @@
 					"SAT - Servicio de Asistencia Técnica":"No corresponde",
 					"EAT - Equipo de Asistencia Técnica":"No corresponde",
 					"Estado de Obra":"Paralizado",
-					"Porcentaje de avance":"56,00%",
-					"Licitación Nº":"004/10"
+					"Porcentaje de avance":"56%",
+					"Licitación Nº":"004/10",
+					"Observaciones":"En proceso de rescisión de contrato, se reactivará la obra con una nueva licitación."
                 }
         },
                  {   
@@ -7738,8 +7820,9 @@
 					"SAT - Servicio de Asistencia Técnica":"No corresponde",
 					"EAT - Equipo de Asistencia Técnica":"No corresponde",
 					"Estado de Obra":"Paralizado",
-					"Porcentaje de avance":"20,00%",
-					"Licitación Nº":"019/11"
+					"Porcentaje de avance":"20%",
+					"Licitación Nº":"019/11",
+					"Observaciones":"En análisis. El caso se encuentra judicializado."
                 }
         },
                  {   
@@ -7759,6 +7842,7 @@
 					"SAT - Servicio de Asistencia Técnica":"No corresponde",
 					"EAT - Equipo de Asistencia Técnica":"No corresponde",
 					"Estado de Obra":"En ejecución",
+					"Porcentaje de avance":"99%",
 					"Licitación Nº":"019/11"
                 }
         },
@@ -7779,8 +7863,9 @@
 					"SAT - Servicio de Asistencia Técnica":"No corresponde",
 					"EAT - Equipo de Asistencia Técnica":"No corresponde",
 					"Estado de Obra":"Paralizado",
-					"Porcentaje de avance":"70,00%",
-					"Licitación Nº":"019/11"
+					"Porcentaje de avance":"70%",
+					"Licitación Nº":"019/11",
+					"Observaciones":"En reactivación. En verificación conjunta para elaboración de convenio modificatorio. "
                 }
         },
                  {   
@@ -7800,8 +7885,9 @@
 					"SAT - Servicio de Asistencia Técnica":"No corresponde",
 					"EAT - Equipo de Asistencia Técnica":"No corresponde",
 					"Estado de Obra":"Paralizado",
-					"Porcentaje de avance":"70,00%",
-					"Licitación Nº":"003/11"
+					"Porcentaje de avance":"70%",
+					"Licitación Nº":"003/11",
+					"Observaciones":"En reactivación - Se aguarda la transferencia del terreno a nombre de la Senavitat para el levantamiento de rescisión de contrato que permita la firma del Convenio Modificatorio para la terminación de las viviendas."
                 }
         },
                  {   
@@ -7821,6 +7907,7 @@
 					"SAT - Servicio de Asistencia Técnica":"No corresponde",
 					"EAT - Equipo de Asistencia Técnica":"No corresponde",
 					"Estado de Obra":"En ejecución",
+					"Porcentaje de avance":"Sin datos",
 					"Licitación Nº":"003/11"
                 }
         },
@@ -7842,6 +7929,7 @@
 					"SAT - Servicio de Asistencia Técnica":"No corresponde",
 					"EAT - Equipo de Asistencia Técnica":"No corresponde",
 					"Estado de Obra":"En licitación",
+					"Porcentaje de avance":"En licitación",
 					"Licitación Nº":"09/14",
 					"Contrato N°":"En licitación",
 					"Origen del terreno":"Terreno ofertado por la empresa constructora",
@@ -7867,8 +7955,9 @@
 					"SAT - Servicio de Asistencia Técnica":"No corresponde",
 					"EAT - Equipo de Asistencia Técnica":"No corresponde",
 					"Estado de Obra":"Paralizado",
-					"Porcentaje de avance":"93,27%",
-					"Licitación Nº":"014/11"
+					"Porcentaje de avance":"93%",
+					"Licitación Nº":"014/11",
+					"Observaciones":"En reactivación. La empresa debe entregar los documentos municipales de aprobación para el reinicio de las obras."
                 }
         },
                  {   
@@ -7888,8 +7977,9 @@
 					"SAT - Servicio de Asistencia Técnica":"No corresponde",
 					"EAT - Equipo de Asistencia Técnica":"No corresponde",
 					"Estado de Obra":"Paralizado",
-					"Porcentaje de avance":"17,13%",
-					"Licitación Nº":"019/11"
+					"Porcentaje de avance":"17%",
+					"Licitación Nº":"019/11",
+					"Observaciones":"En proceso de rescisión de contrato, se reactivará la obra con una nueva licitación."
                 }
         },
                  {   
@@ -7909,6 +7999,7 @@
 					"SAT - Servicio de Asistencia Técnica":"No corresponde",
 					"EAT - Equipo de Asistencia Técnica":"No corresponde",
 					"Estado de Obra":"En licitación",
+					"Porcentaje de avance":"En licitación",
 					"Licitación Nº":"09/14",
 					"Contrato N°":"En licitación",
 					"Origen del terreno":"Terreno ofertado por la empresa constructora",
@@ -7934,6 +8025,7 @@
 					"SAT - Servicio de Asistencia Técnica":"No corresponde",
 					"EAT - Equipo de Asistencia Técnica":"No corresponde",
 					"Estado de Obra":"En licitación",
+					"Porcentaje de avance":"En licitación",
 					"Licitación Nº":"09/14",
 					"Contrato N°":"En licitación",
 					"Origen del terreno":"Terreno ofertado por la empresa constructora",
@@ -7959,6 +8051,7 @@
 					"SAT - Servicio de Asistencia Técnica":"No corresponde",
 					"EAT - Equipo de Asistencia Técnica":"No corresponde",
 					"Estado de Obra":"En licitación",
+					"Porcentaje de avance":"En licitación",
 					"Licitación Nº":"09/14",
 					"Contrato N°":"En licitación",
 					"Origen del terreno":"Terreno ofertado por la empresa constructora",
@@ -7984,6 +8077,7 @@
 					"SAT - Servicio de Asistencia Técnica":"No corresponde",
 					"EAT - Equipo de Asistencia Técnica":"No corresponde",
 					"Estado de Obra":"En licitación",
+					"Porcentaje de avance":"En licitación",
 					"Licitación Nº":"09/14",
 					"Contrato N°":"En licitación",
 					"Origen del terreno":"Terreno ofertado por la empresa constructora",
@@ -8009,6 +8103,7 @@
 					"SAT - Servicio de Asistencia Técnica":"No corresponde",
 					"EAT - Equipo de Asistencia Técnica":"No corresponde",
 					"Estado de Obra":"En licitación",
+					"Porcentaje de avance":"En licitación",
 					"Licitación Nº":"09/14",
 					"Contrato N°":"En licitación",
 					"Origen del terreno":"Terreno ofertado por la empresa constructora",
@@ -8034,6 +8129,7 @@
 					"SAT - Servicio de Asistencia Técnica":"No corresponde",
 					"EAT - Equipo de Asistencia Técnica":"No corresponde",
 					"Estado de Obra":"En licitación",
+					"Porcentaje de avance":"En licitación",
 					"Licitación Nº":"09/14",
 					"Contrato N°":"En licitación",
 					"Origen del terreno":"Terreno ofertado por la empresa constructora",
@@ -8059,6 +8155,7 @@
 					"SAT - Servicio de Asistencia Técnica":"No corresponde",
 					"EAT - Equipo de Asistencia Técnica":"No corresponde",
 					"Estado de Obra":"En licitación",
+					"Porcentaje de avance":"En licitación",
 					"Licitación Nº":"09/14",
 					"Contrato N°":"En licitación",
 					"Origen del terreno":"Terreno ofertado por la empresa constructora",
@@ -8109,8 +8206,9 @@
 					"SAT - Servicio de Asistencia Técnica":"No corresponde",
 					"EAT - Equipo de Asistencia Técnica":"No corresponde",
 					"Estado de Obra":"Paralizado",
-					"Porcentaje de avance":"0,00%",
-					"Licitación Nº":"014/12"
+					"Porcentaje de avance":"0%",
+					"Licitación Nº":"014/12",
+					"Observaciones":"En proceso de rescisión de contrato, se reactivará la obra con una nueva licitación."
                 }
         },
                  {   
@@ -8130,8 +8228,9 @@
 					"SAT - Servicio de Asistencia Técnica":"No corresponde",
 					"EAT - Equipo de Asistencia Técnica":"No corresponde",
 					"Estado de Obra":"Paralizado",
-					"Porcentaje de avance":"37,54%",
-					"Licitación Nº":"014/11"
+					"Porcentaje de avance":"38%",
+					"Licitación Nº":"014/11",
+					"Observaciones":"En análisis. Fue rescindido el contrato, presentó reconsideración, se está analizando el caso jurídicamente)."
                 }
         },
                  {   
@@ -8193,8 +8292,9 @@
 					"SAT - Servicio de Asistencia Técnica":"No corresponde",
 					"EAT - Equipo de Asistencia Técnica":"No corresponde",
 					"Estado de Obra":"Paralizado",
-					"Porcentaje de avance":"51,23%",
-					"Licitación Nº":"019/11"
+					"Porcentaje de avance":"51%",
+					"Licitación Nº":"019/11",
+					"Observaciones":"Se paralizó la obra por invasión del inmueble, se instauró un proceso penal que está pendiente de resolucion."
                 }
         },
                  {   
@@ -8214,9 +8314,9 @@
 					"SAT - Servicio de Asistencia Técnica":"No corresponde",
 					"EAT - Equipo de Asistencia Técnica":"No corresponde",
 					"Estado de Obra":"Paralizado",
-					"Porcentaje de avance":"0,00%",
+					"Porcentaje de avance":"0%",
 					"Licitación Nº":"014/12",
-					"Observaciones":"En proceso de reactivación."
+					"Observaciones":"En reactivación."
                 }
         },
                  {   
@@ -8237,6 +8337,7 @@
 					"SAT - Servicio de Asistencia Técnica":"No corresponde",
 					"EAT - Equipo de Asistencia Técnica":"No corresponde",
 					"Estado de Obra":"En licitación",
+					"Porcentaje de avance":"En licitación",
 					"Licitación Nº":"09/14",
 					"Contrato N°":"En licitación",
 					"Origen del terreno":"Terreno ofertado por la empresa constructora",
@@ -8288,6 +8389,7 @@
 					"SAT - Servicio de Asistencia Técnica":"No corresponde",
 					"EAT - Equipo de Asistencia Técnica":"No corresponde",
 					"Estado de Obra":"En licitación",
+					"Porcentaje de avance":"En licitación",
 					"Licitación Nº":"09/14",
 					"Contrato N°":"En licitación",
 					"Origen del terreno":"Terreno ofertado por la empresa constructora",
@@ -8313,8 +8415,9 @@
 					"SAT - Servicio de Asistencia Técnica":"No corresponde",
 					"EAT - Equipo de Asistencia Técnica":"No corresponde",
 					"Estado de Obra":"Paralizado",
-					"Porcentaje de avance":"20,00%",
-					"Licitación Nº":"003/11"
+					"Porcentaje de avance":"20%",
+					"Licitación Nº":"003/11",
+					"Observaciones":"En proceso de rescisión de contrato, se reactivará la obra con una nueva licitación."
                 }
         },
                  {   
@@ -8334,8 +8437,9 @@
 					"SAT - Servicio de Asistencia Técnica":"No corresponde",
 					"EAT - Equipo de Asistencia Técnica":"No corresponde",
 					"Estado de Obra":"Paralizado",
-					"Porcentaje de avance":"26,90%",
-					"Licitación Nº":"003/11"
+					"Porcentaje de avance":"27%",
+					"Licitación Nº":"003/11",
+					"Observaciones":"En proceso de rescisión de contrato, se reactivará la obra con una nueva licitación."
                 }
         },
                  {   
@@ -8351,10 +8455,11 @@
 					"Programa":"Vy'a Renda",
 					"Cantidad de Viviendas":20,
 					"Empresa":"3G Construcciones",
-					"Dato de contacto - Empresa":"Representante: Ing. Hugo Patiño, Caaguazú, Paraguay ",
+					"Dato de contacto - Empresa":"Representante: Ing. Hugo Patiño, Caaguazu, Paraguay ",
 					"SAT - Servicio de Asistencia Técnica":"No corresponde",
 					"EAT - Equipo de Asistencia Técnica":"No corresponde",
 					"Estado de Obra":"En ejecución",
+					"Porcentaje de avance":"Sin datos",
 					"Licitación Nº":"018/11"
                 }
         },
@@ -8375,6 +8480,7 @@
 					"SAT - Servicio de Asistencia Técnica":"No corresponde",
 					"EAT - Equipo de Asistencia Técnica":"No corresponde",
 					"Estado de Obra":"En ejecución",
+					"Porcentaje de avance":"Sin datos",
 					"Licitación Nº":"011/11"
                 }
         },
@@ -8395,8 +8501,9 @@
 					"SAT - Servicio de Asistencia Técnica":"No corresponde",
 					"EAT - Equipo de Asistencia Técnica":"No corresponde",
 					"Estado de Obra":"Paralizado",
-					"Porcentaje de avance":"0,00%",
-					"Licitación Nº":"018/12"
+					"Porcentaje de avance":"0%",
+					"Licitación Nº":"018/12",
+					"Observaciones":"En proceso de rescisión de contrato, se reactivará la obra con una nueva licitación."
                 }
         },
                  {   
@@ -8437,7 +8544,9 @@
 					"SAT - Servicio de Asistencia Técnica":"No corresponde",
 					"EAT - Equipo de Asistencia Técnica":"No corresponde",
 					"Estado de Obra":"Paralizado",
-					"Licitación Nº":"018/11"
+					"Porcentaje de avance":"Sin datos",
+					"Licitación Nº":"018/11",
+					"Observaciones":"En proceso de elaboración de documentos para nueva licitación."
                 }
         },
                  {   
@@ -8457,7 +8566,7 @@
 					"SAT - Servicio de Asistencia Técnica":"No corresponde",
 					"EAT - Equipo de Asistencia Técnica":"No corresponde",
 					"Estado de Obra":"En ejecución",
-					"Porcentaje de avance":"19,00%",
+					"Porcentaje de avance":"19%",
 					"Licitación Nº":"011/12"
                 }
         },
@@ -8478,6 +8587,7 @@
 					"SAT - Servicio de Asistencia Técnica":"No corresponde",
 					"EAT - Equipo de Asistencia Técnica":"No corresponde",
 					"Estado de Obra":"En ejecución",
+					"Porcentaje de avance":"84%",
 					"Licitación Nº":"020/11"
                 }
         },
@@ -8498,8 +8608,9 @@
 					"SAT - Servicio de Asistencia Técnica":"No corresponde",
 					"EAT - Equipo de Asistencia Técnica":"No corresponde",
 					"Estado de Obra":"Paralizado",
-					"Porcentaje de avance":"60,00%",
-					"Licitación Nº":"013/11"
+					"Porcentaje de avance":"60%",
+					"Licitación Nº":"013/11",
+					"Observaciones":"En proceso de rescisión de contrato, se reactivará la obra con una nueva licitación."
                 }
         },
                  {   
@@ -8541,6 +8652,7 @@
 					"SAT - Servicio de Asistencia Técnica":"No corresponde",
 					"EAT - Equipo de Asistencia Técnica":"No corresponde",
 					"Estado de Obra":"En ejecución",
+					"Porcentaje de avance":"Sin datos",
 					"Licitación Nº":"013/11"
                 }
         },
@@ -8561,6 +8673,7 @@
 					"SAT - Servicio de Asistencia Técnica":"No corresponde",
 					"EAT - Equipo de Asistencia Técnica":"No corresponde",
 					"Estado de Obra":"En ejecución",
+					"Porcentaje de avance":"Sin datos",
 					"Licitación Nº":"002/12"
                 }
         },
@@ -8581,8 +8694,9 @@
 					"SAT - Servicio de Asistencia Técnica":"No corresponde",
 					"EAT - Equipo de Asistencia Técnica":"No corresponde",
 					"Estado de Obra":"Paralizado",
-					"Porcentaje de avance":"48,87%",
-					"Licitación Nº":"004/12"
+					"Porcentaje de avance":"49%",
+					"Licitación Nº":"004/12",
+					"Observaciones":"En proceso de rescisión de contrato, se reactivará la obra con una nueva licitación."
                 }
         },
                  {   
@@ -8602,8 +8716,9 @@
 					"SAT - Servicio de Asistencia Técnica":"No corresponde",
 					"EAT - Equipo de Asistencia Técnica":"No corresponde",
 					"Estado de Obra":"Paralizado",
-					"Porcentaje de avance":"10,93%",
-					"Licitación Nº":"004/12"
+					"Porcentaje de avance":"11%",
+					"Licitación Nº":"004/12",
+					"Observaciones":"En proceso de rescisión de contrato, se reactivará la obra con una nueva licitación."
                 }
         },
                  {   
@@ -8686,8 +8801,9 @@
 					"SAT - Servicio de Asistencia Técnica":"No corresponde",
 					"EAT - Equipo de Asistencia Técnica":"No corresponde",
 					"Estado de Obra":"Paralizado",
-					"Porcentaje de avance":"20,94%",
-					"Licitación Nº":"011/12"
+					"Porcentaje de avance":"21%",
+					"Licitación Nº":"011/12",
+					"Observaciones":"En proceso de rescisión de contrato, se reactivará la obra con una nueva licitación."
                 }
         },
                  {   
@@ -8733,8 +8849,9 @@
 					"SAT - Servicio de Asistencia Técnica":"No corresponde",
 					"EAT - Equipo de Asistencia Técnica":"No corresponde",
 					"Estado de Obra":"Paralizado",
-					"Porcentaje de avance":"70,00%",
-					"Licitación Nº":"018/11"
+					"Porcentaje de avance":"70%",
+					"Licitación Nº":"018/11",
+					"Observaciones":"En proceso de rescisión de contrato, se reactivará la obra con una nueva licitación."
                 }
         },
                  {   
@@ -8754,8 +8871,9 @@
 					"SAT - Servicio de Asistencia Técnica":"No corresponde",
 					"EAT - Equipo de Asistencia Técnica":"No corresponde",
 					"Estado de Obra":"Paralizado",
-					"Porcentaje de avance":"40,00%",
-					"Licitación Nº":"020/11"
+					"Porcentaje de avance":"40%",
+					"Licitación Nº":"020/11",
+					"Observaciones":"En proceso de rescisión de contrato, se reactivará la obra con una nueva licitación."
                 }
         },
                  {   
@@ -8796,8 +8914,9 @@
 					"SAT - Servicio de Asistencia Técnica":"No corresponde",
 					"EAT - Equipo de Asistencia Técnica":"No corresponde",
 					"Estado de Obra":"Paralizado",
-					"Porcentaje de avance":"5,00%",
-					"Licitación Nº":"024/12"
+					"Porcentaje de avance":"5%",
+					"Licitación Nº":"024/12",
+					"Observaciones":"El 9/03/15 se firmó el Convenio Modificatorio para la reactivación de la obra, pero la empresa no cumplió con la presentación de pólizas necesarias para el inicio efectivo. Actualmente en proceso de rescisión de contrato, se reactivará la obra con una nueva licitación."
                 }
         },
                  {   
@@ -8817,6 +8936,7 @@
 					"SAT - Servicio de Asistencia Técnica":"No corresponde",
 					"EAT - Equipo de Asistencia Técnica":"No corresponde",
 					"Estado de Obra":"En ejecución",
+					"Porcentaje de avance":"Sin datos",
 					"Licitación Nº":"CD"
                 }
         },
@@ -8837,8 +8957,9 @@
 					"SAT - Servicio de Asistencia Técnica":"No corresponde",
 					"EAT - Equipo de Asistencia Técnica":"No corresponde",
 					"Estado de Obra":"Paralizado",
-					"Porcentaje de avance":"0,00%",
-					"Licitación Nº":"020/11"
+					"Porcentaje de avance":"0%",
+					"Licitación Nº":"020/11",
+					"Observaciones":"En proceso de firma del Convenio Modificatorio. "
                 }
         },
                  {   
@@ -8858,8 +8979,9 @@
 					"SAT - Servicio de Asistencia Técnica":"No corresponde",
 					"EAT - Equipo de Asistencia Técnica":"No corresponde",
 					"Estado de Obra":"Paralizado",
-					"Porcentaje de avance":"22,73%",
-					"Licitación Nº":"004/12"
+					"Porcentaje de avance":"23%",
+					"Licitación Nº":"004/12",
+					"Observaciones":"El 9/02/15 se firmó el Convenio Modificatorio para la reactivación de la obra, pero la empresa no cumplió con la presentación de pólizas necesarias para el inicio efectivo. Actualmente en proceso de rescisión de contrato, se reactivará la obra con una nueva licitación."
                 }
         },
                  {   
@@ -8879,6 +9001,7 @@
 					"SAT - Servicio de Asistencia Técnica":"No corresponde",
 					"EAT - Equipo de Asistencia Técnica":"No corresponde",
 					"Estado de Obra":"En ejecución",
+					"Porcentaje de avance":"Sin datos",
 					"Licitación Nº":"02/2012"
                 }
         },
@@ -8984,8 +9107,9 @@
 					"SAT - Servicio de Asistencia Técnica":"No corresponde",
 					"EAT - Equipo de Asistencia Técnica":"No corresponde",
 					"Estado de Obra":"Paralizado",
-					"Porcentaje de avance":"35,00%",
-					"Licitación Nº":"020/12"
+					"Porcentaje de avance":"35%",
+					"Licitación Nº":"020/12",
+					"Observaciones":"En reactivación, se encuentra en proceso la elaboración del convenio modificatorio."
                 }
         },
                  {   
@@ -9005,8 +9129,9 @@
 					"SAT - Servicio de Asistencia Técnica":"No corresponde",
 					"EAT - Equipo de Asistencia Técnica":"No corresponde",
 					"Estado de Obra":"Paralizado",
-					"Porcentaje de avance":"82,00%",
-					"Licitación Nº":"007/11"
+					"Porcentaje de avance":"82%",
+					"Licitación Nº":"007/11",
+					"Observaciones":"En proceso de rescisión de contrato, se reactivará la obra con una nueva licitación."
                 }
         },
                  {   
@@ -9026,8 +9151,9 @@
 					"SAT - Servicio de Asistencia Técnica":"No corresponde",
 					"EAT - Equipo de Asistencia Técnica":"No corresponde",
 					"Estado de Obra":"Paralizado",
-					"Porcentaje de avance":"3,00%",
-					"Licitación Nº":"011/12"
+					"Porcentaje de avance":"3%",
+					"Licitación Nº":"011/12",
+					"Observaciones":"En proceso de rescisión de contrato, se reactivará la obra con una nueva licitación."
                 }
         },
                  {   
@@ -9047,8 +9173,9 @@
 					"SAT - Servicio de Asistencia Técnica":"No corresponde",
 					"EAT - Equipo de Asistencia Técnica":"No corresponde",
 					"Estado de Obra":"Paralizado",
-					"Porcentaje de avance":"29,75%",
-					"Licitación Nº":"002/12"
+					"Porcentaje de avance":"30%",
+					"Licitación Nº":"002/12",
+					"Observaciones":"En proceso de firma del Convenio Modificatorio. "
                 }
         },
                  {   
@@ -9464,6 +9591,379 @@
 					"Calificación provisional":"No corresponde",
 					"Fecha de inicio de obra":"2/3/15",
 					"Fecha de entrega de obra":"Plazo de 240 días"
+                }
+        },
+                 {   
+            "type" : "Feature",
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : [-57.5330633465, -25.2122171828]},
+                "properties" : {
+                    "id":448,
+					"Departamento":"Central",
+					"Distrito":"Mariano Roque Alonso",
+					"Proyecto":"Mariano Roque Alonso",
+					"Programa":"Pueblos Originarios",
+					"Cantidad de Viviendas":65,
+					"Empresa":"Margen Construcciones",
+					"SAT - Servicio de Asistencia Técnica":"No corresponde",
+					"EAT - Equipo de Asistencia Técnica":"No corresponde",
+					"Estado de Obra":"Paralizado",
+					"Porcentaje de avance":"Sin datos",
+					"Licitación Nº":"022/12",
+					"Calificación provisional":"No corresponde",
+					"Observaciones":"En proceso de elaboración de documentos para nueva licitación. Las coordenadas geográficas pertenecen a un punto referencial del distrito, no de la obra."
+                }
+        },
+                 {   
+            "type" : "Feature",
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : [-54.9322765338, -24.876383094]},
+                "properties" : {
+                    "id":449,
+					"Departamento":"Alto Paraná",
+					"Distrito":"Minga Pora",
+					"Proyecto":"Minga Pora",
+					"Programa":"Pueblos Originarios",
+					"Cantidad de Viviendas":20,
+					"Empresa":"SIP",
+					"SAT - Servicio de Asistencia Técnica":"No corresponde",
+					"EAT - Equipo de Asistencia Técnica":"No corresponde",
+					"Estado de Obra":"Paralizado",
+					"Porcentaje de avance":"Sin datos",
+					"Licitación Nº":"011/11",
+					"Calificación provisional":"No corresponde",
+					"Observaciones":"En proceso de elaboración de documentos para nueva licitación. Las coordenadas geográficas pertenecen a un punto referencial del distrito, no de la obra."
+                }
+        },
+                 {   
+            "type" : "Feature",
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : [-55.0000021805, -25.4666745067]},
+                "properties" : {
+                    "id":450,
+					"Departamento":"Alto Paraná",
+					"Distrito":"Yguazu",
+					"Proyecto":"Yguazu",
+					"Programa":"Pueblos Originarios",
+					"Cantidad de Viviendas":25,
+					"Empresa":"SIP",
+					"SAT - Servicio de Asistencia Técnica":"No corresponde",
+					"EAT - Equipo de Asistencia Técnica":"No corresponde",
+					"Estado de Obra":"Paralizado",
+					"Porcentaje de avance":"Sin datos",
+					"Licitación Nº":"011/12",
+					"Calificación provisional":"No corresponde",
+					"Observaciones":"En proceso de elaboración de documentos para nueva licitación. Las coordenadas geográficas pertenecen a un punto referencial del distrito, no de la obra."
+                }
+        },
+                 {   
+            "type" : "Feature",
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : [-54.8263803303, -25.0271176198]},
+                "properties" : {
+                    "id":451,
+					"Departamento":"Alto Paraná",
+					"Distrito":"Mbaracayu",
+					"Proyecto":"Mbaracayu",
+					"Programa":"Pueblos Originarios",
+					"Cantidad de Viviendas":20,
+					"Empresa":"SIP",
+					"SAT - Servicio de Asistencia Técnica":"No corresponde",
+					"EAT - Equipo de Asistencia Técnica":"No corresponde",
+					"Estado de Obra":"Paralizado",
+					"Porcentaje de avance":"Sin datos",
+					"Licitación Nº":"011/13",
+					"Calificación provisional":"No corresponde",
+					"Observaciones":"En proceso de elaboración de documentos para nueva licitación. Las coordenadas geográficas pertenecen a un punto referencial del distrito, no de la obra."
+                }
+        },
+                 {   
+            "type" : "Feature",
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : [-54.6098967533, -25.5643877579]},
+                "properties" : {
+                    "id":452,
+					"Departamento":"Alto Paraná",
+					"Distrito":"Presidente Franco",
+					"Proyecto":"Presidente Franco",
+					"Programa":"Pueblos Originarios",
+					"Cantidad de Viviendas":20,
+					"Empresa":"SIP",
+					"SAT - Servicio de Asistencia Técnica":"No corresponde",
+					"EAT - Equipo de Asistencia Técnica":"No corresponde",
+					"Estado de Obra":"Paralizado",
+					"Porcentaje de avance":"Sin datos",
+					"Licitación Nº":"011/14",
+					"Calificación provisional":"No corresponde",
+					"Observaciones":"En proceso de elaboración de documentos para nueva licitación. Las coordenadas geográficas pertenecen a un punto referencial del distrito, no de la obra."
+                }
+        },
+                 {   
+            "type" : "Feature",
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : [-57.5277980523, -25.0913155198]},
+                "properties" : {
+                    "id":453,
+					"Departamento":"Presidente Hayes",
+					"Distrito":"Villa Hayes",
+					"Proyecto":"Villa Hayes",
+					"Programa":"Pueblos Originarios",
+					"Cantidad de Viviendas":20,
+					"Empresa":"LEPO",
+					"SAT - Servicio de Asistencia Técnica":"No corresponde",
+					"EAT - Equipo de Asistencia Técnica":"No corresponde",
+					"Estado de Obra":"Paralizado",
+					"Porcentaje de avance":"Sin datos",
+					"Licitación Nº":"011/11",
+					"Calificación provisional":"No corresponde",
+					"Observaciones":"En proceso de elaboración de documentos para nueva licitación. Las coordenadas geográficas pertenecen a un punto referencial del distrito, no de la obra."
+                }
+        },
+                 {   
+            "type" : "Feature",
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : [-57.5556984159, -24.9866282902]},
+                "properties" : {
+                    "id":454,
+					"Departamento":"Presidente Hayes",
+					"Distrito":"Benjamin Aceval",
+					"Proyecto":"Benjamin Aceval",
+					"Programa":"Pueblos Originarios",
+					"Cantidad de Viviendas":20,
+					"Empresa":"LEPO",
+					"SAT - Servicio de Asistencia Técnica":"No corresponde",
+					"EAT - Equipo de Asistencia Técnica":"No corresponde",
+					"Estado de Obra":"Paralizado",
+					"Porcentaje de avance":"Sin datos",
+					"Licitación Nº":"011/11",
+					"Calificación provisional":"No corresponde",
+					"Observaciones":"En proceso de elaboración de documentos para nueva licitación. Las coordenadas geográficas pertenecen a un punto referencial del distrito, no de la obra."
+                }
+        },
+                 {   
+            "type" : "Feature",
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : [-58.5670111553, -22.8139392155]},
+                "properties" : {
+                    "id":455,
+					"Departamento":"Presidente Hayes",
+					"Distrito":"La Patria",
+					"Proyecto":"La Patria",
+					"Programa":"Pueblos Originarios",
+					"Cantidad de Viviendas":18,
+					"Empresa":"LEPO",
+					"SAT - Servicio de Asistencia Técnica":"No corresponde",
+					"EAT - Equipo de Asistencia Técnica":"No corresponde",
+					"Estado de Obra":"Paralizado",
+					"Porcentaje de avance":"Sin datos",
+					"Licitación Nº":"011/11",
+					"Calificación provisional":"No corresponde",
+					"Observaciones":"En proceso de elaboración de documentos para nueva licitación. Las coordenadas geográficas pertenecen a un punto referencial del distrito, no de la obra."
+                }
+        },
+                 {   
+            "type" : "Feature",
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : [-57.5277980523, -25.0913155198]},
+                "properties" : {
+                    "id":456,
+					"Departamento":"Presidente Hayes",
+					"Distrito":"Villa Hayes",
+					"Proyecto":"Villa Hayes",
+					"Programa":"Pueblos Originarios",
+					"Cantidad de Viviendas":20,
+					"Empresa":"LEPO",
+					"SAT - Servicio de Asistencia Técnica":"No corresponde",
+					"EAT - Equipo de Asistencia Técnica":"No corresponde",
+					"Estado de Obra":"Paralizado",
+					"Porcentaje de avance":"Sin datos",
+					"Licitación Nº":"011/11",
+					"Calificación provisional":"No corresponde",
+					"Observaciones":"En proceso de elaboración de documentos para nueva licitación. Las coordenadas geográficas pertenecen a un punto referencial del distrito, no de la obra."
+                }
+        },
+                 {   
+            "type" : "Feature",
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : [-57.5277980523, -25.0913155198]},
+                "properties" : {
+                    "id":457,
+					"Departamento":"Presidente Hayes",
+					"Distrito":"Villa Hayes",
+					"Proyecto":"Villa Hayes",
+					"Programa":"Pueblos Originarios",
+					"Cantidad de Viviendas":66,
+					"Empresa":"LEPO",
+					"SAT - Servicio de Asistencia Técnica":"No corresponde",
+					"EAT - Equipo de Asistencia Técnica":"No corresponde",
+					"Estado de Obra":"Paralizado",
+					"Porcentaje de avance":"Sin datos",
+					"Licitación Nº":"011/11",
+					"Calificación provisional":"No corresponde",
+					"Observaciones":"En proceso de elaboración de documentos para nueva licitación. Las coordenadas geográficas pertenecen a un punto referencial del distrito, no de la obra."
+                }
+        },
+                 {   
+            "type" : "Feature",
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : [-57.5277980523, -25.0913155198]},
+                "properties" : {
+                    "id":458,
+					"Departamento":"Presidente Hayes",
+					"Distrito":"Villa Hayes",
+					"Proyecto":"Villa Hayes",
+					"Programa":"Pueblos Originarios",
+					"Cantidad de Viviendas":30,
+					"Empresa":"LEPO",
+					"SAT - Servicio de Asistencia Técnica":"No corresponde",
+					"EAT - Equipo de Asistencia Técnica":"No corresponde",
+					"Estado de Obra":"Paralizado",
+					"Porcentaje de avance":"Sin datos",
+					"Licitación Nº":"011/11",
+					"Calificación provisional":"No corresponde",
+					"Observaciones":"En proceso de elaboración de documentos para nueva licitación. Las coordenadas geográficas pertenecen a un punto referencial del distrito, no de la obra."
+                }
+        },
+                 {   
+            "type" : "Feature",
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : [-57.5277980523, -25.0913155198]},
+                "properties" : {
+                    "id":459,
+					"Departamento":"Presidente Hayes",
+					"Distrito":"Villa Hayes",
+					"Proyecto":"Villa Hayes",
+					"Programa":"Pueblos Originarios",
+					"Cantidad de Viviendas":28,
+					"Empresa":"LEPO",
+					"SAT - Servicio de Asistencia Técnica":"No corresponde",
+					"EAT - Equipo de Asistencia Técnica":"No corresponde",
+					"Estado de Obra":"Paralizado",
+					"Porcentaje de avance":"Sin datos",
+					"Licitación Nº":"011/11",
+					"Calificación provisional":"No corresponde",
+					"Observaciones":"En proceso de elaboración de documentos para nueva licitación. Las coordenadas geográficas pertenecen a un punto referencial del distrito, no de la obra."
+                }
+        },
+                 {   
+            "type" : "Feature",
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : [-57.5277980523, -25.0913155198]},
+                "properties" : {
+                    "id":460,
+					"Departamento":"Presidente Hayes",
+					"Distrito":"Villa Hayes",
+					"Proyecto":"Villa Hayes",
+					"Programa":"Pueblos Originarios",
+					"Cantidad de Viviendas":30,
+					"Empresa":"LEPO",
+					"SAT - Servicio de Asistencia Técnica":"No corresponde",
+					"EAT - Equipo de Asistencia Técnica":"No corresponde",
+					"Estado de Obra":"Paralizado",
+					"Porcentaje de avance":"Sin datos",
+					"Licitación Nº":"011/11",
+					"Calificación provisional":"No corresponde",
+					"Observaciones":"En proceso de elaboración de documentos para nueva licitación. Las coordenadas geográficas pertenecen a un punto referencial del distrito, no de la obra."
+                }
+        },
+                 {   
+            "type" : "Feature",
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : [-56.2810608322, -25.6197366349]},
+                "properties" : {
+                    "id":461,
+					"Departamento":"Guairá",
+					"Distrito":"Mauricio José Troche",
+					"Proyecto":"Troche",
+					"Programa":"Viviendas Económicas",
+					"Cantidad de Viviendas":50,
+					"Empresa":"LM Construcciones",
+					"SAT - Servicio de Asistencia Técnica":"No corresponde",
+					"EAT - Equipo de Asistencia Técnica":"No corresponde",
+					"Estado de Obra":"Paralizado",
+					"Porcentaje de avance":"Sin datos",
+					"Licitación Nº":"003/11",
+					"Calificación provisional":"No corresponde",
+					"Observaciones":"En proceso de elaboración de documentos para nueva licitación. Las coordenadas geográficas pertenecen a un punto referencial del distrito, no de la obra."
+                }
+        },
+                 {   
+            "type" : "Feature",
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : [-56.7271742146, -24.8146318354]},
+                "properties" : {
+                    "id":462,
+					"Departamento":"San Pedro",
+					"Distrito":"25 de Diciembre",
+					"Proyecto":"25 de Diciembre",
+					"Programa":"Vy'a Renda",
+					"Cantidad de Viviendas":30,
+					"Empresa":"Trazos",
+					"SAT - Servicio de Asistencia Técnica":"No corresponde",
+					"EAT - Equipo de Asistencia Técnica":"No corresponde",
+					"Estado de Obra":"Paralizado",
+					"Porcentaje de avance":"Sin datos",
+					"Calificación provisional":"No corresponde",
+					"Observaciones":"En proceso de elaboración de documentos para nueva licitación. Las coordenadas geográficas pertenecen a un punto referencial del distrito, no de la obra."
+                }
+        },
+                 {   
+            "type" : "Feature",
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : [-57.5476063713, -25.4200087162]},
+                "properties" : {
+                    "id":463,
+					"Departamento":"Central",
+					"Distrito":"San Antonio",
+					"Proyecto":"Villa Adelaida",
+					"Programa":"Vy'a Renda",
+					"Cantidad de Viviendas":12,
+					"Empresa":"Marraing",
+					"SAT - Servicio de Asistencia Técnica":"No corresponde",
+					"EAT - Equipo de Asistencia Técnica":"No corresponde",
+					"Estado de Obra":"Paralizado",
+					"Porcentaje de avance":"Sin datos",
+					"Licitación Nº":"007/11",
+					"Calificación provisional":"No corresponde",
+					"Observaciones":"En proceso de elaboración de documentos para nueva licitación. Las coordenadas geográficas pertenecen a un punto referencial del distrito, no de la obra."
+                }
+        },
+                 {   
+            "type" : "Feature",
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : [-54.7192331782, -26.3018103277]},
+                "properties" : {
+                    "id":464,
+					"Departamento":"Itapúa",
+					"Distrito":"Mayor Otaño",
+					"Proyecto":"Mayor Otaño",
+					"Programa":"Vy'a Renda",
+					"Cantidad de Viviendas":50,
+					"Empresa":"Constructora K-Nito",
+					"SAT - Servicio de Asistencia Técnica":"No corresponde",
+					"EAT - Equipo de Asistencia Técnica":"No corresponde",
+					"Estado de Obra":"Paralizado",
+					"Porcentaje de avance":"Sin datos",
+					"Licitación Nº":"013/11",
+					"Calificación provisional":"No corresponde",
+					"Observaciones":"En proceso de elaboración de documentos para nueva licitación. Las coordenadas geográficas pertenecen a un punto referencial del distrito, no de la obra."
                 }
         }         ]
     }
